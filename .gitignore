@@ -7,3 +7,11 @@ local.properties
 captures/
 *.apk
 *.aab
+
+# Release signing: never commit keys or passwords
+keystore.properties
+*.jks
+*.keystore
+
+# Store renders are copied into fastlane/ by tools/release/collect_store_assets.py
+app/src/test/snapshots/images/*store*

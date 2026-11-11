@@ -7,7 +7,7 @@ Developed & Authored by **Shahjalal Sultanate (English Doctor)** — শাহ�
 
 *VOCABSOLUTION by English Doctor (2027)* বইয়ের কন্টেন্ট নিয়ে বাংলাভাষী শিক্ষার্থীদের জন্য তৈরি একটি অফলাইন, কালার-কোডেড ভোকাবুলারি অ্যাপ। পূর্ণ পরিকল্পনা: [`VOCABSOLUTION_APP_PROMPT.md`](VOCABSOLUTION_APP_PROMPT.md)।
 
-## বর্তমান অবস্থা (v0.3.0) — বইয়ের ১১টি অধ্যায়ই অ্যাপে
+## বর্তমান অবস্থা (v1.0.0) — বইয়ের ১১টি অধ্যায়ই অ্যাপে
 
 | অধ্যায় | অ্যাপে | কন্টেন্ট |
 |---|---|---|
@@ -37,9 +37,13 @@ Developed & Authored by **Shahjalal Sultanate (English Doctor)** — শাহ�
 - দৈনিক রিমাইন্ডার, ডার্ক মোড ও লেখার আকার বদলানোর সুবিধা।
 - পুরো অ্যাপ ইন্টারনেট ছাড়াই চলে। রিলিজ APK প্রায় ২ MB।
 
+## Play Store রিলিজ
+
+রিলিজ সাইনিং, স্টোর লিস্টিং (বাংলা ও ইংরেজি), গ্রাফিক্স, প্রাইভেসি পলিসি এবং Play Console-এর ফর্মের উত্তর: [`docs/PLAY_STORE_RELEASE.md`](docs/PLAY_STORE_RELEASE.md)।
+
 ## বিল্ড
 
-প্রয়োজন: JDK 17+ ও Android SDK (platform 35)।
+প্রয়োজন: JDK 17+ ও Android SDK (platform 36)।
 
 ```bash
 ./gradlew :app:assembleDebug        # app/build/outputs/apk/debug/app-debug.apk

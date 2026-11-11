@@ -1,3 +1,5 @@
+import java.util.Properties
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
@@ -6,16 +8,40 @@ plugins {
     alias(libs.plugins.paparazzi)
 }
 
+/**
+ * Upload-key signing for Play. Values come from `keystore.properties` in the project root
+ * (local builds) or from environment variables (CI). Neither the keystore nor the
+ * passwords are ever committed; see docs/PLAY_STORE_RELEASE.md.
+ */
+val signingProps = Properties().apply {
+    val f = rootProject.file("keystore.properties")
+    if (f.exists()) f.inputStream().use { load(it) }
+}
+fun signingValue(key: String, env: String): String? = signingProps.getProperty(key) ?: System.getenv(env)
+val uploadStoreFile = signingValue("storeFile", "VOCAB_UPLOAD_STORE_FILE")
+val hasUploadKey = uploadStoreFile != null && rootProject.file(uploadStoreFile).exists()
+
 android {
     namespace = "com.englishdoctor.vocabsolution"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.englishdoctor.vocabsolution"
         minSdk = 26
-        targetSdk = 35
-        versionCode = 3
-        versionName = "0.3.0"
+        targetSdk = 36
+        versionCode = 4
+        versionName = "1.0.0"
+    }
+
+    signingConfigs {
+        if (hasUploadKey) {
+            create("upload") {
+                storeFile = rootProject.file(uploadStoreFile!!)
+                storePassword = signingValue("storePassword", "VOCAB_UPLOAD_STORE_PASSWORD")
+                keyAlias = signingValue("keyAlias", "VOCAB_UPLOAD_KEY_ALIAS")
+                keyPassword = signingValue("keyPassword", "VOCAB_UPLOAD_KEY_PASSWORD")
+            }
+        }
     }
 
     buildTypes {
@@ -23,6 +49,8 @@ android {
             isMinifyEnabled = true
             isShrinkResources = true
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
+            // Without an upload key the release build is produced unsigned (CI checks still work).
+            if (hasUploadKey) signingConfig = signingConfigs.getByName("upload")
         }
     }
     compileOptions {
