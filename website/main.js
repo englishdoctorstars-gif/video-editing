@@ -1,7 +1,8 @@
 // English Doctor — small progressive enhancements (site works without JS)
 (function () {
   // Change this to the real WhatsApp number (country code, digits only)
-  var WHATSAPP_NUMBER = '8801XXXXXXXXX';
+  var WHATSAPP_NUMBER = '8801682888114';
+  var EMAIL = 'englishdoctorbd@gmail.com';
 
   document.getElementById('yr').textContent = new Date().getFullYear();
 
@@ -30,9 +31,7 @@
     });
   });
 
-  // Bangla digits for counters
-  var bn = '০১২৩৪৫৬৭৮৯';
-  function toBn(n) { return n.toLocaleString('en-IN').replace(/\d/g, function (d) { return bn[d]; }); }
+  function toBn(n) { return String(n); }
 
   function countUp(el) {
     var target = +el.dataset.count, start = null;
@@ -46,7 +45,7 @@
   }
 
   // Reveal on scroll + counters
-  var revealEls = document.querySelectorAll('.card, .feature, .free__item, .review, .path li, details');
+  var revealEls = document.querySelectorAll('.card, .feature, .free__item, .review, .path li, .dest__item, details');
   revealEls.forEach(function (el) { el.classList.add('reveal'); });
   var counters = document.querySelectorAll('[data-count]');
 
@@ -65,14 +64,32 @@
     counters.forEach(function (el) { el.textContent = toBn(+el.dataset.count); });
   }
 
-  // Enrollment form -> WhatsApp
-  document.getElementById('enrollForm').addEventListener('submit', function (e) {
-    e.preventDefault();
-    var d = new FormData(e.target);
-    var msg = 'আসসালামু আলাইকুম, আমি ভর্তি হতে চাই।\nনাম: ' + d.get('name') +
-      '\nমোবাইল: ' + d.get('phone') + '\nকোর্স: ' + d.get('course');
-    window.open('https://wa.me/' + WHATSAPP_NUMBER + '?text=' + encodeURIComponent(msg), '_blank');
+  // "Enroll" buttons pre-select the course in the contact form
+  var form = document.getElementById('contactForm');
+  document.querySelectorAll('[data-course]').forEach(function (a) {
+    a.addEventListener('click', function () {
+      var sel = form.elements.subject, v = a.dataset.course;
+      for (var k = 0; k < sel.options.length; k++) if (sel.options[k].text === v) sel.selectedIndex = k;
+    });
   });
 
-  document.querySelector('.wa-float').href = 'https://wa.me/' + WHATSAPP_NUMBER;
+  // Contact form -> WhatsApp or email (no backend needed)
+  var via = 'whatsapp';
+  form.querySelectorAll('[data-via]').forEach(function (b) {
+    b.addEventListener('click', function () { via = b.dataset.via; });
+  });
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var d = new FormData(form);
+    var body = 'Name: ' + d.get('name') + '\nEmail: ' + d.get('email') +
+      (d.get('phone') ? '\nPhone: ' + d.get('phone') : '') + '\nSubject: ' + d.get('subject') +
+      '\n\n' + d.get('message');
+    if (via === 'email') {
+      location.href = 'mailto:' + EMAIL + '?subject=' + encodeURIComponent(d.get('subject')) + '&body=' + encodeURIComponent(body);
+    } else {
+      window.open('https://wa.me/' + WHATSAPP_NUMBER + '?text=' + encodeURIComponent(body), '_blank');
+    }
+  });
+
+  
 })();
