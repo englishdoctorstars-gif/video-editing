@@ -1,0 +1,2018 @@
+[
+ {
+  "id": "synant_001",
+  "word": "abandon",
+  "pos": "verb",
+  "meaningBn": "পরিত্যাগ করা",
+  "synonyms": [
+   "desert",
+   "forsake"
+  ],
+  "antonyms": [
+   "keep",
+   "retain"
+  ]
+ },
+ {
+  "id": "synant_002",
+  "word": "abate",
+  "pos": "verb",
+  "meaningBn": "হ্রাস পাওয়া",
+  "synonyms": [
+   "subside",
+   "diminish"
+  ],
+  "antonyms": [
+   "intensify",
+   "increase"
+  ]
+ },
+ {
+  "id": "synant_003",
+  "word": "abolish",
+  "pos": "verb",
+  "meaningBn": "বিলুপ্ত করা",
+  "synonyms": [
+   "abrogate",
+   "eliminate"
+  ],
+  "antonyms": [
+   "establish",
+   "create"
+  ]
+ },
+ {
+  "id": "synant_004",
+  "word": "abundant",
+  "pos": "adjective",
+  "meaningBn": "প্রচুর",
+  "synonyms": [
+   "plentiful",
+   "ample"
+  ],
+  "antonyms": [
+   "scarce",
+   "sparse"
+  ]
+ },
+ {
+  "id": "synant_005",
+  "word": "accelerate",
+  "pos": "verb",
+  "meaningBn": "ত্বরান্বিত করা",
+  "synonyms": [
+   "hasten",
+   "quicken"
+  ],
+  "antonyms": [
+   "decelerate",
+   "slow"
+  ]
+ },
+ {
+  "id": "synant_006",
+  "word": "accurate",
+  "pos": "adjective",
+  "meaningBn": "নির্ভুল",
+  "synonyms": [
+   "exact",
+   "precise"
+  ],
+  "antonyms": [
+   "inaccurate",
+   "wrong"
+  ]
+ },
+ {
+  "id": "synant_007",
+  "word": "acquire",
+  "pos": "verb",
+  "meaningBn": "অর্জন করা",
+  "synonyms": [
+   "obtain",
+   "gain"
+  ],
+  "antonyms": [
+   "lose",
+   "forfeit"
+  ]
+ },
+ {
+  "id": "synant_008",
+  "word": "adequate",
+  "pos": "adjective",
+  "meaningBn": "পর্যাপ্ত",
+  "synonyms": [
+   "sufficient",
+   "enough"
+  ],
+  "antonyms": [
+   "inadequate",
+   "insufficient"
+  ]
+ },
+ {
+  "id": "synant_009",
+  "word": "admire",
+  "pos": "verb",
+  "meaningBn": "প্রশংসা করা",
+  "synonyms": [
+   "praise",
+   "esteem"
+  ],
+  "antonyms": [
+   "despise",
+   "scorn"
+  ]
+ },
+ {
+  "id": "synant_010",
+  "word": "adverse",
+  "pos": "adjective",
+  "meaningBn": "প্রতিকূল",
+  "synonyms": [
+   "unfavourable",
+   "hostile"
+  ],
+  "antonyms": [
+   "favourable",
+   "beneficial"
+  ]
+ },
+ {
+  "id": "synant_011",
+  "word": "affluent",
+  "pos": "adjective",
+  "meaningBn": "ধনী, সচ্ছল",
+  "synonyms": [
+   "wealthy",
+   "prosperous"
+  ],
+  "antonyms": [
+   "poor",
+   "needy"
+  ]
+ },
+ {
+  "id": "synant_012",
+  "word": "aggravate",
+  "pos": "verb",
+  "meaningBn": "তীব্রতর করা",
+  "synonyms": [
+   "worsen",
+   "intensify"
+  ],
+  "antonyms": [
+   "alleviate",
+   "ease"
+  ]
+ },
+ {
+  "id": "synant_013",
+  "word": "agile",
+  "pos": "adjective",
+  "meaningBn": "চটপটে",
+  "synonyms": [
+   "nimble",
+   "quick"
+  ],
+  "antonyms": [
+   "clumsy",
+   "sluggish"
+  ]
+ },
+ {
+  "id": "synant_014",
+  "word": "amateur",
+  "pos": "noun",
+  "meaningBn": "শৌখিন, অপেশাদার",
+  "synonyms": [
+   "novice",
+   "layman"
+  ],
+  "antonyms": [
+   "professional",
+   "expert"
+  ]
+ },
+ {
+  "id": "synant_015",
+  "word": "ambiguous",
+  "pos": "adjective",
+  "meaningBn": "দ্ব্যর্থক, অস্পষ্ট",
+  "synonyms": [
+   "vague",
+   "unclear"
+  ],
+  "antonyms": [
+   "clear",
+   "explicit"
+  ]
+ },
+ {
+  "id": "synant_016",
+  "word": "amiable",
+  "pos": "adjective",
+  "meaningBn": "বন্ধুসুলভ",
+  "synonyms": [
+   "friendly",
+   "pleasant"
+  ],
+  "antonyms": [
+   "hostile",
+   "unfriendly"
+  ]
+ },
+ {
+  "id": "synant_017",
+  "word": "ancient",
+  "pos": "adjective",
+  "meaningBn": "প্রাচীন",
+  "synonyms": [
+   "old",
+   "antique"
+  ],
+  "antonyms": [
+   "modern",
+   "recent"
+  ]
+ },
+ {
+  "id": "synant_018",
+  "word": "anxious",
+  "pos": "adjective",
+  "meaningBn": "উদ্বিগ্ন",
+  "synonyms": [
+   "worried",
+   "uneasy"
+  ],
+  "antonyms": [
+   "calm",
+   "relaxed"
+  ]
+ },
+ {
+  "id": "synant_019",
+  "word": "arrogant",
+  "pos": "adjective",
+  "meaningBn": "উদ্ধত",
+  "synonyms": [
+   "haughty",
+   "proud"
+  ],
+  "antonyms": [
+   "humble",
+   "modest"
+  ]
+ },
+ {
+  "id": "synant_020",
+  "word": "artificial",
+  "pos": "adjective",
+  "meaningBn": "কৃত্রিম",
+  "synonyms": [
+   "synthetic",
+   "fake"
+  ],
+  "antonyms": [
+   "natural",
+   "genuine"
+  ]
+ },
+ {
+  "id": "synant_021",
+  "word": "audacious",
+  "pos": "adjective",
+  "meaningBn": "দুঃসাহসী",
+  "synonyms": [
+   "bold",
+   "daring"
+  ],
+  "antonyms": [
+   "timid",
+   "cautious"
+  ]
+ },
+ {
+  "id": "synant_022",
+  "word": "authentic",
+  "pos": "adjective",
+  "meaningBn": "খাঁটি, প্রামাণিক",
+  "synonyms": [
+   "genuine",
+   "real"
+  ],
+  "antonyms": [
+   "fake",
+   "counterfeit"
+  ]
+ },
+ {
+  "id": "synant_023",
+  "word": "barren",
+  "pos": "adjective",
+  "meaningBn": "অনুর্বর",
+  "synonyms": [
+   "infertile",
+   "sterile"
+  ],
+  "antonyms": [
+   "fertile",
+   "fruitful"
+  ]
+ },
+ {
+  "id": "synant_024",
+  "word": "benevolent",
+  "pos": "adjective",
+  "meaningBn": "দয়ালু",
+  "synonyms": [
+   "kind",
+   "generous"
+  ],
+  "antonyms": [
+   "malevolent",
+   "cruel"
+  ]
+ },
+ {
+  "id": "synant_025",
+  "word": "bold",
+  "pos": "adjective",
+  "meaningBn": "সাহসী",
+  "synonyms": [
+   "brave",
+   "fearless"
+  ],
+  "antonyms": [
+   "timid",
+   "cowardly"
+  ]
+ },
+ {
+  "id": "synant_026",
+  "word": "brief",
+  "pos": "adjective",
+  "meaningBn": "সংক্ষিপ্ত",
+  "synonyms": [
+   "short",
+   "concise"
+  ],
+  "antonyms": [
+   "long",
+   "lengthy"
+  ]
+ },
+ {
+  "id": "synant_027",
+  "word": "brittle",
+  "pos": "adjective",
+  "meaningBn": "ভঙ্গুর",
+  "synonyms": [
+   "fragile",
+   "breakable"
+  ],
+  "antonyms": [
+   "tough",
+   "sturdy"
+  ]
+ },
+ {
+  "id": "synant_028",
+  "word": "calm",
+  "pos": "adjective",
+  "meaningBn": "শান্ত",
+  "synonyms": [
+   "tranquil",
+   "peaceful"
+  ],
+  "antonyms": [
+   "agitated",
+   "turbulent"
+  ]
+ },
+ {
+  "id": "synant_029",
+  "word": "candid",
+  "pos": "adjective",
+  "meaningBn": "অকপট",
+  "synonyms": [
+   "frank",
+   "honest"
+  ],
+  "antonyms": [
+   "evasive",
+   "guarded"
+  ]
+ },
+ {
+  "id": "synant_030",
+  "word": "capable",
+  "pos": "adjective",
+  "meaningBn": "সক্ষম",
+  "synonyms": [
+   "competent",
+   "able"
+  ],
+  "antonyms": [
+   "incapable",
+   "incompetent"
+  ]
+ },
+ {
+  "id": "synant_031",
+  "word": "cautious",
+  "pos": "adjective",
+  "meaningBn": "সতর্ক",
+  "synonyms": [
+   "careful",
+   "wary"
+  ],
+  "antonyms": [
+   "careless",
+   "reckless"
+  ]
+ },
+ {
+  "id": "synant_032",
+  "word": "cease",
+  "pos": "verb",
+  "meaningBn": "থামা, বন্ধ করা",
+  "synonyms": [
+   "stop",
+   "halt"
+  ],
+  "antonyms": [
+   "continue",
+   "begin"
+  ]
+ },
+ {
+  "id": "synant_033",
+  "word": "chaos",
+  "pos": "noun",
+  "meaningBn": "বিশৃঙ্খলা",
+  "synonyms": [
+   "disorder",
+   "turmoil"
+  ],
+  "antonyms": [
+   "order",
+   "harmony"
+  ]
+ },
+ {
+  "id": "synant_034",
+  "word": "cheerful",
+  "pos": "adjective",
+  "meaningBn": "প্রফুল্ল",
+  "synonyms": [
+   "happy",
+   "jolly"
+  ],
+  "antonyms": [
+   "gloomy",
+   "sad"
+  ]
+ },
+ {
+  "id": "synant_035",
+  "word": "coarse",
+  "pos": "adjective",
+  "meaningBn": "খসখসে; অমার্জিত",
+  "synonyms": [
+   "rough",
+   "crude"
+  ],
+  "antonyms": [
+   "smooth",
+   "refined"
+  ]
+ },
+ {
+  "id": "synant_036",
+  "word": "compassion",
+  "pos": "noun",
+  "meaningBn": "সমবেদনা",
+  "synonyms": [
+   "sympathy",
+   "mercy"
+  ],
+  "antonyms": [
+   "cruelty",
+   "indifference"
+  ]
+ },
+ {
+  "id": "synant_037",
+  "word": "comply",
+  "pos": "verb",
+  "meaningBn": "মেনে চলা",
+  "synonyms": [
+   "obey",
+   "conform"
+  ],
+  "antonyms": [
+   "defy",
+   "disobey"
+  ]
+ },
+ {
+  "id": "synant_038",
+  "word": "conceal",
+  "pos": "verb",
+  "meaningBn": "লুকানো",
+  "synonyms": [
+   "hide",
+   "cover"
+  ],
+  "antonyms": [
+   "reveal",
+   "disclose"
+  ]
+ },
+ {
+  "id": "synant_039",
+  "word": "condemn",
+  "pos": "verb",
+  "meaningBn": "নিন্দা করা",
+  "synonyms": [
+   "denounce",
+   "censure"
+  ],
+  "antonyms": [
+   "praise",
+   "approve"
+  ]
+ },
+ {
+  "id": "synant_040",
+  "word": "consent",
+  "pos": "noun",
+  "meaningBn": "সম্মতি",
+  "synonyms": [
+   "approval",
+   "permission"
+  ],
+  "antonyms": [
+   "refusal",
+   "dissent"
+  ]
+ },
+ {
+  "id": "synant_041",
+  "word": "contempt",
+  "pos": "noun",
+  "meaningBn": "অবজ্ঞা",
+  "synonyms": [
+   "scorn",
+   "disdain"
+  ],
+  "antonyms": [
+   "respect",
+   "admiration"
+  ]
+ },
+ {
+  "id": "synant_042",
+  "word": "courage",
+  "pos": "noun",
+  "meaningBn": "সাহস",
+  "synonyms": [
+   "bravery",
+   "valour"
+  ],
+  "antonyms": [
+   "cowardice",
+   "fear"
+  ]
+ },
+ {
+  "id": "synant_043",
+  "word": "cruel",
+  "pos": "adjective",
+  "meaningBn": "নিষ্ঠুর",
+  "synonyms": [
+   "brutal",
+   "savage"
+  ],
+  "antonyms": [
+   "kind",
+   "merciful"
+  ]
+ },
+ {
+  "id": "synant_044",
+  "word": "curious",
+  "pos": "adjective",
+  "meaningBn": "কৌতূহলী",
+  "synonyms": [
+   "inquisitive",
+   "interested"
+  ],
+  "antonyms": [
+   "indifferent",
+   "uninterested"
+  ]
+ },
+ {
+  "id": "synant_045",
+  "word": "decay",
+  "pos": "verb",
+  "meaningBn": "ক্ষয় হওয়া, পচে যাওয়া",
+  "synonyms": [
+   "rot",
+   "decompose"
+  ],
+  "antonyms": [
+   "flourish",
+   "grow"
+  ]
+ },
+ {
+  "id": "synant_046",
+  "word": "deny",
+  "pos": "verb",
+  "meaningBn": "অস্বীকার করা",
+  "synonyms": [
+   "refuse",
+   "reject"
+  ],
+  "antonyms": [
+   "admit",
+   "accept"
+  ]
+ },
+ {
+  "id": "synant_047",
+  "word": "diligent",
+  "pos": "adjective",
+  "meaningBn": "পরিশ্রমী",
+  "synonyms": [
+   "hardworking",
+   "industrious"
+  ],
+  "antonyms": [
+   "lazy",
+   "idle"
+  ]
+ },
+ {
+  "id": "synant_048",
+  "word": "diminish",
+  "pos": "verb",
+  "meaningBn": "কমে যাওয়া",
+  "synonyms": [
+   "decrease",
+   "reduce"
+  ],
+  "antonyms": [
+   "increase",
+   "enlarge"
+  ]
+ },
+ {
+  "id": "synant_049",
+  "word": "disdain",
+  "pos": "noun",
+  "meaningBn": "ঘৃণা, অবজ্ঞা",
+  "synonyms": [
+   "contempt",
+   "scorn"
+  ],
+  "antonyms": [
+   "respect",
+   "regard"
+  ]
+ },
+ {
+  "id": "synant_050",
+  "word": "durable",
+  "pos": "adjective",
+  "meaningBn": "টেকসই",
+  "synonyms": [
+   "lasting",
+   "sturdy"
+  ],
+  "antonyms": [
+   "fragile",
+   "perishable"
+  ]
+ },
+ {
+  "id": "synant_051",
+  "word": "eager",
+  "pos": "adjective",
+  "meaningBn": "আগ্রহী",
+  "synonyms": [
+   "keen",
+   "enthusiastic"
+  ],
+  "antonyms": [
+   "reluctant",
+   "indifferent"
+  ]
+ },
+ {
+  "id": "synant_052",
+  "word": "eloquent",
+  "pos": "adjective",
+  "meaningBn": "বাগ্মী",
+  "synonyms": [
+   "articulate",
+   "fluent"
+  ],
+  "antonyms": [
+   "inarticulate",
+   "halting"
+  ]
+ },
+ {
+  "id": "synant_053",
+  "word": "eminent",
+  "pos": "adjective",
+  "meaningBn": "বিশিষ্ট",
+  "synonyms": [
+   "distinguished",
+   "renowned"
+  ],
+  "antonyms": [
+   "obscure",
+   "unknown"
+  ]
+ },
+ {
+  "id": "synant_054",
+  "word": "encourage",
+  "pos": "verb",
+  "meaningBn": "উৎসাহিত করা",
+  "synonyms": [
+   "inspire",
+   "motivate"
+  ],
+  "antonyms": [
+   "discourage",
+   "deter"
+  ]
+ },
+ {
+  "id": "synant_055",
+  "word": "enormous",
+  "pos": "adjective",
+  "meaningBn": "বিশাল",
+  "synonyms": [
+   "huge",
+   "vast"
+  ],
+  "antonyms": [
+   "tiny",
+   "minute"
+  ]
+ },
+ {
+  "id": "synant_056",
+  "word": "eternal",
+  "pos": "adjective",
+  "meaningBn": "চিরন্তন",
+  "synonyms": [
+   "everlasting",
+   "perpetual"
+  ],
+  "antonyms": [
+   "temporary",
+   "transient"
+  ]
+ },
+ {
+  "id": "synant_057",
+  "word": "evident",
+  "pos": "adjective",
+  "meaningBn": "সুস্পষ্ট",
+  "synonyms": [
+   "obvious",
+   "apparent"
+  ],
+  "antonyms": [
+   "hidden",
+   "obscure"
+  ]
+ },
+ {
+  "id": "synant_058",
+  "word": "exaggerate",
+  "pos": "verb",
+  "meaningBn": "অতিরঞ্জন করা",
+  "synonyms": [
+   "overstate",
+   "magnify"
+  ],
+  "antonyms": [
+   "understate",
+   "minimise"
+  ]
+ },
+ {
+  "id": "synant_059",
+  "word": "expand",
+  "pos": "verb",
+  "meaningBn": "প্রসারিত করা",
+  "synonyms": [
+   "enlarge",
+   "extend"
+  ],
+  "antonyms": [
+   "contract",
+   "shrink"
+  ]
+ },
+ {
+  "id": "synant_060",
+  "word": "explicit",
+  "pos": "adjective",
+  "meaningBn": "সুস্পষ্ট, খোলাখুলি",
+  "synonyms": [
+   "clear",
+   "definite"
+  ],
+  "antonyms": [
+   "implicit",
+   "vague"
+  ]
+ },
+ {
+  "id": "synant_061",
+  "word": "extravagant",
+  "pos": "adjective",
+  "meaningBn": "অমিতব্যয়ী",
+  "synonyms": [
+   "wasteful",
+   "lavish"
+  ],
+  "antonyms": [
+   "thrifty",
+   "frugal"
+  ]
+ },
+ {
+  "id": "synant_062",
+  "word": "feeble",
+  "pos": "adjective",
+  "meaningBn": "দুর্বল",
+  "synonyms": [
+   "weak",
+   "frail"
+  ],
+  "antonyms": [
+   "strong",
+   "robust"
+  ]
+ },
+ {
+  "id": "synant_063",
+  "word": "fertile",
+  "pos": "adjective",
+  "meaningBn": "উর্বর",
+  "synonyms": [
+   "fruitful",
+   "productive"
+  ],
+  "antonyms": [
+   "barren",
+   "sterile"
+  ]
+ },
+ {
+  "id": "synant_064",
+  "word": "fickle",
+  "pos": "adjective",
+  "meaningBn": "চঞ্চলমতি",
+  "synonyms": [
+   "changeable",
+   "unstable"
+  ],
+  "antonyms": [
+   "constant",
+   "steady"
+  ]
+ },
+ {
+  "id": "synant_065",
+  "word": "flexible",
+  "pos": "adjective",
+  "meaningBn": "নমনীয়",
+  "synonyms": [
+   "pliable",
+   "adaptable"
+  ],
+  "antonyms": [
+   "rigid",
+   "stiff"
+  ]
+ },
+ {
+  "id": "synant_066",
+  "word": "frank",
+  "pos": "adjective",
+  "meaningBn": "খোলামেলা",
+  "synonyms": [
+   "candid",
+   "open"
+  ],
+  "antonyms": [
+   "secretive",
+   "reserved"
+  ]
+ },
+ {
+  "id": "synant_067",
+  "word": "frugal",
+  "pos": "adjective",
+  "meaningBn": "মিতব্যয়ী",
+  "synonyms": [
+   "thrifty",
+   "economical"
+  ],
+  "antonyms": [
+   "extravagant",
+   "wasteful"
+  ]
+ },
+ {
+  "id": "synant_068",
+  "word": "generous",
+  "pos": "adjective",
+  "meaningBn": "উদার",
+  "synonyms": [
+   "liberal",
+   "charitable"
+  ],
+  "antonyms": [
+   "mean",
+   "stingy"
+  ]
+ },
+ {
+  "id": "synant_069",
+  "word": "genuine",
+  "pos": "adjective",
+  "meaningBn": "খাঁটি",
+  "synonyms": [
+   "real",
+   "authentic"
+  ],
+  "antonyms": [
+   "fake",
+   "false"
+  ]
+ },
+ {
+  "id": "synant_070",
+  "word": "gloomy",
+  "pos": "adjective",
+  "meaningBn": "বিষণ্ন",
+  "synonyms": [
+   "dismal",
+   "sad"
+  ],
+  "antonyms": [
+   "cheerful",
+   "bright"
+  ]
+ },
+ {
+  "id": "synant_071",
+  "word": "gradual",
+  "pos": "adjective",
+  "meaningBn": "ক্রমিক, ধীরে ধীরে",
+  "synonyms": [
+   "steady",
+   "slow"
+  ],
+  "antonyms": [
+   "sudden",
+   "abrupt"
+  ]
+ },
+ {
+  "id": "synant_072",
+  "word": "haughty",
+  "pos": "adjective",
+  "meaningBn": "অহংকারী",
+  "synonyms": [
+   "arrogant",
+   "proud"
+  ],
+  "antonyms": [
+   "humble",
+   "modest"
+  ]
+ },
+ {
+  "id": "synant_073",
+  "word": "hinder",
+  "pos": "verb",
+  "meaningBn": "বাধা দেওয়া",
+  "synonyms": [
+   "obstruct",
+   "impede"
+  ],
+  "antonyms": [
+   "help",
+   "assist"
+  ]
+ },
+ {
+  "id": "synant_074",
+  "word": "hostile",
+  "pos": "adjective",
+  "meaningBn": "শত্রুভাবাপন্ন",
+  "synonyms": [
+   "unfriendly",
+   "aggressive"
+  ],
+  "antonyms": [
+   "friendly",
+   "amicable"
+  ]
+ },
+ {
+  "id": "synant_075",
+  "word": "humble",
+  "pos": "adjective",
+  "meaningBn": "বিনয়ী",
+  "synonyms": [
+   "modest",
+   "meek"
+  ],
+  "antonyms": [
+   "proud",
+   "arrogant"
+  ]
+ },
+ {
+  "id": "synant_076",
+  "word": "hypocrisy",
+  "pos": "noun",
+  "meaningBn": "ভণ্ডামি",
+  "synonyms": [
+   "deceit",
+   "pretence"
+  ],
+  "antonyms": [
+   "sincerity",
+   "honesty"
+  ]
+ },
+ {
+  "id": "synant_077",
+  "word": "immense",
+  "pos": "adjective",
+  "meaningBn": "অপরিমেয়",
+  "synonyms": [
+   "huge",
+   "vast"
+  ],
+  "antonyms": [
+   "tiny",
+   "small"
+  ]
+ },
+ {
+  "id": "synant_078",
+  "word": "imminent",
+  "pos": "adjective",
+  "meaningBn": "আসন্ন",
+  "synonyms": [
+   "impending",
+   "near"
+  ],
+  "antonyms": [
+   "distant",
+   "remote"
+  ]
+ },
+ {
+  "id": "synant_079",
+  "word": "impartial",
+  "pos": "adjective",
+  "meaningBn": "নিরপেক্ষ",
+  "synonyms": [
+   "neutral",
+   "unbiased"
+  ],
+  "antonyms": [
+   "biased",
+   "partial"
+  ]
+ },
+ {
+  "id": "synant_080",
+  "word": "inevitable",
+  "pos": "adjective",
+  "meaningBn": "অনিবার্য",
+  "synonyms": [
+   "unavoidable",
+   "certain"
+  ],
+  "antonyms": [
+   "avoidable",
+   "uncertain"
+  ]
+ },
+ {
+  "id": "synant_081",
+  "word": "innocent",
+  "pos": "adjective",
+  "meaningBn": "নির্দোষ",
+  "synonyms": [
+   "guiltless",
+   "blameless"
+  ],
+  "antonyms": [
+   "guilty",
+   "culpable"
+  ]
+ },
+ {
+  "id": "synant_082",
+  "word": "intelligent",
+  "pos": "adjective",
+  "meaningBn": "বুদ্ধিমান",
+  "synonyms": [
+   "clever",
+   "bright"
+  ],
+  "antonyms": [
+   "stupid",
+   "dull"
+  ]
+ },
+ {
+  "id": "synant_083",
+  "word": "jovial",
+  "pos": "adjective",
+  "meaningBn": "হাসিখুশি",
+  "synonyms": [
+   "merry",
+   "cheerful"
+  ],
+  "antonyms": [
+   "morose",
+   "sullen"
+  ]
+ },
+ {
+  "id": "synant_084",
+  "word": "keen",
+  "pos": "adjective",
+  "meaningBn": "তীব্র আগ্রহী",
+  "synonyms": [
+   "eager",
+   "enthusiastic"
+  ],
+  "antonyms": [
+   "indifferent",
+   "apathetic"
+  ]
+ },
+ {
+  "id": "synant_085",
+  "word": "lazy",
+  "pos": "adjective",
+  "meaningBn": "অলস",
+  "synonyms": [
+   "idle",
+   "indolent"
+  ],
+  "antonyms": [
+   "active",
+   "diligent"
+  ]
+ },
+ {
+  "id": "synant_086",
+  "word": "liberal",
+  "pos": "adjective",
+  "meaningBn": "উদারমনা",
+  "synonyms": [
+   "tolerant",
+   "broad-"
+  ],
+  "antonyms": [
+   "minded conservative",
+   "narrow- minded"
+  ]
+ },
+ {
+  "id": "synant_087",
+  "word": "lucid",
+  "pos": "adjective",
+  "meaningBn": "প্রাঞ্জল",
+  "synonyms": [
+   "clear",
+   "intelligible"
+  ],
+  "antonyms": [
+   "obscure",
+   "confusing"
+  ]
+ },
+ {
+  "id": "synant_088",
+  "word": "malice",
+  "pos": "noun",
+  "meaningBn": "বিদ্বেষ",
+  "synonyms": [
+   "spite",
+   "ill will"
+  ],
+  "antonyms": [
+   "goodwill",
+   "kindness"
+  ]
+ },
+ {
+  "id": "synant_089",
+  "word": "meagre",
+  "pos": "adjective",
+  "meaningBn": "অপ্রতুল",
+  "synonyms": [
+   "scanty",
+   "insufficient"
+  ],
+  "antonyms": [
+   "abundant",
+   "ample"
+  ]
+ },
+ {
+  "id": "synant_090",
+  "word": "merit",
+  "pos": "noun",
+  "meaningBn": "গুণ, যোগ্যতা",
+  "synonyms": [
+   "worth",
+   "virtue"
+  ],
+  "antonyms": [
+   "demerit",
+   "fault"
+  ]
+ },
+ {
+  "id": "synant_091",
+  "word": "modest",
+  "pos": "adjective",
+  "meaningBn": "বিনয়ী",
+  "synonyms": [
+   "humble",
+   "unassuming"
+  ],
+  "antonyms": [
+   "vain",
+   "boastful"
+  ]
+ },
+ {
+  "id": "synant_092",
+  "word": "negligent",
+  "pos": "adjective",
+  "meaningBn": "অবহেলাকারী",
+  "synonyms": [
+   "careless",
+   "heedless"
+  ],
+  "antonyms": [
+   "careful",
+   "attentive"
+  ]
+ },
+ {
+  "id": "synant_093",
+  "word": "novice",
+  "pos": "noun",
+  "meaningBn": "নবিশ",
+  "synonyms": [
+   "beginner",
+   "learner"
+  ],
+  "antonyms": [
+   "expert",
+   "veteran"
+  ]
+ },
+ {
+  "id": "synant_094",
+  "word": "obedient",
+  "pos": "adjective",
+  "meaningBn": "বাধ্য",
+  "synonyms": [
+   "dutiful",
+   "compliant"
+  ],
+  "antonyms": [
+   "disobedient",
+   "rebellious"
+  ]
+ },
+ {
+  "id": "synant_095",
+  "word": "obscure",
+  "pos": "adjective",
+  "meaningBn": "অস্পষ্ট; অখ্যাত",
+  "synonyms": [
+   "vague",
+   "unknown"
+  ],
+  "antonyms": [
+   "clear",
+   "famous"
+  ]
+ },
+ {
+  "id": "synant_096",
+  "word": "obstinate",
+  "pos": "adjective",
+  "meaningBn": "একগুঁয়ে",
+  "synonyms": [
+   "stubborn",
+   "adamant"
+  ],
+  "antonyms": [
+   "flexible",
+   "docile"
+  ]
+ },
+ {
+  "id": "synant_097",
+  "word": "optimistic",
+  "pos": "adjective",
+  "meaningBn": "আশাবাদী",
+  "synonyms": [
+   "hopeful",
+   "positive"
+  ],
+  "antonyms": [
+   "pessimistic",
+   "gloomy"
+  ]
+ },
+ {
+  "id": "synant_098",
+  "word": "ordinary",
+  "pos": "adjective",
+  "meaningBn": "সাধারণ",
+  "synonyms": [
+   "common",
+   "usual"
+  ],
+  "antonyms": [
+   "extraordinary",
+   "unusual"
+  ]
+ },
+ {
+  "id": "synant_099",
+  "word": "paucity",
+  "pos": "noun",
+  "meaningBn": "স্বল্পতা",
+  "synonyms": [
+   "scarcity",
+   "shortage"
+  ],
+  "antonyms": [
+   "abundance",
+   "plenty"
+  ]
+ },
+ {
+  "id": "synant_100",
+  "word": "peculiar",
+  "pos": "adjective",
+  "meaningBn": "অদ্ভুত",
+  "synonyms": [
+   "strange",
+   "odd"
+  ],
+  "antonyms": [
+   "normal",
+   "ordinary"
+  ]
+ },
+ {
+  "id": "synant_101",
+  "word": "permanent",
+  "pos": "adjective",
+  "meaningBn": "স্থায়ী",
+  "synonyms": [
+   "lasting",
+   "enduring"
+  ],
+  "antonyms": [
+   "temporary",
+   "transient"
+  ]
+ },
+ {
+  "id": "synant_102",
+  "word": "placid",
+  "pos": "adjective",
+  "meaningBn": "শান্ত, ধীরস্থির",
+  "synonyms": [
+   "calm",
+   "tranquil"
+  ],
+  "antonyms": [
+   "excited",
+   "agitated"
+  ]
+ },
+ {
+  "id": "synant_103",
+  "word": "plausible",
+  "pos": "adjective",
+  "meaningBn": "বিশ্বাসযোগ্য",
+  "synonyms": [
+   "believable",
+   "credible"
+  ],
+  "antonyms": [
+   "implausible",
+   "unlikely"
+  ]
+ },
+ {
+  "id": "synant_104",
+  "word": "polite",
+  "pos": "adjective",
+  "meaningBn": "ভদ্র",
+  "synonyms": [
+   "courteous",
+   "civil"
+  ],
+  "antonyms": [
+   "rude",
+   "impolite"
+  ]
+ },
+ {
+  "id": "synant_105",
+  "word": "prohibit",
+  "pos": "verb",
+  "meaningBn": "নিষেধ করা",
+  "synonyms": [
+   "forbid",
+   "ban"
+  ],
+  "antonyms": [
+   "allow",
+   "permit"
+  ]
+ },
+ {
+  "id": "synant_106",
+  "word": "prosperity",
+  "pos": "noun",
+  "meaningBn": "সমৃদ্ধি",
+  "synonyms": [
+   "affluence",
+   "success"
+  ],
+  "antonyms": [
+   "poverty",
+   "adversity"
+  ]
+ },
+ {
+  "id": "synant_107",
+  "word": "prudent",
+  "pos": "adjective",
+  "meaningBn": "বিচক্ষণ",
+  "synonyms": [
+   "wise",
+   "sensible"
+  ],
+  "antonyms": [
+   "reckless",
+   "rash"
+  ]
+ },
+ {
+  "id": "synant_108",
+  "word": "punctual",
+  "pos": "adjective",
+  "meaningBn": "সময়নিষ্ঠ",
+  "synonyms": [
+   "timely",
+   "prompt"
+  ],
+  "antonyms": [
+   "late",
+   "tardy"
+  ]
+ },
+ {
+  "id": "synant_109",
+  "word": "rare",
+  "pos": "adjective",
+  "meaningBn": "দুর্লভ",
+  "synonyms": [
+   "scarce",
+   "uncommon"
+  ],
+  "antonyms": [
+   "common",
+   "frequent"
+  ]
+ },
+ {
+  "id": "synant_110",
+  "word": "rational",
+  "pos": "adjective",
+  "meaningBn": "যৌক্তিক",
+  "synonyms": [
+   "logical",
+   "reasonable"
+  ],
+  "antonyms": [
+   "irrational",
+   "illogical"
+  ]
+ },
+ {
+  "id": "synant_111",
+  "word": "reluctant",
+  "pos": "adjective",
+  "meaningBn": "অনিচ্ছুক",
+  "synonyms": [
+   "unwilling",
+   "hesitant"
+  ],
+  "antonyms": [
+   "willing",
+   "eager"
+  ]
+ },
+ {
+  "id": "synant_112",
+  "word": "remote",
+  "pos": "adjective",
+  "meaningBn": "দূরবর্তী",
+  "synonyms": [
+   "distant",
+   "faraway"
+  ],
+  "antonyms": [
+   "near",
+   "close"
+  ]
+ },
+ {
+  "id": "synant_113",
+  "word": "robust",
+  "pos": "adjective",
+  "meaningBn": "বলিষ্ঠ",
+  "synonyms": [
+   "strong",
+   "sturdy"
+  ],
+  "antonyms": [
+   "weak",
+   "frail"
+  ]
+ },
+ {
+  "id": "synant_114",
+  "word": "rude",
+  "pos": "adjective",
+  "meaningBn": "অভদ্র",
+  "synonyms": [
+   "impolite",
+   "insolent"
+  ],
+  "antonyms": [
+   "polite",
+   "courteous"
+  ]
+ },
+ {
+  "id": "synant_115",
+  "word": "scarce",
+  "pos": "adjective",
+  "meaningBn": "দুষ্প্রাপ্য",
+  "synonyms": [
+   "rare",
+   "insufficient"
+  ],
+  "antonyms": [
+   "plentiful",
+   "abundant"
+  ]
+ },
+ {
+  "id": "synant_116",
+  "word": "serene",
+  "pos": "adjective",
+  "meaningBn": "প্রশান্ত",
+  "synonyms": [
+   "peaceful",
+   "tranquil"
+  ],
+  "antonyms": [
+   "turbulent",
+   "agitated"
+  ]
+ },
+ {
+  "id": "synant_117",
+  "word": "shallow",
+  "pos": "adjective",
+  "meaningBn": "অগভীর",
+  "synonyms": [
+   "superficial",
+   "trivial"
+  ],
+  "antonyms": [
+   "deep",
+   "profound"
+  ]
+ },
+ {
+  "id": "synant_118",
+  "word": "shrewd",
+  "pos": "adjective",
+  "meaningBn": "চতুর",
+  "synonyms": [
+   "clever",
+   "astute"
+  ],
+  "antonyms": [
+   "naive",
+   "foolish"
+  ]
+ },
+ {
+  "id": "synant_119",
+  "word": "sincere",
+  "pos": "adjective",
+  "meaningBn": "আন্তরিক",
+  "synonyms": [
+   "honest",
+   "genuine"
+  ],
+  "antonyms": [
+   "insincere",
+   "false"
+  ]
+ },
+ {
+  "id": "synant_120",
+  "word": "sluggish",
+  "pos": "adjective",
+  "meaningBn": "মন্থর",
+  "synonyms": [
+   "slow",
+   "inactive"
+  ],
+  "antonyms": [
+   "brisk",
+   "lively"
+  ]
+ },
+ {
+  "id": "synant_121",
+  "word": "spontaneous",
+  "pos": "adjective",
+  "meaningBn": "স্বতঃস্ফূর্ত",
+  "synonyms": [
+   "natural",
+   "unplanned"
+  ],
+  "antonyms": [
+   "planned",
+   "forced"
+  ]
+ },
+ {
+  "id": "synant_122",
+  "word": "stingy",
+  "pos": "adjective",
+  "meaningBn": "কৃপণ",
+  "synonyms": [
+   "miserly",
+   "mean"
+  ],
+  "antonyms": [
+   "generous",
+   "liberal"
+  ]
+ },
+ {
+  "id": "synant_123",
+  "word": "strict",
+  "pos": "adjective",
+  "meaningBn": "কঠোর",
+  "synonyms": [
+   "stern",
+   "rigid"
+  ],
+  "antonyms": [
+   "lenient",
+   "lax"
+  ]
+ },
+ {
+  "id": "synant_124",
+  "word": "subtle",
+  "pos": "adjective",
+  "meaningBn": "সূক্ষ্ম",
+  "synonyms": [
+   "delicate",
+   "slight"
+  ],
+  "antonyms": [
+   "obvious",
+   "blatant"
+  ]
+ },
+ {
+  "id": "synant_125",
+  "word": "superficial",
+  "pos": "adjective",
+  "meaningBn": "ভাসাভাসা",
+  "synonyms": [
+   "shallow",
+   "cursory"
+  ],
+  "antonyms": [
+   "deep",
+   "thorough"
+  ]
+ },
+ {
+  "id": "synant_126",
+  "word": "surplus",
+  "pos": "noun",
+  "meaningBn": "উদ্বৃত্ত",
+  "synonyms": [
+   "excess",
+   "surfeit"
+  ],
+  "antonyms": [
+   "deficit",
+   "shortage"
+  ]
+ },
+ {
+  "id": "synant_127",
+  "word": "tedious",
+  "pos": "adjective",
+  "meaningBn": "ক্লান্তিকর",
+  "synonyms": [
+   "boring",
+   "monotonous"
+  ],
+  "antonyms": [
+   "interesting",
+   "exciting"
+  ]
+ },
+ {
+  "id": "synant_128",
+  "word": "temporary",
+  "pos": "adjective",
+  "meaningBn": "অস্থায়ী",
+  "synonyms": [
+   "transient",
+   "brief"
+  ],
+  "antonyms": [
+   "permanent",
+   "lasting"
+  ]
+ },
+ {
+  "id": "synant_129",
+  "word": "tranquil",
+  "pos": "adjective",
+  "meaningBn": "শান্ত, নিরুপদ্রব",
+  "synonyms": [
+   "calm",
+   "peaceful"
+  ],
+  "antonyms": [
+   "noisy",
+   "disturbed"
+  ]
+ },
+ {
+  "id": "synant_130",
+  "word": "transparent",
+  "pos": "adjective",
+  "meaningBn": "স্বচ্ছ",
+  "synonyms": [
+   "clear",
+   "see-through"
+  ],
+  "antonyms": [
+   "opaque",
+   "cloudy"
+  ]
+ },
+ {
+  "id": "synant_131",
+  "word": "trivial",
+  "pos": "adjective",
+  "meaningBn": "তুচ্ছ",
+  "synonyms": [
+   "minor",
+   "petty"
+  ],
+  "antonyms": [
+   "important",
+   "significant"
+  ]
+ },
+ {
+  "id": "synant_132",
+  "word": "ultimate",
+  "pos": "adjective",
+  "meaningBn": "চূড়ান্ত",
+  "synonyms": [
+   "final",
+   "last"
+  ],
+  "antonyms": [
+   "initial",
+   "first"
+  ]
+ },
+ {
+  "id": "synant_133",
+  "word": "vague",
+  "pos": "adjective",
+  "meaningBn": "অস্পষ্ট",
+  "synonyms": [
+   "unclear",
+   "hazy"
+  ],
+  "antonyms": [
+   "clear",
+   "precise"
+  ]
+ },
+ {
+  "id": "synant_134",
+  "word": "valiant",
+  "pos": "adjective",
+  "meaningBn": "বীর",
+  "synonyms": [
+   "brave",
+   "heroic"
+  ],
+  "antonyms": [
+   "cowardly",
+   "timid"
+  ]
+ },
+ {
+  "id": "synant_135",
+  "word": "vanish",
+  "pos": "verb",
+  "meaningBn": "অদৃশ্য হওয়া",
+  "synonyms": [
+   "disappear",
+   "fade"
+  ],
+  "antonyms": [
+   "appear",
+   "emerge"
+  ]
+ },
+ {
+  "id": "synant_136",
+  "word": "verbose",
+  "pos": "adjective",
+  "meaningBn": "বাগাড়ম্বরপূর্ণ",
+  "synonyms": [
+   "wordy",
+   "long-winded"
+  ],
+  "antonyms": [
+   "concise",
+   "brief"
+  ]
+ },
+ {
+  "id": "synant_137",
+  "word": "victory",
+  "pos": "noun",
+  "meaningBn": "বিজয়",
+  "synonyms": [
+   "triumph",
+   "success"
+  ],
+  "antonyms": [
+   "defeat",
+   "failure"
+  ]
+ },
+ {
+  "id": "synant_138",
+  "word": "vigilant",
+  "pos": "adjective",
+  "meaningBn": "সজাগ",
+  "synonyms": [
+   "watchful",
+   "alert"
+  ],
+  "antonyms": [
+   "careless",
+   "negligent"
+  ]
+ },
+ {
+  "id": "synant_139",
+  "word": "vulgar",
+  "pos": "adjective",
+  "meaningBn": "রুচিহীন, অমার্জিত",
+  "synonyms": [
+   "crude",
+   "coarse"
+  ],
+  "antonyms": [
+   "refined",
+   "decent"
+  ]
+ },
+ {
+  "id": "synant_140",
+  "word": "wane",
+  "pos": "verb",
+  "meaningBn": "ক্ষীণ হওয়া",
+  "synonyms": [
+   "decline",
+   "fade"
+  ],
+  "antonyms": [
+   "wax",
+   "grow"
+  ]
+ },
+ {
+  "id": "synant_141",
+  "word": "wealth",
+  "pos": "noun",
+  "meaningBn": "সম্পদ",
+  "synonyms": [
+   "riches",
+   "fortune"
+  ],
+  "antonyms": [
+   "poverty",
+   "want"
+  ]
+ },
+ {
+  "id": "synant_142",
+  "word": "wicked",
+  "pos": "adjective",
+  "meaningBn": "দুষ্ট",
+  "synonyms": [
+   "evil",
+   "sinful"
+  ],
+  "antonyms": [
+   "virtuous",
+   "good"
+  ]
+ },
+ {
+  "id": "synant_143",
+  "word": "zeal",
+  "pos": "noun",
+  "meaningBn": "উদ্দীপনা",
+  "synonyms": [
+   "enthusiasm",
+   "passion"
+  ],
+  "antonyms": [
+   "apathy",
+   "indifference"
+  ]
+ },
+ {
+  "id": "synant_144",
+  "word": "zenith",
+  "pos": "noun",
+  "meaningBn": "শীর্ষবিন্দু",
+  "synonyms": [
+   "peak",
+   "summit"
+  ],
+  "antonyms": [
+   "nadir",
+   "bottom"
+  ]
+ }
+]

@@ -1,0 +1,3752 @@
+[
+ {
+  "id": "mcq_s01_q01",
+  "set": 1,
+  "level": "primary",
+  "number": 1,
+  "type": "synonym",
+  "question": "The synonym of 'Abundant' is —",
+  "options": {
+   "ka": "Scarce",
+   "kha": "Plentiful",
+   "ga": "Rare",
+   "gha": "Tiny"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s01_q02",
+  "set": 1,
+  "level": "primary",
+  "number": 2,
+  "type": "synonym",
+  "question": "The synonym of 'Candid' is —",
+  "options": {
+   "ka": "Frank",
+   "kha": "Shy",
+   "ga": "Cunning",
+   "gha": "Proud"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s01_q03",
+  "set": 1,
+  "level": "primary",
+  "number": 3,
+  "type": "synonym",
+  "question": "The synonym of 'Diligent' is —",
+  "options": {
+   "ka": "Lazy",
+   "kha": "Careless",
+   "ga": "Proud",
+   "gha": "Hardworking"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s01_q04",
+  "set": 1,
+  "level": "primary",
+  "number": 4,
+  "type": "synonym",
+  "question": "The synonym of 'Brief' is —",
+  "options": {
+   "ka": "Long",
+   "kha": "Tiny",
+   "ga": "Bright",
+   "gha": "Short"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s01_q05",
+  "set": 1,
+  "level": "primary",
+  "number": 5,
+  "type": "antonym",
+  "question": "The antonym of 'Transparent' is —",
+  "options": {
+   "ka": "Clear",
+   "kha": "Bright",
+   "ga": "Opaque",
+   "gha": "Visible"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s01_q06",
+  "set": 1,
+  "level": "primary",
+  "number": 6,
+  "type": "antonym",
+  "question": "The antonym of 'Ancient' is —",
+  "options": {
+   "ka": "Old",
+   "kha": "Modern",
+   "ga": "Antique",
+   "gha": "Historic"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s01_q07",
+  "set": 1,
+  "level": "primary",
+  "number": 7,
+  "type": "antonym",
+  "question": "The antonym of 'Generous' is —",
+  "options": {
+   "ka": "Stingy",
+   "kha": "Kind",
+   "ga": "Liberal",
+   "gha": "Charitable"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s01_q08",
+  "set": 1,
+  "level": "primary",
+  "number": 8,
+  "type": "antonym",
+  "question": "The antonym of 'Humble' is —",
+  "options": {
+   "ka": "Arrogant",
+   "kha": "Modest",
+   "ga": "Meek",
+   "gha": "Polite"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s01_q09",
+  "set": 1,
+  "level": "primary",
+  "number": 9,
+  "type": "one_word",
+  "question": "One who cannot read or write —",
+  "options": {
+   "ka": "Ignorant",
+   "kha": "Innocent",
+   "ga": "Illegible",
+   "gha": "Illiterate"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s01_q10",
+  "set": 1,
+  "level": "primary",
+  "number": 10,
+  "type": "one_word",
+  "question": "One who always looks on the bright side —",
+  "options": {
+   "ka": "Pessimist",
+   "kha": "Realist",
+   "ga": "Optimist",
+   "gha": "Atheist"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s01_q11",
+  "set": 1,
+  "level": "primary",
+  "number": 11,
+  "type": "one_word",
+  "question": "A place where bees are kept —",
+  "options": {
+   "ka": "Aviary",
+   "kha": "Apiary",
+   "ga": "Aquarium",
+   "gha": "Granary"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s01_q12",
+  "set": 1,
+  "level": "primary",
+  "number": 12,
+  "type": "spelling",
+  "question": "Which spelling is correct?",
+  "options": {
+   "ka": "Accomodation",
+   "kha": "Accommodation",
+   "ga": "Acommodation",
+   "gha": "Accommodasion"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s01_q13",
+  "set": 1,
+  "level": "primary",
+  "number": 13,
+  "type": "spelling",
+  "question": "Which spelling is correct?",
+  "options": {
+   "ka": "Necessary",
+   "kha": "Neccessary",
+   "ga": "Necesary",
+   "gha": "Neccesary"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s01_q14",
+  "set": 1,
+  "level": "primary",
+  "number": 14,
+  "type": "spelling",
+  "question": "Which spelling is correct?",
+  "options": {
+   "ka": "Wendesday",
+   "kha": "Wensday",
+   "ga": "Wedensday",
+   "gha": "Wednesday"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s01_q15",
+  "set": 1,
+  "level": "primary",
+  "number": 15,
+  "type": "confused",
+  "question": "Smoking ___ health badly.",
+  "options": {
+   "ka": "effects",
+   "kha": "effect",
+   "ga": "affects",
+   "gha": "affection"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s01_q16",
+  "set": 1,
+  "level": "primary",
+  "number": 16,
+  "type": "confused",
+  "question": "Please ___ my apology.",
+  "options": {
+   "ka": "except",
+   "kha": "expect",
+   "ga": "accept",
+   "gha": "access"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s01_q17",
+  "set": 1,
+  "level": "primary",
+  "number": 17,
+  "type": "confused",
+  "question": "She bought some ___ for the exam.",
+  "options": {
+   "ka": "stationary",
+   "kha": "stationery",
+   "ga": "station",
+   "gha": "stationing"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s01_q18",
+  "set": 1,
+  "level": "primary",
+  "number": 18,
+  "type": "collocation",
+  "question": "We must ___ a decision today.",
+  "options": {
+   "ka": "make",
+   "kha": "do",
+   "ga": "give",
+   "gha": "have"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s01_q19",
+  "set": 1,
+  "level": "primary",
+  "number": 19,
+  "type": "collocation",
+  "question": "You should ___ this medicine twice a day.",
+  "options": {
+   "ka": "eat",
+   "kha": "drink",
+   "ga": "make",
+   "gha": "take"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s01_q20",
+  "set": 1,
+  "level": "primary",
+  "number": 20,
+  "type": "collocation",
+  "question": "There was ___ rain last night.",
+  "options": {
+   "ka": "strong",
+   "kha": "big",
+   "ga": "hard",
+   "gha": "heavy"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s01_q21",
+  "set": 1,
+  "level": "primary",
+  "number": 21,
+  "type": "fill_blank",
+  "question": "Never ___ a lie.",
+  "options": {
+   "ka": "say",
+   "kha": "speak",
+   "ga": "tell",
+   "gha": "talk"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s01_q22",
+  "set": 1,
+  "level": "primary",
+  "number": 22,
+  "type": "fill_blank",
+  "question": "She is good ___ mathematics.",
+  "options": {
+   "ka": "in",
+   "kha": "at",
+   "ga": "on",
+   "gha": "with"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s01_q23",
+  "set": 1,
+  "level": "primary",
+  "number": 23,
+  "type": "fill_blank",
+  "question": "Please keep ___ in the library.",
+  "options": {
+   "ka": "quiet",
+   "kha": "quite",
+   "ga": "quit",
+   "gha": "quietly"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s01_q24",
+  "set": 1,
+  "level": "primary",
+  "number": 24,
+  "type": "word_formation",
+  "question": "The noun form of 'decide' is —",
+  "options": {
+   "ka": "decision",
+   "kha": "decisive",
+   "ga": "decided",
+   "gha": "deciding"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s01_q25",
+  "set": 1,
+  "level": "primary",
+  "number": 25,
+  "type": "word_formation",
+  "question": "Which suffix usually makes an adverb?",
+  "options": {
+   "ka": "-ness",
+   "kha": "-ful",
+   "ga": "-ment",
+   "gha": "-ly"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s02_q01",
+  "set": 2,
+  "level": "primary",
+  "number": 1,
+  "type": "synonym",
+  "question": "The synonym of 'Cease' is —",
+  "options": {
+   "ka": "Begin",
+   "kha": "Grow",
+   "ga": "Move",
+   "gha": "Stop"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s02_q02",
+  "set": 2,
+  "level": "primary",
+  "number": 2,
+  "type": "synonym",
+  "question": "The synonym of 'Feeble' is —",
+  "options": {
+   "ka": "Strong",
+   "kha": "Brave",
+   "ga": "Weak",
+   "gha": "Quick"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s02_q03",
+  "set": 2,
+  "level": "primary",
+  "number": 3,
+  "type": "synonym",
+  "question": "The synonym of 'Gloomy' is —",
+  "options": {
+   "ka": "Bright",
+   "kha": "Dismal",
+   "ga": "Cheerful",
+   "gha": "Happy"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s02_q04",
+  "set": 2,
+  "level": "primary",
+  "number": 4,
+  "type": "synonym",
+  "question": "The synonym of 'Enormous' is —",
+  "options": {
+   "ka": "Tiny",
+   "kha": "Huge",
+   "ga": "Small",
+   "gha": "Narrow"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s02_q05",
+  "set": 2,
+  "level": "primary",
+  "number": 5,
+  "type": "antonym",
+  "question": "The antonym of 'Fertile' is —",
+  "options": {
+   "ka": "Barren",
+   "kha": "Fruitful",
+   "ga": "Productive",
+   "gha": "Rich"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s02_q06",
+  "set": 2,
+  "level": "primary",
+  "number": 6,
+  "type": "antonym",
+  "question": "The antonym of 'Permanent' is —",
+  "options": {
+   "ka": "Lasting",
+   "kha": "Stable",
+   "ga": "Fixed",
+   "gha": "Temporary"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s02_q07",
+  "set": 2,
+  "level": "primary",
+  "number": 7,
+  "type": "antonym",
+  "question": "The antonym of 'Polite' is —",
+  "options": {
+   "ka": "Kind",
+   "kha": "Civil",
+   "ga": "Rude",
+   "gha": "Gentle"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s02_q08",
+  "set": 2,
+  "level": "primary",
+  "number": 8,
+  "type": "antonym",
+  "question": "The antonym of 'Expand' is —",
+  "options": {
+   "ka": "Extend",
+   "kha": "Enlarge",
+   "ga": "Shrink",
+   "gha": "Grow"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s02_q09",
+  "set": 2,
+  "level": "primary",
+  "number": 9,
+  "type": "one_word",
+  "question": "A place where coins are made —",
+  "options": {
+   "ka": "Mine",
+   "kha": "Mint",
+   "ga": "Bank",
+   "gha": "Treasury"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s02_q10",
+  "set": 2,
+  "level": "primary",
+  "number": 10,
+  "type": "one_word",
+  "question": "Fear of water —",
+  "options": {
+   "ka": "Hydrophobia",
+   "kha": "Acrophobia",
+   "ga": "Claustrophobia",
+   "gha": "Xenophobia"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s02_q11",
+  "set": 2,
+  "level": "primary",
+  "number": 11,
+  "type": "one_word",
+  "question": "Animals that eat flesh —",
+  "options": {
+   "ka": "Herbivorous",
+   "kha": "Omnivorous",
+   "ga": "Insectivorous",
+   "gha": "Carnivorous"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s02_q12",
+  "set": 2,
+  "level": "primary",
+  "number": 12,
+  "type": "spelling",
+  "question": "Which spelling is correct?",
+  "options": {
+   "ka": "Goverment",
+   "kha": "Govermant",
+   "ga": "Governmant",
+   "gha": "Government"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s02_q13",
+  "set": 2,
+  "level": "primary",
+  "number": 13,
+  "type": "spelling",
+  "question": "Which spelling is correct?",
+  "options": {
+   "ka": "Seperate",
+   "kha": "Saperate",
+   "ga": "Separate",
+   "gha": "Separete"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s02_q14",
+  "set": 2,
+  "level": "primary",
+  "number": 14,
+  "type": "spelling",
+  "question": "Which spelling is correct?",
+  "options": {
+   "ka": "Recieve",
+   "kha": "Receive",
+   "ga": "Receve",
+   "gha": "Riceive"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s02_q15",
+  "set": 2,
+  "level": "primary",
+  "number": 15,
+  "type": "confused",
+  "question": "The ___ opened the annual sports day.",
+  "options": {
+   "ka": "principal",
+   "kha": "principle",
+   "ga": "principality",
+   "gha": "principled"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s02_q16",
+  "set": 2,
+  "level": "primary",
+  "number": 16,
+  "type": "confused",
+  "question": "Don't ___ your admit card.",
+  "options": {
+   "ka": "lose",
+   "kha": "loose",
+   "ga": "loss",
+   "gha": "lost"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s02_q17",
+  "set": 2,
+  "level": "primary",
+  "number": 17,
+  "type": "confused",
+  "question": "We had ice cream for ___.",
+  "options": {
+   "ka": "desert",
+   "kha": "deserts",
+   "ga": "deserted",
+   "gha": "dessert"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s02_q18",
+  "set": 2,
+  "level": "primary",
+  "number": 18,
+  "type": "collocation",
+  "question": "He ___ his homework after dinner.",
+  "options": {
+   "ka": "makes",
+   "kha": "takes",
+   "ga": "does",
+   "gha": "gives"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s02_q19",
+  "set": 2,
+  "level": "primary",
+  "number": 19,
+  "type": "collocation",
+  "question": "I ___ a cold in the rain.",
+  "options": {
+   "ka": "catched",
+   "kha": "caught",
+   "ga": "held",
+   "gha": "took"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s02_q20",
+  "set": 2,
+  "level": "primary",
+  "number": 20,
+  "type": "collocation",
+  "question": "___ attention to the teacher.",
+  "options": {
+   "ka": "Give",
+   "kha": "Pay",
+   "ga": "Make",
+   "gha": "Take"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s02_q21",
+  "set": 2,
+  "level": "primary",
+  "number": 21,
+  "type": "fill_blank",
+  "question": "I have lived in Dhaka ___ 2015.",
+  "options": {
+   "ka": "since",
+   "kha": "for",
+   "ga": "from",
+   "gha": "by"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s02_q22",
+  "set": 2,
+  "level": "primary",
+  "number": 22,
+  "type": "fill_blank",
+  "question": "Divide the mangoes ___ the five children.",
+  "options": {
+   "ka": "between",
+   "kha": "within",
+   "ga": "along",
+   "gha": "among"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s02_q23",
+  "set": 2,
+  "level": "primary",
+  "number": 23,
+  "type": "fill_blank",
+  "question": "Can you ___ me 500 taka?",
+  "options": {
+   "ka": "borrow",
+   "kha": "owe",
+   "ga": "lend",
+   "gha": "rent"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s02_q24",
+  "set": 2,
+  "level": "primary",
+  "number": 24,
+  "type": "word_formation",
+  "question": "The adjective form of 'danger' is —",
+  "options": {
+   "ka": "dangerously",
+   "kha": "endanger",
+   "ga": "dangerous",
+   "gha": "dangers"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s02_q25",
+  "set": 2,
+  "level": "primary",
+  "number": 25,
+  "type": "word_formation",
+  "question": "The verb form of 'simple' is —",
+  "options": {
+   "ka": "simplicity",
+   "kha": "simplify",
+   "ga": "simply",
+   "gha": "simplest"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s03_q01",
+  "set": 3,
+  "level": "primary",
+  "number": 1,
+  "type": "synonym",
+  "question": "The synonym of 'Prohibit' is —",
+  "options": {
+   "ka": "Allow",
+   "kha": "Forbid",
+   "ga": "Permit",
+   "gha": "Approve"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s03_q02",
+  "set": 3,
+  "level": "primary",
+  "number": 2,
+  "type": "synonym",
+  "question": "The synonym of 'Courage' is —",
+  "options": {
+   "ka": "Bravery",
+   "kha": "Fear",
+   "ga": "Cowardice",
+   "gha": "Weakness"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s03_q03",
+  "set": 3,
+  "level": "primary",
+  "number": 3,
+  "type": "synonym",
+  "question": "The synonym of 'Vanish' is —",
+  "options": {
+   "ka": "Appear",
+   "kha": "Emerge",
+   "ga": "Arrive",
+   "gha": "Disappear"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s03_q04",
+  "set": 3,
+  "level": "primary",
+  "number": 4,
+  "type": "synonym",
+  "question": "The synonym of 'Remote' is —",
+  "options": {
+   "ka": "Close",
+   "kha": "Near",
+   "ga": "Nearby",
+   "gha": "Distant"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s03_q05",
+  "set": 3,
+  "level": "primary",
+  "number": 5,
+  "type": "antonym",
+  "question": "The antonym of 'Victory' is —",
+  "options": {
+   "ka": "Triumph",
+   "kha": "Success",
+   "ga": "Defeat",
+   "gha": "Win"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s03_q06",
+  "set": 3,
+  "level": "primary",
+  "number": 6,
+  "type": "antonym",
+  "question": "The antonym of 'Cautious' is —",
+  "options": {
+   "ka": "Careful",
+   "kha": "Reckless",
+   "ga": "Wary",
+   "gha": "Alert"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s03_q07",
+  "set": 3,
+  "level": "primary",
+  "number": 7,
+  "type": "antonym",
+  "question": "The antonym of 'Lazy' is —",
+  "options": {
+   "ka": "Active",
+   "kha": "Idle",
+   "ga": "Slow",
+   "gha": "Indolent"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s03_q08",
+  "set": 3,
+  "level": "primary",
+  "number": 8,
+  "type": "antonym",
+  "question": "The antonym of 'Accurate' is —",
+  "options": {
+   "ka": "Wrong",
+   "kha": "Exact",
+   "ga": "Precise",
+   "gha": "Correct"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s03_q09",
+  "set": 3,
+  "level": "primary",
+  "number": 9,
+  "type": "one_word",
+  "question": "One who knows many languages —",
+  "options": {
+   "ka": "Monoglot",
+   "kha": "Translator",
+   "ga": "Orator",
+   "gha": "Polyglot"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s03_q10",
+  "set": 3,
+  "level": "primary",
+  "number": 10,
+  "type": "one_word",
+  "question": "A life story written by oneself —",
+  "options": {
+   "ka": "Biography",
+   "kha": "Novel",
+   "ga": "Autobiography",
+   "gha": "Diary"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s03_q11",
+  "set": 3,
+  "level": "primary",
+  "number": 11,
+  "type": "one_word",
+  "question": "That which cannot be avoided —",
+  "options": {
+   "ka": "Invisible",
+   "kha": "Inevitable",
+   "ga": "Incurable",
+   "gha": "Incredible"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s03_q12",
+  "set": 3,
+  "level": "primary",
+  "number": 12,
+  "type": "spelling",
+  "question": "Which spelling is correct?",
+  "options": {
+   "ka": "Enviroment",
+   "kha": "Environment",
+   "ga": "Envirnment",
+   "gha": "Enviornment"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s03_q13",
+  "set": 3,
+  "level": "primary",
+  "number": 13,
+  "type": "spelling",
+  "question": "Which spelling is correct?",
+  "options": {
+   "ka": "Committee",
+   "kha": "Commitee",
+   "ga": "Comittee",
+   "gha": "Committe"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s03_q14",
+  "set": 3,
+  "level": "primary",
+  "number": 14,
+  "type": "spelling",
+  "question": "Which spelling is correct?",
+  "options": {
+   "ka": "Succesful",
+   "kha": "Sucessful",
+   "ga": "Successfull",
+   "gha": "Successful"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s03_q15",
+  "set": 3,
+  "level": "primary",
+  "number": 15,
+  "type": "confused",
+  "question": "I don't know ___ he will come.",
+  "options": {
+   "ka": "weather",
+   "kha": "wether",
+   "ga": "whether",
+   "gha": "whither"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s03_q16",
+  "set": 3,
+  "level": "primary",
+  "number": 16,
+  "type": "confused",
+  "question": "The dog wagged ___ tail.",
+  "options": {
+   "ka": "it's",
+   "kha": "its'",
+   "ga": "its",
+   "gha": "it is"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s03_q17",
+  "set": 3,
+  "level": "primary",
+  "number": 17,
+  "type": "confused",
+  "question": "Take a deep ___ before you speak.",
+  "options": {
+   "ka": "breathe",
+   "kha": "breath",
+   "ga": "breadth",
+   "gha": "breathing"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s03_q18",
+  "set": 3,
+  "level": "primary",
+  "number": 18,
+  "type": "collocation",
+  "question": "A good leader always ___ his promises.",
+  "options": {
+   "ka": "keeps",
+   "kha": "holds",
+   "ga": "saves",
+   "gha": "makes"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s03_q19",
+  "set": 3,
+  "level": "primary",
+  "number": 19,
+  "type": "collocation",
+  "question": "There is ___ traffic on the road.",
+  "options": {
+   "ka": "high",
+   "kha": "strong",
+   "ga": "big",
+   "gha": "heavy"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s03_q20",
+  "set": 3,
+  "level": "primary",
+  "number": 20,
+  "type": "collocation",
+  "question": "Let's ___ a short break.",
+  "options": {
+   "ka": "make",
+   "kha": "do",
+   "ga": "give",
+   "gha": "take"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s03_q21",
+  "set": 3,
+  "level": "primary",
+  "number": 21,
+  "type": "fill_blank",
+  "question": "She is ___ of spiders.",
+  "options": {
+   "ka": "fear",
+   "kha": "scare",
+   "ga": "afraid",
+   "gha": "frightening"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s03_q22",
+  "set": 3,
+  "level": "primary",
+  "number": 22,
+  "type": "fill_blank",
+  "question": "He prefers tea ___ coffee.",
+  "options": {
+   "ka": "than",
+   "kha": "to",
+   "ga": "from",
+   "gha": "with"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s03_q23",
+  "set": 3,
+  "level": "primary",
+  "number": 23,
+  "type": "fill_blank",
+  "question": "The train arrived ___ time.",
+  "options": {
+   "ka": "on",
+   "kha": "in",
+   "ga": "at",
+   "gha": "by"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s03_q24",
+  "set": 3,
+  "level": "primary",
+  "number": 24,
+  "type": "word_formation",
+  "question": "The noun form of 'free' is —",
+  "options": {
+   "ka": "freedom",
+   "kha": "freely",
+   "ga": "freer",
+   "gha": "freeing"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s03_q25",
+  "set": 3,
+  "level": "primary",
+  "number": 25,
+  "type": "word_formation",
+  "question": "Which word is an adjective?",
+  "options": {
+   "ka": "quickly",
+   "kha": "beauty",
+   "ga": "decide",
+   "gha": "careful"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s04_q01",
+  "set": 4,
+  "level": "intermediate",
+  "number": 1,
+  "type": "synonym",
+  "question": "The synonym of 'Obstinate' is —",
+  "options": {
+   "ka": "Flexible",
+   "kha": "Docile",
+   "ga": "Gentle",
+   "gha": "Stubborn"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s04_q02",
+  "set": 4,
+  "level": "intermediate",
+  "number": 2,
+  "type": "synonym",
+  "question": "The synonym of 'Prudent' is —",
+  "options": {
+   "ka": "Rash",
+   "kha": "Foolish",
+   "ga": "Wise",
+   "gha": "Careless"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s04_q03",
+  "set": 4,
+  "level": "intermediate",
+  "number": 3,
+  "type": "synonym",
+  "question": "The synonym of 'Tedious' is —",
+  "options": {
+   "ka": "Exciting",
+   "kha": "Boring",
+   "ga": "Interesting",
+   "gha": "Lively"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s04_q04",
+  "set": 4,
+  "level": "intermediate",
+  "number": 4,
+  "type": "synonym",
+  "question": "The synonym of 'Affluent' is —",
+  "options": {
+   "ka": "Poor",
+   "kha": "Wealthy",
+   "ga": "Needy",
+   "gha": "Humble"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s04_q05",
+  "set": 4,
+  "level": "intermediate",
+  "number": 5,
+  "type": "antonym",
+  "question": "The antonym of 'Optimistic' is —",
+  "options": {
+   "ka": "Pessimistic",
+   "kha": "Hopeful",
+   "ga": "Positive",
+   "gha": "Cheerful"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s04_q06",
+  "set": 4,
+  "level": "intermediate",
+  "number": 6,
+  "type": "antonym",
+  "question": "The antonym of 'Explicit' is —",
+  "options": {
+   "ka": "Clear",
+   "kha": "Definite",
+   "ga": "Direct",
+   "gha": "Implicit"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s04_q07",
+  "set": 4,
+  "level": "intermediate",
+  "number": 7,
+  "type": "antonym",
+  "question": "The antonym of 'Frugal' is —",
+  "options": {
+   "ka": "Thrifty",
+   "kha": "Economical",
+   "ga": "Extravagant",
+   "gha": "Careful"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s04_q08",
+  "set": 4,
+  "level": "intermediate",
+  "number": 8,
+  "type": "antonym",
+  "question": "The antonym of 'Hostile' is —",
+  "options": {
+   "ka": "Aggressive",
+   "kha": "Unfriendly",
+   "ga": "Amicable",
+   "gha": "Angry"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s04_q09",
+  "set": 4,
+  "level": "intermediate",
+  "number": 9,
+  "type": "one_word",
+  "question": "Government by the people —",
+  "options": {
+   "ka": "Autocracy",
+   "kha": "Democracy",
+   "ga": "Monarchy",
+   "gha": "Oligarchy"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s04_q10",
+  "set": 4,
+  "level": "intermediate",
+  "number": 10,
+  "type": "one_word",
+  "question": "A list of items to be discussed at a meeting —",
+  "options": {
+   "ka": "Agenda",
+   "kha": "Minutes",
+   "ga": "Quorum",
+   "gha": "Notice"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s04_q11",
+  "set": 4,
+  "level": "intermediate",
+  "number": 11,
+  "type": "one_word",
+  "question": "Study of earthquakes —",
+  "options": {
+   "ka": "Geology",
+   "kha": "Meteorology",
+   "ga": "Ecology",
+   "gha": "Seismology"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s04_q12",
+  "set": 4,
+  "level": "intermediate",
+  "number": 12,
+  "type": "spelling",
+  "question": "Which spelling is correct?",
+  "options": {
+   "ka": "Questionaire",
+   "kha": "Questionnare",
+   "ga": "Quesionnaire",
+   "gha": "Questionnaire"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s04_q13",
+  "set": 4,
+  "level": "intermediate",
+  "number": 13,
+  "type": "spelling",
+  "question": "Which spelling is correct?",
+  "options": {
+   "ka": "Maintainance",
+   "kha": "Maintenence",
+   "ga": "Maintenance",
+   "gha": "Maintanance"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s04_q14",
+  "set": 4,
+  "level": "intermediate",
+  "number": 14,
+  "type": "spelling",
+  "question": "Which spelling is correct?",
+  "options": {
+   "ka": "Embarass",
+   "kha": "Embarrass",
+   "ga": "Embaras",
+   "gha": "Emmbarass"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s04_q15",
+  "set": 4,
+  "level": "intermediate",
+  "number": 15,
+  "type": "confused",
+  "question": "Students must ___ to the new syllabus.",
+  "options": {
+   "ka": "adapt",
+   "kha": "adopt",
+   "ga": "adept",
+   "gha": "adapted"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s04_q16",
+  "set": 4,
+  "level": "intermediate",
+  "number": 16,
+  "type": "confused",
+  "question": "A cyclone is ___.",
+  "options": {
+   "ka": "imminent",
+   "kha": "eminent",
+   "ga": "immanent",
+   "gha": "emanate"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s04_q17",
+  "set": 4,
+  "level": "intermediate",
+  "number": 17,
+  "type": "confused",
+  "question": "He paid me a ___ on my speech.",
+  "options": {
+   "ka": "complement",
+   "kha": "complaint",
+   "ga": "completion",
+   "gha": "compliment"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s04_q18",
+  "set": 4,
+  "level": "intermediate",
+  "number": 18,
+  "type": "collocation",
+  "question": "We worked late to ___ the deadline.",
+  "options": {
+   "ka": "make",
+   "kha": "catch",
+   "ga": "meet",
+   "gha": "win"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s04_q19",
+  "set": 4,
+  "level": "intermediate",
+  "number": 19,
+  "type": "collocation",
+  "question": "He ___ the national record.",
+  "options": {
+   "ka": "cut",
+   "kha": "broke",
+   "ga": "crossed",
+   "gha": "defeated"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s04_q20",
+  "set": 4,
+  "level": "intermediate",
+  "number": 20,
+  "type": "collocation",
+  "question": "The baby is ___ a fever.",
+  "options": {
+   "ka": "doing",
+   "kha": "running",
+   "ga": "making",
+   "gha": "taking"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s04_q21",
+  "set": 4,
+  "level": "intermediate",
+  "number": 21,
+  "type": "fill_blank",
+  "question": "There are ___ students today than yesterday.",
+  "options": {
+   "ka": "fewer",
+   "kha": "less",
+   "ga": "little",
+   "gha": "lesser"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s04_q22",
+  "set": 4,
+  "level": "intermediate",
+  "number": 22,
+  "type": "fill_blank",
+  "question": "Of tea and coffee, I prefer the ___.",
+  "options": {
+   "ka": "later",
+   "kha": "last",
+   "ga": "latest",
+   "gha": "latter"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s04_q23",
+  "set": 4,
+  "level": "intermediate",
+  "number": 23,
+  "type": "fill_blank",
+  "question": "The book ___ twelve chapters.",
+  "options": {
+   "ka": "comprises of",
+   "kha": "is comprising",
+   "ga": "comprises",
+   "gha": "comprise of"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s04_q24",
+  "set": 4,
+  "level": "intermediate",
+  "number": 24,
+  "type": "word_formation",
+  "question": "The noun form of 'fail' is —",
+  "options": {
+   "ka": "failing",
+   "kha": "failed",
+   "ga": "failure",
+   "gha": "fails"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s04_q25",
+  "set": 4,
+  "level": "intermediate",
+  "number": 25,
+  "type": "word_formation",
+  "question": "The adverb form of 'economic' is —",
+  "options": {
+   "ka": "economy",
+   "kha": "economically",
+   "ga": "economical",
+   "gha": "economize"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s05_q01",
+  "set": 5,
+  "level": "intermediate",
+  "number": 1,
+  "type": "synonym",
+  "question": "The synonym of 'Lucid' is —",
+  "options": {
+   "ka": "Vague",
+   "kha": "Clear",
+   "ga": "Obscure",
+   "gha": "Confusing"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s05_q02",
+  "set": 5,
+  "level": "intermediate",
+  "number": 2,
+  "type": "synonym",
+  "question": "The synonym of 'Jovial' is —",
+  "options": {
+   "ka": "Merry",
+   "kha": "Sullen",
+   "ga": "Morose",
+   "gha": "Gloomy"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s05_q03",
+  "set": 5,
+  "level": "intermediate",
+  "number": 3,
+  "type": "synonym",
+  "question": "The synonym of 'Imminent' is —",
+  "options": {
+   "ka": "Distant",
+   "kha": "Remote",
+   "ga": "Delayed",
+   "gha": "Impending"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s05_q04",
+  "set": 5,
+  "level": "intermediate",
+  "number": 4,
+  "type": "synonym",
+  "question": "The synonym of 'Shrewd' is —",
+  "options": {
+   "ka": "Naive",
+   "kha": "Foolish",
+   "ga": "Simple",
+   "gha": "Astute"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s05_q05",
+  "set": 5,
+  "level": "intermediate",
+  "number": 5,
+  "type": "antonym",
+  "question": "The antonym of 'Benevolent' is —",
+  "options": {
+   "ka": "Kind",
+   "kha": "Generous",
+   "ga": "Malevolent",
+   "gha": "Charitable"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s05_q06",
+  "set": 5,
+  "level": "intermediate",
+  "number": 6,
+  "type": "antonym",
+  "question": "The antonym of 'Ambiguous' is —",
+  "options": {
+   "ka": "Vague",
+   "kha": "Clear",
+   "ga": "Unclear",
+   "gha": "Doubtful"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s05_q07",
+  "set": 5,
+  "level": "intermediate",
+  "number": 7,
+  "type": "antonym",
+  "question": "The antonym of 'Spontaneous' is —",
+  "options": {
+   "ka": "Planned",
+   "kha": "Natural",
+   "ga": "Unplanned",
+   "gha": "Impulsive"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s05_q08",
+  "set": 5,
+  "level": "intermediate",
+  "number": 8,
+  "type": "antonym",
+  "question": "The antonym of 'Durable' is —",
+  "options": {
+   "ka": "Fragile",
+   "kha": "Lasting",
+   "ga": "Sturdy",
+   "gha": "Strong"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s05_q09",
+  "set": 5,
+  "level": "intermediate",
+  "number": 9,
+  "type": "one_word",
+  "question": "Killing of a king —",
+  "options": {
+   "ka": "Patricide",
+   "kha": "Homicide",
+   "ga": "Genocide",
+   "gha": "Regicide"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s05_q10",
+  "set": 5,
+  "level": "intermediate",
+  "number": 10,
+  "type": "one_word",
+  "question": "A remedy for all diseases —",
+  "options": {
+   "ka": "Antidote",
+   "kha": "Vaccine",
+   "ga": "Panacea",
+   "gha": "Placebo"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s05_q11",
+  "set": 5,
+  "level": "intermediate",
+  "number": 11,
+  "type": "one_word",
+  "question": "Happening every two years —",
+  "options": {
+   "ka": "Annual",
+   "kha": "Biennial",
+   "ga": "Centennial",
+   "gha": "Perennial"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s05_q12",
+  "set": 5,
+  "level": "intermediate",
+  "number": 12,
+  "type": "spelling",
+  "question": "Which spelling is correct?",
+  "options": {
+   "ka": "Occured",
+   "kha": "Occurred",
+   "ga": "Ocurred",
+   "gha": "Occurrred"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s05_q13",
+  "set": 5,
+  "level": "intermediate",
+  "number": 13,
+  "type": "spelling",
+  "question": "Which spelling is correct?",
+  "options": {
+   "ka": "Definitely",
+   "kha": "Definately",
+   "ga": "Definitly",
+   "gha": "Difinitely"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s05_q14",
+  "set": 5,
+  "level": "intermediate",
+  "number": 14,
+  "type": "spelling",
+  "question": "Which spelling is correct?",
+  "options": {
+   "ka": "Garantee",
+   "kha": "Guarrantee",
+   "ga": "Guarantie",
+   "gha": "Guarantee"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s05_q15",
+  "set": 5,
+  "level": "intermediate",
+  "number": 15,
+  "type": "confused",
+  "question": "Morning walks are ___ to health.",
+  "options": {
+   "ka": "beneficent",
+   "kha": "benefited",
+   "ga": "beneficial",
+   "gha": "benevolent"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s05_q16",
+  "set": 5,
+  "level": "intermediate",
+  "number": 16,
+  "type": "confused",
+  "question": "The ___ of the team was high after the victory.",
+  "options": {
+   "ka": "moral",
+   "kha": "morality",
+   "ga": "morale",
+   "gha": "mortal"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s05_q17",
+  "set": 5,
+  "level": "intermediate",
+  "number": 17,
+  "type": "confused",
+  "question": "Please ___ that all doors are locked.",
+  "options": {
+   "ka": "assure",
+   "kha": "ensure",
+   "ga": "insure",
+   "gha": "reassure"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s05_q18",
+  "set": 5,
+  "level": "intermediate",
+  "number": 18,
+  "type": "collocation",
+  "question": "Garment workers often ___ overtime.",
+  "options": {
+   "ka": "work",
+   "kha": "do",
+   "ga": "make",
+   "gha": "take"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s05_q19",
+  "set": 5,
+  "level": "intermediate",
+  "number": 19,
+  "type": "collocation",
+  "question": "She ___ into tears at the news.",
+  "options": {
+   "ka": "broke",
+   "kha": "fell",
+   "ga": "ran",
+   "gha": "burst"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s05_q20",
+  "set": 5,
+  "level": "intermediate",
+  "number": 20,
+  "type": "collocation",
+  "question": "We must ___ priority to safety.",
+  "options": {
+   "ka": "make",
+   "kha": "put",
+   "ga": "take",
+   "gha": "give"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s05_q21",
+  "set": 5,
+  "level": "intermediate",
+  "number": 21,
+  "type": "fill_blank",
+  "question": "A judge must be ___.",
+  "options": {
+   "ka": "uninterested",
+   "kha": "uninteresting",
+   "ga": "disinterested",
+   "gha": "interested"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s05_q22",
+  "set": 5,
+  "level": "intermediate",
+  "number": 22,
+  "type": "fill_blank",
+  "question": "The sun ___ in the east.",
+  "options": {
+   "ka": "raises",
+   "kha": "rises",
+   "ga": "arises",
+   "gha": "rouses"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s05_q23",
+  "set": 5,
+  "level": "intermediate",
+  "number": 23,
+  "type": "fill_blank",
+  "question": "Please ___ the books on the table.",
+  "options": {
+   "ka": "lay",
+   "kha": "lie",
+   "ga": "lain",
+   "gha": "lying"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s05_q24",
+  "set": 5,
+  "level": "intermediate",
+  "number": 24,
+  "type": "word_formation",
+  "question": "The noun form of 'able' is —",
+  "options": {
+   "ka": "ability",
+   "kha": "ably",
+   "ga": "enable",
+   "gha": "abled"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s05_q25",
+  "set": 5,
+  "level": "intermediate",
+  "number": 25,
+  "type": "word_formation",
+  "question": "Which prefix gives the meaning 'not'?",
+  "options": {
+   "ka": "Re-",
+   "kha": "Pre-",
+   "ga": "Co-",
+   "gha": "Un-"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s06_q01",
+  "set": 6,
+  "level": "intermediate",
+  "number": 1,
+  "type": "synonym",
+  "question": "The synonym of 'Hinder' is —",
+  "options": {
+   "ka": "Help",
+   "kha": "Assist",
+   "ga": "Support",
+   "gha": "Obstruct"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s06_q02",
+  "set": 6,
+  "level": "intermediate",
+  "number": 2,
+  "type": "synonym",
+  "question": "The synonym of 'Meagre' is —",
+  "options": {
+   "ka": "Plenty",
+   "kha": "Ample",
+   "ga": "Scanty",
+   "gha": "Abundant"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s06_q03",
+  "set": 6,
+  "level": "intermediate",
+  "number": 3,
+  "type": "synonym",
+  "question": "The synonym of 'Vigilant' is —",
+  "options": {
+   "ka": "Careless",
+   "kha": "Watchful",
+   "ga": "Negligent",
+   "gha": "Sleepy"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s06_q04",
+  "set": 6,
+  "level": "intermediate",
+  "number": 4,
+  "type": "synonym",
+  "question": "The synonym of 'Placid' is —",
+  "options": {
+   "ka": "Excited",
+   "kha": "Calm",
+   "ga": "Agitated",
+   "gha": "Nervous"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s06_q05",
+  "set": 6,
+  "level": "intermediate",
+  "number": 5,
+  "type": "antonym",
+  "question": "The antonym of 'Gradual' is —",
+  "options": {
+   "ka": "Sudden",
+   "kha": "Steady",
+   "ga": "Slow",
+   "gha": "Regular"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s06_q06",
+  "set": 6,
+  "level": "intermediate",
+  "number": 6,
+  "type": "antonym",
+  "question": "The antonym of 'Robust' is —",
+  "options": {
+   "ka": "Strong",
+   "kha": "Sturdy",
+   "ga": "Healthy",
+   "gha": "Frail"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s06_q07",
+  "set": 6,
+  "level": "intermediate",
+  "number": 7,
+  "type": "antonym",
+  "question": "The antonym of 'Eager' is —",
+  "options": {
+   "ka": "Keen",
+   "kha": "Enthusiastic",
+   "ga": "Reluctant",
+   "gha": "Willing"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s06_q08",
+  "set": 6,
+  "level": "intermediate",
+  "number": 8,
+  "type": "antonym",
+  "question": "The antonym of 'Conceal' is —",
+  "options": {
+   "ka": "Hide",
+   "kha": "Cover",
+   "ga": "Reveal",
+   "gha": "Mask"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s06_q09",
+  "set": 6,
+  "level": "intermediate",
+  "number": 9,
+  "type": "one_word",
+  "question": "One who flatters others for gain —",
+  "options": {
+   "ka": "Hypocrite",
+   "kha": "Sycophant",
+   "ga": "Traitor",
+   "gha": "Sceptic"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s06_q10",
+  "set": 6,
+  "level": "intermediate",
+  "number": 10,
+  "type": "one_word",
+  "question": "That which cannot be read —",
+  "options": {
+   "ka": "Illegible",
+   "kha": "Illiterate",
+   "ga": "Ineligible",
+   "gha": "Invisible"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s06_q11",
+  "set": 6,
+  "level": "intermediate",
+  "number": 11,
+  "type": "one_word",
+  "question": "A place where weapons are stored —",
+  "options": {
+   "ka": "Granary",
+   "kha": "Mint",
+   "ga": "Aviary",
+   "gha": "Arsenal"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s06_q12",
+  "set": 6,
+  "level": "intermediate",
+  "number": 12,
+  "type": "spelling",
+  "question": "Which spelling is correct?",
+  "options": {
+   "ka": "Reccomend",
+   "kha": "Recomend",
+   "ga": "Reccommend",
+   "gha": "Recommend"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s06_q13",
+  "set": 6,
+  "level": "intermediate",
+  "number": 13,
+  "type": "spelling",
+  "question": "Which spelling is correct?",
+  "options": {
+   "ka": "Restaurent",
+   "kha": "Resturant",
+   "ga": "Restaurant",
+   "gha": "Restraunt"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s06_q14",
+  "set": 6,
+  "level": "intermediate",
+  "number": 14,
+  "type": "spelling",
+  "question": "Which spelling is correct?",
+  "options": {
+   "ka": "Calender",
+   "kha": "Calendar",
+   "ga": "Calandar",
+   "gha": "Calendor"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s06_q15",
+  "set": 6,
+  "level": "intermediate",
+  "number": 15,
+  "type": "confused",
+  "question": "Exercise can ___ stress.",
+  "options": {
+   "ka": "lessen",
+   "kha": "lesson",
+   "ga": "loosen",
+   "gha": "listen"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s06_q16",
+  "set": 6,
+  "level": "intermediate",
+  "number": 16,
+  "type": "confused",
+  "question": "The bus remained ___ in the traffic jam.",
+  "options": {
+   "ka": "stationary",
+   "kha": "stationery",
+   "ga": "stationed",
+   "gha": "station"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s06_q17",
+  "set": 6,
+  "level": "intermediate",
+  "number": 17,
+  "type": "confused",
+  "question": "The stadium has a seating ___ of 25,000.",
+  "options": {
+   "ka": "ability",
+   "kha": "skill",
+   "ga": "talent",
+   "gha": "capacity"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s06_q18",
+  "set": 6,
+  "level": "intermediate",
+  "number": 18,
+  "type": "collocation",
+  "question": "They ___ business with China.",
+  "options": {
+   "ka": "make",
+   "kha": "have",
+   "ga": "do",
+   "gha": "take"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s06_q19",
+  "set": 6,
+  "level": "intermediate",
+  "number": 19,
+  "type": "collocation",
+  "question": "___ an eye on my bag, please.",
+  "options": {
+   "ka": "Put",
+   "kha": "Keep",
+   "ga": "Hold",
+   "gha": "Have"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s06_q20",
+  "set": 6,
+  "level": "intermediate",
+  "number": 20,
+  "type": "collocation",
+  "question": "There was a ___ cut last night.",
+  "options": {
+   "ka": "light",
+   "kha": "power",
+   "ga": "current",
+   "gha": "energy"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s06_q21",
+  "set": 6,
+  "level": "intermediate",
+  "number": 21,
+  "type": "fill_blank",
+  "question": "___ English, he speaks Arabic. (in addition to)",
+  "options": {
+   "ka": "Besides",
+   "kha": "Beside",
+   "ga": "Aside",
+   "gha": "Along"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s06_q22",
+  "set": 6,
+  "level": "intermediate",
+  "number": 22,
+  "type": "fill_blank",
+  "question": "Smugglers will be ___.",
+  "options": {
+   "ka": "persecuted",
+   "kha": "protested",
+   "ga": "prescribed",
+   "gha": "prosecuted"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s06_q23",
+  "set": 6,
+  "level": "intermediate",
+  "number": 23,
+  "type": "fill_blank",
+  "question": "We have no ___ but to wait.",
+  "options": {
+   "ka": "alternate",
+   "kha": "alteration",
+   "ga": "alternative",
+   "gha": "alternation"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s06_q24",
+  "set": 6,
+  "level": "intermediate",
+  "number": 24,
+  "type": "word_formation",
+  "question": "The noun form of 'high' is —",
+  "options": {
+   "ka": "highly",
+   "kha": "higher",
+   "ga": "height",
+   "gha": "heighten"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s06_q25",
+  "set": 6,
+  "level": "intermediate",
+  "number": 25,
+  "type": "word_formation",
+  "question": "The verb form of 'strong' is —",
+  "options": {
+   "ka": "strongly",
+   "kha": "strengthen",
+   "ga": "strength",
+   "gha": "stronger"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s07_q01",
+  "set": 7,
+  "level": "intermediate",
+  "number": 1,
+  "type": "synonym",
+  "question": "The synonym of 'Eloquent' is —",
+  "options": {
+   "ka": "Silent",
+   "kha": "Articulate",
+   "ga": "Shy",
+   "gha": "Clumsy"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s07_q02",
+  "set": 7,
+  "level": "intermediate",
+  "number": 2,
+  "type": "synonym",
+  "question": "The synonym of 'Audacious' is —",
+  "options": {
+   "ka": "Bold",
+   "kha": "Timid",
+   "ga": "Cautious",
+   "gha": "Fearful"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s07_q03",
+  "set": 7,
+  "level": "intermediate",
+  "number": 3,
+  "type": "synonym",
+  "question": "The synonym of 'Paucity' is —",
+  "options": {
+   "ka": "Abundance",
+   "kha": "Plenty",
+   "ga": "Surplus",
+   "gha": "Scarcity"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s07_q04",
+  "set": 7,
+  "level": "intermediate",
+  "number": 4,
+  "type": "synonym",
+  "question": "The synonym of 'Zenith' is —",
+  "options": {
+   "ka": "Bottom",
+   "kha": "Nadir",
+   "ga": "Base",
+   "gha": "Peak"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s07_q05",
+  "set": 7,
+  "level": "intermediate",
+  "number": 5,
+  "type": "antonym",
+  "question": "The antonym of 'Inevitable' is —",
+  "options": {
+   "ka": "Certain",
+   "kha": "Unavoidable",
+   "ga": "Avoidable",
+   "gha": "Sure"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s07_q06",
+  "set": 7,
+  "level": "intermediate",
+  "number": 6,
+  "type": "antonym",
+  "question": "The antonym of 'Lucid' is —",
+  "options": {
+   "ka": "Clear",
+   "kha": "Obscure",
+   "ga": "Plain",
+   "gha": "Simple"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s07_q07",
+  "set": 7,
+  "level": "intermediate",
+  "number": 7,
+  "type": "antonym",
+  "question": "The antonym of 'Superficial' is —",
+  "options": {
+   "ka": "Thorough",
+   "kha": "Shallow",
+   "ga": "Cursory",
+   "gha": "Hasty"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s07_q08",
+  "set": 7,
+  "level": "intermediate",
+  "number": 8,
+  "type": "antonym",
+  "question": "The antonym of 'Wane' is —",
+  "options": {
+   "ka": "Wax",
+   "kha": "Decline",
+   "ga": "Fade",
+   "gha": "Shrink"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s07_q09",
+  "set": 7,
+  "level": "intermediate",
+  "number": 9,
+  "type": "one_word",
+  "question": "Government by a small powerful group —",
+  "options": {
+   "ka": "Anarchy",
+   "kha": "Plutocracy",
+   "ga": "Theocracy",
+   "gha": "Oligarchy"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s07_q10",
+  "set": 7,
+  "level": "intermediate",
+  "number": 10,
+  "type": "one_word",
+  "question": "Words written on a tomb —",
+  "options": {
+   "ka": "Epigram",
+   "kha": "Epilogue",
+   "ga": "Epitaph",
+   "gha": "Epithet"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s07_q11",
+  "set": 7,
+  "level": "intermediate",
+  "number": 11,
+  "type": "one_word",
+  "question": "Something no longer in use —",
+  "options": {
+   "ka": "Absolute",
+   "kha": "Obsolete",
+   "ga": "Obscure",
+   "gha": "Obstinate"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s07_q12",
+  "set": 7,
+  "level": "intermediate",
+  "number": 12,
+  "type": "spelling",
+  "question": "Which spelling is correct?",
+  "options": {
+   "ka": "Harrass",
+   "kha": "Harass",
+   "ga": "Haras",
+   "gha": "Harras"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s07_q13",
+  "set": 7,
+  "level": "intermediate",
+  "number": 13,
+  "type": "spelling",
+  "question": "Which spelling is correct?",
+  "options": {
+   "ka": "Millennium",
+   "kha": "Millenium",
+   "ga": "Milennium",
+   "gha": "Milenium"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s07_q14",
+  "set": 7,
+  "level": "intermediate",
+  "number": 14,
+  "type": "spelling",
+  "question": "Which spelling is correct?",
+  "options": {
+   "ka": "Consciencious",
+   "kha": "Concientious",
+   "ga": "Conscientous",
+   "gha": "Conscientious"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s07_q15",
+  "set": 7,
+  "level": "intermediate",
+  "number": 15,
+  "type": "confused",
+  "question": "The poem contains an ___ to the Liberation War.",
+  "options": {
+   "ka": "illusion",
+   "kha": "elusion",
+   "ga": "allusion",
+   "gha": "delusion"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s07_q16",
+  "set": 7,
+  "level": "intermediate",
+  "number": 16,
+  "type": "confused",
+  "question": "Please be ___ about this private matter.",
+  "options": {
+   "ka": "discrete",
+   "kha": "distinct",
+   "ga": "discreet",
+   "gha": "distant"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s07_q17",
+  "set": 7,
+  "level": "intermediate",
+  "number": 17,
+  "type": "confused",
+  "question": "A short speech ___ the dinner.",
+  "options": {
+   "ka": "proceeded",
+   "kha": "preceded",
+   "ga": "proceed",
+   "gha": "precede"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s07_q18",
+  "set": 7,
+  "level": "intermediate",
+  "number": 18,
+  "type": "collocation",
+  "question": "The committee ___ five members.",
+  "options": {
+   "ka": "comprises",
+   "kha": "composes",
+   "ga": "includes of",
+   "gha": "consists"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s07_q19",
+  "set": 7,
+  "level": "intermediate",
+  "number": 19,
+  "type": "collocation",
+  "question": "He had to pay a ___ for speeding.",
+  "options": {
+   "ka": "fare",
+   "kha": "fee",
+   "ga": "fair",
+   "gha": "fine"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s07_q20",
+  "set": 7,
+  "level": "intermediate",
+  "number": 20,
+  "type": "collocation",
+  "question": "A joke helped to break the ___.",
+  "options": {
+   "ka": "glass",
+   "kha": "snow",
+   "ga": "wall",
+   "gha": "ice"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s07_q21",
+  "set": 7,
+  "level": "intermediate",
+  "number": 21,
+  "type": "fill_blank",
+  "question": "Of the two plans, the ___ seems better.",
+  "options": {
+   "ka": "later",
+   "kha": "last",
+   "ga": "latter",
+   "gha": "late"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s07_q22",
+  "set": 7,
+  "level": "intermediate",
+  "number": 22,
+  "type": "fill_blank",
+  "question": "He was ___ to leave his village.",
+  "options": {
+   "ka": "loathe",
+   "kha": "loath",
+   "ga": "loathing",
+   "gha": "loathed"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s07_q23",
+  "set": 7,
+  "level": "intermediate",
+  "number": 23,
+  "type": "fill_blank",
+  "question": "The manager ___ staff performance every year.",
+  "options": {
+   "ka": "appraises",
+   "kha": "apprises",
+   "ga": "appreciates",
+   "gha": "approves"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s07_q24",
+  "set": 7,
+  "level": "intermediate",
+  "number": 24,
+  "type": "word_formation",
+  "question": "The adjective form of 'persuade' is —",
+  "options": {
+   "ka": "persuasive",
+   "kha": "persuasion",
+   "ga": "persuasively",
+   "gha": "persuader"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s07_q25",
+  "set": 7,
+  "level": "intermediate",
+  "number": 25,
+  "type": "word_formation",
+  "question": "The suffix '-cracy' means —",
+  "options": {
+   "ka": "fear",
+   "kha": "study",
+   "ga": "love",
+   "gha": "rule or government"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s08_q01",
+  "set": 8,
+  "level": "advanced",
+  "number": 1,
+  "type": "synonym",
+  "question": "The synonym of 'Sagacious' is —",
+  "options": {
+   "ka": "Foolish",
+   "kha": "Stubborn",
+   "ga": "Cruel",
+   "gha": "Wise"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s08_q02",
+  "set": 8,
+  "level": "advanced",
+  "number": 2,
+  "type": "synonym",
+  "question": "The synonym of 'Garrulous' is —",
+  "options": {
+   "ka": "Silent",
+   "kha": "Reserved",
+   "ga": "Talkative",
+   "gha": "Shy"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s08_q03",
+  "set": 8,
+  "level": "advanced",
+  "number": 3,
+  "type": "synonym",
+  "question": "The synonym of 'Ephemeral' is —",
+  "options": {
+   "ka": "Eternal",
+   "kha": "Short-lived",
+   "ga": "Lasting",
+   "gha": "Permanent"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s08_q04",
+  "set": 8,
+  "level": "advanced",
+  "number": 4,
+  "type": "synonym",
+  "question": "The synonym of 'Ubiquitous' is —",
+  "options": {
+   "ka": "Rare",
+   "kha": "Omnipresent",
+   "ga": "Scarce",
+   "gha": "Absent"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s08_q05",
+  "set": 8,
+  "level": "advanced",
+  "number": 5,
+  "type": "antonym",
+  "question": "The antonym of 'Belligerent' is —",
+  "options": {
+   "ka": "Peaceful",
+   "kha": "Hostile",
+   "ga": "Aggressive",
+   "gha": "Warlike"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s08_q06",
+  "set": 8,
+  "level": "advanced",
+  "number": 6,
+  "type": "antonym",
+  "question": "The antonym of 'Reticent' is —",
+  "options": {
+   "ka": "Reserved",
+   "kha": "Silent",
+   "ga": "Quiet",
+   "gha": "Talkative"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s08_q07",
+  "set": 8,
+  "level": "advanced",
+  "number": 7,
+  "type": "antonym",
+  "question": "The antonym of 'Opulent' is —",
+  "options": {
+   "ka": "Rich",
+   "kha": "Lavish",
+   "ga": "Poor",
+   "gha": "Luxurious"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s08_q08",
+  "set": 8,
+  "level": "advanced",
+  "number": 8,
+  "type": "antonym",
+  "question": "The antonym of 'Lethargic' is —",
+  "options": {
+   "ka": "Sluggish",
+   "kha": "Dull",
+   "ga": "Energetic",
+   "gha": "Lazy"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s08_q09",
+  "set": 8,
+  "level": "advanced",
+  "number": 9,
+  "type": "one_word",
+  "question": "One who hates mankind —",
+  "options": {
+   "ka": "Philanthropist",
+   "kha": "Misanthrope",
+   "ga": "Misogynist",
+   "gha": "Pessimist"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s08_q10",
+  "set": 8,
+  "level": "advanced",
+  "number": 10,
+  "type": "one_word",
+  "question": "A false name used by a writer —",
+  "options": {
+   "ka": "Pseudonym",
+   "kha": "Nickname",
+   "ga": "Anonymous",
+   "gha": "Acronym"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s08_q11",
+  "set": 8,
+  "level": "advanced",
+  "number": 11,
+  "type": "one_word",
+  "question": "Study of the origin of words —",
+  "options": {
+   "ka": "Entomology",
+   "kha": "Ethnology",
+   "ga": "Epistemology",
+   "gha": "Etymology"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s08_q12",
+  "set": 8,
+  "level": "advanced",
+  "number": 12,
+  "type": "spelling",
+  "question": "Which spelling is correct?",
+  "options": {
+   "ka": "Enterpreneur",
+   "kha": "Entreprenuer",
+   "ga": "Entrepeneur",
+   "gha": "Entrepreneur"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s08_q13",
+  "set": 8,
+  "level": "advanced",
+  "number": 13,
+  "type": "spelling",
+  "question": "Which spelling is correct?",
+  "options": {
+   "ka": "Beaurocracy",
+   "kha": "Bureacracy",
+   "ga": "Bureaucracy",
+   "gha": "Burocracy"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s08_q14",
+  "set": 8,
+  "level": "advanced",
+  "number": 14,
+  "type": "spelling",
+  "question": "Which spelling is correct?",
+  "options": {
+   "ka": "Surveilance",
+   "kha": "Surveillance",
+   "ga": "Survelliance",
+   "gha": "Survaillance"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s08_q15",
+  "set": 8,
+  "level": "advanced",
+  "number": 15,
+  "type": "confused",
+  "question": "The government ___ the extremist group.",
+  "options": {
+   "ka": "proscribed",
+   "kha": "prescribed",
+   "ga": "described",
+   "gha": "subscribed"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s08_q16",
+  "set": 8,
+  "level": "advanced",
+  "number": 16,
+  "type": "confused",
+  "question": "Cheating the poor is a ___ act.",
+  "options": {
+   "ka": "contemptible",
+   "kha": "contemptuous",
+   "ga": "contented",
+   "gha": "contentious"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s08_q17",
+  "set": 8,
+  "level": "advanced",
+  "number": 17,
+  "type": "confused",
+  "question": "She found an ___ solution to the problem.",
+  "options": {
+   "ka": "ingenuous",
+   "kha": "indigenous",
+   "ga": "ingenuity",
+   "gha": "ingenious"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s08_q18",
+  "set": 8,
+  "level": "advanced",
+  "number": 18,
+  "type": "collocation",
+  "question": "Planting trees can help ___ climate change.",
+  "options": {
+   "ka": "militate",
+   "kha": "migrate",
+   "ga": "mitigate",
+   "gha": "mediate"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s08_q19",
+  "set": 8,
+  "level": "advanced",
+  "number": 19,
+  "type": "collocation",
+  "question": "Bangladesh has achieved strong economic ___.",
+  "options": {
+   "ka": "grow",
+   "kha": "growth",
+   "ga": "growing",
+   "gha": "grown"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s08_q20",
+  "set": 8,
+  "level": "advanced",
+  "number": 20,
+  "type": "collocation",
+  "question": "The government must take ___ measures.",
+  "options": {
+   "ka": "drastically",
+   "kha": "drastic",
+   "ga": "drastical",
+   "gha": "drasticity"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s08_q21",
+  "set": 8,
+  "level": "advanced",
+  "number": 21,
+  "type": "fill_blank",
+  "question": "Outdated laws should be ___.",
+  "options": {
+   "ka": "abolished",
+   "kha": "established",
+   "ga": "enforced",
+   "gha": "ratified"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s08_q22",
+  "set": 8,
+  "level": "advanced",
+  "number": 22,
+  "type": "fill_blank",
+  "question": "The disease was ___ through vaccination.",
+  "options": {
+   "ka": "eroded",
+   "kha": "erupted",
+   "ga": "evaded",
+   "gha": "eradicated"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s08_q23",
+  "set": 8,
+  "level": "advanced",
+  "number": 23,
+  "type": "fill_blank",
+  "question": "She was ___ of all charges.",
+  "options": {
+   "ka": "exaggerated",
+   "kha": "exasperated",
+   "ga": "exonerated",
+   "gha": "executed"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s08_q24",
+  "set": 8,
+  "level": "advanced",
+  "number": 24,
+  "type": "word_formation",
+  "question": "The noun form of 'comprehend' is —",
+  "options": {
+   "ka": "comprehensive",
+   "kha": "comprehensively",
+   "ga": "comprehension",
+   "gha": "comprehending"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s08_q25",
+  "set": 8,
+  "level": "advanced",
+  "number": 25,
+  "type": "word_formation",
+  "question": "Which word has a prefix meaning 'against'?",
+  "options": {
+   "ka": "Biology",
+   "kha": "Antibiotic",
+   "ga": "Preview",
+   "gha": "Revisit"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s09_q01",
+  "set": 9,
+  "level": "advanced",
+  "number": 1,
+  "type": "synonym",
+  "question": "The synonym of 'Exorbitant' is —",
+  "options": {
+   "ka": "Reasonable",
+   "kha": "Excessive",
+   "ga": "Cheap",
+   "gha": "Fair"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s09_q02",
+  "set": 9,
+  "level": "advanced",
+  "number": 2,
+  "type": "synonym",
+  "question": "The synonym of 'Fastidious' is —",
+  "options": {
+   "ka": "Fussy",
+   "kha": "Careless",
+   "ga": "Lazy",
+   "gha": "Casual"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s09_q03",
+  "set": 9,
+  "level": "advanced",
+  "number": 3,
+  "type": "synonym",
+  "question": "The synonym of 'Pernicious' is —",
+  "options": {
+   "ka": "Harmless",
+   "kha": "Beneficial",
+   "ga": "Mild",
+   "gha": "Harmful"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s09_q04",
+  "set": 9,
+  "level": "advanced",
+  "number": 4,
+  "type": "synonym",
+  "question": "The synonym of 'Plethora' is —",
+  "options": {
+   "ka": "Shortage",
+   "kha": "Lack",
+   "ga": "Scarcity",
+   "gha": "Abundance"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s09_q05",
+  "set": 9,
+  "level": "advanced",
+  "number": 5,
+  "type": "antonym",
+  "question": "The antonym of 'Sanguine' is —",
+  "options": {
+   "ka": "Hopeful",
+   "kha": "Cheerful",
+   "ga": "Pessimistic",
+   "gha": "Confident"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s09_q06",
+  "set": 9,
+  "level": "advanced",
+  "number": 6,
+  "type": "antonym",
+  "question": "The antonym of 'Tacit' is —",
+  "options": {
+   "ka": "Implied",
+   "kha": "Explicit",
+   "ga": "Silent",
+   "gha": "Understood"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s09_q07",
+  "set": 9,
+  "level": "advanced",
+  "number": 7,
+  "type": "antonym",
+  "question": "The antonym of 'Superfluous' is —",
+  "options": {
+   "ka": "Necessary",
+   "kha": "Excessive",
+   "ga": "Extra",
+   "gha": "Redundant"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s09_q08",
+  "set": 9,
+  "level": "advanced",
+  "number": 8,
+  "type": "antonym",
+  "question": "The antonym of 'Callous' is —",
+  "options": {
+   "ka": "Compassionate",
+   "kha": "Cruel",
+   "ga": "Heartless",
+   "gha": "Harsh"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s09_q09",
+  "set": 9,
+  "level": "advanced",
+  "number": 9,
+  "type": "one_word",
+  "question": "A speech made without preparation —",
+  "options": {
+   "ka": "Soliloquy",
+   "kha": "Monologue",
+   "ga": "Dialogue",
+   "gha": "Extempore"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s09_q10",
+  "set": 9,
+  "level": "advanced",
+  "number": 10,
+  "type": "one_word",
+  "question": "That which cannot be imitated —",
+  "options": {
+   "ka": "Indomitable",
+   "kha": "Invincible",
+   "ga": "Inimitable",
+   "gha": "Inevitable"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s09_q11",
+  "set": 9,
+  "level": "advanced",
+  "number": 11,
+  "type": "one_word",
+  "question": "A medicine that counteracts poison —",
+  "options": {
+   "ka": "Antiseptic",
+   "kha": "Antidote",
+   "ga": "Antibiotic",
+   "gha": "Analgesic"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s09_q12",
+  "set": 9,
+  "level": "advanced",
+  "number": 12,
+  "type": "spelling",
+  "question": "Which spelling is correct?",
+  "options": {
+   "ka": "Accessable",
+   "kha": "Accessible",
+   "ga": "Acessible",
+   "gha": "Accesible"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s09_q13",
+  "set": 9,
+  "level": "advanced",
+  "number": 13,
+  "type": "spelling",
+  "question": "Which spelling is correct?",
+  "options": {
+   "ka": "Liaison",
+   "kha": "Liason",
+   "ga": "Liaision",
+   "gha": "Laison"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s09_q14",
+  "set": 9,
+  "level": "advanced",
+  "number": 14,
+  "type": "spelling",
+  "question": "Which spelling is correct?",
+  "options": {
+   "ka": "Ocasionally",
+   "kha": "Occassionally",
+   "ga": "Occasionaly",
+   "gha": "Occasionally"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s09_q15",
+  "set": 9,
+  "level": "advanced",
+  "number": 15,
+  "type": "confused",
+  "question": "A new car ___ quickly.",
+  "options": {
+   "ka": "deprecates",
+   "kha": "depresses",
+   "ga": "depreciates",
+   "gha": "deprives"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s09_q16",
+  "set": 9,
+  "level": "advanced",
+  "number": 16,
+  "type": "confused",
+  "question": "He is an ___ writer with original ideas.",
+  "options": {
+   "ka": "imaginary",
+   "kha": "imaginable",
+   "ga": "imaginative",
+   "gha": "imagined"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s09_q17",
+  "set": 9,
+  "level": "advanced",
+  "number": 17,
+  "type": "confused",
+  "question": "'Credulous' means —",
+  "options": {
+   "ka": "believable",
+   "kha": "easily convinced",
+   "ga": "trustworthy",
+   "gha": "credible"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s09_q18",
+  "set": 9,
+  "level": "advanced",
+  "number": 18,
+  "type": "collocation",
+  "question": "The country is facing a ___ shortage of water.",
+  "options": {
+   "ka": "severe",
+   "kha": "heavy",
+   "ga": "strong",
+   "gha": "high"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s09_q19",
+  "set": 9,
+  "level": "advanced",
+  "number": 19,
+  "type": "collocation",
+  "question": "Tourism ___ for 10% of the country's income.",
+  "options": {
+   "ka": "counts",
+   "kha": "makes",
+   "ga": "consists",
+   "gha": "accounts"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s09_q20",
+  "set": 9,
+  "level": "advanced",
+  "number": 20,
+  "type": "collocation",
+  "question": "The meeting was ___ forward to Monday.",
+  "options": {
+   "ka": "put",
+   "kha": "taken",
+   "ga": "set",
+   "gha": "brought"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s09_q21",
+  "set": 9,
+  "level": "advanced",
+  "number": 21,
+  "type": "fill_blank",
+  "question": "Prices ___ dramatically in 2022.",
+  "options": {
+   "ka": "rised",
+   "kha": "raised",
+   "ga": "rose",
+   "gha": "arose"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s09_q22",
+  "set": 9,
+  "level": "advanced",
+  "number": 22,
+  "type": "fill_blank",
+  "question": "The ___ of people living in cities has increased.",
+  "options": {
+   "ka": "amount",
+   "kha": "number",
+   "ga": "quantity",
+   "gha": "volume"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s09_q23",
+  "set": 9,
+  "level": "advanced",
+  "number": 23,
+  "type": "fill_blank",
+  "question": "Unemployment increased ___ 5% to 8%.",
+  "options": {
+   "ka": "from",
+   "kha": "by",
+   "ga": "at",
+   "gha": "of"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s09_q24",
+  "set": 9,
+  "level": "advanced",
+  "number": 24,
+  "type": "word_formation",
+  "question": "The root word of 'Indivisibility' is —",
+  "options": {
+   "ka": "divide",
+   "kha": "visible",
+   "ga": "vision",
+   "gha": "individual"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s09_q25",
+  "set": 9,
+  "level": "advanced",
+  "number": 25,
+  "type": "word_formation",
+  "question": "The adjective form of 'nature' is —",
+  "options": {
+   "ka": "naturally",
+   "kha": "naturalise",
+   "ga": "naturalist",
+   "gha": "natural"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s10_q01",
+  "set": 10,
+  "level": "advanced",
+  "number": 1,
+  "type": "synonym",
+  "question": "The synonym of 'Acrimony' is —",
+  "options": {
+   "ka": "Harmony",
+   "kha": "Kindness",
+   "ga": "Joy",
+   "gha": "Bitterness"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s10_q02",
+  "set": 10,
+  "level": "advanced",
+  "number": 2,
+  "type": "synonym",
+  "question": "The synonym of 'Nonchalant' is —",
+  "options": {
+   "ka": "Anxious",
+   "kha": "Eager",
+   "ga": "Indifferent",
+   "gha": "Excited"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s10_q03",
+  "set": 10,
+  "level": "advanced",
+  "number": 3,
+  "type": "synonym",
+  "question": "The synonym of 'Quandary' is —",
+  "options": {
+   "ka": "Solution",
+   "kha": "Dilemma",
+   "ga": "Answer",
+   "gha": "Certainty"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s10_q04",
+  "set": 10,
+  "level": "advanced",
+  "number": 4,
+  "type": "synonym",
+  "question": "The synonym of 'Usurp' is —",
+  "options": {
+   "ka": "Return",
+   "kha": "Seize",
+   "ga": "Give",
+   "gha": "Grant"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s10_q05",
+  "set": 10,
+  "level": "advanced",
+  "number": 5,
+  "type": "antonym",
+  "question": "The antonym of 'Impeccable' is —",
+  "options": {
+   "ka": "Faulty",
+   "kha": "Perfect",
+   "ga": "Flawless",
+   "gha": "Excellent"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s10_q06",
+  "set": 10,
+  "level": "advanced",
+  "number": 6,
+  "type": "antonym",
+  "question": "The antonym of 'Fickle' is —",
+  "options": {
+   "ka": "Changeable",
+   "kha": "Unstable",
+   "ga": "Erratic",
+   "gha": "Constant"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s10_q07",
+  "set": 10,
+  "level": "advanced",
+  "number": 7,
+  "type": "antonym",
+  "question": "The antonym of 'Mundane' is —",
+  "options": {
+   "ka": "Ordinary",
+   "kha": "Dull",
+   "ga": "Extraordinary",
+   "gha": "Routine"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s10_q08",
+  "set": 10,
+  "level": "advanced",
+  "number": 8,
+  "type": "antonym",
+  "question": "The antonym of 'Ominous' is —",
+  "options": {
+   "ka": "Threatening",
+   "kha": "Sinister",
+   "ga": "Promising",
+   "gha": "Gloomy"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s10_q09",
+  "set": 10,
+  "level": "advanced",
+  "number": 9,
+  "type": "one_word",
+  "question": "Fear of closed spaces —",
+  "options": {
+   "ka": "Agoraphobia",
+   "kha": "Claustrophobia",
+   "ga": "Acrophobia",
+   "gha": "Xenophobia"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s10_q10",
+  "set": 10,
+  "level": "advanced",
+  "number": 10,
+  "type": "one_word",
+  "question": "Government by officials —",
+  "options": {
+   "ka": "Bureaucracy",
+   "kha": "Autocracy",
+   "ga": "Theocracy",
+   "gha": "Plutocracy"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s10_q11",
+  "set": 10,
+  "level": "advanced",
+  "number": 11,
+  "type": "one_word",
+  "question": "One who doubts everything —",
+  "options": {
+   "ka": "Optimist",
+   "kha": "Theist",
+   "ga": "Altruist",
+   "gha": "Sceptic"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s10_q12",
+  "set": 10,
+  "level": "advanced",
+  "number": 12,
+  "type": "spelling",
+  "question": "Which spelling is correct?",
+  "options": {
+   "ka": "Perseverence",
+   "kha": "Perseverrance",
+   "ga": "Perservance",
+   "gha": "Perseverance"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s10_q13",
+  "set": 10,
+  "level": "advanced",
+  "number": 13,
+  "type": "spelling",
+  "question": "Which spelling is correct?",
+  "options": {
+   "ka": "Idiosyncracy",
+   "kha": "Idiosincrasy",
+   "ga": "Idiosyncrasy",
+   "gha": "Ideosyncrasy"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s10_q14",
+  "set": 10,
+  "level": "advanced",
+  "number": 14,
+  "type": "spelling",
+  "question": "Which spelling is correct?",
+  "options": {
+   "ka": "Mischievious",
+   "kha": "Mischievous",
+   "ga": "Mischevous",
+   "gha": "Mischeivous"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s10_q15",
+  "set": 10,
+  "level": "advanced",
+  "number": 15,
+  "type": "confused",
+  "question": "Many people ___ from Bangladesh for work.",
+  "options": {
+   "ka": "emigrate",
+   "kha": "immigrate",
+   "ga": "migrant",
+   "gha": "emigrant"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s10_q16",
+  "set": 10,
+  "level": "advanced",
+  "number": 16,
+  "type": "confused",
+  "question": "The ___ clerk kept giving unwanted orders.",
+  "options": {
+   "ka": "officious",
+   "kha": "official",
+   "ga": "officiate",
+   "gha": "office"
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s10_q17",
+  "set": 10,
+  "level": "advanced",
+  "number": 17,
+  "type": "confused",
+  "question": "Independence was a ___ event in our history.",
+  "options": {
+   "ka": "momentary",
+   "kha": "momentum",
+   "ga": "moment",
+   "gha": "momentous"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s10_q18",
+  "set": 10,
+  "level": "advanced",
+  "number": 18,
+  "type": "collocation",
+  "question": "Proponents ___ that the policy works.",
+  "options": {
+   "ka": "fight",
+   "kha": "quarrel",
+   "ga": "argue",
+   "gha": "dispute over"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s10_q19",
+  "set": 10,
+  "level": "advanced",
+  "number": 19,
+  "type": "collocation",
+  "question": "'Inconclusive results' are results that —",
+  "options": {
+   "ka": "prove something clearly",
+   "kha": "do not lead to a firm conclusion",
+   "ga": "are false",
+   "gha": "are hidden"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s10_q20",
+  "set": 10,
+  "level": "advanced",
+  "number": 20,
+  "type": "collocation",
+  "question": "Excessive screen time can have a ___ effect on children.",
+  "options": {
+   "ka": "determined",
+   "kha": "detrimental",
+   "ga": "deterrent",
+   "gha": "detailed"
+  },
+  "answer": "kha"
+ },
+ {
+  "id": "mcq_s10_q21",
+  "set": 10,
+  "level": "advanced",
+  "number": 21,
+  "type": "fill_blank",
+  "question": "Choose the correct sentence.",
+  "options": {
+   "ka": "Although it rained, the match continued.",
+   "kha": "Although it rained, but the match continued.",
+   "ga": "Although it rained, however the match continued.",
+   "gha": "Although it rained, so the match continued."
+  },
+  "answer": "ka"
+ },
+ {
+  "id": "mcq_s10_q22",
+  "set": 10,
+  "level": "advanced",
+  "number": 22,
+  "type": "fill_blank",
+  "question": "Choose the correct phrase.",
+  "options": {
+   "ka": "discuss about the matter",
+   "kha": "discuss on the matter",
+   "ga": "discuss over the matter",
+   "gha": "discuss the matter"
+  },
+  "answer": "gha"
+ },
+ {
+  "id": "mcq_s10_q23",
+  "set": 10,
+  "level": "advanced",
+  "number": 23,
+  "type": "fill_blank",
+  "question": "The proportion of elderly people ___ steadily over the decade.",
+  "options": {
+   "ka": "increase",
+   "kha": "increasing",
+   "ga": "increased",
+   "gha": "were increased"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s10_q24",
+  "set": 10,
+  "level": "advanced",
+  "number": 24,
+  "type": "word_formation",
+  "question": "The root word of 'Dehumanization' is —",
+  "options": {
+   "ka": "humane",
+   "kha": "humanity",
+   "ga": "human",
+   "gha": "man"
+  },
+  "answer": "ga"
+ },
+ {
+  "id": "mcq_s10_q25",
+  "set": 10,
+  "level": "advanced",
+  "number": 25,
+  "type": "word_formation",
+  "question": "The suffix '-phobia' means —",
+  "options": {
+   "ka": "love",
+   "kha": "fear",
+   "ga": "study",
+   "gha": "rule"
+  },
+  "answer": "kha"
+ }
+]

@@ -1,0 +1,484 @@
+[
+ {
+  "id": "suffix_01",
+  "affix": "-able",
+  "meaningBn": "যোগ্য, ক্ষম",
+  "examples": [
+   "readable",
+   "acceptable"
+  ],
+  "posFormed": "adjective"
+ },
+ {
+  "id": "suffix_02",
+  "affix": "-ably",
+  "meaningBn": "যোগ্যভাবে",
+  "examples": [
+   "reasonably",
+   "comfortably"
+  ],
+  "posFormed": "adverb"
+ },
+ {
+  "id": "suffix_03",
+  "affix": "-ty / -nce / -ness / -cy",
+  "meaningBn": "তা",
+  "examples": [
+   "honesty",
+   "importance",
+   "kindness",
+   "accuracy"
+  ],
+  "posFormed": "noun"
+ },
+ {
+  "id": "suffix_04",
+  "affix": "-ment",
+  "meaningBn": "করণ / অয়ন, য়ন",
+  "examples": [
+   "development",
+   "payment"
+  ],
+  "posFormed": "noun"
+ },
+ {
+  "id": "suffix_05",
+  "affix": "-tion (noun)",
+  "meaningBn": "করণ / অয়ন, য়ন",
+  "examples": [
+   "education",
+   "creation"
+  ],
+  "posFormed": "noun"
+ },
+ {
+  "id": "suffix_06",
+  "affix": "-tive",
+  "meaningBn": "শীল, মূলক",
+  "examples": [
+   "creative",
+   "productive"
+  ],
+  "posFormed": "adjective"
+ },
+ {
+  "id": "suffix_07",
+  "affix": "-ly",
+  "meaningBn": "ভাবে",
+  "examples": [
+   "quickly",
+   "honestly"
+  ],
+  "posFormed": "adverb"
+ },
+ {
+  "id": "suffix_08",
+  "affix": "-less",
+  "meaningBn": "হীন, ছাড়া, ব্যতীত",
+  "examples": [
+   "careless",
+   "homeless"
+  ],
+  "posFormed": "adjective"
+ },
+ {
+  "id": "suffix_09",
+  "affix": "-ism",
+  "meaningBn": "বাদ, তত্ত্ব",
+  "examples": [
+   "patriotism",
+   "tourism"
+  ],
+  "posFormed": "noun"
+ },
+ {
+  "id": "suffix_10",
+  "affix": "-ed",
+  "meaningBn": "ত (সমাপ্ত অর্থে)",
+  "examples": [
+   "educated",
+   "developed"
+  ],
+  "posFormed": "verb"
+ },
+ {
+  "id": "suffix_11",
+  "affix": "-tic",
+  "meaningBn": "ক, ইক, ইয়, কীয়",
+  "examples": [
+   "artistic",
+   "realistic"
+  ],
+  "posFormed": "adjective"
+ },
+ {
+  "id": "suffix_12",
+  "affix": "-ful",
+  "meaningBn": "পূর্ণ",
+  "examples": [
+   "helpful",
+   "careful"
+  ],
+  "posFormed": "adjective"
+ },
+ {
+  "id": "suffix_13",
+  "affix": "-al",
+  "meaningBn": "সম্পর্কিত, বিষয়ক",
+  "examples": [
+   "national",
+   "cultural"
+  ],
+  "posFormed": "adjective"
+ },
+ {
+  "id": "suffix_14",
+  "affix": "-some",
+  "meaningBn": "কর, জনক, মূলক",
+  "examples": [
+   "troublesome",
+   "tiresome"
+  ],
+  "posFormed": "adjective"
+ },
+ {
+  "id": "suffix_15",
+  "affix": "-fy",
+  "meaningBn": "Verb (করা অর্থে)",
+  "examples": [
+   "simplify",
+   "beautify"
+  ],
+  "posFormed": "verb"
+ },
+ {
+  "id": "suffix_16",
+  "affix": "-ize",
+  "meaningBn": "Verb (করা অর্থে)",
+  "examples": [
+   "modernize",
+   "organize"
+  ],
+  "posFormed": "verb"
+ },
+ {
+  "id": "suffix_17",
+  "affix": "-ate",
+  "meaningBn": "Verb (করা অর্থে)",
+  "examples": [
+   "activate",
+   "motivate"
+  ],
+  "posFormed": "verb"
+ },
+ {
+  "id": "suffix_18",
+  "affix": "-ous",
+  "meaningBn": "জনক, মূলক",
+  "examples": [
+   "dangerous",
+   "famous"
+  ],
+  "posFormed": "adjective"
+ },
+ {
+  "id": "suffix_19",
+  "affix": "-ist",
+  "meaningBn": "বাদী, অনুসারী",
+  "examples": [
+   "scientist",
+   "artist"
+  ],
+  "posFormed": "noun"
+ },
+ {
+  "id": "suffix_20",
+  "affix": "-ing",
+  "meaningBn": "রত, Verbal noun",
+  "examples": [
+   "reading",
+   "building"
+  ],
+  "posFormed": "verb"
+ },
+ {
+  "id": "suffix_21",
+  "affix": "-er / -or",
+  "meaningBn": "কর্তা, যে করে",
+  "examples": [
+   "teacher",
+   "actor"
+  ],
+  "posFormed": "noun"
+ },
+ {
+  "id": "suffix_22",
+  "affix": "-ee",
+  "meaningBn": "যাকে করা হয়, গ্রহীতা",
+  "examples": [
+   "employee",
+   "trainee"
+  ],
+  "posFormed": "noun"
+ },
+ {
+  "id": "suffix_23",
+  "affix": "-ity",
+  "meaningBn": "তা, ভাব",
+  "examples": [
+   "ability",
+   "reality"
+  ],
+  "posFormed": "noun"
+ },
+ {
+  "id": "suffix_24",
+  "affix": "-ion / -sion",
+  "meaningBn": "করণ, ক্রিয়া বা ফল",
+  "examples": [
+   "decision",
+   "discussion"
+  ],
+  "posFormed": "noun"
+ },
+ {
+  "id": "suffix_25",
+  "affix": "-ship",
+  "meaningBn": "ভাব, সম্পর্ক, দক্ষতা",
+  "examples": [
+   "friendship",
+   "leadership"
+  ],
+  "posFormed": "noun"
+ },
+ {
+  "id": "suffix_26",
+  "affix": "-hood",
+  "meaningBn": "অবস্থা, কাল",
+  "examples": [
+   "childhood",
+   "neighbourhood"
+  ],
+  "posFormed": "noun"
+ },
+ {
+  "id": "suffix_27",
+  "affix": "-dom",
+  "meaningBn": "রাজ্য, অবস্থা",
+  "examples": [
+   "freedom",
+   "kingdom"
+  ],
+  "posFormed": "noun"
+ },
+ {
+  "id": "suffix_28",
+  "affix": "-age",
+  "meaningBn": "ফল, সমষ্টি",
+  "examples": [
+   "marriage",
+   "package"
+  ],
+  "posFormed": "noun"
+ },
+ {
+  "id": "suffix_29",
+  "affix": "-ure",
+  "meaningBn": "প্রক্রিয়া, ফল",
+  "examples": [
+   "failure",
+   "pressure"
+  ],
+  "posFormed": "noun"
+ },
+ {
+  "id": "suffix_30",
+  "affix": "-ian",
+  "meaningBn": "অধিবাসী, বিশেষজ্ঞ",
+  "examples": [
+   "musician",
+   "librarian"
+  ],
+  "posFormed": "noun"
+ },
+ {
+  "id": "suffix_31",
+  "affix": "-eer",
+  "meaningBn": "কর্মী, সংশ্লিষ্ট ব্যক্তি",
+  "examples": [
+   "engineer",
+   "volunteer"
+  ],
+  "posFormed": "noun"
+ },
+ {
+  "id": "suffix_32",
+  "affix": "-ology",
+  "meaningBn": "বিদ্যা, শাস্ত্র",
+  "examples": [
+   "biology",
+   "psychology"
+  ],
+  "posFormed": "noun"
+ },
+ {
+  "id": "suffix_33",
+  "affix": "-cracy",
+  "meaningBn": "শাসন, তন্ত্র",
+  "examples": [
+   "democracy",
+   "bureaucracy"
+  ],
+  "posFormed": "noun"
+ },
+ {
+  "id": "suffix_34",
+  "affix": "-phobia",
+  "meaningBn": "ভীতি, আতঙ্ক",
+  "examples": [
+   "hydrophobia",
+   "claustrophobia"
+  ],
+  "posFormed": "noun"
+ },
+ {
+  "id": "suffix_35",
+  "affix": "-ible",
+  "meaningBn": "যোগ্য (able-এর মতো)",
+  "examples": [
+   "visible",
+   "flexible"
+  ],
+  "posFormed": "adjective"
+ },
+ {
+  "id": "suffix_36",
+  "affix": "-ic / -ical",
+  "meaningBn": "সম্পর্কিত, ইক",
+  "examples": [
+   "historic",
+   "logical"
+  ],
+  "posFormed": "adjective"
+ },
+ {
+  "id": "suffix_37",
+  "affix": "-ive",
+  "meaningBn": "শীল, মূলক",
+  "examples": [
+   "active",
+   "attractive"
+  ],
+  "posFormed": "adjective"
+ },
+ {
+  "id": "suffix_38",
+  "affix": "-ious",
+  "meaningBn": "জনক, পূর্ণ",
+  "examples": [
+   "curious",
+   "religious"
+  ],
+  "posFormed": "adjective"
+ },
+ {
+  "id": "suffix_39",
+  "affix": "-ish",
+  "meaningBn": "মতো, সদৃশ",
+  "examples": [
+   "childish",
+   "foolish"
+  ],
+  "posFormed": "adjective"
+ },
+ {
+  "id": "suffix_40",
+  "affix": "-y",
+  "meaningBn": "পূর্ণ, যুক্ত",
+  "examples": [
+   "rainy",
+   "healthy"
+  ],
+  "posFormed": "adjective"
+ },
+ {
+  "id": "suffix_41",
+  "affix": "-ary / -ory",
+  "meaningBn": "সম্পর্কিত, মূলক",
+  "examples": [
+   "imaginary",
+   "satisfactory"
+  ],
+  "posFormed": "adjective"
+ },
+ {
+  "id": "suffix_42",
+  "affix": "-ant / -ent",
+  "meaningBn": "যে করে; গুণযুক্ত",
+  "examples": [
+   "assistant",
+   "dependent"
+  ],
+  "posFormed": "adjective"
+ },
+ {
+  "id": "suffix_43",
+  "affix": "-en",
+  "meaningBn": "Verb (করা, হওয়া অর্থে)",
+  "examples": [
+   "widen",
+   "strengthen"
+  ],
+  "posFormed": "verb"
+ },
+ {
+  "id": "suffix_44",
+  "affix": "-ise",
+  "meaningBn": "Verb (ize-এর ব্রিটিশ রূপ)",
+  "examples": [
+   "realise",
+   "organise"
+  ],
+  "posFormed": "verb"
+ },
+ {
+  "id": "suffix_45",
+  "affix": "-ically",
+  "meaningBn": "ইকভাবে",
+  "examples": [
+   "logically",
+   "basically"
+  ],
+  "posFormed": "adverb"
+ },
+ {
+  "id": "suffix_46",
+  "affix": "-ibly",
+  "meaningBn": "যোগ্যভাবে",
+  "examples": [
+   "visibly",
+   "possibly"
+  ],
+  "posFormed": "adverb"
+ },
+ {
+  "id": "suffix_47",
+  "affix": "-wise",
+  "meaningBn": "মতো, ক্রমে, দিক থেকে",
+  "examples": [
+   "clockwise",
+   "otherwise"
+  ],
+  "posFormed": "adverb"
+ },
+ {
+  "id": "suffix_48",
+  "affix": "-ward(s)",
+  "meaningBn": "দিকে",
+  "examples": [
+   "backward(s)",
+   "homeward(s)"
+  ],
+  "posFormed": "adverb"
+ }
+]

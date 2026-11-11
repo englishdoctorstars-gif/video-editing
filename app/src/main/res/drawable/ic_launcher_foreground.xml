@@ -1,0 +1,14 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- V -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M33,34 L42,34 L54,66 L66,34 L75,34 L58,76 L50,76 Z" />
+    <!-- gold underline (suffix bar) -->
+    <path android:fillColor="#F2A900" android:pathData="M40,80 L68,80 L68,84 L40,84 Z" />
+    <!-- POS dots: noun / verb / adjective / adverb -->
+    <path android:fillColor="#64B5F6" android:pathData="M36,26 h6 v6 h-6 z" />
+    <path android:fillColor="#EF9A9A" android:pathData="M48,32 l3,-6 l3,6 z" />
+    <path android:fillColor="#81C784" android:pathData="M63,29 m-3,0 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0" />
+    <path android:fillColor="#CE93D8" android:pathData="M72,26 l3,3 l-3,3 l-3,-3 z" />
+</vector>

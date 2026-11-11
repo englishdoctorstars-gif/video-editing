@@ -1,0 +1,2002 @@
+[
+ {
+  "id": "hook_001",
+  "order": 1,
+  "word": "Sabbatical",
+  "ipa": "/səˈbætɪkl/",
+  "bnPronunciation": "স্যাবাটিকাল",
+  "pos": "noun",
+  "meaningBn": "দীর্ঘ পেশাগত ছুটি",
+  "meaningEn": "a long break from work",
+  "soundSplit": "Sab-ba-ti-cal",
+  "soundHookBn": "সব বাদ … কাল",
+  "storyBn": "টানা দশ বছর একটানা অফিস করে রহিম সাহেব একদম ক্লান্ত। একদিন বসের রুমে ঢুকে বললেন, \"স্যার, কাল থেকে সব বাদ! এক বছর অফিস, ফাইল, মিটিং কিছুই করব না।\" বস হেসে রাজি হলেন, বেতনসহ এক বছরের লম্বা ছুটি মঞ্জুর।",
+  "keyCueBn": "\"কাল থেকে সব বাদ\" = কাজ থেকে দীর্ঘ ছুটি",
+  "exampleEn": "After ten years of teaching, she took a year-long sabbatical.",
+  "exampleBn": "দশ বছর শিক্ষকতার পর তিনি এক বছরের দীর্ঘ ছুটি নিলেন।",
+  "synonyms": [
+   "leave",
+   "break"
+  ]
+ },
+ {
+  "id": "hook_002",
+  "order": 2,
+  "word": "Sadistic",
+  "ipa": "/səˈdɪstɪk/",
+  "bnPronunciation": "স্যাডিস্টিক",
+  "pos": "adjective",
+  "meaningBn": "অন্যের কষ্টে আনন্দ পায় এমন",
+  "meaningEn": "enjoying others' pain; cruel",
+  "soundSplit": "Sadi-stic",
+  "soundHookBn": "সাদা স্টিক",
+  "storyBn": "পুরনো দিনের এক নিষ্ঠুর জমিদারের হাতে সবসময় একটা সাদা স্টিক থাকত। খাজনা দিতে দেরি হলে প্রজাদের সেই লাঠি দিয়ে মারতেন, আর তাদের কান্না শুনে হো হো করে হাসতেন।",
+  "keyCueBn": "সাদা স্টিক হাতে হাসা জমিদার = নিষ্ঠুর আনন্দ",
+  "exampleEn": "The sadistic landlord laughed at the tenants' suffering.",
+  "exampleBn": "নিষ্ঠুর জমিদার প্রজাদের কষ্ট দেখে হাসত।",
+  "synonyms": [
+   "cruel",
+   "brutal"
+  ]
+ },
+ {
+  "id": "hook_003",
+  "order": 3,
+  "word": "Sagacious",
+  "ipa": "/səˈɡeɪʃəs/",
+  "bnPronunciation": "স্যাগেইশাস",
+  "pos": "adjective",
+  "meaningBn": "বিচক্ষণ, প্রাজ্ঞ",
+  "meaningEn": "wise; having sound judgement",
+  "soundSplit": "Saga-cious",
+  "soundHookBn": "সাগর-শেষ",
+  "storyBn": "ভোলার বৃদ্ধ মাঝি করিম চাচা সাগরের শুরু থেকে শেষ পর্যন্ত সব চেনেন। একদিন মেঘের রঙ দেখেই বললেন, \"আজ কেউ নৌকা ভাসাবি না।\" বিকেলে প্রবল ঝড় এল, কিন্তু গ্রামের সব জেলে তখন নিরাপদে ঘরে।",
+  "keyCueBn": "সাগরের শেষ যিনি জানেন = বিচক্ষণ",
+  "exampleEn": "A sagacious leader thinks carefully before making decisions.",
+  "exampleBn": "একজন বিচক্ষণ নেতা সিদ্ধান্ত নেওয়ার আগে ভালোভাবে ভাবেন।",
+  "synonyms": [
+   "wise",
+   "shrewd"
+  ]
+ },
+ {
+  "id": "hook_004",
+  "order": 4,
+  "word": "Extirpate",
+  "ipa": "/ˈekstəpeɪt/",
+  "bnPronunciation": "এক্সটারপেইট",
+  "pos": "verb",
+  "meaningBn": "সমূলে উৎপাটন করা, নির্মূল করা",
+  "meaningEn": "to root out; destroy completely",
+  "soundSplit": "Extir-pate",
+  "soundHookBn": "এক্সট্রা পাতা",
+  "storyBn": "মিতু আপার ছাদ-বাগান আগাছায় ছেয়ে গেছে। মালী শুধু এক্সট্রা পাতা ছেঁটে দিচ্ছিল, এক সপ্তাহেই আবার গজাল। এবার মিতু আপা বললেন, \"পাতা না, শিকড়সহ উপড়ে ফেলো!\" এরপর আর কোনোদিন আগাছা গজায়নি।",
+  "keyCueBn": "এক্সট্রা পাতা নয়, শিকড়সহ উপড়ানো = সমূলে নির্মূল",
+  "exampleEn": "The government vowed to extirpate corruption from society.",
+  "exampleBn": "সরকার সমাজ থেকে দুর্নীতি সমূলে নির্মূলের অঙ্গীকার করল।",
+  "synonyms": [
+   "eradicate",
+   "uproot"
+  ]
+ },
+ {
+  "id": "hook_005",
+  "order": 5,
+  "word": "Procrastinate",
+  "ipa": "/prəˈkræstɪneɪt/",
+  "bnPronunciation": "প্রোক্র্যাস্টি",
+  "pos": "verb",
+  "meaningBn": "কাজ ফেলে রাখা, গড়িমসি করা",
+  "meaningEn": "to keep delaying a task",
+  "soundSplit": "Pro-cras-ti-nate",
+  "soundHookBn": "পরে, ক্রাশ, টি, নেট",
+  "storyBn": "পরীক্ষার আগের রাতে রাফি বই খুলেই ভাবল, \"পড়া পরে, আগে একটু ক্রাশের মেসেজ দেখি।\" তারপর এক কাপ টি, তারপর একটু নেট ঘাঁটা। ভোরে চোখ খুলে দেখে, সিলেবাস যেমন ছিল তেমনই পড়ে আছে!",
+  "keyCueBn": "\"পড়া পরে; ক্রাশ, টি, নেট আগে\" = কাজ ফেলে রাখা",
+  "exampleEn": "Don't procrastinate; finish your assignment today.",
+  "exampleBn": "গড়িমসি কোরো না; আজই অ্যাসাইনমেন্ট শেষ করো।",
+  "synonyms": [
+   "delay",
+   "postpone"
+  ]
+ },
+ {
+  "id": "hook_006",
+  "order": 6,
+  "word": "Ubiquitous",
+  "ipa": "/juːˈbɪkwɪtəs/",
+  "bnPronunciation": "ইউবিকুইটাস",
+  "pos": "adjective",
+  "meaningBn": "সর্বত্র বিরাজমান",
+  "meaningEn": "found everywhere",
+  "soundSplit": "Ubi-qui-tous",
+  "soundHookBn": "উবার কুইক",
+  "storyBn": "মিরপুর হোক বা মতিঝিল, ধানমন্ডি হোক বা উত্তরা, নীলা যেখানেই অ্যাপ খোলে, উবার কুইক হাজির। রাত দুটোয় এয়ারপোর্টেও এক মিনিটে গাড়ি! নীলা হেসে বলে, \"এরা তো সবখানেই আছে!\"",
+  "keyCueBn": "যেখানেই যাও, উবার কুইক হাজির = সর্বত্র বিরাজমান",
+  "exampleEn": "Smartphones have become ubiquitous in Bangladesh.",
+  "exampleBn": "বাংলাদেশে স্মার্টফোন এখন সর্বত্র ছড়িয়ে আছে।",
+  "synonyms": [
+   "omnipresent",
+   "pervasive"
+  ]
+ },
+ {
+  "id": "hook_007",
+  "order": 7,
+  "word": "Lethargic",
+  "ipa": "/ləˈθɑːdʒɪk/",
+  "bnPronunciation": "লেথার্জিক",
+  "pos": "adjective",
+  "meaningBn": "অলস, নিস্তেজ, ঝিমিয়ে পড়া",
+  "meaningEn": "sluggish; lacking energy",
+  "soundSplit": "Le-thar-gic",
+  "soundHookBn": "লেপ থেকে জাগি না",
+  "storyBn": "পৌষের কনকনে সকাল। মা তিনবার ডাকলেন, কিন্তু সাকিব \"লেপ থেকে জাগি না\" বলে আবার মুখ ঢেকে দিল। দুপুরে উঠেও সারাদিন ঝিমিয়ে কাটাল, কোনো কাজেই মন নেই।",
+  "keyCueBn": "\"লেপ থেকে জাগি না\" = অলস, নিস্তেজ",
+  "exampleEn": "The heat made everyone feel lethargic.",
+  "exampleBn": "গরমে সবাই ঝিমিয়ে পড়েছিল।",
+  "synonyms": [
+   "sluggish",
+   "listless"
+  ]
+ },
+ {
+  "id": "hook_008",
+  "order": 8,
+  "word": "Nemesis",
+  "ipa": "/ˈneməsɪs/",
+  "bnPronunciation": "নেমেসিস",
+  "pos": "noun",
+  "meaningBn": "চিরশত্রু, চরম প্রতিদ্বন্দ্বী",
+  "meaningEn": "a long-standing rival; arch-enemy",
+  "soundSplit": "Neme-sis",
+  "soundHookBn": "নেমে এসে",
+  "storyBn": "পাড়ার ক্রিকেটে রাজু সেরা ব্যাটার। কিন্তু পাশের পাড়ার বোলার মিঠু মাঠে নেমে এসেই প্রতিবার প্রথম বলে তাকে আউট করে দেয়। পাঁচ বছর ধরে এই লড়াই চলছে, মিঠুই রাজুর চিরশত্রু।",
+  "keyCueBn": "মাঠে নেমে এসেই আউট করে যে = চিরশত্রু",
+  "exampleEn": "Inflation has become the nemesis of the middle class.",
+  "exampleBn": "মূল্যস্ফীতি মধ্যবিত্তের চিরশত্রু হয়ে উঠেছে।",
+  "synonyms": [
+   "arch-rival",
+   "adversary"
+  ]
+ },
+ {
+  "id": "hook_009",
+  "order": 9,
+  "word": "Placate",
+  "ipa": "/pləˈkeɪt/",
+  "bnPronunciation": "প্লেইকেইট",
+  "pos": "verb",
+  "meaningBn": "রাগ ভাঙানো, শান্ত করা",
+  "meaningEn": "to calm someone who is angry",
+  "soundSplit": "Pla-cate",
+  "soundHookBn": "প্লেট কেক",
+  "storyBn": "অফিস থেকে ফিরতে দেরি হওয়ায় স্ত্রী ভীষণ রেগে আছেন। তানভীর চুপচাপ এক প্লেট কেক এগিয়ে দিলেন, তাও আবার প্রিয় চকলেট কেক! একটু পরেই রাগ গলে পানি, মুখে হাসি।",
+  "keyCueBn": "এক প্লেট কেকে রাগ শেষ = শান্ত করা",
+  "exampleEn": "The manager tried to placate the angry customers.",
+  "exampleBn": "ম্যানেজার রাগান্বিত গ্রাহকদের শান্ত করার চেষ্টা করলেন।",
+  "synonyms": [
+   "pacify",
+   "appease"
+  ]
+ },
+ {
+  "id": "hook_010",
+  "order": 10,
+  "word": "Panacea",
+  "ipa": "/ˌpænəˈsiːə/",
+  "bnPronunciation": "প্যানাসিয়া",
+  "pos": "noun",
+  "meaningBn": "সব রোগ বা সমস্যার এক সমাধান",
+  "meaningEn": "a cure for all problems",
+  "soundSplit": "Pan-acea",
+  "soundHookBn": "পান আছিয়া",
+  "storyBn": "গ্রামের আছিয়া খালার কাছে সবকিছুর একটাই ওষুধ, তাঁর বানানো মিষ্টি পান। কাশি? পান খাও। মাথাব্যথা? পান খাও। পরীক্ষায় ফেল? \"একটা পান খা, মন ভালো হয়ে যাবে!\"",
+  "keyCueBn": "আছিয়া খালার পান = সব রোগের এক ওষুধ",
+  "exampleEn": "Money is not a panacea for all problems.",
+  "exampleBn": "টাকা সব সমস্যার সমাধান নয়।",
+  "synonyms": [
+   "cure-all",
+   "remedy"
+  ]
+ },
+ {
+  "id": "hook_011",
+  "order": 11,
+  "word": "Abhor",
+  "ipa": "/əbˈhɔː(r)/",
+  "bnPronunciation": "অ্যাবহর",
+  "pos": "verb",
+  "meaningBn": "তীব্রভাবে ঘৃণা করা",
+  "meaningEn": "to hate deeply",
+  "soundSplit": "Ab-hor",
+  "soundHookBn": "আব্বা, হরলিক্স না!",
+  "storyBn": "ছোট্ট তুহিন হরলিক্সের গন্ধও সহ্য করতে পারে না। মা গ্লাস হাতে আসতেই চিৎকার, \"আব্বা, বাঁচাও! হরলিক্স না!\" গ্লাস দেখলেই সে খাটের নিচে লুকিয়ে পড়ে।",
+  "keyCueBn": "\"আব্বা, হরলিক্স না!\" = তীব্র ঘৃণা",
+  "exampleEn": "I abhor cruelty to animals.",
+  "exampleBn": "আমি পশুর প্রতি নিষ্ঠুরতা ঘৃণা করি।",
+  "synonyms": [
+   "detest",
+   "loathe"
+  ]
+ },
+ {
+  "id": "hook_012",
+  "order": 12,
+  "word": "Abscond",
+  "ipa": "/əbˈskɒnd/",
+  "bnPronunciation": "অ্যাবস্কন্ড",
+  "pos": "verb",
+  "meaningBn": "গোপনে পালিয়ে যাওয়া",
+  "meaningEn": "to run away secretly",
+  "soundSplit": "Abs-cond",
+  "soundHookBn": "আবেশ কোন দিকে?",
+  "storyBn": "কোম্পানির ক্যাশিয়ার আবেশ একদিন সকালে অফিসে এল না, সঙ্গে উধাও পুরো ক্যাশবাক্স! বস চিৎকার করছেন, \"আবেশ কোন দিকে গেল?\" কেউ জানে না, সে গোপনে পালিয়েছে।",
+  "keyCueBn": "আবেশ টাকা নিয়ে কোন দিকে? = গোপনে পালানো",
+  "exampleEn": "The cashier absconded with the company's money.",
+  "exampleBn": "ক্যাশিয়ার কোম্পানির টাকা নিয়ে পালিয়ে গেল।",
+  "synonyms": [
+   "flee",
+   "escape"
+  ]
+ },
+ {
+  "id": "hook_013",
+  "order": 13,
+  "word": "Acrimony",
+  "ipa": "/ˈækrɪməni/",
+  "bnPronunciation": "অ্যাক্রিমোনি",
+  "pos": "noun",
+  "meaningBn": "তিক্ততা, বিদ্বেষ",
+  "meaningEn": "bitterness; angry ill-feeling",
+  "soundSplit": "Acri-mony",
+  "soundHookBn": "একর + মনি",
+  "storyBn": "বাবার রেখে যাওয়া মাত্র এক একর জমি নিয়ে দুই ভাই মনি আর রনির মধ্যে বিশ বছর ধরে মামলা। ঈদেও কেউ কারো মুখ দেখে না, কথা বললেই তিক্ততা।",
+  "keyCueBn": "এক একর জমিতে মনির তিক্ততা = তিক্ততা",
+  "exampleEn": "The meeting ended in acrimony.",
+  "exampleBn": "সভাটি তিক্ততার মধ্য দিয়ে শেষ হলো।",
+  "synonyms": [
+   "bitterness",
+   "rancour"
+  ]
+ },
+ {
+  "id": "hook_014",
+  "order": 14,
+  "word": "Adamant",
+  "ipa": "/ˈædəmənt/",
+  "bnPronunciation": "অ্যাডাম্যান্ট",
+  "pos": "adjective",
+  "meaningBn": "অনড়, অটল",
+  "meaningEn": "refusing to change one's mind",
+  "soundSplit": "Ada-mant",
+  "soundHookBn": "আদা মানতেই হবে",
+  "storyBn": "নানির এক কথা: চায়ে আদা দিতেই হবে। ডাক্তার নিষেধ করল, নাতনি চিনি-ছাড়া গ্রিন টি আনল, তবু নানি অনড়, \"আদা না দিলে সেই চা আমি মানি না!\"",
+  "keyCueBn": "আদা ছাড়া চা মানি না = অনড়",
+  "exampleEn": "She was adamant that she would not resign.",
+  "exampleBn": "তিনি পদত্যাগ না করার ব্যাপারে অনড় ছিলেন।",
+  "synonyms": [
+   "firm",
+   "unyielding"
+  ]
+ },
+ {
+  "id": "hook_015",
+  "order": 15,
+  "word": "Avarice",
+  "ipa": "/ˈævərɪs/",
+  "bnPronunciation": "অ্যাভারিস",
+  "pos": "noun",
+  "meaningBn": "ধনের প্রতি তীব্র লোভ",
+  "meaningEn": "extreme greed for wealth",
+  "soundSplit": "Ava-rice",
+  "soundHookBn": "আরও ভাড়া + রাইস",
+  "storyBn": "বাড়িওয়ালা প্রতি মাসে এসে বলেন, \"আরও ভাড়া দিতে হবে!\" শুধু তাই না, ভাড়ার সঙ্গে প্রতি মাসে এক বস্তা রাইসও চাই। ভাড়াটেরা বলে, এই লোভের কোনো শেষ নেই।",
+  "keyCueBn": "আরও ভাড়া + রাইস = সীমাহীন লোভ",
+  "exampleEn": "Avarice drove him to cheat his own brother.",
+  "exampleBn": "লোভের বশে সে নিজের ভাইকেও ঠকাল।",
+  "synonyms": [
+   "greed",
+   "cupidity"
+  ]
+ },
+ {
+  "id": "hook_016",
+  "order": 16,
+  "word": "Banal",
+  "ipa": "/bəˈnɑːl/",
+  "bnPronunciation": "বানাল",
+  "pos": "adjective",
+  "meaningBn": "গতানুগতিক, মামুলি",
+  "meaningEn": "boring because unoriginal",
+  "soundSplit": "Banal",
+  "soundHookBn": "সবাই একই লেখা বানাল",
+  "storyBn": "রচনা প্রতিযোগিতায় পঞ্চাশজন ছাত্রের সবাই \"আমার জীবনের লক্ষ্য: ডাক্তার হওয়া\" নিয়ে একই রকম লেখা বানাল। বিচারক পড়তে পড়তে হাই তুলে বললেন, \"কোনো নতুনত্ব নেই!\"",
+  "keyCueBn": "সবাই একই জিনিস বানাল = মামুলি",
+  "exampleEn": "The film's plot was banal and predictable.",
+  "exampleBn": "সিনেমার কাহিনি ছিল মামুলি ও আগে থেকেই অনুমেয়।",
+  "synonyms": [
+   "trite",
+   "clichéd"
+  ]
+ },
+ {
+  "id": "hook_017",
+  "order": 17,
+  "word": "Belligerent",
+  "ipa": "/bəˈlɪdʒərənt/",
+  "bnPronunciation": "বেলিজারেন্ট",
+  "pos": "adjective",
+  "meaningBn": "যুদ্ধংদেহী, ঝগড়াটে",
+  "meaningEn": "aggressive; ready to fight",
+  "soundSplit": "Belli-ger-ent",
+  "soundHookBn": "বেল জোরে … রেন্ট",
+  "storyBn": "নতুন ভাড়াটে (রেন্ট) জসিম সাহেব রাত দুটোয় পাশের ফ্ল্যাটের বেল জোরে জোরে বাজাতে থাকেন, দরজা খুলতেই চিৎকার আর হাতাহাতির হুমকি। পুরো বিল্ডিং তাঁর ভয়ে তটস্থ।",
+  "keyCueBn": "বেল জোরে বাজানো রেন্ট = ঝগড়াটে",
+  "exampleEn": "The belligerent customer started shouting at the staff.",
+  "exampleBn": "ঝগড়াটে গ্রাহক কর্মীদের ওপর চিৎকার শুরু করল।",
+  "synonyms": [
+   "hostile",
+   "aggressive"
+  ]
+ },
+ {
+  "id": "hook_018",
+  "order": 18,
+  "word": "Benevolent",
+  "ipa": "/bəˈnevələnt/",
+  "bnPronunciation": "বেনেভোলেন্ট",
+  "pos": "adjective",
+  "meaningBn": "দয়ালু, পরোপকারী",
+  "meaningEn": "kind and generous",
+  "soundSplit": "Bene-vol-ent",
+  "soundHookBn": "বেনে ভালো",
+  "storyBn": "পাড়ার মুদি দোকানের বেনে হারুন চাচা ভারি ভালো মানুষ। গরিব রিকশাওয়ালারা বাকিতে চাল-ডাল নেয়, তিনি খাতায় লিখে রাখেন, কিন্তু কোনোদিন টাকা চান না।",
+  "keyCueBn": "ভালো বেনে = দয়ালু, পরোপকারী",
+  "exampleEn": "A benevolent donor paid for the new school.",
+  "exampleBn": "একজন দয়ালু দাতা নতুন স্কুলের খরচ দিলেন।",
+  "synonyms": [
+   "kind",
+   "generous"
+  ]
+ },
+ {
+  "id": "hook_019",
+  "order": 19,
+  "word": "Bolster",
+  "ipa": "/ˈbəʊlstə(r)/",
+  "bnPronunciation": "বোলস্টার",
+  "pos": "verb",
+  "meaningBn": "জোরদার করা, শক্তি জোগানো",
+  "meaningEn": "to support or strengthen",
+  "soundSplit": "Bol-ster",
+  "soundHookBn": "বলিংয়ের স্টার",
+  "storyBn": "টানা হারে দলের মনোবল একদম তলানিতে। এমন সময় দলে ফিরলেন বলিংয়ের স্টার ফাহিম। প্রথম ওভারেই দুই উইকেট, আর পুরো দল যেন নতুন শক্তিতে জেগে উঠল।",
+  "keyCueBn": "বলিংয়ের স্টার ফিরে দল চাঙা = জোরদার করা",
+  "exampleEn": "The good news bolstered the team's confidence.",
+  "exampleBn": "সুখবরটি দলের আত্মবিশ্বাস জোরদার করল।",
+  "synonyms": [
+   "strengthen",
+   "boost"
+  ]
+ },
+ {
+  "id": "hook_020",
+  "order": 20,
+  "word": "Cacophony",
+  "ipa": "/kəˈkɒfəni/",
+  "bnPronunciation": "ক্যাকোফোনি",
+  "pos": "noun",
+  "meaningBn": "কর্কশ হট্টগোল",
+  "meaningEn": "a harsh mix of sounds",
+  "soundSplit": "Caco-phony",
+  "soundHookBn": "কাক + ফোন",
+  "storyBn": "ভোরে জানালার পাশে দশটা কাক একসাথে কা-কা করছে। ঠিক তখনই ঘরের সবার ফোন একসঙ্গে বেজে উঠল, সঙ্গে প্রেশার কুকারের সিটি! কান ঝালাপালা।",
+  "keyCueBn": "কাকের ডাক + ফোনের রিং = কর্কশ হট্টগোল",
+  "exampleEn": "The cacophony of car horns gave me a headache.",
+  "exampleBn": "গাড়ির হর্নের কর্কশ শব্দে আমার মাথা ধরে গেল।",
+  "synonyms": [
+   "din",
+   "racket"
+  ]
+ },
+ {
+  "id": "hook_021",
+  "order": 21,
+  "word": "Cajole",
+  "ipa": "/kəˈdʒəʊl/",
+  "bnPronunciation": "ক্যাজোল",
+  "pos": "verb",
+  "meaningBn": "মিষ্টি কথায় ভুলিয়ে রাজি করানো",
+  "meaningEn": "to persuade with flattery",
+  "soundSplit": "Cajole",
+  "soundHookBn": "কাজল",
+  "storyBn": "ছোট্ট রিমির খুব শখ মায়ের কাজল চোখে দেওয়ার। মা রাজি নন। রিমি মায়ের গলা জড়িয়ে বলল, \"আম্মু, তুমি পৃথিবীর সবচেয়ে সুন্দর আম্মু!\" ব্যস, পাঁচ মিনিটেই কাজল রিমির চোখে।",
+  "keyCueBn": "মিষ্টি কথায় কাজল আদায় = ভুলিয়ে রাজি করানো",
+  "exampleEn": "She cajoled her father into buying a new phone.",
+  "exampleBn": "সে মিষ্টি কথায় ভুলিয়ে বাবাকে নতুন ফোন কিনতে রাজি করাল।",
+  "synonyms": [
+   "coax",
+   "wheedle"
+  ]
+ },
+ {
+  "id": "hook_022",
+  "order": 22,
+  "word": "Callous",
+  "ipa": "/ˈkæləs/",
+  "bnPronunciation": "ক্যালাস",
+  "pos": "adjective",
+  "meaningBn": "হৃদয়হীন, অনুভূতিহীন",
+  "meaningEn": "showing no concern for others",
+  "soundSplit": "Callous",
+  "soundHookBn": "মাটির কলস",
+  "storyBn": "রাস্তায় এক বৃদ্ধ পড়ে গেছেন, অথচ দামি গাড়ির মালিক হর্ন বাজিয়ে পাশ কাটিয়ে চলে গেলেন। চা-ওয়ালা বললেন, \"ওনার বুকটা মাটির কলসের মতো শক্ত, ভেতরে কিছুই ঢোকে না।\"",
+  "keyCueBn": "কলসের মতো শক্ত মন = হৃদয়হীন",
+  "exampleEn": "It was callous of him to laugh at her pain.",
+  "exampleBn": "তার কষ্টে হাসাটা ছিল চরম হৃদয়হীনতা।",
+  "synonyms": [
+   "heartless",
+   "insensitive"
+  ]
+ },
+ {
+  "id": "hook_023",
+  "order": 23,
+  "word": "Candid",
+  "ipa": "/ˈkændɪd/",
+  "bnPronunciation": "ক্যান্ডিড",
+  "pos": "adjective",
+  "meaningBn": "অকপট, স্পষ্টবাদী",
+  "meaningEn": "honest and direct",
+  "soundSplit": "Candi-d",
+  "soundHookBn": "ক্যান্ডি দিদি",
+  "storyBn": "টেবিলের ওপর রাখা ক্যান্ডির বাক্স খালি। ছোট ভাই টুটুল এগিয়ে এসে সোজাসুজি বলল, \"দিদি, তোমার সব ক্যান্ডি আমিই খেয়েছি।\" কোনো লুকোচুরি নেই, একদম অকপট স্বীকারোক্তি ।",
+  "keyCueBn": "\"দিদি, ক্যান্ডি আমি খেয়েছি\" = অকপট",
+  "exampleEn": "Thank you for your candid feedback.",
+  "exampleBn": "আপনার অকপট মতামতের জন্য ধন্যবাদ।",
+  "synonyms": [
+   "frank",
+   "honest"
+  ]
+ },
+ {
+  "id": "hook_024",
+  "order": 24,
+  "word": "Chagrin",
+  "ipa": "/ˈʃæɡrɪn/",
+  "bnPronunciation": "শ্যাগ্রিন",
+  "pos": "noun",
+  "meaningBn": "লজ্জা মেশানো বিরক্তি",
+  "meaningEn": "annoyance from embarrassment",
+  "soundSplit": "Cha-grin",
+  "soundHookBn": "শাক + গ্রিন",
+  "storyBn": "বিয়ের দাওয়াতে সবার সামনে বড় করে হাসলেন নাসির সাহেব। সবাই মুখ চেপে হাসছে কেন? আয়নায় দেখলেন, দাঁতের ফাঁকে একগাদা গ্রিন শাক! লজ্জায় আর বিরক্তি তে মুখ লাল।",
+  "keyCueBn": "দাঁতে গ্রিন শাক = লজ্জা ও বিরক্তি",
+  "exampleEn": "To her chagrin, she forgot her speech on stage.",
+  "exampleBn": "লজ্জার ব্যাপার, মঞ্চে উঠে সে বক্তৃতা ভুলে গেল।",
+  "synonyms": [
+   "embarrassment",
+   "vexation"
+  ]
+ },
+ {
+  "id": "hook_025",
+  "order": 25,
+  "word": "Conundrum",
+  "ipa": "/kəˈnʌndrəm/",
+  "bnPronunciation": "কনানড্রাম",
+  "pos": "noun",
+  "meaningBn": "জটিল সমস্যা, ধাঁধা",
+  "meaningEn": "a confusing, difficult problem",
+  "soundSplit": "Conun-drum",
+  "soundHookBn": "কনে + ড্রাম",
+  "storyBn": "বিয়েবাড়িতে মহা সমস্যা! কনে জেদ ধরেছে, ড্রাম না বাজলে সে স্টেজে উঠবে না। এদিকে বরের দাদা বলছেন, ড্রাম বাজলে তিনি বিয়েতেই থাকবেন না। কী করা যায়, কেউ বুঝতে পারছে না!",
+  "keyCueBn": "কনে বনাম ড্রাম = জটিল সমস্যা",
+  "exampleEn": "Finding affordable housing in Dhaka is a real conundrum.",
+  "exampleBn": "ঢাকায় সাশ্রয়ী বাসা খোঁজা সত্যিই এক জটিল সমস্যা।",
+  "synonyms": [
+   "puzzle",
+   "dilemma"
+  ]
+ },
+ {
+  "id": "hook_026",
+  "order": 26,
+  "word": "Dawdle",
+  "ipa": "/ˈdɔːdl/",
+  "bnPronunciation": "ডডল",
+  "pos": "verb",
+  "meaningBn": "ঢিমেতালে চলা, সময় নষ্ট করা",
+  "meaningEn": "to move or act too slowly",
+  "soundSplit": "Dawdle",
+  "soundHookBn": "দোদুল দোলা",
+  "storyBn": "স্কুলে যাওয়ার পথে পার্কের দোলনায় বসে নাবিল দোদুল দোলায় দুলছে আর ঘাস গুনছে। পাঁচ মিনিটের রাস্তা পার হতে লাগল এক ঘণ্টা, ততক্ষণে প্রথম ক্লাস শেষ!",
+  "keyCueBn": "দোলনায় দোদুল দোলা = ঢিমেতালে সময় নষ্ট",
+  "exampleEn": "Don't dawdle, or we'll miss the bus.",
+  "exampleBn": "গড়িমসি কোরো না, নইলে বাস মিস করব।",
+  "synonyms": [
+   "linger",
+   "loiter"
+  ]
+ },
+ {
+  "id": "hook_027",
+  "order": 27,
+  "word": "Debacle",
+  "ipa": "/deɪˈbɑːkl/",
+  "bnPronunciation": "ডিবাকল",
+  "pos": "noun",
+  "meaningBn": "শোচনীয় ব্যর্থতা, বিপর্যয়",
+  "meaningEn": "a sudden, total failure",
+  "soundSplit": "De-bacle",
+  "soundHookBn": "ডিম + বাকল",
+  "storyBn": "সুমি জন্মদিনের বিশাল কেক বানাবে বলে তিরিশটা ডিমের ট্রে নিয়ে আসছিল। দরজায় হোঁচট! মেঝেজুড়ে শুধু ডিমের বাকল আর কুসুম। পুরো আয়োজন এক মুহূর্তে ভেস্তে গেল।",
+  "keyCueBn": "মেঝেভর্তি ডিমের বাকল = শোচনীয় ব্যর্থতা",
+  "exampleEn": "The launch event was a complete debacle.",
+  "exampleBn": "উদ্বোধনী অনুষ্ঠানটি পুরোপুরি ভেস্তে গেল।",
+  "synonyms": [
+   "fiasco",
+   "disaster"
+  ]
+ },
+ {
+  "id": "hook_028",
+  "order": 28,
+  "word": "Deplete",
+  "ipa": "/dɪˈpliːt/",
+  "bnPronunciation": "ডিপ্লিট",
+  "pos": "verb",
+  "meaningBn": "নিঃশেষ করা, ফুরিয়ে ফেলা",
+  "meaningEn": "to use up; reduce greatly",
+  "soundSplit": "De-plete",
+  "soundHookBn": "ডিপ প্লেট",
+  "storyBn": "দাওয়াতে খালামণি ডিপ প্লেট ভর্তি করে বিরিয়ানি রেখে গেলেন। মামাতো ভাই জুবায়ের দশ মিনিটেই চেটেপুটে সব শেষ করল। প্লেটে আর একটা দানাও নেই!",
+  "keyCueBn": "ডিপ প্লেট খালি = নিঃশেষ করা",
+  "exampleEn": "Overuse has depleted our groundwater.",
+  "exampleBn": "অতিরিক্ত ব্যবহারে আমাদের ভূগর্ভস্থ পানি ফুরিয়ে আসছে।",
+  "synonyms": [
+   "exhaust",
+   "drain"
+  ]
+ },
+ {
+  "id": "hook_029",
+  "order": 29,
+  "word": "Deride",
+  "ipa": "/dɪˈraɪd/",
+  "bnPronunciation": "ডিরাইড",
+  "pos": "verb",
+  "meaningBn": "উপহাস করা, ঠাট্টা করা",
+  "meaningEn": "to mock; ridicule",
+  "soundSplit": "De-ride",
+  "soundHookBn": "ঢিলা রাইড",
+  "storyBn": "প্রথমবার সাইকেল চালাতে গিয়ে শুভ ধপাস করে ড্রেনে পড়ল। বন্ধুরা হাততালি দিয়ে হাসতে হাসতে বলল, \"কী ঢিলা রাইড রে!\" সারা মহল্লা জুড়ে সেই ঠাট্টা চলল এক মাস।",
+  "keyCueBn": "\"কী ঢিলা রাইড!\" বলে হাসা = উপহাস করা",
+  "exampleEn": "They derided his idea, but it later succeeded.",
+  "exampleBn": "তারা তার ধারণা নিয়ে উপহাস করেছিল, কিন্তু পরে সেটাই সফল হলো।",
+  "synonyms": [
+   "mock",
+   "ridicule"
+  ]
+ },
+ {
+  "id": "hook_030",
+  "order": 30,
+  "word": "Diligent",
+  "ipa": "/ˈdɪlɪdʒənt/",
+  "bnPronunciation": "ডিলিজেন্ট",
+  "pos": "adjective",
+  "meaningBn": "পরিশ্রমী, অধ্যবসায়ী",
+  "meaningEn": "hard-working and careful",
+  "soundSplit": "Dili-gent",
+  "soundHookBn": "কাজে দিলে জান",
+  "storyBn": "রিকশাচালকের মেয়ে শাপলা প্রতিদিন ভোর চারটায় উঠে পড়তে বসে। বাবা বলেন, \"মা, একটু ঘুমা।\" শাপলা হেসে বলে, \"পড়ায় দিলে জান, তবেই আসবে সম্মান!\" এবার সে বৃত্তি পেয়েছে।",
+  "keyCueBn": "কাজে দিল-জান দেওয়া = পরিশ্রমী",
+  "exampleEn": "She is a diligent student who never misses class.",
+  "exampleBn": "সে একজন পরিশ্রমী ছাত্রী, কখনো ক্লাস বাদ দেয় না।",
+  "synonyms": [
+   "hard-working",
+   "industrious"
+  ]
+ },
+ {
+  "id": "hook_031",
+  "order": 31,
+  "word": "Disdain",
+  "ipa": "/dɪsˈdeɪn/",
+  "bnPronunciation": "ডিসডেইন",
+  "pos": "noun",
+  "meaningBn": "অবজ্ঞা, তাচ্ছিল্য",
+  "meaningEn": "a feeling of contempt",
+  "soundSplit": "Dis-dain",
+  "soundHookBn": "এই ডিশ? দেইনা মুখে!",
+  "storyBn": "বিদেশফেরত ফুপু আমাদের বাসায় খেতে বসে নাক সিটকালেন। মায়ের রান্না ভর্তা- ডালের ডিশ দেখে বললেন, \"এই ডিশ? আমি মুখেই দেইনা!\" তাঁর তাচ্ছিল্যে সবার মন খারাপ।",
+  "keyCueBn": "\"এই ডিশ মুখেই দেইনা\" = অবজ্ঞা",
+  "exampleEn": "He looked at the cheap hotel with disdain.",
+  "exampleBn": "সে সস্তা হোটেলটির দিকে অবজ্ঞার চোখে তাকাল।",
+  "synonyms": [
+   "contempt",
+   "scorn"
+  ]
+ },
+ {
+  "id": "hook_032",
+  "order": 32,
+  "word": "Ebullient",
+  "ipa": "/ɪˈbʌliənt/",
+  "bnPronunciation": "ইবুলিয়েন্ট",
+  "pos": "adjective",
+  "meaningBn": "প্রাণোচ্ছল, উচ্ছ্বসিত",
+  "meaningEn": "cheerful and full of energy",
+  "soundSplit": "Ebulli-ent",
+  "soundHookBn": "এ বুলবুলি!",
+  "storyBn": "আমাদের ক্লাসের তিথি যেন একটা চঞ্চল বুলবুলি। সারাক্ষণ হাসে, গান গায়, সবার মন ভালো করে দেয়। শিক্ষক পর্যন্ত বলেন, \"এ বুলবুলি না থাকলে ক্লাসটা প্রাণহীন লাগে!\"",
+  "keyCueBn": "চঞ্চল বুলবুলি = প্রাণোচ্ছল",
+  "exampleEn": "The ebullient crowd cheered for the winning team.",
+  "exampleBn": "উচ্ছ্বসিত জনতা বিজয়ী দলকে অভিনন্দন জানাল।",
+  "synonyms": [
+   "exuberant",
+   "buoyant"
+  ]
+ },
+ {
+  "id": "hook_033",
+  "order": 33,
+  "word": "Eloquent",
+  "ipa": "/ˈeləkwənt/",
+  "bnPronunciation": "এলোকোয়েন্ট",
+  "pos": "adjective",
+  "meaningBn": "বাগ্মী, সুবক্তা",
+  "meaningEn": "fluent and persuasive",
+  "soundSplit": "Elo-quent",
+  "soundHookBn": "এলো কুইন",
+  "storyBn": "বিতর্ক প্রতিযোগিতার মঞ্চে এলো কলেজের \"কুইন\" নুসরাত। প্রথম বাক্যেই হলভর্তি দর্শক চুপ। তার যুক্তি আর সুন্দর ভাষায় বিচারকেরাও মুগ্ধ, হাততালি থামেই না।",
+  "keyCueBn": "মঞ্চে এলো কুইন = বাগ্মী",
+  "exampleEn": "The minister gave an eloquent speech.",
+  "exampleBn": "মন্ত্রী একটি চমৎকার ও হৃদয়গ্রাহী বক্তৃতা দিলেন।",
+  "synonyms": [
+   "articulate",
+   "expressive"
+  ]
+ },
+ {
+  "id": "hook_034",
+  "order": 34,
+  "word": "Ephemeral",
+  "ipa": "/ɪˈfemərəl/",
+  "bnPronunciation": "ইফেমেরাল",
+  "pos": "adjective",
+  "meaningBn": "ক্ষণস্থায়ী",
+  "meaningEn": "lasting a very short time",
+  "soundSplit": "E-phem-eral",
+  "soundHookBn": "এই ফেম, এক রাতের",
+  "storyBn": "একটা মজার ভিডিও পোস্ট করে রাতারাতি ভাইরাল হলো সজীব। সারারাত হাজারো কমেন্ট। কিন্তু পরদিন সকালেই সবাই অন্য ভিডিও নিয়ে ব্যস্ত। সজীব বুঝল, এই ফেম মাত্র এক রাতের!",
+  "keyCueBn": "এই ফেম এক রাতের = ক্ষণস্থায়ী",
+  "exampleEn": "Fame on social media is often ephemeral.",
+  "exampleBn": "সোশ্যাল মিডিয়ার খ্যাতি প্রায়ই ক্ষণস্থায়ী।",
+  "synonyms": [
+   "fleeting",
+   "short-lived"
+  ]
+ },
+ {
+  "id": "hook_035",
+  "order": 35,
+  "word": "Exonerate",
+  "ipa": "/ɪɡˈzɒnəreɪt/",
+  "bnPronunciation": "ইগজোনারেট",
+  "pos": "verb",
+  "meaningBn": "নির্দোষ প্রমাণ করা, অভিযোগমুক্ত করা",
+  "meaningEn": "to clear someone of blame",
+  "soundSplit": "Ex-oner-ate",
+  "soundHookBn": "অনার (সম্মান) ফেরত",
+  "storyBn": "চুরির মিথ্যা অভিযোগে দারোয়ান রহমতকে সবাই সন্দেহ করছিল। পরে সিসিটিভি ফুটেজে আসল চোর ধরা পড়ল। সবার সামনে রহমত নির্দোষ প্রমাণিত হলেন, ফিরে পেলেন হারানো অনার।",
+  "keyCueBn": "হারানো অনার ফেরত = নির্দোষ প্রমাণ",
+  "exampleEn": "The court exonerated him of all charges.",
+  "exampleBn": "আদালত তাকে সব অভিযোগ থেকে মুক্তি দিল।",
+  "synonyms": [
+   "acquit",
+   "absolve"
+  ]
+ },
+ {
+  "id": "hook_036",
+  "order": 36,
+  "word": "Exorbitant",
+  "ipa": "/ɪɡˈzɔːbɪtənt/",
+  "bnPronunciation": "ইগজরবিট্যান্ট",
+  "pos": "adjective",
+  "meaningBn": "অত্যধিক, আকাশছোঁয়া (দাম)",
+  "meaningEn": "unreasonably high (price)",
+  "soundSplit": "Ex-orbit-ant",
+  "soundHookBn": "দাম অরবিট ছাড়িয়ে",
+  "storyBn": "ঈদের আগে বাজারে গিয়ে মিজান সাহেব থ! পেঁয়াজের দাম যেন রকেটে চড়ে পৃথিবীর অরবিট ছাড়িয়ে মহাকাশে। ব্যাগ খালি নিয়েই বাড়ি ফিরলেন।",
+  "keyCueBn": "দাম অরবিট ছাড়িয়ে = অত্যধিক",
+  "exampleEn": "The hotel charges exorbitant prices during Eid.",
+  "exampleBn": "ঈদের সময় হোটেলটি অত্যধিক দাম নেয়।",
+  "synonyms": [
+   "excessive",
+   "extortionate"
+  ]
+ },
+ {
+  "id": "hook_037",
+  "order": 37,
+  "word": "Facade",
+  "ipa": "/fəˈsɑːd/",
+  "bnPronunciation": "ফাসাড",
+  "pos": "noun",
+  "meaningBn": "বাহ্যিক চাকচিক্য, লোকদেখানো রূপ",
+  "meaningEn": "a misleading outward look",
+  "soundSplit": "Facade",
+  "soundHookBn": "বাইরে চকচকে, ভেতরে ফাসাদ",
+  "storyBn": "নতুন বিল্ডিংয়ের সামনের দিকটা কাচ আর আলোয় ঝলমলে। কিন্তু ভেতরে ঢুকে দেখা গেল লিফট নষ্ট, পানির লাইন ফাটা, দেয়ালে ফাটল। বাইরে চাকচিক্য, ভেতরে শুধু ফাসাদ!",
+  "keyCueBn": "বাইরে চকচকে, ভেতরে ফাসাদ = লোকদেখানো রূপ",
+  "exampleEn": "Behind his friendly facade, he was very angry.",
+  "exampleBn": "বন্ধুসুলভ বাহ্যিক রূপের আড়ালে সে ছিল ভীষণ রাগান্বিত।",
+  "synonyms": [
+   "front",
+   "pretence"
+  ]
+ },
+ {
+  "id": "hook_038",
+  "order": 38,
+  "word": "Fastidious",
+  "ipa": "/fæˈstɪdiəs/",
+  "bnPronunciation": "ফ্যাস্টিডিয়াস",
+  "pos": "adjective",
+  "meaningBn": "খুঁতখুঁতে",
+  "meaningEn": "very picky about details",
+  "soundSplit": "Fas-ti-di-ous",
+  "soundHookBn": "ফাস্ট দিদি",
+  "storyBn": "সবাই রুমা দিদিকে ডাকে \"ফাস্ট দিদি\", কিন্তু উল্টো অর্থে! প্রতিটা থালা তিনবার ধোন, চাদরে একটা ভাঁজ দেখলেই আবার বিছানা পাতেন, জামায় একটা সুতো ঝুললেও বদলে ফেলেন।",
+  "keyCueBn": "ফাস্ট দিদি, যিনি মোটেও ফাস্ট নন = খুঁতখুঁতে",
+  "exampleEn": "He is fastidious about keeping his desk clean.",
+  "exampleBn": "সে তার টেবিল পরিষ্কার রাখার ব্যাপারে খুঁতখুঁতে।",
+  "synonyms": [
+   "meticulous",
+   "finicky"
+  ]
+ },
+ {
+  "id": "hook_039",
+  "order": 39,
+  "word": "Feign",
+  "ipa": "/feɪn/",
+  "bnPronunciation": "ফেইন",
+  "pos": "verb",
+  "meaningBn": "ভান করা",
+  "meaningEn": "to pretend",
+  "soundSplit": "Feign",
+  "soundHookBn": "ফেইন্ট হওয়ার ভান",
+  "storyBn": "গণিত পরীক্ষার দিন সকালে রনি হঠাৎ \"মা!\" বলে মেঝেতে ফেইন্ট হওয়ার ভান করল। মা পানি ছিটাতেই এক চোখ খুলে দেখল। মা বুঝে গেলেন, এটা পরীক্ষা থেকে বাঁচার নাটক!",
+  "keyCueBn": "ফেইন্ট হওয়ার নাটক = ভান করা",
+  "exampleEn": "He feigned illness to avoid the meeting.",
+  "exampleBn": "মিটিং এড়াতে সে অসুস্থতার ভান করল।",
+  "synonyms": [
+   "pretend",
+   "fake"
+  ]
+ },
+ {
+  "id": "hook_040",
+  "order": 40,
+  "word": "Fickle",
+  "ipa": "/ˈfɪkl/",
+  "bnPronunciation": "ফিকল",
+  "pos": "adjective",
+  "meaningBn": "চঞ্চলমতি, অস্থিরচিত্ত",
+  "meaningEn": "changing one's mind often",
+  "soundSplit": "Fickle",
+  "soundHookBn": "এই ফিক হাসি, এই কান্না",
+  "storyBn": "পাঁচ বছরের জারা এই ফিক করে হাসছে, পরক্ষণেই কাঁদছে। সকালে বলে লাল জামা, দুপুরে নীল, বিকেলে আবার লাল। তার মন এক মিনিটও এক জায়গায় থাকে না।",
+  "keyCueBn": "এই ফিক হাসি, এই কান্না = চঞ্চলমতি",
+  "exampleEn": "Fans can be fickle; they leave when a team loses.",
+  "exampleBn": "ভক্তরা চঞ্চল হতে পারে; দল হারলেই তারা সরে যায়।",
+  "synonyms": [
+   "changeable",
+   "unpredictable"
+  ]
+ },
+ {
+  "id": "hook_041",
+  "order": 41,
+  "word": "Furtive",
+  "ipa": "/ˈfɜːtɪv/",
+  "bnPronunciation": "ফার্টিভ",
+  "pos": "adjective",
+  "meaningBn": "চুপিসারে, চোরাগোপ্তা",
+  "meaningEn": "secretive; done to avoid notice",
+  "soundSplit": "Fur-tive",
+  "soundHookBn": "ফার (দূর) থেকে টিভি",
+  "storyBn": "পরীক্ষার আগের রাতে রুমন বই খুলে বসে আছে, কিন্তু চোখ পাশের ঘরে। অনেক ফার থেকে দরজার ফাঁক দিয়ে চুপিচুপি টিভিতে খেলা দেখছে। মায়ের পায়ের শব্দ পেলেই চোখ বইয়ে!",
+  "keyCueBn": "দূর (far) থেকে চুপিচুপি টিভি = চুপিসারে",
+  "exampleEn": "He cast a furtive glance at the answer sheet.",
+  "exampleBn": "সে উত্তরপত্রের দিকে চুপিসারে এক নজর তাকাল।",
+  "synonyms": [
+   "secretive",
+   "sly"
+  ]
+ },
+ {
+  "id": "hook_042",
+  "order": 42,
+  "word": "Garrulous",
+  "ipa": "/ˈɡærələs/",
+  "bnPronunciation": "গ্যারুলাস",
+  "pos": "adjective",
+  "meaningBn": "বাচাল, অতিরিক্ত কথা বলে এমন",
+  "meaningEn": "excessively talkative",
+  "soundSplit": "Garru-lous",
+  "soundHookBn": "গাড়ি ছাড়তেই উল্লাস",
+  "storyBn": "ঢাকা থেকে কক্সবাজারের বাসে পাশের সিটের চাচা। গাড়ি ছাড়তেই উল্লাসে কথা শুরু: নিজের ছেলেবেলা, শ্বশুরবাড়ি, জমির মামলা, রাজনীতি। দশ ঘণ্টায় এক মিনিটও থামেননি!",
+  "keyCueBn": "গাড়ি ছাড়তেই কথার উল্লাস = বাচাল",
+  "exampleEn": "My garrulous neighbour kept me talking for an hour.",
+  "exampleBn": "আমার বাচাল প্রতিবেশী এক ঘণ্টা ধরে কথা বললেন।",
+  "synonyms": [
+   "talkative",
+   "chatty"
+  ]
+ },
+ {
+  "id": "hook_043",
+  "order": 43,
+  "word": "Gaudy",
+  "ipa": "/ˈɡɔːdi/",
+  "bnPronunciation": "গডি",
+  "pos": "adjective",
+  "meaningBn": "চটকদার, রুচিহীন জমকালো",
+  "meaningEn": "showy in a tasteless way",
+  "soundSplit": "Gaudy",
+  "soundHookBn": "ঝলমলে গদি",
+  "storyBn": "হালিম মামা নতুন সোফা বানালেন: টকটকে লাল গদি, তার ওপর সবুজ ফুল, সোনালি চুমকি, কোণায় কোণায় এলইডি বাতি! অতিথিরা চোখ কচলাতে কচলাতে বসেন, প্রশংসার ভাষা খুঁজে পান না।",
+  "keyCueBn": "চুমকি-বাতির রঙিন গদি = রুচিহীন জমকালো",
+  "exampleEn": "She wore a gaudy dress with too many sequins.",
+  "exampleBn": "সে অতিরিক্ত চুমকি বসানো এক চটকদার পোশাক পরেছিল।",
+  "synonyms": [
+   "flashy",
+   "garish"
+  ]
+ },
+ {
+  "id": "hook_044",
+  "order": 44,
+  "word": "Gullible",
+  "ipa": "/ˈɡʌləbl/",
+  "bnPronunciation": "গালিবল",
+  "pos": "adjective",
+  "meaningBn": "সহজে ঠকে যায় এমন",
+  "meaningEn": "easily tricked",
+  "soundSplit": "Gulli-ble",
+  "soundHookBn": "গুল বললেই বিশ্বাস",
+  "storyBn": "সবাই জানে, মাহিনকে যে কোনো গুল বললেই সে বিশ্বাস করে। বন্ধুরা বলল, \"চাঁদে এখন জমি বিক্রি হচ্ছে, মাত্র পাঁচ হাজার টাকা!\" মাহিন সাথে সাথে বিকাশে টাকা পাঠিয়ে দিল।",
+  "keyCueBn": "গুল বললেই বিশ্বাস = সহজে ঠকে যায়",
+  "exampleEn": "Gullible people often fall for online scams.",
+  "exampleBn": "সহজ-সরল মানুষ প্রায়ই অনলাইন প্রতারণার ফাঁদে পড়ে।",
+  "synonyms": [
+   "naive",
+   "credulous"
+  ]
+ },
+ {
+  "id": "hook_045",
+  "order": 45,
+  "word": "Hamper",
+  "ipa": "/ˈhæmpə(r)/",
+  "bnPronunciation": "হ্যাম্পার",
+  "pos": "verb",
+  "meaningBn": "বাধা দেওয়া, ব্যাহত করা",
+  "meaningEn": "to hinder or obstruct",
+  "soundSplit": "Hamp-er",
+  "soundHookBn": "রাস্তার হাম্প",
+  "storyBn": "অ্যাম্বুলেন্সটা রোগী নিয়ে হাসপাতালের দিকে ছুটছে, কিন্তু প্রতি পঞ্চাশ গজ পরপর উঁচু উঁচু হাম্প (স্পিড ব্রেকার)। প্রতিবার থামতে হচ্ছে, গতি বারবার ব্যাহত হচ্ছে।",
+  "keyCueBn": "পথে পথে হাম্প = বাধা দেওয়া",
+  "exampleEn": "Heavy rain hampered the rescue work.",
+  "exampleBn": "ভারী বৃষ্টি উদ্ধারকাজ ব্যাহত করল।",
+  "synonyms": [
+   "hinder",
+   "impede"
+  ]
+ },
+ {
+  "id": "hook_046",
+  "order": 46,
+  "word": "Haughty",
+  "ipa": "/ˈhɔːti/",
+  "bnPronunciation": "হটি",
+  "pos": "adjective",
+  "meaningBn": "অহংকারী, দাম্ভিক",
+  "meaningEn": "arrogantly superior",
+  "soundSplit": "Haughty",
+  "soundHookBn": "হাতি",
+  "storyBn": "চিড়িয়াখানার মোটা হাতিটা নিজেকে বনের রাজা ভাবে। শুঁড় উঁচু করে হাঁটে, পাশের হরিণ-বানরদের দিকে তাকায়ও না। খাবার দিলে নাক সিটকায়, যেন সবকিছুই তার জন্য খুব সামান্য।",
+  "keyCueBn": "শুঁড় উঁচু হাতি = অহংকারী",
+  "exampleEn": "The haughty manager never greeted his staff.",
+  "exampleBn": "দাম্ভিক ম্যানেজার কখনো কর্মীদের সম্ভাষণ জানাতেন না।",
+  "synonyms": [
+   "arrogant",
+   "proud"
+  ]
+ },
+ {
+  "id": "hook_047",
+  "order": 47,
+  "word": "Hoard",
+  "ipa": "/hɔːd/",
+  "bnPronunciation": "হোর্ড",
+  "pos": "verb",
+  "meaningBn": "গোপনে মজুত করা",
+  "meaningEn": "to store up secretly",
+  "soundSplit": "Hoard",
+  "soundHookBn": "হরদম জমায়",
+  "storyBn": "রমজানের আগে আড়তদার মজনু মিয়া হরদম তেল আর চিনি কিনে গুদামে লুকিয়ে রাখছেন। বাজারে সংকট দেখিয়ে পরে দ্বিগুণ দামে বিক্রি করবেন, এই তাঁর ফন্দি।",
+  "keyCueBn": "হরদম লুকিয়ে জমানো = মজুত করা",
+  "exampleEn": "People started hoarding rice before the flood.",
+  "exampleBn": "বন্যার আগে মানুষ চাল মজুত করতে শুরু করল।",
+  "synonyms": [
+   "stockpile",
+   "amass"
+  ]
+ },
+ {
+  "id": "hook_048",
+  "order": 48,
+  "word": "Hypocrite",
+  "ipa": "/ˈhɪpəkrɪt/",
+  "bnPronunciation": "হিপোক্রিট",
+  "pos": "noun",
+  "meaningBn": "ভণ্ড, মুনাফিক",
+  "meaningEn": "one who pretends to be virtuous",
+  "soundSplit": "Hypo-crite",
+  "soundHookBn": "হিপো (জলহস্তী)",
+  "storyBn": "জঙ্গলের সভায় হিপো সবাইকে বক্তৃতা দেয়, \"কাদা গায়ে মাখা খুবই খারাপ অভ্যাস!\" সভা শেষ হতেই সে নিজে সোজা গিয়ে কাদায় গড়াগড়ি দিতে লাগল।",
+  "keyCueBn": "কাদা-বিরোধী হিপো কাদায় = ভণ্ড",
+  "exampleEn": "He calls himself honest, but he is a hypocrite.",
+  "exampleBn": "সে নিজেকে সৎ বলে, কিন্তু আসলে সে ভণ্ড।",
+  "synonyms": [
+   "pretender",
+   "fraud"
+  ]
+ },
+ {
+  "id": "hook_049",
+  "order": 49,
+  "word": "Imminent",
+  "ipa": "/ˈɪmɪnənt/",
+  "bnPronunciation": "ইমিনেন্ট",
+  "pos": "adjective",
+  "meaningBn": "আসন্ন",
+  "meaningEn": "about to happen",
+  "soundSplit": "Immi-nent",
+  "soundHookBn": "এই মিনিটেই",
+  "storyBn": "উপকূলের মাইকে ঘোষণা: \"ঘূর্ণিঝড় এই মিনিটেই আঘাত হানতে পারে! সবাই আশ্রয়কেন্দ্রে চলুন!\" আকাশ কালো, বাতাসের গর্জন। বিপদ একদম দরজায় দাঁড়িয়ে।",
+  "keyCueBn": "ঝড় এই মিনিটেই = আসন্ন",
+  "exampleEn": "The weather office warned of an imminent cyclone.",
+  "exampleBn": "আবহাওয়া অফিস আসন্ন ঘূর্ণিঝড়ের সতর্কবার্তা দিল।",
+  "synonyms": [
+   "impending",
+   "approaching"
+  ]
+ },
+ {
+  "id": "hook_050",
+  "order": 50,
+  "word": "Impeccable",
+  "ipa": "/ɪmˈpekəbl/",
+  "bnPronunciation": "ইমপেকেবল",
+  "pos": "adjective",
+  "meaningBn": "নিখুঁত, ত্রুটিহীন",
+  "meaningEn": "flawless; perfect",
+  "soundSplit": "Im-pecca-ble",
+  "soundHookBn": "পাক্কা বল",
+  "storyBn": "নেটে বোলার জামিল টানা বিশটা বল করল, প্রতিটা ঠিক স্টাম্পের লাইনে, একটাও ওয়াইড বা নো-বল নেই। কোচ মুগ্ধ হয়ে বললেন, \"প্রতিটা পাক্কা বল! একদম নিখুঁত।\"",
+  "keyCueBn": "প্রতিটা পাক্কা বল = নিখুঁত",
+  "exampleEn": "Her English pronunciation is impeccable.",
+  "exampleBn": "তার ইংরেজি উচ্চারণ নিখুঁত।",
+  "synonyms": [
+   "flawless",
+   "perfect"
+  ]
+ },
+ {
+  "id": "hook_051",
+  "order": 51,
+  "word": "Incorrigible",
+  "ipa": "/ɪnˈkɒrɪdʒəbl/",
+  "bnPronunciation": "ইনকরিজিবল",
+  "pos": "adjective",
+  "meaningBn": "শোধরানো যায় না এমন",
+  "meaningEn": "not able to be corrected",
+  "soundSplit": "In-corri-gi-ble",
+  "soundHookBn": "কড়া জিভেও শোধরায় না",
+  "storyBn": "রনক রোজ স্কুলে দেরি করে যায়। মা কড়া জিভে হাজারবার বকেছেন, বাবা মোবাইল কেড়ে নিয়েছেন, প্রধান শিক্ষক অভিভাবক ডেকেছেন। তবু পরদিন আবার সেই দেরি!",
+  "keyCueBn": "কড়া জিভেও শোধরায় না = অসংশোধনীয়",
+  "exampleEn": "He is an incorrigible liar.",
+  "exampleBn": "সে এমন মিথ্যাবাদী, যাকে শোধরানো যায় না।",
+  "synonyms": [
+   "incurable",
+   "hopeless"
+  ]
+ },
+ {
+  "id": "hook_052",
+  "order": 52,
+  "word": "Insipid",
+  "ipa": "/ɪnˈsɪpɪd/",
+  "bnPronunciation": "ইনসিপিড",
+  "pos": "adjective",
+  "meaningBn": "পানসে, বিস্বাদ",
+  "meaningEn": "lacking flavour or interest",
+  "soundSplit": "In-sip-id",
+  "soundHookBn": "এক সিপেই পানসে",
+  "storyBn": "নতুন ক্যাফের দামি কফিতে এক সিপ দিয়েই তানজিলার মুখ বেঁকে গেল। না চিনি, না দুধ, না কফির স্বাদ, যেন গরম পানি! বলল, \"আড়াইশো টাকায় এই পানসে জিনিস?\"",
+  "keyCueBn": "এক সিপেই পানসে = বিস্বাদ",
+  "exampleEn": "The soup was insipid and needed salt.",
+  "exampleBn": "স্যুপটা পানসে ছিল, লবণ দরকার ছিল।",
+  "synonyms": [
+   "bland",
+   "tasteless"
+  ]
+ },
+ {
+  "id": "hook_053",
+  "order": 53,
+  "word": "Jeopardize",
+  "ipa": "/ˈdʒepədaɪz/",
+  "bnPronunciation": "জেপার্ডাইজ",
+  "pos": "verb",
+  "meaningBn": "বিপন্ন করা, ঝুঁকিতে ফেলা",
+  "meaningEn": "to put in danger",
+  "soundSplit": "Jeo-par-dize",
+  "soundHookBn": "জিপ নিয়ে খাদের পাড়ে",
+  "storyBn": "বান্দরবানে বন্ধুদের সামনে বাহাদুরি দেখাতে আরিফ জিপ নিয়ে খাদের একদম পাড়ে রেস দিল। এক চাকা শূন্যে! নিজের আর বন্ধুদের জীবন সে সেদিন মারাত্মক ঝুঁকিতে ফেলেছিল।",
+  "keyCueBn": "জিপ নিয়ে খাদের পাড়ে = বিপন্ন করা",
+  "exampleEn": "Careless driving can jeopardize many lives.",
+  "exampleBn": "বেপরোয়া গাড়ি চালানো অনেক জীবন বিপন্ন করতে পারে।",
+  "synonyms": [
+   "endanger",
+   "risk"
+  ]
+ },
+ {
+  "id": "hook_054",
+  "order": 54,
+  "word": "Languish",
+  "ipa": "/ˈlæŋɡwɪʃ/",
+  "bnPronunciation": "ল্যাংগুইশ",
+  "pos": "verb",
+  "meaningBn": "ধুঁকতে থাকা, দুর্দশায় পড়ে থাকা",
+  "meaningEn": "to suffer or weaken over time",
+  "soundSplit": "Lang-uish",
+  "soundHookBn": "পড়ে থাকা লাঙল",
+  "storyBn": "খরায় তিন মাস বৃষ্টি নেই। কৃষক বাবুলের লাঙল উঠোনের কোণে পড়ে আছে, ধানক্ষেত ফেটে চৌচির, চারাগুলো দিনের পর দিন শুকিয়ে ধুঁকছে।",
+  "keyCueBn": "পড়ে থাকা লাঙল, শুকনো ক্ষেত = ধুঁকতে থাকা",
+  "exampleEn": "Many projects languish for years without funds.",
+  "exampleBn": "অর্থের অভাবে অনেক প্রকল্প বছরের পর বছর ধুঁকতে থাকে।",
+  "synonyms": [
+   "wither",
+   "decline"
+  ]
+ },
+ {
+  "id": "hook_055",
+  "order": 55,
+  "word": "Lucrative",
+  "ipa": "/ˈluːkrətɪv/",
+  "bnPronunciation": "লুক্রেটিভ",
+  "pos": "adjective",
+  "meaningBn": "লাভজনক",
+  "meaningEn": "producing much profit",
+  "soundSplit": "Luc-ra-tive",
+  "soundHookBn": "লুক, রেট দেখো!",
+  "storyBn": "মৌসুমের শুরুতে হাসান সস্তায় এক হাজার মণ আলু কিনে হিমাগারে রাখল। ছয় মাস পর বন্ধুকে ফোনে বলল, \"লুক, এখন রেট দেখ!\" দাম তিনগুণ, লাভ বিশাল।",
+  "keyCueBn": "\"লুক, রেট দেখ!\" = লাভজনক",
+  "exampleEn": "Freelancing can be a lucrative career.",
+  "exampleBn": "ফ্রিল্যান্সিং একটি লাভজনক পেশা হতে পারে।",
+  "synonyms": [
+   "profitable",
+   "rewarding"
+  ]
+ },
+ {
+  "id": "hook_056",
+  "order": 56,
+  "word": "Ludicrous",
+  "ipa": "/ˈluːdɪkrəs/",
+  "bnPronunciation": "লুডিক্রাস",
+  "pos": "adjective",
+  "meaningBn": "হাস্যকর, উদ্ভট",
+  "meaningEn": "so absurd it is laughable",
+  "soundSplit": "Ludi-crous",
+  "soundHookBn": "লুডুতে ক্রস",
+  "storyBn": "দাদা লুডু খেলায় নতুন নিয়ম চালু করলেন: \"ছক্কা উঠলে গুটি ক্রস করে সোজা ঘরে যাবে, আর আমি হারলে খেলা বাতিল!\" এমন উদ্ভট নিয়ম শুনে সবাই হাসতে হাসতে গড়াগড়ি।",
+  "keyCueBn": "লুডুতে ক্রসের উদ্ভট নিয়ম = হাস্যকর",
+  "exampleEn": "It is ludicrous to pay that much for a pen.",
+  "exampleBn": "একটা কলমের জন্য এত টাকা দেওয়া হাস্যকর।",
+  "synonyms": [
+   "absurd",
+   "ridiculous"
+  ]
+ },
+ {
+  "id": "hook_057",
+  "order": 57,
+  "word": "Malady",
+  "ipa": "/ˈmælədi/",
+  "bnPronunciation": "ম্যালাডি",
+  "pos": "noun",
+  "meaningBn": "রোগ, ব্যাধি",
+  "meaningEn": "a disease or serious problem",
+  "soundSplit": "Mala-dy",
+  "soundHookBn": "মালাই দিদি",
+  "storyBn": "পাশের বাসার মালাই দিদির মালাইকারি পুরো পাড়ায় বিখ্যাত। কিন্তু যে-ই তিন বাটি খায়, রাতে পেটব্যথা, পরদিন হাসপাতাল! এখন মহল্লায় সব রোগের নামই \"মালাই দিদি\"।",
+  "keyCueBn": "মালাই দিদির রান্না = রোগ, ব্যাধি",
+  "exampleEn": "Corruption is a serious social malady.",
+  "exampleBn": "দুর্নীতি একটি গুরুতর সামাজিক ব্যাধি।",
+  "synonyms": [
+   "illness",
+   "ailment"
+  ]
+ },
+ {
+  "id": "hook_058",
+  "order": 58,
+  "word": "Malevolent",
+  "ipa": "/məˈlevələnt/",
+  "bnPronunciation": "ম্যালেভোলেন্ট",
+  "pos": "adjective",
+  "meaningBn": "বিদ্বেষপরায়ণ, অনিষ্টকামী",
+  "meaningEn": "wishing harm to others",
+  "soundSplit": "Male-vol-ent",
+  "soundHookBn": "মালিক ভালো না",
+  "storyBn": "কারখানার মালিক কামাল সাহেব ভালো না। শ্রমিকদের বেতন আটকে রাখেন, কেউ প্রতিবাদ করলে চাকরি খান, কারো ক্ষতি হলে মুচকি হাসেন। সবাই বলে, তাঁর মনে শুধু অন্যের অনিষ্ট।",
+  "keyCueBn": "মালিক ভালো না = অনিষ্টকামী",
+  "exampleEn": "The villain gave a malevolent smile.",
+  "exampleBn": "খলনায়ক এক বিদ্বেষপূর্ণ হাসি দিল।",
+  "synonyms": [
+   "malicious",
+   "hostile"
+  ]
+ },
+ {
+  "id": "hook_059",
+  "order": 59,
+  "word": "Meticulous",
+  "ipa": "/məˈtɪkjələs/",
+  "bnPronunciation": "মেটিকিউলাস",
+  "pos": "adjective",
+  "meaningBn": "অতি যত্নশীল, সূক্ষ্ম",
+  "meaningEn": "very careful about details",
+  "soundSplit": "Meti-cu-lous",
+  "soundHookBn": "মাটির কুলো",
+  "storyBn": "দাদি মাটির উঠোনে বসে কুলো দিয়ে চাল ঝাড়েন। একবার, দুবার, তিনবার! তারপর একটা একটা করে বেছে দেখেন। তাঁর রান্না ভাতে কেউ কোনোদিন একটা কাঁকরও পায়নি।",
+  "keyCueBn": "মাটির উঠোনে কুলো ঝাড়া = অতি যত্নশীল",
+  "exampleEn": "She keeps meticulous records of every expense.",
+  "exampleBn": "সে প্রতিটি খরচের অতি যত্নশীল হিসাব রাখে।",
+  "synonyms": [
+   "careful",
+   "thorough"
+  ]
+ },
+ {
+  "id": "hook_060",
+  "order": 60,
+  "word": "Mitigate",
+  "ipa": "/ˈmɪtɪɡeɪt/",
+  "bnPronunciation": "মিটিগেইট",
+  "pos": "verb",
+  "meaningBn": "লাঘব করা, কমানো",
+  "meaningEn": "to make less severe",
+  "soundSplit": "Miti-gate",
+  "soundHookBn": "মিটিয়ে দিল গেটেই",
+  "storyBn": "পার্কিং নিয়ে দুই প্রতিবেশীর ঝগড়া চরমে, হাতাহাতি হয় হয়। দারোয়ান চাচা দুজনকে চা খাইয়ে গেটেই সব মিটিয়ে দিলেন। উত্তেজনা কমল, বড় বিপদ এড়ানো গেল।",
+  "keyCueBn": "গেটেই মিটিয়ে উত্তেজনা কমানো = লাঘব করা",
+  "exampleEn": "Planting trees can mitigate the effects of heat.",
+  "exampleBn": "গাছ লাগালে গরমের প্রভাব কমানো যায়।",
+  "synonyms": [
+   "alleviate",
+   "reduce"
+  ]
+ },
+ {
+  "id": "hook_061",
+  "order": 61,
+  "word": "Morose",
+  "ipa": "/məˈrəʊs/",
+  "bnPronunciation": "মরোজ",
+  "pos": "adjective",
+  "meaningBn": "বিষণ্ণ, গোমড়ামুখো",
+  "meaningEn": "sullen and gloomy",
+  "soundSplit": "Mo-rose",
+  "soundHookBn": "মরা রোজ (গোলাপ)",
+  "storyBn": "ভালোবাসা দিবসে কেনা গোলাপটা কেউ নেয়নি। পরদিন টেবিলে শুকিয়ে যাওয়া সেই মরা রোজের দিকে তাকিয়ে সারাদিন গোমড়ামুখে বসে রইল ইমন, কারো সাথে কোনো কথা নেই।",
+  "keyCueBn": "মরা রোজ হাতে গোমড়া মুখ = বিষণ্ণ",
+  "exampleEn": "He has been morose since he lost his job.",
+  "exampleBn": "চাকরি হারানোর পর থেকে সে বিষণ্ণ।",
+  "synonyms": [
+   "gloomy",
+   "sullen"
+  ]
+ },
+ {
+  "id": "hook_062",
+  "order": 62,
+  "word": "Mundane",
+  "ipa": "/mʌnˈdeɪn/",
+  "bnPronunciation": "মানডেইন",
+  "pos": "adjective",
+  "meaningBn": "একঘেয়ে, গতানুগতিক",
+  "meaningEn": "dull and ordinary",
+  "soundSplit": "Mun-dane",
+  "soundHookBn": "রোজই মানডে",
+  "storyBn": "চাকরিজীবী তারেকের জীবনে প্রতিটা দিনই যেন মানডে: সকালে জ্যাম, অফিসে ফাইল, দুপুরে একই টিফিন, রাতে আবার জ্যাম। কোনো নতুনত্ব নেই, শুধু একই চক্র।",
+  "keyCueBn": "প্রতিদিনই মানডে = একঘেয়ে",
+  "exampleEn": "I want a break from my mundane routine.",
+  "exampleBn": "আমি আমার একঘেয়ে রুটিন থেকে বিরতি চাই।",
+  "synonyms": [
+   "dull",
+   "routine"
+  ]
+ },
+ {
+  "id": "hook_063",
+  "order": 63,
+  "word": "Nadir",
+  "ipa": "/ˈneɪdɪə(r)/",
+  "bnPronunciation": "নেইডার",
+  "pos": "noun",
+  "meaningBn": "সর্বনিম্ন অবস্থা",
+  "meaningEn": "the lowest point",
+  "soundSplit": "Nadir",
+  "soundHookBn": "নাদির-এর শূন্য",
+  "storyBn": "ক্লাসের নাদির সারা বছর খেলাধুলা নিয়ে ব্যস্ত। টেস্ট পরীক্ষায় পেল শূন্য, জীবনের সবচেয়ে খারাপ ফল। সেই তলানি থেকে শিক্ষা নিয়ে সে দিনরাত পড়ে বোর্ড পরীক্ষায় A+ পেল।",
+  "keyCueBn": "নাদিরের শূন্য = সর্বনিম্ন অবস্থা",
+  "exampleEn": "The company's profits reached their nadir last year.",
+  "exampleBn": "গত বছর কোম্পানির মুনাফা সর্বনিম্ন পর্যায়ে নেমেছিল।",
+  "synonyms": [
+   "low point",
+   "bottom"
+  ]
+ },
+ {
+  "id": "hook_064",
+  "order": 64,
+  "word": "Nonchalant",
+  "ipa": "/ˈnɒnʃələnt/",
+  "bnPronunciation": "ননশালান্ট",
+  "pos": "adjective",
+  "meaningBn": "নির্বিকার, ভাবলেশহীন",
+  "meaningEn": "calm and unconcerned",
+  "soundSplit": "Non-chalant",
+  "soundHookBn": "নুন চালান",
+  "storyBn": "মহাসড়কে ট্রাক উল্টে পুরো দশ টন নুন চালান রাস্তায় ছড়িয়ে পড়েছে। চারপাশে হুলুস্থুল, অথচ ড্রাইভার রাস্তার ধারে বসে নির্বিকারভাবে চা খাচ্ছেন আর পা দোলাচ্ছেন!",
+  "keyCueBn": "নুন চালান উল্টেও নির্বিকার = ভাবলেশহীন",
+  "exampleEn": "She remained nonchalant despite the pressure.",
+  "exampleBn": "চাপ সত্ত্বেও সে নির্বিকার রইল।",
+  "synonyms": [
+   "calm",
+   "unconcerned"
+  ]
+ },
+ {
+  "id": "hook_065",
+  "order": 65,
+  "word": "Novice",
+  "ipa": "/ˈnɒvɪs/",
+  "bnPronunciation": "নভিস",
+  "pos": "noun",
+  "meaningBn": "শিক্ষানবিশ, নবিশ",
+  "meaningEn": "a beginner",
+  "soundSplit": "Novice",
+  "soundHookBn": "শিক্ষানবিশ",
+  "storyBn": "গাড়ির পেছনে বড় করে \"L\" লেখা, স্টিয়ারিংয়ে শিক্ষানবিশ সাদিয়া। ব্রেকের বদলে এক্সেলারেটর, হর্নের বদলে ওয়াইপার! প্রশিক্ষক হেসে বললেন, \"নবিশ মানেই সবকিছু প্রথমবার।\"",
+  "keyCueBn": "শিক্ষানবিশ = নতুন শিক্ষার্থী",
+  "exampleEn": "This course is designed for novices.",
+  "exampleBn": "এই কোর্সটি নবিশদের জন্য তৈরি।",
+  "synonyms": [
+   "beginner",
+   "learner"
+  ]
+ },
+ {
+  "id": "hook_066",
+  "order": 66,
+  "word": "Nuance",
+  "ipa": "/ˈnjuːɑːns/",
+  "bnPronunciation": "নুয়ান্স",
+  "pos": "noun",
+  "meaningBn": "সূক্ষ্ম পার্থক্য",
+  "meaningEn": "a subtle difference",
+  "soundSplit": "Nu-ance",
+  "soundHookBn": "নুন আন্দাজ",
+  "storyBn": "একই রেসিপি, একই হাঁড়ি, তবু শাশুড়ি আর বউমার রান্নায় স্বাদে আকাশ-পাতাল তফাত। রহস্যটা শাশুড়ির নুন আন্দাজে: এক চিমটি কম না, এক চিমটি বেশি না।",
+  "keyCueBn": "নুন আন্দাজের তফাত = সূক্ষ্ম পার্থক্য",
+  "exampleEn": "A good translator understands every nuance of language.",
+  "exampleBn": "একজন ভালো অনুবাদক ভাষার প্রতিটি সূক্ষ্ম পার্থক্য বোঝেন।",
+  "synonyms": [
+   "subtlety",
+   "shade"
+  ]
+ },
+ {
+  "id": "hook_067",
+  "order": 67,
+  "word": "Obsolete",
+  "ipa": "/ˈɒbsəliːt/",
+  "bnPronunciation": "অবসোলিট",
+  "pos": "adjective",
+  "meaningBn": "অপ্রচলিত, সেকেলে",
+  "meaningEn": "no longer in use",
+  "soundSplit": "Obso-lete",
+  "soundHookBn": "অবসরে যাওয়া",
+  "storyBn": "নানার ঘরে একটা বিশাল রেডিও, একটা ক্যাসেট প্লেয়ার আর একটা ল্যান্ডফোন। নানা হেসে বলেন, \"আমি অবসরে, আর এরাও আমার সাথে অবসরে!\" এখন এগুলো কেউ আর ব্যবহার করে না।",
+  "keyCueBn": "নানার সাথে অবসরে = অপ্রচলিত",
+  "exampleEn": "Fax machines have become obsolete.",
+  "exampleBn": "ফ্যাক্স মেশিন এখন অপ্রচলিত।",
+  "synonyms": [
+   "outdated",
+   "outmoded"
+  ]
+ },
+ {
+  "id": "hook_068",
+  "order": 68,
+  "word": "Obstinate",
+  "ipa": "/ˈɒbstɪnət/",
+  "bnPronunciation": "অবস্টিনেট",
+  "pos": "adjective",
+  "meaningBn": "একগুঁয়ে, জেদি",
+  "meaningEn": "stubbornly refusing to change",
+  "soundSplit": "Obsti-nate",
+  "soundHookBn": "অবশ্যই নেট চাই",
+  "storyBn": "বারো বছরের তামিম জেদ ধরেছে, \"অবশ্যই নেট চাই, এখনই!\" বাবা বোঝালেন পরীক্ষার পর দেবেন। তামিম খাবে না, ঘুমাবে না, দরজা বন্ধ করে বসে রইল সারাদিন।",
+  "keyCueBn": "\"অবশ্যই নেট চাই!\" = একগুঁয়ে",
+  "exampleEn": "The obstinate child refused to eat vegetables.",
+  "exampleBn": "জেদি শিশুটি সবজি খেতে রাজি হলো না।",
+  "synonyms": [
+   "stubborn",
+   "headstrong"
+  ]
+ },
+ {
+  "id": "hook_069",
+  "order": 69,
+  "word": "Ominous",
+  "ipa": "/ˈɒmɪnəs/",
+  "bnPronunciation": "অমিনাস",
+  "pos": "adjective",
+  "meaningBn": "অশুভ, অলক্ষুনে",
+  "meaningEn": "warning of something bad",
+  "soundSplit": "Ominous",
+  "soundHookBn": "অমানিশা",
+  "storyBn": "অমানিশার রাত। চাঁদ নেই, বিদ্যুৎ নেই, দূরে শেয়ালের ডাক আর একটা পেঁচা থেকে থেকে ডেকে উঠছে। গ্রামের সবাই দরজা আটকে বসে, মনে হচ্ছে খারাপ কিছু ঘটতে চলেছে।",
+  "keyCueBn": "অমানিশার রাত = অশুভ লক্ষণ",
+  "exampleEn": "Dark, ominous clouds gathered over the river.",
+  "exampleBn": "নদীর ওপর কালো, অশুভ মেঘ জমল।",
+  "synonyms": [
+   "threatening",
+   "sinister"
+  ]
+ },
+ {
+  "id": "hook_070",
+  "order": 70,
+  "word": "Opulent",
+  "ipa": "/ˈɒpjələnt/",
+  "bnPronunciation": "অপুলেন্ট",
+  "pos": "adjective",
+  "meaningBn": "জাঁকজমকপূর্ণ, ঐশ্বর্যময়",
+  "meaningEn": "luxurious; showing great wealth",
+  "soundSplit": "Opu-lent",
+  "soundHookBn": "অপুর লন",
+  "storyBn": "ব্যবসায়ী অপুর বাড়ির বিশাল লনে বিয়ের আয়োজন: ঝাড়বাতি, ফোয়ারা, সোনালি চেয়ার, আর বিদেশ থেকে আনা হাজার গোলাপ। অতিথিরা চোখ বড় করে তাকিয়ে আছেন।",
+  "keyCueBn": "অপুর ঝলমলে লন = জাঁকজমকপূর্ণ",
+  "exampleEn": "They stayed in an opulent hotel in Dubai.",
+  "exampleBn": "তারা দুবাইয়ের এক বিলাসবহুল হোটেলে ছিলেন।",
+  "synonyms": [
+   "luxurious",
+   "lavish"
+  ]
+ },
+ {
+  "id": "hook_071",
+  "order": 71,
+  "word": "Ostracize",
+  "ipa": "/ˈɒstrəsaɪz/",
+  "bnPronunciation": "অস্ট্রাসাইজ",
+  "pos": "verb",
+  "meaningBn": "একঘরে করা, সমাজচ্যুত করা",
+  "meaningEn": "to exclude from a group",
+  "soundSplit": "Ostra-cize",
+  "soundHookBn": "অস্ত্র সাইজ",
+  "storyBn": "গ্রামের মাস্তান বদু সবসময় বড় সাইজের অস্ত্র নিয়ে ঘোরে, সবাইকে হুমকি দেয়। শেষে গ্রামবাসী সালিশ বসিয়ে ঠিক করল, কেউ তার সাথে কথা বলবে না, লেনদেনও না। বদু একঘরে।",
+  "keyCueBn": "বড় সাইজের অস্ত্রধারী একঘরে = সমাজচ্যুত করা",
+  "exampleEn": "He was ostracized by his friends after the scandal.",
+  "exampleBn": "কেলেঙ্কারির পর বন্ধুরা তাকে একঘরে করে দিল।",
+  "synonyms": [
+   "exclude",
+   "shun"
+  ]
+ },
+ {
+  "id": "hook_072",
+  "order": 72,
+  "word": "Paucity",
+  "ipa": "/ˈpɔːsəti/",
+  "bnPronunciation": "পসিটি",
+  "pos": "noun",
+  "meaningBn": "স্বল্পতা, অভাব",
+  "meaningEn": "scarcity; a small amount",
+  "soundSplit": "Pau-city",
+  "soundHookBn": "পয়সা নেই, টি-ও নেই",
+  "storyBn": "মাসের শেষ সপ্তাহ। ছাত্র সোহেলের পকেটে একটা পয়সাও নেই, তাই আড্ডার সেই এক কাপ টি-ও বন্ধ। মেসের খাতায় শুধু বাকি আর বাকি।",
+  "keyCueBn": "পয়সা নেই, টি-ও নেই = অভাব",
+  "exampleEn": "There is a paucity of good teachers in rural areas.",
+  "exampleBn": "গ্রামাঞ্চলে ভালো শিক্ষকের অভাব রয়েছে।",
+  "synonyms": [
+   "scarcity",
+   "shortage"
+  ]
+ },
+ {
+  "id": "hook_073",
+  "order": 73,
+  "word": "Pensive",
+  "ipa": "/ˈpensɪv/",
+  "bnPronunciation": "পেনসিভ",
+  "pos": "adjective",
+  "meaningBn": "চিন্তামগ্ন",
+  "meaningEn": "deep in thought",
+  "soundSplit": "Pensi-ve",
+  "soundHookBn": "পেনসিল কামড়ানো",
+  "storyBn": "বাংলা খাতা সামনে, রচনার বিষয় \"আমার স্বপ্ন\"। নাফিসা মুখে পেনসিল কামড়ে জানালার দিকে তাকিয়ে আছে, গভীর চিন্তায় ডুবে। আশপাশের কোনো শব্দই তার কানে যাচ্ছে না।",
+  "keyCueBn": "পেনসিল কামড়ে ভাবনা = চিন্তামগ্ন",
+  "exampleEn": "She sat by the window in a pensive mood.",
+  "exampleBn": "সে চিন্তামগ্ন হয়ে জানালার পাশে বসে ছিল।",
+  "synonyms": [
+   "thoughtful",
+   "reflective"
+  ]
+ },
+ {
+  "id": "hook_074",
+  "order": 74,
+  "word": "Perfunctory",
+  "ipa": "/pəˈfʌŋktəri/",
+  "bnPronunciation": "পারফাংকটরি",
+  "pos": "adjective",
+  "meaningBn": "দায়সারা",
+  "meaningEn": "done carelessly, as a routine",
+  "soundSplit": "Per-funct-ory",
+  "soundHookBn": "পার করা ফাংশন",
+  "storyBn": "অফিসের বার্ষিক অনুষ্ঠানে বস মঞ্চে উঠে ঘড়ি দেখলেন, দুই লাইন পড়লেন, তারপর বললেন, \"যাক, ফাংশন পার!\" কারো নাম নিলেন না, কাউকে ধন্যবাদও দিলেন না।",
+  "keyCueBn": "কোনোরকমে ফাংশন পার = দায়সারা",
+  "exampleEn": "He gave a perfunctory nod and walked away.",
+  "exampleBn": "সে দায়সারাভাবে মাথা নেড়ে চলে গেল।",
+  "synonyms": [
+   "cursory",
+   "half-hearted"
+  ]
+ },
+ {
+  "id": "hook_075",
+  "order": 75,
+  "word": "Pernicious",
+  "ipa": "/pəˈnɪʃəs/",
+  "bnPronunciation": "পারনিশাস",
+  "pos": "adjective",
+  "meaningBn": "ধীরে ধীরে ক্ষতিকর",
+  "meaningEn": "harmful in a slow, hidden way",
+  "soundSplit": "Per-ni-cious",
+  "soundHookBn": "পারা + নেশা",
+  "storyBn": "থার্মোমিটার ভেঙে পারা পড়ল, কেউ মোছেনি; চোখে দেখা যায় না, কিন্তু ধীরে ধীরে বিষ ছড়ায়। ঠিক যেমন সিগারেটের নেশা: প্রথমে মজা, পরে চুপিচুপি ফুসফুস শেষ।",
+  "keyCueBn": "পারা আর নেশা = ধীরে ধীরে ক্ষতিকর",
+  "exampleEn": "Smoking has a pernicious effect on health.",
+  "exampleBn": "ধূমপান স্বাস্থ্যের ওপর ধীরে ধীরে মারাত্মক প্রভাব ফেলে।",
+  "synonyms": [
+   "harmful",
+   "destructive"
+  ]
+ },
+ {
+  "id": "hook_076",
+  "order": 76,
+  "word": "Pilfer",
+  "ipa": "/ˈpɪlfə(r)/",
+  "bnPronunciation": "পিলফার",
+  "pos": "verb",
+  "meaningBn": "ছিঁচকে চুরি করা",
+  "meaningEn": "to steal small things",
+  "soundSplit": "Pil-fer",
+  "soundHookBn": "পিল ফেরি",
+  "storyBn": "ফার্মেসির কর্মচারী জামাল প্রতিদিন দু-চারটা পিল পকেটে ঢুকিয়ে ফেলত। সন্ধ্যায় সেগুলো ফুটপাতে ফেরি করে বেচত। ছোট ছোট চুরি, কিন্তু মাস শেষে হিসাবে বিশাল ঘাটতি!",
+  "keyCueBn": "পিল সরিয়ে ফেরি = ছিঁচকে চুরি",
+  "exampleEn": "The worker was caught pilfering office supplies.",
+  "exampleBn": "কর্মচারী অফিসের জিনিসপত্র চুরি করতে গিয়ে ধরা পড়ল।",
+  "synonyms": [
+   "steal",
+   "filch"
+  ]
+ },
+ {
+  "id": "hook_077",
+  "order": 77,
+  "word": "Plethora",
+  "ipa": "/ˈpleθərə/",
+  "bnPronunciation": "প্লেথোরা",
+  "pos": "noun",
+  "meaningBn": "প্রাচুর্য, অঢেল",
+  "meaningEn": "an excessive amount",
+  "soundSplit": "Ple-thora",
+  "soundHookBn": "প্লেট ভরা",
+  "storyBn": "বিয়েবাড়িতে বাবুর্চি একের পর এক দিয়েই যাচ্ছেন: বিরিয়ানি, রোস্ট, রেজালা, কাবাব, দই, মিষ্টি। প্লেট ভরা খাবার, প্লেট উপচে টেবিলে! এত খাবার শেষ করা অসম্ভব।",
+  "keyCueBn": "প্লেট ভরা খাবার = প্রাচুর্য",
+  "exampleEn": "There is a plethora of apps for learning English.",
+  "exampleBn": "ইংরেজি শেখার জন্য অসংখ্য অ্যাপ রয়েছে।",
+  "synonyms": [
+   "abundance",
+   "excess"
+  ]
+ },
+ {
+  "id": "hook_078",
+  "order": 78,
+  "word": "Quandary",
+  "ipa": "/ˈkwɒndəri/",
+  "bnPronunciation": "কোয়ান্ডারি",
+  "pos": "noun",
+  "meaningBn": "উভয়সংকট, দ্বিধা",
+  "meaningEn": "uncertainty about what to do",
+  "soundSplit": "Quan-dary",
+  "soundHookBn": "কোন ডেরায় যাই?",
+  "storyBn": "জাহিদের হাতে দুটো চাকরির অফার: একটা ঢাকায় বেশি বেতনে, আরেকটা নিজের শহর রাজশাহীতে মায়ের কাছে। সারারাত ঘুম নেই, শুধু ভাবছে, \"কোন ডেরায় যাই?\"",
+  "keyCueBn": "\"কোন ডেরায় যাই?\" = উভয়সংকট",
+  "exampleEn": "I'm in a quandary about which university to choose.",
+  "exampleBn": "কোন বিশ্ববিদ্যালয় বেছে নেব, তা নিয়ে আমি দ্বিধায় আছি।",
+  "synonyms": [
+   "dilemma",
+   "predicament"
+  ]
+ },
+ {
+  "id": "hook_079",
+  "order": 79,
+  "word": "Quell",
+  "ipa": "/kwel/",
+  "bnPronunciation": "কোয়েল",
+  "pos": "verb",
+  "meaningBn": "দমন করা, থামানো",
+  "meaningEn": "to put an end to (unrest)",
+  "soundSplit": "Quell",
+  "soundHookBn": "কোয়েল পাখি",
+  "storyBn": "খামারের পাঁচশো কোয়েল পাখি হঠাৎ একসাথে চেঁচামেচি আর ঝাপটাঝাপটি শুরু করল। খামারি এক বস্তা দানা ছিটিয়ে দিতেই মুহূর্তে সব হট্টগোল থেমে গেল।",
+  "keyCueBn": "কোয়েলের হট্টগোল থামানো = দমন করা",
+  "exampleEn": "Police were called to quell the riot.",
+  "exampleBn": "দাঙ্গা দমন করতে পুলিশ ডাকা হলো।",
+  "synonyms": [
+   "suppress",
+   "subdue"
+  ]
+ },
+ {
+  "id": "hook_080",
+  "order": 80,
+  "word": "Rebuke",
+  "ipa": "/rɪˈbjuːk/",
+  "bnPronunciation": "রিবিউক",
+  "pos": "verb",
+  "meaningBn": "তিরস্কার করা, ভর্ৎসনা করা",
+  "meaningEn": "to criticize sharply",
+  "soundSplit": "Re-buke",
+  "soundHookBn": "রি-বুক (আবার বই!)",
+  "storyBn": "ইংরেজি স্যার ক্লাসে ঢুকেই দেখলেন, পিয়াস আবারও বই আনেনি। টেবিলে ডাস্টার ঠুকে বললেন, \"রি-পিট! আবার বুক ভুলে গেছ? দাঁড়িয়ে থাকো!\" সবার সামনে কড়া তিরস্কার।",
+  "keyCueBn": "আবার বুক নেই? = তিরস্কার করা",
+  "exampleEn": "The manager rebuked him for coming late.",
+  "exampleBn": "দেরিতে আসার জন্য ম্যানেজার তাকে তিরস্কার করলেন।",
+  "synonyms": [
+   "scold",
+   "reprimand"
+  ]
+ },
+ {
+  "id": "hook_081",
+  "order": 81,
+  "word": "Reticent",
+  "ipa": "/ˈretɪsnt/",
+  "bnPronunciation": "রেটিসেন্ট",
+  "pos": "adjective",
+  "meaningBn": "চাপা স্বভাবের, স্বল্পভাষী",
+  "meaningEn": "unwilling to say much",
+  "soundSplit": "Reti-cent",
+  "soundHookBn": "শব্দপ্রতি রেট এক সেন্ট",
+  "storyBn": "অফিসের সাদিক ভাই এমনভাবে কথা বলেন, যেন প্রতিটা শব্দের রেট এক সেন্ট আর তিনি খরচ করতে নারাজ। এক ঘণ্টার মিটিংয়ে মোট বললেন তিনটা শব্দ: \"জি\", \"না\", \"ঠিক আছে\"।",
+  "keyCueBn": "শব্দপ্রতি এক সেন্ট রেট = স্বল্পভাষী",
+  "exampleEn": "He is reticent about his personal life.",
+  "exampleBn": "সে তার ব্যক্তিগত জীবন নিয়ে কম কথা বলে।",
+  "synonyms": [
+   "reserved",
+   "quiet"
+  ]
+ },
+ {
+  "id": "hook_082",
+  "order": 82,
+  "word": "Ruse",
+  "ipa": "/ruːz/",
+  "bnPronunciation": "রুজ",
+  "pos": "noun",
+  "meaningBn": "ছল, কৌশল",
+  "meaningEn": "a trick to deceive someone",
+  "soundSplit": "Ruse",
+  "soundHookBn": "গালে রুজ",
+  "storyBn": "পঞ্চাশ বছরের মোক্তার সাহেব পাত্রী দেখতে যাবেন। গালে গোলাপি রুজ, চুলে কালো কলপ, নকল দাঁত, ধার করা স্যুট! বয়স লুকানোর এই ছল শেষে ধরা পড়ল পাত্রীর দাদির চোখে।",
+  "keyCueBn": "রুজ মেখে বয়স লুকানো = ছল",
+  "exampleEn": "The phone call was a ruse to steal his password.",
+  "exampleBn": "ফোনকলটি ছিল তার পাসওয়ার্ড চুরির একটি ছল।",
+  "synonyms": [
+   "trick",
+   "ploy"
+  ]
+ },
+ {
+  "id": "hook_083",
+  "order": 83,
+  "word": "Sanguine",
+  "ipa": "/ˈsæŋɡwɪn/",
+  "bnPronunciation": "স্যাংগুইন",
+  "pos": "adjective",
+  "meaningBn": "আশাবাদী",
+  "meaningEn": "optimistic, even in difficulty",
+  "soundSplit": "Sangu-ine",
+  "soundHookBn": "সঙ্গী বলে উইন হবেই",
+  "storyBn": "বাংলাদেশের আট উইকেট পড়ে গেছে, দরকার ত্রিশ রান। রাহুল টিভি বন্ধ করতে যাচ্ছিল, পাশের সঙ্গী হাত ধরে বলল, \"বসে থাক, উইন আমাদেরই হবে!\" শেষ বলে ছক্কা!",
+  "keyCueBn": "\"সঙ্গী বলে উইন হবেই\" = আশাবাদী",
+  "exampleEn": "She is sanguine about her chances of getting the job.",
+  "exampleBn": "চাকরি পাওয়ার ব্যাপারে সে আশাবাদী।",
+  "synonyms": [
+   "optimistic",
+   "hopeful"
+  ]
+ },
+ {
+  "id": "hook_084",
+  "order": 84,
+  "word": "Scrutinize",
+  "ipa": "/ˈskruːtənaɪz/",
+  "bnPronunciation": "স্ক্রুটিনাইজ",
+  "pos": "verb",
+  "meaningBn": "খুঁটিয়ে পরীক্ষা করা",
+  "meaningEn": "to examine closely",
+  "soundSplit": "Scru-tin-ize",
+  "soundHookBn": "স্ক্রু আর টিন",
+  "storyBn": "ঘরের চালে পানি পড়ছে। মিস্ত্রি কাদের ম্যাগনিফাইং গ্লাস হাতে উঠলেন চালে। প্রতিটা স্ক্রু, প্রতিটা টিনের জোড়া খুঁটিয়ে দেখলেন, শেষে ছোট্ট একটা ফুটো ঠিকই খুঁজে বের করলেন।",
+  "keyCueBn": "প্রতিটা স্ক্রু-টিন খুঁটিয়ে দেখা = খুঁটিয়ে পরীক্ষা",
+  "exampleEn": "The teacher scrutinized every answer sheet.",
+  "exampleBn": "শিক্ষক প্রতিটি উত্তরপত্র খুঁটিয়ে দেখলেন।",
+  "synonyms": [
+   "examine",
+   "inspect"
+  ]
+ },
+ {
+  "id": "hook_085",
+  "order": 85,
+  "word": "Serendipity",
+  "ipa": "/ˌserənˈdɪpəti/",
+  "bnPronunciation": "সেরেনডিপিটি",
+  "pos": "noun",
+  "meaningBn": "অপ্রত্যাশিত সৌভাগ্য",
+  "meaningEn": "a happy, lucky chance",
+  "soundSplit": "Seren-dipi-ty",
+  "soundHookBn": "সেরিন দিল পিঠা",
+  "storyBn": "শীতের সকাল, বাজার হয়নি, সোহানা ভাবছে নাশতায় কী খাবে। হঠাৎ দরজায় টোকা, পাশের বাসার সেরিন আপা দিল এক থালা গরম ভাপা পিঠা! কে ভেবেছিল এমন সৌভাগ্য?",
+  "keyCueBn": "হঠাৎ সেরিন দিল পিঠা = অপ্রত্যাশিত সৌভাগ্য",
+  "exampleEn": "Meeting my business partner was pure serendipity.",
+  "exampleBn": "আমার ব্যবসায়িক অংশীদারের সাথে দেখা হওয়াটা ছিল নিছক সৌভাগ্য।",
+  "synonyms": [
+   "luck",
+   "chance"
+  ]
+ },
+ {
+  "id": "hook_086",
+  "order": 86,
+  "word": "Spurious",
+  "ipa": "/ˈspjʊəriəs/",
+  "bnPronunciation": "স্পিউরিয়াস",
+  "pos": "adjective",
+  "meaningBn": "ভুয়া, জাল",
+  "meaningEn": "fake; not genuine",
+  "soundSplit": "Spuri-ous",
+  "soundHookBn": "নকল সুপুরি",
+  "storyBn": "হাটে এক ব্যবসায়ী ঝকঝকে সুপুরি বিক্রি করছিল, দামও সস্তা। বাড়ি এনে কাটতে গিয়ে দেখা গেল, সব প্লাস্টিকের! পুরোটাই জাল, শুধু দেখতে আসলের মতো।",
+  "keyCueBn": "প্লাস্টিকের সুপুরি = ভুয়া, জাল",
+  "exampleEn": "The website made spurious claims about curing cancer.",
+  "exampleBn": "ওয়েবসাইটটি ক্যান্সার সারানোর ভুয়া দাবি করেছিল।",
+  "synonyms": [
+   "fake",
+   "false"
+  ]
+ },
+ {
+  "id": "hook_087",
+  "order": 87,
+  "word": "Superfluous",
+  "ipa": "/suːˈpɜːfluəs/",
+  "bnPronunciation": "সুপারফ্লুয়াস",
+  "pos": "adjective",
+  "meaningBn": "অপ্রয়োজনীয়, বাড়তি",
+  "meaningEn": "more than is needed",
+  "soundSplit": "Super-flu-ous",
+  "soundHookBn": "সুপারশপে ফ্লাস্ক",
+  "storyBn": "রেহানা আপা সুপারশপে গিয়ে আরও পাঁচটা ফ্লাস্ক কিনে আনলেন। অথচ রান্নাঘরে আগে থেকেই সাতটা ফ্লাস্ক সাজানো, তার কয়েকটা কোনোদিন খোলাই হয়নি!",
+  "keyCueBn": "সুপারশপ থেকে বাড়তি ফ্লাস্ক = অপ্রয়োজনীয়",
+  "exampleEn": "Remove superfluous words from your essay.",
+  "exampleBn": "তোমার রচনা থেকে অপ্রয়োজনীয় শব্দগুলো বাদ দাও।",
+  "synonyms": [
+   "unnecessary",
+   "excess"
+  ]
+ },
+ {
+  "id": "hook_088",
+  "order": 88,
+  "word": "Sycophant",
+  "ipa": "/ˈsɪkəfænt/",
+  "bnPronunciation": "সিকোফ্যান্ট",
+  "pos": "noun",
+  "meaningBn": "চাটুকার, তোষামুদে",
+  "meaningEn": "a flatterer seeking favour",
+  "soundSplit": "Syco-phant",
+  "soundHookBn": "সিকি লাভে ফ্যান",
+  "storyBn": "লোডশেডিং হতেই রমিজ সাহেব হাতপাখা (ফ্যান) নিয়ে বসের পাশে হাজির, \"স্যার, আপনার মতো বস দুনিয়ায় নেই!\" এক সিকি লাভের আশায় তিনি সারাদিন এভাবেই বসের গুণগান গান।",
+  "keyCueBn": "সিকি লাভে বসকে ফ্যান করা = চাটুকার",
+  "exampleEn": "The king was surrounded by sycophants.",
+  "exampleBn": "রাজাকে ঘিরে ছিল চাটুকারের দল।",
+  "synonyms": [
+   "flatterer",
+   "yes-man"
+  ]
+ },
+ {
+  "id": "hook_089",
+  "order": 89,
+  "word": "Tacit",
+  "ipa": "/ˈtæsɪt/",
+  "bnPronunciation": "ট্যাসিট",
+  "pos": "adjective",
+  "meaningBn": "অব্যক্ত, মৌন",
+  "meaningEn": "understood without being said",
+  "soundSplit": "Ta-cit",
+  "soundHookBn": "টাকা দিলেই সিট",
+  "storyBn": "ভিড়ের বাসে দাঁড়ানোর জায়গা নেই। কন্ডাক্টর চোখের ইশারা করলেন, মারুফ চুপচাপ তাঁর হাতে বিশ টাকা গুঁজে দিল, আর সঙ্গে সঙ্গে একটা সিট খালি! কেউ কোনো কথা বলেনি।",
+  "keyCueBn": "নীরবে টাকা দিলে সিট = মৌন বোঝাপড়া",
+  "exampleEn": "There was a tacit agreement not to discuss politics.",
+  "exampleBn": "রাজনীতি নিয়ে আলোচনা না করার একটা মৌন সমঝোতা ছিল।",
+  "synonyms": [
+   "unspoken",
+   "implicit"
+  ]
+ },
+ {
+  "id": "hook_090",
+  "order": 90,
+  "word": "Tedious",
+  "ipa": "/ˈtiːdiəs/",
+  "bnPronunciation": "টিডিয়াস",
+  "pos": "adjective",
+  "meaningBn": "ক্লান্তিকর, বিরক্তিকর",
+  "meaningEn": "long, slow and boring",
+  "soundSplit": "Te-dious",
+  "soundHookBn": "টি দিয়াছ?",
+  "storyBn": "অফিসের নতুন পিয়ন হাবিবকে বড় সাহেব সারাদিনে পঞ্চাশবার একই প্রশ্ন করেন, \"হাবিব, টি দিয়াছ?\" সকাল থেকে সন্ধ্যা একই কাজ, একই কথা। হাবিব ক্লান্ত, বিরক্ত।",
+  "keyCueBn": "সারাদিন \"টি দিয়াছ?\" = ক্লান্তিকর",
+  "exampleEn": "Filling out the forms was a tedious job.",
+  "exampleBn": "ফর্মগুলো পূরণ করা ছিল এক ক্লান্তিকর কাজ।",
+  "synonyms": [
+   "boring",
+   "monotonous"
+  ]
+ },
+ {
+  "id": "hook_091",
+  "order": 91,
+  "word": "Tenacious",
+  "ipa": "/təˈneɪʃəs/",
+  "bnPronunciation": "টেনেশাস",
+  "pos": "adjective",
+  "meaningBn": "নাছোড়বান্দা, দৃঢ়সংকল্প",
+  "meaningEn": "not giving up easily",
+  "soundSplit": "Tena-cious",
+  "soundHookBn": "টেনে শাঁস",
+  "storyBn": "নারকেলের মালাটা ভীষণ শক্ত, কিন্তু ছোট্ট আয়াত ছাড়ার পাত্রী নয়। চামচ দিয়ে ঘণ্টাখানেক টেনে টেনে শেষমেশ পুরো শাঁস বের করেই ছাড়ল। হাল ছাড়া তার স্বভাবে নেই।",
+  "keyCueBn": "টেনে টেনে শাঁস বের করা = নাছোড়বান্দা",
+  "exampleEn": "She is a tenacious lawyer who never gives up.",
+  "exampleBn": "তিনি একজন নাছোড়বান্দা আইনজীবী, কখনো হাল ছাড়েন না।",
+  "synonyms": [
+   "persistent",
+   "determined"
+  ]
+ },
+ {
+  "id": "hook_092",
+  "order": 92,
+  "word": "Thwart",
+  "ipa": "/θwɔːt/",
+  "bnPronunciation": "থোয়ার্ট",
+  "pos": "verb",
+  "meaningBn": "ভেস্তে দেওয়া, ব্যর্থ করা",
+  "meaningEn": "to stop a plan from succeeding",
+  "soundSplit": "Thw-art",
+  "soundHookBn": "ধুয়ে দিল আর্ট",
+  "storyBn": "মায়ের জন্মদিনে চমক দিতে মিম সারারাত দেয়ালে রঙিন আর্ট আঁকল। সকালে কাজের লোক এসে নোংরা ভেবে সব পানি দিয়ে ধুয়ে দিল! মিমের পুরো পরিকল্পনা ভেস্তে গেল।",
+  "keyCueBn": "আর্ট ধুয়ে দিল = পরিকল্পনা ভেস্তে দেওয়া",
+  "exampleEn": "Police thwarted the robbery attempt.",
+  "exampleBn": "পুলিশ ডাকাতির চেষ্টা ব্যর্থ করে দিল।",
+  "synonyms": [
+   "foil",
+   "prevent"
+  ]
+ },
+ {
+  "id": "hook_093",
+  "order": 93,
+  "word": "Tirade",
+  "ipa": "/taɪˈreɪd/",
+  "bnPronunciation": "টাইরেড",
+  "pos": "noun",
+  "meaningBn": "দীর্ঘ রাগী বক্তৃতা",
+  "meaningEn": "a long, angry speech",
+  "soundSplit": "Ti-rade",
+  "soundHookBn": "টায়ার ফেটে রেড",
+  "storyBn": "মাঝরাস্তায় বাসের টায়ার ফেটে গেল। ড্রাইভার রাগে মুখ রেড করে টানা আধা ঘণ্টা বক্তৃতা: রাস্তা খারাপ, মালিক কিপটে, হেলপার অলস! যাত্রীরা চুপচাপ শুনেই গেল।",
+  "keyCueBn": "টায়ার ফেটে রেড মুখে ভাষণ = রাগী বক্তৃতা",
+  "exampleEn": "The coach launched into a tirade after the defeat.",
+  "exampleBn": "পরাজয়ের পর কোচ লম্বা রাগী বক্তৃতা দিলেন।",
+  "synonyms": [
+   "rant",
+   "outburst"
+  ]
+ },
+ {
+  "id": "hook_094",
+  "order": 94,
+  "word": "Usurp",
+  "ipa": "/juːˈzɜːp/",
+  "bnPronunciation": "ইউসার্প",
+  "pos": "verb",
+  "meaningBn": "জোর করে দখল করা",
+  "meaningEn": "to take power wrongfully",
+  "soundSplit": "U-surp",
+  "soundHookBn": "ইউ সাপ!",
+  "storyBn": "ধানক্ষেতের ধারে ইঁদুর অনেক কষ্টে একটা গর্ত খুঁড়েছিল। এক রাতে এক মোটা সাপ ঢুকে গর্তটা দখল করে বসল। ইঁদুর কাঁদতে কাঁদতে বলল, \"ইউ সাপ! এটা তো আমার ঘর!\"",
+  "keyCueBn": "\"ইউ সাপ, আমার ঘর দখল!\" = জোর করে দখল",
+  "exampleEn": "The general usurped power from the elected leader.",
+  "exampleBn": "জেনারেল নির্বাচিত নেতার কাছ থেকে জোর করে ক্ষমতা দখল করলেন।",
+  "synonyms": [
+   "seize",
+   "take over"
+  ]
+ },
+ {
+  "id": "hook_095",
+  "order": 95,
+  "word": "Vex",
+  "ipa": "/veks/",
+  "bnPronunciation": "ভেক্স",
+  "pos": "verb",
+  "meaningBn": "বিরক্ত করা, জ্বালাতন করা",
+  "meaningEn": "to annoy or worry",
+  "soundSplit": "Vex",
+  "soundHookBn": "ভেক (ব্যাঙ)",
+  "storyBn": "বর্ষার রাত। জানালার পাশের ডোবায় শত শত ভেক একসাথে \"ঘ্যাঙর ঘ্যাং\" শুরু করেছে। কাল সকালে পরীক্ষা, অথচ ব্যাঙের জ্বালায় রাতুল সারারাত এক ফোঁটা ঘুমাতে পারল না।",
+  "keyCueBn": "ভেকের ঘ্যাঙর ঘ্যাং = বিরক্ত করা",
+  "exampleEn": "Small problems often vex him.",
+  "exampleBn": "ছোটখাটো সমস্যা প্রায়ই তাকে বিরক্ত করে।",
+  "synonyms": [
+   "annoy",
+   "irritate"
+  ]
+ },
+ {
+  "id": "hook_096",
+  "order": 96,
+  "word": "Vicarious",
+  "ipa": "/vɪˈkeəriəs/",
+  "bnPronunciation": "ভাইকেরিয়াস",
+  "pos": "adjective",
+  "meaningBn": "পরোক্ষ, অন্যের মাধ্যমে অনুভূত",
+  "meaningEn": "felt through someone else",
+  "soundSplit": "Vi-carious",
+  "soundHookBn": "ভাইয়ের ক্যারিয়ার",
+  "storyBn": "বড় ভাইয়ের ক্যারিয়ার দারুণ, সে বিদেশে বড় কোম্পানিতে চাকরি পেল। ছোট বোন টুম্পা নিজে কিছু না করলেও সবার কাছে গর্বে বলে বেড়ায়, যেন সাফল্যটা তারই।",
+  "keyCueBn": "ভাইয়ের ক্যারিয়ারে নিজের আনন্দ = পরোক্ষ অনুভূতি",
+  "exampleEn": "Parents often feel vicarious joy in their children's success.",
+  "exampleBn": "বাবা-মা প্রায়ই সন্তানের সাফল্যে নিজেরা আনন্দ পান।",
+  "synonyms": [
+   "indirect",
+   "second-hand"
+  ]
+ },
+ {
+  "id": "hook_097",
+  "order": 97,
+  "word": "Voracious",
+  "ipa": "/vəˈreɪʃəs/",
+  "bnPronunciation": "ভোরেশাস",
+  "pos": "adjective",
+  "meaningBn": "রাক্ষুসে (ক্ষুধা), অদম্য আগ্রহী",
+  "meaningEn": "very hungry; very eager",
+  "soundSplit": "Vora-cious",
+  "soundHookBn": "ভোরে শশা",
+  "storyBn": "জিমে ভর্তি হওয়ার পর থেকে বাপ্পির খিদে যেন রাক্ষসের। ভোরে উঠেই দশটা শশা, তারপর ছয়টা ডিম, এক বাটি ভাত। বাজারের ব্যাগ খালি হতে সময় লাগে না!",
+  "keyCueBn": "ভোরেই দশটা শশা = রাক্ষুসে ক্ষুধা",
+  "exampleEn": "She is a voracious reader of novels.",
+  "exampleBn": "সে উপন্যাসের এক অদম্য পাঠক।",
+  "synonyms": [
+   "insatiable",
+   "greedy"
+  ]
+ },
+ {
+  "id": "hook_098",
+  "order": 98,
+  "word": "Wanton",
+  "ipa": "/ˈwɒntən/",
+  "bnPronunciation": "ওয়ান্টন",
+  "pos": "adjective",
+  "meaningBn": "অকারণ, বেপরোয়া",
+  "meaningEn": "deliberate and needless (harm)",
+  "soundSplit": "Wan-ton",
+  "soundHookBn": "ওয়ান টন",
+  "storyBn": "পার্টির পর ক্যাটারার আস্ত ওয়ান টন খাবার ডাস্টবিনে ফেলে দিল, অথচ পাশেই অভুক্ত শিশুরা দাঁড়িয়ে। কোনো দরকার ছিল না, কোনো কারণ ছিল না, শুধুই অকারণ অপচয়।",
+  "keyCueBn": "অকারণে ওয়ান টন অপচয় = অকারণ, বেপরোয়া",
+  "exampleEn": "The wanton cutting of trees must be stopped.",
+  "exampleBn": "অকারণে গাছ কাটা বন্ধ করতে হবে।",
+  "synonyms": [
+   "needless",
+   "reckless"
+  ]
+ },
+ {
+  "id": "hook_099",
+  "order": 99,
+  "word": "Wary",
+  "ipa": "/ˈweəri/",
+  "bnPronunciation": "ওয়্যারি",
+  "pos": "adjective",
+  "meaningBn": "সতর্ক, সাবধানি",
+  "meaningEn": "cautious about possible danger",
+  "soundSplit": "Wary",
+  "soundHookBn": "খোলা ওয়্যার",
+  "storyBn": "বর্ষায় রাস্তার পাশে একটা ছেঁড়া ইলেকট্রিক ওয়্যার ঝুলছে, পানিতে প্রায় ছুঁই ছুঁই। স্কুলফেরত মারিয়া দূর থেকে দেখেই থেমে গেল, তারপর অনেক ঘুরে সাবধানে বাড়ি ফিরল।",
+  "keyCueBn": "খোলা ওয়্যার দেখে সাবধান = সতর্ক",
+  "exampleEn": "Be wary of strangers asking for your OTP.",
+  "exampleBn": "OTP চাওয়া অপরিচিতদের ব্যাপারে সতর্ক থাকো।",
+  "synonyms": [
+   "cautious",
+   "careful"
+  ]
+ },
+ {
+  "id": "hook_100",
+  "order": 100,
+  "word": "Yearn",
+  "ipa": "/jɜːn/",
+  "bnPronunciation": "ইয়ার্ন",
+  "pos": "verb",
+  "meaningBn": "আকুলভাবে কামনা করা",
+  "meaningEn": "to long for intensely",
+  "soundSplit": "Yearn",
+  "soundHookBn": "ইয়ারদের জন্য আকুল",
+  "storyBn": "দুবাইয়ের মরুভূমিতে কাজ করেন সাজ্জাদ। রাতে ক্লান্ত হয়ে শুয়ে ভাবেন গ্রামের চায়ের দোকান আর পুরোনো ইয়ারদের আড্ডার কথা। মন আকুল হয়ে থাকে, কবে ফিরবেন দেশে।",
+  "keyCueBn": "ইয়ারদের জন্য আকুল মন = আকুলভাবে কামনা",
+  "exampleEn": "She yearned to see her family again.",
+  "exampleBn": "সে আবার পরিবারকে দেখার জন্য আকুল হয়ে ছিল।",
+  "synonyms": [
+   "long",
+   "crave"
+  ]
+ }
+]

@@ -1,0 +1,240 @@
+[
+ {
+  "id": "analysis_01",
+  "word": "Dehumanization",
+  "pos": "noun",
+  "parts": [
+   "de",
+   "human",
+   "ize",
+   "ation"
+  ],
+  "meaningBn": "অমানবিকীকরণ"
+ },
+ {
+  "id": "analysis_02",
+  "word": "Disadvantageously",
+  "pos": "adverb",
+  "parts": [
+   "dis",
+   "advantage",
+   "ous",
+   "ly"
+  ],
+  "meaningBn": "অসুবিধাজনকভাবে"
+ },
+ {
+  "id": "analysis_03",
+  "word": "Interchangeability",
+  "pos": "noun",
+  "parts": [
+   "inter",
+   "change",
+   "able",
+   "ity"
+  ],
+  "meaningBn": "পারস্পরিক বিনিময়যোগ্যতা"
+ },
+ {
+  "id": "analysis_04",
+  "word": "Uselessness",
+  "pos": "noun",
+  "parts": [
+   "use",
+   "less",
+   "ness"
+  ],
+  "meaningBn": "অকার্যকারিতা"
+ },
+ {
+  "id": "analysis_05",
+  "word": "Commercialization",
+  "pos": "noun",
+  "parts": [
+   "commerce",
+   "ial",
+   "ize",
+   "ation"
+  ],
+  "meaningBn": "বাণিজ্যিকীকরণ"
+ },
+ {
+  "id": "analysis_06",
+  "word": "Incomprehensibility",
+  "pos": "noun",
+  "parts": [
+   "in",
+   "comprehend",
+   "ible",
+   "ity"
+  ],
+  "meaningBn": "দুর্বোধ্যতা"
+ },
+ {
+  "id": "analysis_07",
+  "word": "Misconceptualized",
+  "pos": "adjective",
+  "parts": [
+   "mis",
+   "concept",
+   "ual",
+   "ize",
+   "d"
+  ],
+  "meaningBn": "ভুলভাবে ধারণাকৃত"
+ },
+ {
+  "id": "analysis_08",
+  "word": "Uncooperatively",
+  "pos": "adverb",
+  "parts": [
+   "un",
+   "co",
+   "operate",
+   "ive",
+   "ly"
+  ],
+  "meaningBn": "অসহযোগিতাপূর্ণভাবে"
+ },
+ {
+  "id": "analysis_09",
+  "word": "Democratization",
+  "pos": "noun",
+  "parts": [
+   "democrat",
+   "ize",
+   "ation"
+  ],
+  "meaningBn": "গণতন্ত্রায়ন"
+ },
+ {
+  "id": "analysis_10",
+  "word": "Underdeveloped",
+  "pos": "adjective",
+  "parts": [
+   "under",
+   "develop",
+   "ed"
+  ],
+  "meaningBn": "অনুন্নত"
+ },
+ {
+  "id": "analysis_11",
+  "word": "Emotionalized",
+  "pos": "adjective",
+  "parts": [
+   "emotion",
+   "al",
+   "ize",
+   "d"
+  ],
+  "meaningBn": "আবেগায়িত"
+ },
+ {
+  "id": "analysis_12",
+  "word": "Infamous",
+  "pos": "adjective",
+  "parts": [
+   "in",
+   "fame",
+   "ous"
+  ],
+  "meaningBn": "কুখ্যাত"
+ },
+ {
+  "id": "analysis_13",
+  "word": "Industrialism",
+  "pos": "noun",
+  "parts": [
+   "industry",
+   "al",
+   "ism"
+  ],
+  "meaningBn": "শিল্পবাদ"
+ },
+ {
+  "id": "analysis_14",
+  "word": "Institutionalization",
+  "pos": "noun",
+  "parts": [
+   "institute",
+   "ion",
+   "al",
+   "ize",
+   "ation"
+  ],
+  "meaningBn": "প্রাতিষ্ঠানিকীকরণ"
+ },
+ {
+  "id": "analysis_15",
+  "word": "Distrustfulness",
+  "pos": "noun",
+  "parts": [
+   "dis",
+   "trust",
+   "ful",
+   "ness"
+  ],
+  "meaningBn": "অবিশ্বাসপ্রবণতা"
+ },
+ {
+  "id": "analysis_16",
+  "word": "Desensitization",
+  "pos": "noun",
+  "parts": [
+   "de",
+   "sense",
+   "it",
+   "ize",
+   "ation"
+  ],
+  "meaningBn": "সংবেদনশীলতা হ্রাসকরণ"
+ },
+ {
+  "id": "analysis_17",
+  "word": "Unattainableness",
+  "pos": "noun",
+  "parts": [
+   "un",
+   "attain",
+   "able",
+   "ness"
+  ],
+  "meaningBn": "অপ্রাপ্যতা"
+ },
+ {
+  "id": "analysis_18",
+  "word": "Tastelessness",
+  "pos": "noun",
+  "parts": [
+   "taste",
+   "less",
+   "ness"
+  ],
+  "meaningBn": "স্বাদহীনতা; রুচিহীনতা"
+ },
+ {
+  "id": "analysis_19",
+  "word": "Demilitarization",
+  "pos": "noun",
+  "parts": [
+   "de",
+   "military",
+   "ize",
+   "ation"
+  ],
+  "meaningBn": "নিরস্ত্রীকরণ"
+ },
+ {
+  "id": "analysis_20",
+  "word": "Forgivingly",
+  "pos": "adverb",
+  "parts": [
+   "for",
+   "give",
+   "ing",
+   "ly"
+  ],
+  "meaningBn": "ক্ষমাশীলভাবে"
+ }
+]

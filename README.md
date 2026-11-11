@@ -1,0 +1,62 @@
+# Vocabsolution — অ্যান্ড্রয়েড অ্যাপ
+
+**সবার জন্য একটি পূর্ণাঙ্গ শব্দভাণ্ডার সমাধান · মুখস্থ নয়, বুঝে শেখা**
+
+Developed & Authored by **Shahjalal Sultanate (English Doctor)** — শাহজালাল সালতানাত (ইংলিশ ডক্টর)
+© English Doctor. সর্বস্বত্ব সংরক্ষিত।
+
+*VOCABSOLUTION by English Doctor (2027)* বইয়ের কন্টেন্ট নিয়ে বাংলাভাষী শিক্ষার্থীদের জন্য তৈরি একটি অফলাইন, কালার-কোডেড ভোকাবুলারি অ্যাপ। পূর্ণ পরিকল্পনা: [`VOCABSOLUTION_APP_PROMPT.md`](VOCABSOLUTION_APP_PROMPT.md)।
+
+## বর্তমান অবস্থা (v0.1.0)
+
+| অধ্যায় | অ্যাপে | কন্টেন্ট |
+|---|---|---|
+| ১ Word Building Basics | ✅ | ৪৮ প্রত্যয়, ৪৮ উপসর্গ, ২০ বিশ্লেষণ, ১২০ Multiplying Words, POS Detective কুইজ |
+| ২ Root Power | ✅ | ৯৬ শব্দ-পরিবার, ২,৬৯৪ শব্দ, POS ফিল্টার |
+| ৩ Memory Hooks | ✅ | ১০০ গল্প, ফ্লিপ কার্ড, নিজের নোট |
+| ৪ Commonly Confused Words | ✅ | ১০০ জোড়া, পাশাপাশি তুলনা, "কোনটি বসবে?" কুইজ |
+| ৫ Word Equivalents | ✅ | ১৪৪ সমার্থক-বিপরীত, ১৩০ এক কথায় প্রকাশ, কুইজ |
+| ৬–১০ (Collocations, IELTS) | 🔒 শীঘ্রই | পরবর্তী ধাপে |
+| ১১ Exam Ready | ✅ | ১০ সেট, ২৫০ MCQ, ২০ মিনিট টাইমার, স্তর আনলক (>২০/২৫) |
+
+সব অধ্যায়ে যা আছে:
+- বইয়ের **১-৩-৭-৩০ দিনের পুনরাবৃত্তি পদ্ধতি**: শেখা শব্দ ৩য়, ৭ম ও ৩০তম দিনে রিভিউতে আসে। "ভুলে গেছি" চাপলে চক্র আবার ১ম দিন থেকে শুরু হয়।
+- পদ চেনার রঙ ও চিহ্ন: ■ বিশেষ্য, ▲ ক্রিয়া, ● বিশেষণ, ◆ ক্রিয়া-বিশেষণ। Light ও Dark দুই মোডেই।
+- ব্রিটিশ উচ্চারণ (ডিভাইসের TTS দিয়ে)।
+- বুকমার্ক, বাংলা ও ইংরেজিতে সার্চ।
+- দৈনিক লক্ষ্য, Streak, XP ও ব্যাজ।
+- দৈনিক রিমাইন্ডার, ডার্ক মোড ও লেখার আকার বদলানোর সুবিধা।
+- পুরো অ্যাপ ইন্টারনেট ছাড়াই চলে। রিলিজ APK প্রায় ২ MB।
+
+## বিল্ড
+
+প্রয়োজন: JDK 17+ ও Android SDK (platform 35)।
+
+```bash
+./gradlew :app:assembleDebug        # app/build/outputs/apk/debug/app-debug.apk
+./gradlew :app:testDebugUnitTest    # SRS, পরীক্ষার নিয়ম, কন্টেন্ট যাচাই, স্ক্রিনশট
+./gradlew :app:recordPaparazziDebug # app/src/test/snapshots/images-এ স্ক্রিনশট
+```
+
+প্রতিটি পুশে GitHub Actions ইনস্টলযোগ্য debug APK তৈরি করে। এটি পাওয়া যাবে Actions → Android build → `vocabsolution-debug-apk`-এ।
+
+## কন্টেন্ট পুনরায় তৈরি (বই আপডেট হলে)
+
+```bash
+pip install pymupdf
+python3 -I tools/extract/clean_text.py BOOK.pdf clean.txt
+python3 -I tools/extract/parse_book.py clean.txt app/src/main/assets/content
+```
+
+`clean_text.py` PDF-এর লেখা থেকে বাংলা যুক্তাক্ষরের সমস্যাগুলো ঠিক করে: ডুপ্লিকেট কার-চিহ্ন এবং লাইনের মাঝে ভাঙা শব্দ। `parse_book.py` প্রতিটি সেটের সংখ্যা বইয়ের ঘোষিত সংখ্যার সাথে মিলিয়ে দেখে। একই যাচাই `ContentValidationTest`-এও চলে।
+
+## কাঠামো
+
+```
+app/src/main/java/com/englishdoctor/vocabsolution/
+  data/      কন্টেন্ট মডেল, ContentRepository (assets JSON), ProgressStore (DataStore)
+  domain/    Srs (১-৩-৭-৩০), ExamRules (স্তর আনলক)
+  ui/        theme (রঙ, Hind Siliguri ফন্ট), components, home, learn, review, exam, profile, search
+  tts/ notify/  উচ্চারণ ও দৈনিক রিমাইন্ডার
+tools/extract/  PDF → JSON পাইপলাইন
+```

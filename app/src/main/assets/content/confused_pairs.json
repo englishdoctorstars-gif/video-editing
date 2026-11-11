@@ -1,0 +1,2502 @@
+[
+ {
+  "id": "pair_001",
+  "order": 1,
+  "isHomophone": false,
+  "a": {
+   "word": "affect",
+   "pos": "verb",
+   "ipa": "/əˈfekt/",
+   "bnPronunciation": "অ্যাফেক্ট",
+   "meaningBn": "প্রভাবিত করা",
+   "exampleEn": "Smoking affects your health.",
+   "exampleBn": "ধূমপান আপনার স্বাস্থ্যকে প্রভাবিত করে।"
+  },
+  "b": {
+   "word": "effect",
+   "pos": "noun",
+   "ipa": "/ɪˈfekt/",
+   "bnPronunciation": "ইফেক্ট",
+   "meaningBn": "ফল, প্রভাব",
+   "exampleEn": "The new law had a positive effect on traffic.",
+   "exampleBn": "নতুন আইনটি যানজটের ওপর ইতিবাচক প্রভাব ফেলেছে।"
+  },
+  "differenceBn": "affect হলো ক্রিয়া (প্রভাব ফেলা), effect হলো বিশেষ্য (প্রভাবের ফল)।",
+  "mnemonic": "A = Action, E = End result"
+ },
+ {
+  "id": "pair_002",
+  "order": 2,
+  "isHomophone": true,
+  "a": {
+   "word": "principal",
+   "pos": "noun",
+   "ipa": "/ˈprɪnsəpl/",
+   "bnPronunciation": "প্রিন্সিপাল",
+   "meaningBn": "অধ্যক্ষ; প্রধান",
+   "exampleEn": "The principal opened the annual sports day.",
+   "exampleBn": "অধ্যক্ষ বার্ষিক ক্রীড়া দিবস উদ্বোধন করলেন।"
+  },
+  "b": {
+   "word": "principle",
+   "pos": "noun",
+   "ipa": "/ˈprɪnsəpl/",
+   "bnPronunciation": "প্রিন্সিপাল",
+   "meaningBn": "নীতি, আদর্শ",
+   "exampleEn": "Honesty is his guiding principle.",
+   "exampleBn": "সততাই তার পথপ্রদর্শক নীতি।"
+  },
+  "differenceBn": "principal একজন ব্যক্তি বা প্রধান কিছু; principle একটি নীতি।",
+  "mnemonic": "the princiPAL is your PAL"
+ },
+ {
+  "id": "pair_003",
+  "order": 3,
+  "isHomophone": true,
+  "a": {
+   "word": "stationary",
+   "pos": "adjective",
+   "ipa": "/ˈsteɪʃənri/",
+   "bnPronunciation": "স্টেশনারি",
+   "meaningBn": "স্থির, অচল",
+   "exampleEn": "The bus remained stationary in the traffic jam.",
+   "exampleBn": "যানজটে বাসটি স্থির দাঁড়িয়ে রইল।"
+  },
+  "b": {
+   "word": "stationery",
+   "pos": "noun",
+   "ipa": "/ˈsteɪʃənri/",
+   "bnPronunciation": "স্টেশনারি",
+   "meaningBn": "লেখার সামগ্রী",
+   "exampleEn": "She bought some stationery for the exam.",
+   "exampleBn": "পরীক্ষার জন্য সে কিছু লেখার সামগ্রী কিনল।"
+  },
+  "differenceBn": "stationAry-র A মানে At rest (স্থির); stationEry-র E মানে Envelope, অর্থাৎ কাগজ-কলম।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_004",
+  "order": 4,
+  "isHomophone": true,
+  "a": {
+   "word": "complement",
+   "pos": "verb",
+   "ipa": "/ˈkɒmplɪment/",
+   "bnPronunciation": "কমপ্লিমেন্ট",
+   "meaningBn": "পরিপূরক হওয়া",
+   "exampleEn": "The red scarf complements her dress.",
+   "exampleBn": "লাল স্কার্ফটি তার পোশাকের সাথে মানিয়ে গেছে।"
+  },
+  "b": {
+   "word": "compliment",
+   "pos": "noun",
+   "ipa": "/ˈkɒmplɪmənt/",
+   "bnPronunciation": "কমপ্লিমেন্ট",
+   "meaningBn": "প্রশংসা",
+   "exampleEn": "He paid me a compliment on my speech.",
+   "exampleBn": "আমার বক্তৃতার জন্য তিনি আমার প্রশংসা করলেন।"
+  },
+  "differenceBn": "complEment কোনো কিছুকে সম্পূর্ণ (complEte) করে; complIment হলো প্রশংসা, যেন বলা হচ্ছে I like you।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_005",
+  "order": 5,
+  "isHomophone": false,
+  "a": {
+   "word": "accept",
+   "pos": "verb",
+   "ipa": "/əkˈsept/",
+   "bnPronunciation": "অ্যাকসেপ্ট",
+   "meaningBn": "গ্রহণ করা",
+   "exampleEn": "Please accept my apology.",
+   "exampleBn": "অনুগ্রহ করে আমার ক্ষমাপ্রার্থনা গ্রহণ করুন।"
+  },
+  "b": {
+   "word": "except",
+   "pos": "other",
+   "ipa": "/ɪkˈsept/",
+   "bnPronunciation": "ইকসেপ্ট",
+   "meaningBn": "ছাড়া, ব্যতীত",
+   "exampleEn": "Everyone came except Rahim.",
+   "exampleBn": "রহিম ছাড়া সবাই এসেছিল।"
+  },
+  "differenceBn": "accept মানে গ্রহণ করা; except মানে বাদ দিয়ে।",
+  "mnemonic": "EXcept = EXclude"
+ },
+ {
+  "id": "pair_006",
+  "order": 6,
+  "isHomophone": false,
+  "a": {
+   "word": "advice",
+   "pos": "noun",
+   "ipa": "/ədˈvaɪs/",
+   "bnPronunciation": "অ্যাডভাইস",
+   "meaningBn": "পরামর্শ",
+   "exampleEn": "My teacher gave me good advice.",
+   "exampleBn": "আমার শিক্ষক আমাকে ভালো পরামর্শ দিলেন।"
+  },
+  "b": {
+   "word": "advise",
+   "pos": "verb",
+   "ipa": "/ədˈvaɪz/",
+   "bnPronunciation": "অ্যাডভাইজ",
+   "meaningBn": "পরামর্শ দেওয়া",
+   "exampleEn": "The doctor advised me to rest.",
+   "exampleBn": "ডাক্তার আমাকে বিশ্রাম নিতে পরামর্শ দিলেন।"
+  },
+  "differenceBn": "advice (c, উচ্চারণে 'স') বিশেষ্য; advise (s, উচ্চারণে 'জ') ক্রিয়া। advice-এর বহুবচন নেই: a piece of advice।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_007",
+  "order": 7,
+  "isHomophone": true,
+  "a": {
+   "word": "practice",
+   "pos": "noun",
+   "ipa": "/ˈpræktɪs/",
+   "bnPronunciation": "প্র্যাকটিস",
+   "meaningBn": "অনুশীলন",
+   "exampleEn": "Regular practice makes you fluent.",
+   "exampleBn": "নিয়মিত অনুশীলন আপনাকে সাবলীল করে।"
+  },
+  "b": {
+   "word": "practise",
+   "pos": "verb",
+   "ipa": "/ˈpræktɪs/",
+   "bnPronunciation": "প্র্যাকটিস",
+   "meaningBn": "অনুশীলন করা",
+   "exampleEn": "I practise speaking English every day.",
+   "exampleBn": "আমি প্রতিদিন ইংরেজি বলা অনুশীলন করি।"
+  },
+  "differenceBn": "ব্রিটিশ ইংরেজিতে practice বিশেষ্য, practise ক্রিয়া (advice/advise-এর মতো)। আমেরিকান ইংরেজিতে দুটিই practice।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_008",
+  "order": 8,
+  "isHomophone": false,
+  "a": {
+   "word": "lose",
+   "pos": "verb",
+   "ipa": "/luːz/",
+   "bnPronunciation": "লুজ",
+   "meaningBn": "হারানো",
+   "exampleEn": "Don't lose your admit card.",
+   "exampleBn": "আপনার প্রবেশপত্র হারাবেন না।"
+  },
+  "b": {
+   "word": "loose",
+   "pos": "adjective",
+   "ipa": "/luːs/",
+   "bnPronunciation": "লুস",
+   "meaningBn": "ঢিলা",
+   "exampleEn": "This shirt is too loose for me.",
+   "exampleBn": "শার্টটি আমার জন্য খুব ঢিলা।"
+  },
+  "differenceBn": "lose-এ একটি o, মানে হারানো; loose-এ দুটি o, মানে ঢিলেঢালা। বাড়তি o-টি যেন ঢিলে হয়ে ঝুলছে।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_009",
+  "order": 9,
+  "isHomophone": false,
+  "a": {
+   "word": "desert",
+   "pos": "noun",
+   "ipa": "/ˈdezət/",
+   "bnPronunciation": "ডেজার্ট",
+   "meaningBn": "মরুভূমি",
+   "exampleEn": "The Sahara is the largest hot desert.",
+   "exampleBn": "সাহারা বৃহত্তম উষ্ণ মরুভূমি।"
+  },
+  "b": {
+   "word": "dessert",
+   "pos": "noun",
+   "ipa": "/dɪˈzɜːt/",
+   "bnPronunciation": "ডিজার্ট",
+   "meaningBn": "খাবারের শেষে মিষ্টান্ন",
+   "exampleEn": "We had ice cream for dessert.",
+   "exampleBn": "আমরা শেষপাতে আইসক্রিম খেলাম।"
+  },
+  "differenceBn": "dessert-এ দুটি s, কারণ মিষ্টি সবাই দুবার খেতে চায় (Sweet Stuff)। desert-এ একটি s, মরুভূমিতে শুধু Sand।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_010",
+  "order": 10,
+  "isHomophone": true,
+  "a": {
+   "word": "council",
+   "pos": "noun",
+   "ipa": "/ˈkaʊnsl/",
+   "bnPronunciation": "কাউন্সেল",
+   "meaningBn": "পরিষদ",
+   "exampleEn": "The city council approved the new park.",
+   "exampleBn": "সিটি কাউন্সিল নতুন পার্কটি অনুমোদন করেছে।"
+  },
+  "b": {
+   "word": "counsel",
+   "pos": "noun",
+   "ipa": "/ˈkaʊnsl/",
+   "bnPronunciation": "কাউন্সেল",
+   "meaningBn": "পরামর্শ; আইনজীবী",
+   "exampleEn": "He sought counsel from his elders.",
+   "exampleBn": "তিনি বয়োজ্যেষ্ঠদের পরামর্শ চাইলেন।"
+  },
+  "differenceBn": "council হলো সভা বা পরিষদ (city council); counsel হলো পরামর্শ, ক্রিয়া হিসেবে পরামর্শ দেওয়া।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_011",
+  "order": 11,
+  "isHomophone": true,
+  "a": {
+   "word": "cite",
+   "pos": "verb",
+   "ipa": "/saɪt/",
+   "bnPronunciation": "সাইট",
+   "meaningBn": "উদ্ধৃত করা, উল্লেখ করা",
+   "exampleEn": "Always cite your sources in an essay.",
+   "exampleBn": "রচনায় সবসময় তথ্যসূত্র উল্লেখ করুন।"
+  },
+  "b": {
+   "word": "site",
+   "pos": "noun",
+   "ipa": "/saɪt/",
+   "bnPronunciation": "সাইট",
+   "meaningBn": "স্থান; ওয়েবসাইট",
+   "exampleEn": "This is the site of the new bridge.",
+   "exampleBn": "এটিই নতুন সেতুর স্থান।"
+  },
+  "differenceBn": "cite মানে উল্লেখ বা উদ্ধৃতি দেওয়া; site মানে জায়গা। সাবধান: sight (দৃষ্টি) তৃতীয় একটি শব্দ।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_012",
+  "order": 12,
+  "isHomophone": true,
+  "a": {
+   "word": "weather",
+   "pos": "noun",
+   "ipa": "/ˈweðə(r)/",
+   "bnPronunciation": "ওয়েদার",
+   "meaningBn": "আবহাওয়া",
+   "exampleEn": "The weather is pleasant today.",
+   "exampleBn": "আজ আবহাওয়া মনোরম।"
+  },
+  "b": {
+   "word": "whether",
+   "pos": "other",
+   "ipa": "/ˈweðə(r)/",
+   "bnPronunciation": "ওয়েদার",
+   "meaningBn": "কিনা",
+   "exampleEn": "I don't know whether he will come.",
+   "exampleBn": "আমি জানি না সে আসবে কিনা।"
+  },
+  "differenceBn": "weather আকাশ ও বাতাসের অবস্থা; whether দুটি সম্ভাবনার মধ্যে \"কিনা\" বোঝায়।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_013",
+  "order": 13,
+  "isHomophone": true,
+  "a": {
+   "word": "there",
+   "pos": "adverb",
+   "ipa": "/ðeə(r)/",
+   "bnPronunciation": "দেয়ার",
+   "meaningBn": "সেখানে; আছে",
+   "exampleEn": "There is a bank near the station.",
+   "exampleBn": "স্টেশনের কাছে একটি ব্যাংক আছে।"
+  },
+  "b": {
+   "word": "their",
+   "pos": "other",
+   "ipa": "/ðeə(r)/",
+   "bnPronunciation": "দেয়ার",
+   "meaningBn": "তাদের",
+   "exampleEn": "The students submitted their assignments.",
+   "exampleBn": "শিক্ষার্থীরা তাদের অ্যাসাইনমেন্ট জমা দিল।"
+  },
+  "differenceBn": "there স্থান বা অস্তিত্ব বোঝায় (ভেতরে here লুকিয়ে আছে); their মালিকানা বোঝায়, অর্থাৎ তাদের।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_014",
+  "order": 14,
+  "isHomophone": true,
+  "a": {
+   "word": "its",
+   "pos": "other",
+   "ipa": "/ɪts/",
+   "bnPronunciation": "ইটস",
+   "meaningBn": "এর, তার (বস্তু বা প্রাণীর)",
+   "exampleEn": "The dog wagged its tail.",
+   "exampleBn": "কুকুরটি তার লেজ নাড়ল।"
+  },
+  "b": {
+   "word": "it's",
+   "pos": "other",
+   "ipa": "/ɪts/",
+   "bnPronunciation": "ইটস",
+   "meaningBn": "it is বা it has",
+   "exampleEn": "It's raining outside.",
+   "exampleBn": "বাইরে বৃষ্টি হচ্ছে।"
+  },
+  "differenceBn": "its-এ apostrophe নেই, এটি মালিকানা বোঝায়; it's হলো it is বা it has-এর সংক্ষিপ্ত রূপ।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_015",
+  "order": 15,
+  "isHomophone": false,
+  "a": {
+   "word": "quite",
+   "pos": "adverb",
+   "ipa": "/kwaɪt/",
+   "bnPronunciation": "কোয়াইট",
+   "meaningBn": "বেশ, যথেষ্ট",
+   "exampleEn": "The exam was quite difficult.",
+   "exampleBn": "পরীক্ষাটি বেশ কঠিন ছিল।"
+  },
+  "b": {
+   "word": "quiet",
+   "pos": "adjective",
+   "ipa": "/ˈkwaɪət/",
+   "bnPronunciation": "কোয়াইয়েট",
+   "meaningBn": "শান্ত, নিরব",
+   "exampleEn": "Please keep quiet in the library.",
+   "exampleBn": "লাইব্রেরিতে অনুগ্রহ করে চুপ থাকুন।"
+  },
+  "differenceBn": "quite এক সিলেবলে (কোয়াইট); quiet দুই সিলেবলে (কোয়াই-য়েট)। বানানে t-এর আগের দুটি অক্ষরের জায়গা বদল।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_016",
+  "order": 16,
+  "isHomophone": false,
+  "a": {
+   "word": "breath",
+   "pos": "noun",
+   "ipa": "/breθ/",
+   "bnPronunciation": "ব্রেথ",
+   "meaningBn": "নিঃশ্বাস",
+   "exampleEn": "Take a deep breath before you speak.",
+   "exampleBn": "বলার আগে একটি গভীর শ্বাস নিন।"
+  },
+  "b": {
+   "word": "breathe",
+   "pos": "verb",
+   "ipa": "/briːð/",
+   "bnPronunciation": "ব্রিদ",
+   "meaningBn": "শ্বাস নেওয়া",
+   "exampleEn": "Fish breathe through their gills.",
+   "exampleBn": "মাছ ফুলকা দিয়ে শ্বাস নেয়।"
+  },
+  "differenceBn": "শেষে e যোগ হলে বিশেষ্য থেকে ক্রিয়া হয়, উচ্চারণও বদলায়: ব্রেথ থেকে ব্রিদ।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_017",
+  "order": 17,
+  "isHomophone": false,
+  "a": {
+   "word": "cloth",
+   "pos": "noun",
+   "ipa": "/klɒθ/",
+   "bnPronunciation": "ক্লথ",
+   "meaningBn": "কাপড় (বস্ত্রখণ্ড)",
+   "exampleEn": "She bought two metres of cotton cloth.",
+   "exampleBn": "সে দুই মিটার সুতি কাপড় কিনল।"
+  },
+  "b": {
+   "word": "clothe",
+   "pos": "verb",
+   "ipa": "/kləʊð/",
+   "bnPronunciation": "ক্লোদ",
+   "meaningBn": "বস্ত্র দেওয়া, পরানো",
+   "exampleEn": "The charity helps to feed and clothe the poor.",
+   "exampleBn": "সংস্থাটি দরিদ্রদের অন্ন ও বস্ত্র দিতে সাহায্য করে।"
+  },
+  "differenceBn": "cloth মানে কাপড়ের টুকরো; clothe মানে কাউকে কাপড় দেওয়া বা পরানো। আর clothes মানে পোশাক।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_018",
+  "order": 18,
+  "isHomophone": false,
+  "a": {
+   "word": "personal",
+   "pos": "adjective",
+   "ipa": "/ˈpɜːsənl/",
+   "bnPronunciation": "পারসোনাল",
+   "meaningBn": "ব্যক্তি গত",
+   "exampleEn": "This is my personal opinion.",
+   "exampleBn": "এটি আমার ব্যক্তিগত মতামত।"
+  },
+  "b": {
+   "word": "personnel",
+   "pos": "noun",
+   "ipa": "/ˌpɜːsəˈnel/",
+   "bnPronunciation": "পারসোনেল",
+   "meaningBn": "কর্মীবৃন্দ",
+   "exampleEn": "All personnel must wear ID cards.",
+   "exampleBn": "সব কর্মীকে পরিচয়পত্র পরতে হবে।"
+  },
+  "differenceBn": "personal মানে ব্যক্তিগত; personnel মানে প্রতিষ্ঠানের কর্মীরা। personnel-এর জোর শেষ সিলেবলে।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_019",
+  "order": 19,
+  "isHomophone": false,
+  "a": {
+   "word": "moral",
+   "pos": "noun",
+   "ipa": "/ˈmɒrəl/",
+   "bnPronunciation": "মরাল",
+   "meaningBn": "নীতিকথা; নৈতিক",
+   "exampleEn": "The moral of the story is to be honest.",
+   "exampleBn": "গল্পটির শিক্ষা হলো সৎ থাকা।"
+  },
+  "b": {
+   "word": "morale",
+   "pos": "noun",
+   "ipa": "/məˈrɑːl/",
+   "bnPronunciation": "মোরা:ল",
+   "meaningBn": "মনোবল",
+   "exampleEn": "The victory boosted the team's morale.",
+   "exampleBn": "জয়টি দলের মনোবল বাড়িয়ে দিল।"
+  },
+  "differenceBn": "moral মানে ভালো-মন্দের বিচার বা গল্পের শিক্ষা; morale মানে দল বা মানুষের মনোবল, জোর পড়ে শেষে।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_020",
+  "order": 20,
+  "isHomophone": true,
+  "a": {
+   "word": "elicit",
+   "pos": "verb",
+   "ipa": "/iˈlɪsɪt/",
+   "bnPronunciation": "ইলিসিট",
+   "meaningBn": "বের করে আনা, আদায় করা",
+   "exampleEn": "The teacher tried to elicit answers from the class.",
+   "exampleBn": "শিক্ষক শ্রেণি থেকে উত্তর বের করে আনার চেষ্টা করলেন।"
+  },
+  "b": {
+   "word": "illicit",
+   "pos": "adjective",
+   "ipa": "/ɪˈlɪsɪt/",
+   "bnPronunciation": "ইলিসিট",
+   "meaningBn": "অবৈধ, বেআইনি",
+   "exampleEn": "The police seized illicit goods.",
+   "exampleBn": "পুলিশ অবৈধ পণ্য জব্দ করেছে।"
+  },
+  "differenceBn": "elicit মানে উত্তর বা প্রতিক্রিয়া আদায় করা; illicit মানে বেআইনি।",
+  "mnemonic": "ILL-icit = খারাপ কাজ"
+ },
+ {
+  "id": "pair_021",
+  "order": 21,
+  "isHomophone": false,
+  "a": {
+   "word": "eminent",
+   "pos": "adjective",
+   "ipa": "/ˈemɪnənt/",
+   "bnPronunciation": "এমিনেন্ট",
+   "meaningBn": "বিশিষ্ট, খ্যাতিমান",
+   "exampleEn": "He is an eminent scientist.",
+   "exampleBn": "তিনি একজন বিশিষ্ট বিজ্ঞানী।"
+  },
+  "b": {
+   "word": "imminent",
+   "pos": "adjective",
+   "ipa": "/ˈɪmɪnənt/",
+   "bnPronunciation": "ইমিনেন্ট",
+   "meaningBn": "আসন্ন",
+   "exampleEn": "A cyclone is imminent.",
+   "exampleBn": "একটি ঘূর্ণিঝড় আসন্ন।"
+  },
+  "differenceBn": "eminent মানে সম্মানিত বা খ্যাতিমান ব্যক্তি ; imminent মানে খুব কাছে চলে আসা ঘটনা।",
+  "mnemonic": "IMminent = IMmediate"
+ },
+ {
+  "id": "pair_022",
+  "order": 22,
+  "isHomophone": true,
+  "a": {
+   "word": "canvas",
+   "pos": "noun",
+   "ipa": "/ˈkænvəs/",
+   "bnPronunciation": "ক্যানভাস",
+   "meaningBn": "মোটা কাপড়; ছবির পট",
+   "exampleEn": "The artist painted on canvas.",
+   "exampleBn": "শিল্পী ক্যানভাসে ছবি আঁকলেন।"
+  },
+  "b": {
+   "word": "canvass",
+   "pos": "verb",
+   "ipa": "/ˈkænvəs/",
+   "bnPronunciation": "ক্যানভাস",
+   "meaningBn": "ভোট বা সমর্থন চাওয়া",
+   "exampleEn": "Candidates canvass voters before the election.",
+   "exampleBn": "নির্বাচনের আগে প্রার্থীরা ভোটারদের কাছে ভোট চান।"
+  },
+  "differenceBn": "canvas-এ একটি s, মোটা কাপড় বা ছবি আঁকার পট; canvass-এ দুটি s, দ্বারে দ্বারে গিয়ে সমর্থন চাওয়া।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_023",
+  "order": 23,
+  "isHomophone": true,
+  "a": {
+   "word": "coarse",
+   "pos": "adjective",
+   "ipa": "/kɔːs/",
+   "bnPronunciation": "কোর্স",
+   "meaningBn": "খসখসে; অমার্জিত",
+   "exampleEn": "This towel is made of coarse fabric.",
+   "exampleBn": "এই তোয়ালেটি খসখসে কাপড়ের তৈরি।"
+  },
+  "b": {
+   "word": "course",
+   "pos": "noun",
+   "ipa": "/kɔːs/",
+   "bnPronunciation": "কোর্স",
+   "meaningBn": "পাঠক্রম; গতিপথ",
+   "exampleEn": "She joined an IELTS course.",
+   "exampleBn": "সে একটি IELTS কোর্সে ভর্তি হলো।"
+  },
+  "differenceBn": "coarse কোনো কিছুর গুণ বোঝায় (rough); course মানে পাঠক্রম বা পথ। of course-এর course এটিই।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_024",
+  "order": 24,
+  "isHomophone": true,
+  "a": {
+   "word": "dual",
+   "pos": "adjective",
+   "ipa": "/ˈdjuːəl/",
+   "bnPronunciation": "ডিউয়াল",
+   "meaningBn": "দ্বৈত",
+   "exampleEn": "He holds dual citizenship.",
+   "exampleBn": "তার দ্বৈত নাগরিকত্ব আছে।"
+  },
+  "b": {
+   "word": "duel",
+   "pos": "noun",
+   "ipa": "/ˈdjuːəl/",
+   "bnPronunciation": "ডিউয়াল",
+   "meaningBn": "দ্বন্দ্বযুদ্ধ",
+   "exampleEn": "The two knights fought a duel.",
+   "exampleBn": "দুই যোদ্ধা দ্বন্দ্বযুদ্ধে লড়লেন।"
+  },
+  "differenceBn": "dual মানে দুই অংশবিশিষ্ট (dual citizenship); duel মানে দুজনের মধ্যে লড়াই।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_025",
+  "order": 25,
+  "isHomophone": true,
+  "a": {
+   "word": "lessen",
+   "pos": "verb",
+   "ipa": "/ˈlesn/",
+   "bnPronunciation": "লেসন",
+   "meaningBn": "কমানো",
+   "exampleEn": "Exercise can lessen stress.",
+   "exampleBn": "ব্যায়াম মানসিক চাপ কমাতে পারে।"
+  },
+  "b": {
+   "word": "lesson",
+   "pos": "noun",
+   "ipa": "/ˈlesn/",
+   "bnPronunciation": "লেসন",
+   "meaningBn": "পাঠ; শিক্ষা",
+   "exampleEn": "Failure taught him a valuable lesson.",
+   "exampleBn": "ব্যর্থতা তাকে একটি মূল্যবান শিক্ষা দিল।"
+  },
+  "differenceBn": "lessen = make less, অর্থাৎ কমানো; lesson মানে পাঠ বা জীবনের শিক্ষা।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_026",
+  "order": 26,
+  "isHomophone": true,
+  "a": {
+   "word": "hoard",
+   "pos": "verb",
+   "ipa": "/hɔːd/",
+   "bnPronunciation": "হোর্ড",
+   "meaningBn": "মজুত করা, লুকিয়ে জমানো",
+   "exampleEn": "Some traders hoard rice to raise prices.",
+   "exampleBn": "কিছু ব্যবসায়ী দাম বাড়াতে চাল মজুত করে।"
+  },
+  "b": {
+   "word": "horde",
+   "pos": "noun",
+   "ipa": "/hɔːd/",
+   "bnPronunciation": "হোর্ড",
+   "meaningBn": "বিশাল দল, ভিড়",
+   "exampleEn": "Hordes of tourists visit Cox's Bazar every winter.",
+   "exampleBn": "প্রতি শীতে দলে দলে পর্যটক কক্সবাজারে যান।"
+  },
+  "differenceBn": "hoard মানে জিনিস জমিয়ে লুকিয়ে রাখা; horde মানে মানুষের বিশাল দল।",
+  "mnemonic": "hoArd-এর A = Accumulate (জমানো)"
+ },
+ {
+  "id": "pair_027",
+  "order": 27,
+  "isHomophone": true,
+  "a": {
+   "word": "aisle",
+   "pos": "noun",
+   "ipa": "/aɪl/",
+   "bnPronunciation": "আইল",
+   "meaningBn": "দুই সারির মাঝের পথ",
+   "exampleEn": "I prefer an aisle seat on the plane.",
+   "exampleBn": "বিমানে আমি পথের পাশের আসন পছন্দ করি।"
+  },
+  "b": {
+   "word": "isle",
+   "pos": "noun",
+   "ipa": "/aɪl/",
+   "bnPronunciation": "আইল",
+   "meaningBn": "ছোট দ্বীপ",
+   "exampleEn": "They spent a week on a small isle.",
+   "exampleBn": "তারা একটি ছোট দ্বীপে এক সপ্তাহ কাটাল।"
+  },
+  "differenceBn": "দুটিতেই s নীরব। aisle হলো বাস, বিমান বা দোকানে সারির মাঝের পথ; isle হলো দ্বীপ (island-এর ছোট রূপ)।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_028",
+  "order": 28,
+  "isHomophone": true,
+  "a": {
+   "word": "berth",
+   "pos": "noun",
+   "ipa": "/bɜːθ/",
+   "bnPronunciation": "বার্থ",
+   "meaningBn": "ট্রেন বা জাহাজের শোয়ার আসন",
+   "exampleEn": "We booked a berth on the night train to Chattogram.",
+   "exampleBn": "আমরা চট্টগ্রামগামী রাতের ট্রেনে একটি শোয়ার আসন বুক করলাম।"
+  },
+  "b": {
+   "word": "birth",
+   "pos": "noun",
+   "ipa": "/bɜːθ/",
+   "bnPronunciation": "বার্থ",
+   "meaningBn": "জন্ম",
+   "exampleEn": "Write your date of birth on the form.",
+   "exampleBn": "ফরমে আপনার জন্মতারিখ লিখুন।"
+  },
+  "differenceBn": "berth হলো ট্রেন-জাহাজের শোয়ার জায়গা বা জাহাজ ভেড়ার স্থান; birth মানে জন্ম।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_029",
+  "order": 29,
+  "isHomophone": true,
+  "a": {
+   "word": "altar",
+   "pos": "noun",
+   "ipa": "/ˈɔːltə(r)/",
+   "bnPronunciation": "অল্টার",
+   "meaningBn": "বেদি",
+   "exampleEn": "Flowers were placed on the altar.",
+   "exampleBn": "বেদিতে ফুল রাখা হয়েছিল।"
+  },
+  "b": {
+   "word": "alter",
+   "pos": "verb",
+   "ipa": "/ˈɔːltə(r)/",
+   "bnPronunciation": "অল্টার",
+   "meaningBn": "পরিবর্তন করা",
+   "exampleEn": "The tailor altered my trousers.",
+   "exampleBn": "দর্জি আমার প্যান্টের মাপ বদলে দিলেন।"
+  },
+  "differenceBn": "altar (a দিয়ে) হলো উপাসনার বেদি; alter (e দিয়ে) মানে বদলানো।",
+  "mnemonic": "altEr = Edit"
+ },
+ {
+  "id": "pair_030",
+  "order": 30,
+  "isHomophone": true,
+  "a": {
+   "word": "lightening",
+   "pos": "verb",
+   "ipa": "/ˈlaɪtnɪŋ/",
+   "bnPronunciation": "লাইটেনিং",
+   "meaningBn": "হালকা করা",
+   "exampleEn": "She is lightening her bag by removing extra books.",
+   "exampleBn": "বাড়তি বই সরিয়ে সে তার ব্যাগ হালকা করছে।"
+  },
+  "b": {
+   "word": "lightning",
+   "pos": "noun",
+   "ipa": "/ˈlaɪtnɪŋ/",
+   "bnPronunciation": "লাইটনিং",
+   "meaningBn": "বিদ্যুৎ চমক, বজ্রপাত",
+   "exampleEn": "Lightning struck the tall tree.",
+   "exampleBn": "বজ্রপাত লম্বা গাছটিতে আঘাত হানল।"
+  },
+  "differenceBn": "lightning-এ মাঝখানে e নেই, এটি আকাশের বিদ্যুৎ; lightening হলো lighten (হালকা করা)-এর ing রূপ।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_031",
+  "order": 31,
+  "isHomophone": false,
+  "a": {
+   "word": "economic",
+   "pos": "adjective",
+   "ipa": "/ˌiːkəˈnɒmɪk/",
+   "bnPronunciation": "ইকোনমিক",
+   "meaningBn": "অর্থনৈতিক",
+   "exampleEn": "Bangladesh has achieved strong economic growth.",
+   "exampleBn": "বাংলাদেশ শক্তিশালী অর্থনৈতিক প্রবৃদ্ধি অর্জন করেছে।"
+  },
+  "b": {
+   "word": "economical",
+   "pos": "adjective",
+   "ipa": "/ˌiːkəˈnɒmɪkl/",
+   "bnPronunciation": "ইকোনমিক্যাল",
+   "meaningBn": "মিতব্যয়ী, সাশ্রয়ী",
+   "exampleEn": "A small car is more economical to run.",
+   "exampleBn": "ছোট গাড়ি চালানো বেশি সাশ্রয়ী।"
+  },
+  "differenceBn": "economic মানে অর্থনীতি-সংক্রান্ত; economical মানে কম খরচে চলে এমন।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_032",
+  "order": 32,
+  "isHomophone": false,
+  "a": {
+   "word": "historic",
+   "pos": "adjective",
+   "ipa": "/hɪˈstɒrɪk/",
+   "bnPronunciation": "হিস্টরিক",
+   "meaningBn": "ঐতিহাসিকভাবে গুরুত্বপূর্ণ",
+   "exampleEn": "16 December 1971 was a historic day for Bangladesh.",
+   "exampleBn": "১৯৭১ সালের ১৬ ডিসেম্বর বাংলাদেশের জন্য একটি ঐতিহাসিক দিন।"
+  },
+  "b": {
+   "word": "historical",
+   "pos": "adjective",
+   "ipa": "/hɪˈstɒrɪkl/",
+   "bnPronunciation": "হিস্টরিক্যাল",
+   "meaningBn": "ইতিহাস-সংক্রান্ত",
+   "exampleEn": "The museum keeps historical documents.",
+   "exampleBn": "জাদুঘরটি ইতিহাস-সংক্রান্ত দলিল সংরক্ষণ করে।"
+  },
+  "differenceBn": "historic মানে স্মরণীয়, ইতিহাসে জায়গা পাওয়ার মতো; historical মানে অতীত বা ইতিহাস বিষয়ক।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_033",
+  "order": 33,
+  "isHomophone": false,
+  "a": {
+   "word": "classic",
+   "pos": "adjective",
+   "ipa": "/ˈklæsɪk/",
+   "bnPronunciation": "ক্ল্যাসিক",
+   "meaningBn": "চিরায়ত, উৎকৃষ্ট",
+   "exampleEn": "Pather Panchali is a classic film.",
+   "exampleBn": "পথের পাঁচালী একটি চিরায়ত চলচ্চিত্র।"
+  },
+  "b": {
+   "word": "classical",
+   "pos": "adjective",
+   "ipa": "/ˈklæsɪkl/",
+   "bnPronunciation": "ক্ল্যাসিক্যাল",
+   "meaningBn": "ধ্রুপদী, শাস্ত্রীয়",
+   "exampleEn": "She is learning classical music.",
+   "exampleBn": "সে শাস্ত্রীয় সংগীত শিখছে।"
+  },
+  "differenceBn": "classic মানে সেরা মানের বা যুগোত্তীর্ণ (a classic novel); classical মানে ধ্রুপদী ঐতিহ্যের (classical music)।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_034",
+  "order": 34,
+  "isHomophone": false,
+  "a": {
+   "word": "sensible",
+   "pos": "adjective",
+   "ipa": "/ˈsensəbl/",
+   "bnPronunciation": "সেনসিবল",
+   "meaningBn": "বিবেচক, বুদ্ধিমান",
+   "exampleEn": "Saving money is a sensible decision.",
+   "exampleBn": "টাকা সঞ্চয় করা একটি বিবেচনাপ্রসূত সিদ্ধান্ত।"
+  },
+  "b": {
+   "word": "sensitive",
+   "pos": "adjective",
+   "ipa": "/ˈsensətɪv/",
+   "bnPronunciation": "সেনসিটিভ",
+   "meaningBn": "সংবেদনশীল",
+   "exampleEn": "My teeth are sensitive to cold water.",
+   "exampleBn": "আমার দাঁত ঠান্ডা পানিতে সংবেদনশীল।"
+  },
+  "differenceBn": "sensible মানে বুদ্ধি খাটিয়ে বিবেচনা করে এমন; sensitive মানে সহজে অনুভব করে বা আঘাত পায় এমন।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_035",
+  "order": 35,
+  "isHomophone": false,
+  "a": {
+   "word": "respectful",
+   "pos": "adjective",
+   "ipa": "/rɪˈspektfl/",
+   "bnPronunciation": "রেসপেক্টফুল",
+   "meaningBn": "শ্রদ্ধাশীল",
+   "exampleEn": "Be respectful to your elders.",
+   "exampleBn": "বড়দের প্রতি শ্রদ্ধাশীল হও।"
+  },
+  "b": {
+   "word": "respective",
+   "pos": "adjective",
+   "ipa": "/rɪˈspektɪv/",
+   "bnPronunciation": "রেসপেক্টিভ",
+   "meaningBn": "নিজ নিজ",
+   "exampleEn": "The students went back to their respective classes.",
+   "exampleBn": "শিক্ষার্থীরা নিজ নিজ শ্রেণিতে ফিরে গেল।"
+  },
+  "differenceBn": "respectful মানে সম্মান দেখায় এমন; respective মানে প্রত্যেকের নিজ নিজ।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_036",
+  "order": 36,
+  "isHomophone": false,
+  "a": {
+   "word": "continual",
+   "pos": "adjective",
+   "ipa": "/kənˈtɪnjuəl/",
+   "bnPronunciation": "কন্টিনিউয়াল",
+   "meaningBn": "বারবার ঘটে এমন",
+   "exampleEn": "The continual phone calls disturbed my study.",
+   "exampleBn": "বারবার ফোন আসায় আমার পড়ায় ব্যাঘাত ঘটল।"
+  },
+  "b": {
+   "word": "continuous",
+   "pos": "adjective",
+   "ipa": "/kənˈtɪnjuəs/",
+   "bnPronunciation": "কন্টিনিউয়াস",
+   "meaningBn": "অবিরাম, একটানা",
+   "exampleEn": "The river makes a continuous sound.",
+   "exampleBn": "নদীটি একটানা শব্দ করে।"
+  },
+  "differenceBn": "continual মানে থেমে থেমে বারবার; continuous মানে একটানা, মাঝে কোনো বিরতি নেই।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_037",
+  "order": 37,
+  "isHomophone": false,
+  "a": {
+   "word": "imaginary",
+   "pos": "adjective",
+   "ipa": "/ɪˈmædʒɪnəri/",
+   "bnPronunciation": "ইম্যাজিনারি",
+   "meaningBn": "কাল্পনিক",
+   "exampleEn": "Children often have imaginary friends.",
+   "exampleBn": "শিশুদের প্রায়ই কাল্পনিক বন্ধু থাকে।"
+  },
+  "b": {
+   "word": "imaginative",
+   "pos": "adjective",
+   "ipa": "/ɪˈmædʒɪnətɪv/",
+   "bnPronunciation": "ইম্যাজিনেটিভ",
+   "meaningBn": "কল্পনাপ্রবণ, সৃজনশীল",
+   "exampleEn": "He is an imaginative writer.",
+   "exampleBn": "তিনি একজন কল্পনাপ্রবণ লেখক।"
+  },
+  "differenceBn": "imaginary জিনিস বাস্তবে নেই; imaginative মানুষ বা কাজ সৃজনশীল কল্পনায় ভরা।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_038",
+  "order": 38,
+  "isHomophone": false,
+  "a": {
+   "word": "industrial",
+   "pos": "adjective",
+   "ipa": "/ɪnˈdʌstriəl/",
+   "bnPronunciation": "ইন্ডাস্ট্রিয়াল",
+   "meaningBn": "শিল্পসংক্রান্ত",
+   "exampleEn": "Gazipur is an industrial area.",
+   "exampleBn": "গাজীপুর একটি শিল্পাঞ্চল।"
+  },
+  "b": {
+   "word": "industrious",
+   "pos": "adjective",
+   "ipa": "/ɪnˈdʌstriəs/",
+   "bnPronunciation": "ইন্ডাস্ট্রিয়াস",
+   "meaningBn": "পরিশ্রমী",
+   "exampleEn": "The industrious farmer works from dawn to dusk.",
+   "exampleBn": "পরিশ্রমী কৃষক ভোর থেকে সন্ধ্যা পর্যন্ত কাজ করেন।"
+  },
+  "differenceBn": "industrial মানে কারখানা ও শিল্পের সাথে সম্পর্কিত; industrious মানে কঠোর পরিশ্রমী মানুষ।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_039",
+  "order": 39,
+  "isHomophone": false,
+  "a": {
+   "word": "credible",
+   "pos": "adjective",
+   "ipa": "/ˈkredəbl/",
+   "bnPronunciation": "ক্রেডিবল",
+   "meaningBn": "বিশ্বাসযোগ্য",
+   "exampleEn": "Use only credible sources for your research.",
+   "exampleBn": "গবেষণায় শুধু বিশ্বাসযোগ্য উৎস ব্যবহার করুন।"
+  },
+  "b": {
+   "word": "credulous",
+   "pos": "adjective",
+   "ipa": "/ˈkredjələs/",
+   "bnPronunciation": "ক্রেডুলাস",
+   "meaningBn": "সহজে বিশ্বাস করে এমন",
+   "exampleEn": "Credulous people easily believe fake news.",
+   "exampleBn": "সহজে বিশ্বাসপ্রবণ মানুষ ভুয়া খবর সহজেই বিশ্বাস করে।"
+  },
+  "differenceBn": "credible কথা বা উৎস বিশ্বাস করার মতো; credulous মানুষ সহজেই সবকিছু বিশ্বাস করে ঠকে যায়।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_040",
+  "order": 40,
+  "isHomophone": false,
+  "a": {
+   "word": "judicial",
+   "pos": "adjective",
+   "ipa": "/dʒuˈdɪʃl/",
+   "bnPronunciation": "জুডিশিয়াল",
+   "meaningBn": "বিচার বিভাগীয়",
+   "exampleEn": "The case is under judicial review.",
+   "exampleBn": "মামলাটি বিচারিক পর্যালোচনাধীন।"
+  },
+  "b": {
+   "word": "judicious",
+   "pos": "adjective",
+   "ipa": "/dʒuˈdɪʃəs/",
+   "bnPronunciation": "জুডিশাস",
+   "meaningBn": "বিচক্ষণ",
+   "exampleEn": "Make judicious use of your time.",
+   "exampleBn": "সময়ের বিচক্ষণ ব্যবহার করুন।"
+  },
+  "differenceBn": "judicial আদালত ও বিচার ব্যবস্থার সাথে সম্পর্কিত; judicious মানে ভেবেচিন্তে নেওয়া, বুদ্ধিদীপ্ত।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_041",
+  "order": 41,
+  "isHomophone": false,
+  "a": {
+   "word": "human",
+   "pos": "adjective",
+   "ipa": "/ˈhjuːmən/",
+   "bnPronunciation": "হিউম্যান",
+   "meaningBn": "মানবীয়; মানুষ",
+   "exampleEn": "To err is human.",
+   "exampleBn": "ভুল করা মানুষের স্বভাব।"
+  },
+  "b": {
+   "word": "humane",
+   "pos": "adjective",
+   "ipa": "/hjuːˈmeɪn/",
+   "bnPronunciation": "হিউমেইন",
+   "meaningBn": "মানবিক, দয়ালু",
+   "exampleEn": "We must treat animals in a humane way.",
+   "exampleBn": "প্রাণীদের সাথে আমাদের মানবিক আচরণ করতে হবে।"
+  },
+  "differenceBn": "human মানে মানুষ বা মানুষ-সংক্রান্ত; humane মানে দয়া ও সহানুভূতিপূর্ণ আচরণ। শেষে e যোগে উচ্চারণের জোরও বদলায়।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_042",
+  "order": 42,
+  "isHomophone": false,
+  "a": {
+   "word": "official",
+   "pos": "adjective",
+   "ipa": "/əˈfɪʃl/",
+   "bnPronunciation": "অফিশিয়াল",
+   "meaningBn": "দাপ্তরিক, আনুষ্ঠানিক",
+   "exampleEn": "Bangla is the official language of Bangladesh.",
+   "exampleBn": "বাংলা বাংলাদেশের রাষ্ট্রভাষা।"
+  },
+  "b": {
+   "word": "officious",
+   "pos": "adjective",
+   "ipa": "/əˈfɪʃəs/",
+   "bnPronunciation": "অফিশাস",
+   "meaningBn": "অযাচিত মাতব্বরি করে এমন",
+   "exampleEn": "The officious clerk kept giving unwanted orders.",
+   "exampleBn": "অতি-মাতব্বর কেরানিটি অযাচিত হুকুম দিয়েই যাচ্ছিল।"
+  },
+  "differenceBn": "official মানে কর্তৃপক্ষ অনুমোদিত বা দাপ্তরিক; officious মানে অন্যের কাজে অহেতুক নাক গলায় এমন।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_043",
+  "order": 43,
+  "isHomophone": false,
+  "a": {
+   "word": "momentary",
+   "pos": "adjective",
+   "ipa": "/ˈməʊməntri/",
+   "bnPronunciation": "মোমেন্টারি",
+   "meaningBn": "ক্ষণস্থায়ী",
+   "exampleEn": "There was a momentary silence.",
+   "exampleBn": "মুহূর্তের জন্য নীরবতা নেমে এল।"
+  },
+  "b": {
+   "word": "momentous",
+   "pos": "adjective",
+   "ipa": "/məˈmentəs/",
+   "bnPronunciation": "মোমেন্টাস",
+   "meaningBn": "অতি গুরুত্বপূর্ণ",
+   "exampleEn": "Independence was a momentous event.",
+   "exampleBn": "স্বাধীনতা ছিল এক যুগান্তকারী ঘটনা।"
+  },
+  "differenceBn": "momentary মানে খুব অল্প সময়ের; momentous মানে বিশাল তাৎপর্যপূর্ণ ঘটনা।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_044",
+  "order": 44,
+  "isHomophone": false,
+  "a": {
+   "word": "childish",
+   "pos": "adjective",
+   "ipa": "/ˈtʃaɪldɪʃ/",
+   "bnPronunciation": "চাইল্ডিশ",
+   "meaningBn": "ছেলেমানুষি (নেতিবাচক)",
+   "exampleEn": "Stop your childish behaviour.",
+   "exampleBn": "তোমার ছেলেমানুষি আচরণ বন্ধ করো।"
+  },
+  "b": {
+   "word": "childlike",
+   "pos": "adjective",
+   "ipa": "/ˈtʃaɪldlaɪk/",
+   "bnPronunciation": "চাইল্ডলাইক",
+   "meaningBn": "শিশুসুলভ সরল (ইতিবাচক)",
+   "exampleEn": "The old man has a childlike smile.",
+   "exampleBn": "বৃদ্ধের মুখে শিশুর মতো সরল হাসি।"
+  },
+  "differenceBn": "childish বড়দের অপরিণত আচরণ বোঝায় (নিন্দা); childlike মানে শিশুর মতো নিষ্পাপ সরলতা (প্রশংসা)।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_045",
+  "order": 45,
+  "isHomophone": false,
+  "a": {
+   "word": "healthy",
+   "pos": "adjective",
+   "ipa": "/ˈhelθi/",
+   "bnPronunciation": "হেলদি",
+   "meaningBn": "সুস্থ",
+   "exampleEn": "Regular exercise keeps you healthy.",
+   "exampleBn": "নিয়মিত ব্যায়াম আপনাকে সুস্থ রাখে।"
+  },
+  "b": {
+   "word": "healthful",
+   "pos": "adjective",
+   "ipa": "/ˈhelθfl/",
+   "bnPronunciation": "হেলথফুল",
+   "meaningBn": "স্বাস্থ্যের জন্য উপকারী",
+   "exampleEn": "Fresh vegetables are a healthful choice.",
+   "exampleBn": "টাটকা সবজি স্বাস্থ্যের জন্য উপকারী খাবার।"
+  },
+  "differenceBn": "healthy সাধারণত মানুষ বা প্রাণী সুস্থ বোঝায়; healthful বোঝায় যা স্বাস্থ্যের উপকার করে। আধুনিক ইংরেজিতে healthy দুই অর্থেই চলে।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_046",
+  "order": 46,
+  "isHomophone": false,
+  "a": {
+   "word": "uninterested",
+   "pos": "adjective",
+   "ipa": "/ʌnˈɪntrəstɪd/",
+   "bnPronunciation": "আনইন্টারেস্টেড",
+   "meaningBn": "আগ্রহহীন",
+   "exampleEn": "He seemed uninterested in the lecture.",
+   "exampleBn": "বক্তৃতায় তাকে আগ্রহহীন মনে হলো।"
+  },
+  "b": {
+   "word": "disinterested",
+   "pos": "adjective",
+   "ipa": "/dɪsˈɪntrəstɪd/",
+   "bnPronunciation": "ডিসইন্টারেস্টেড",
+   "meaningBn": "নিরপেক্ষ, স্বার্থহীন",
+   "exampleEn": "A judge must be disinterested.",
+   "exampleBn": "একজন বিচারককে নিরপেক্ষ হতে হবে।"
+  },
+  "differenceBn": "uninterested মানে আগ্রহ নেই; disinterested মানে কোনো পক্ষে নিজের স্বার্থ নেই, তাই নিরপেক্ষ।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_047",
+  "order": 47,
+  "isHomophone": false,
+  "a": {
+   "word": "alternate",
+   "pos": "adjective",
+   "ipa": "/ɔːlˈtɜːnət/",
+   "bnPronunciation": "অলটারনেট",
+   "meaningBn": "একান্তর, পালাক্রমিক",
+   "exampleEn": "The class is held on alternate days.",
+   "exampleBn": "ক্লাসটি একদিন পরপর হয়।"
+  },
+  "b": {
+   "word": "alternative",
+   "pos": "noun",
+   "ipa": "/ɔːlˈtɜːnətɪv/",
+   "bnPronunciation": "অলটারনেটিভ",
+   "meaningBn": "বিকল্প",
+   "exampleEn": "We have no alternative but to wait.",
+   "exampleBn": "অপেক্ষা করা ছাড়া আমাদের আর কোনো বিকল্প নেই।"
+  },
+  "differenceBn": "alternate মানে একটির পর একটি পালা করে (alternate days = একদিন পরপর); alternative মানে অন্য একটি উপায় বা বিকল্প।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_048",
+  "order": 48,
+  "isHomophone": false,
+  "a": {
+   "word": "eligible",
+   "pos": "adjective",
+   "ipa": "/ˈelɪdʒəbl/",
+   "bnPronunciation": "এলিজিবল",
+   "meaningBn": "যোগ্য",
+   "exampleEn": "You are eligible to apply for this job.",
+   "exampleBn": "আপনি এই চাকরির জন্য আবেদন করার যোগ্য।"
+  },
+  "b": {
+   "word": "illegible",
+   "pos": "adjective",
+   "ipa": "/ɪˈledʒəbl/",
+   "bnPronunciation": "ইলেজিবল",
+   "meaningBn": "অস্পষ্ট, পড়া যায় না",
+   "exampleEn": "His handwriting is illegible.",
+   "exampleBn": "তার হাতের লেখা পড়া যায় না।"
+  },
+  "differenceBn": "eligible মানে কোনো কিছুর জন্য যোগ্য; illegible মানে লেখা পড়া যায় না (il + legible)।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_049",
+  "order": 49,
+  "isHomophone": false,
+  "a": {
+   "word": "ingenious",
+   "pos": "adjective",
+   "ipa": "/ɪnˈdʒiːniəs/",
+   "bnPronunciation": "ইনজিনিয়াস",
+   "meaningBn": "উদ্ভাবনী, বুদ্ধিদীপ্ত",
+   "exampleEn": "She found an ingenious solution.",
+   "exampleBn": "সে একটি চমৎকার উদ্ভাবনী সমাধান বের করল।"
+  },
+  "b": {
+   "word": "ingenuous",
+   "pos": "adjective",
+   "ipa": "/ɪnˈdʒenjuəs/",
+   "bnPronunciation": "ইনজেনুয়াস",
+   "meaningBn": "সরল, অকপট",
+   "exampleEn": "His ingenuous question made everyone smile.",
+   "exampleBn": "তার সরল প্রশ্নে সবাই হেসে ফেলল।"
+  },
+  "differenceBn": "ingenious মানে চতুর ও উদ্ভাবনী (genius-এর মতো); ingenuous মানে সরলমনা ও অকপট।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_050",
+  "order": 50,
+  "isHomophone": false,
+  "a": {
+   "word": "urban",
+   "pos": "adjective",
+   "ipa": "/ˈɜːbən/",
+   "bnPronunciation": "আরবান",
+   "meaningBn": "শহুরে, নগর-সংক্রান্ত",
+   "exampleEn": "Urban areas face serious traffic problems.",
+   "exampleBn": "শহরাঞ্চল গুরুতর যানজট সমস্যার মুখোমুখি।"
+  },
+  "b": {
+   "word": "urbane",
+   "pos": "adjective",
+   "ipa": "/ɜːˈbeɪn/",
+   "bnPronunciation": "আরবেইন",
+   "meaningBn": "মার্জিত, রুচিশীল",
+   "exampleEn": "The diplomat was calm and urbane.",
+   "exampleBn": "কূটনীতিক ছিলেন শান্ত ও মার্জিত।"
+  },
+  "differenceBn": "urban মানে শহরের; urbane মানে আচরণে মার্জিত ও রুচিশীল। শেষে e যোগে অর্থ ও উচ্চারণ দুটিই বদলায়।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_051",
+  "order": 51,
+  "isHomophone": false,
+  "a": {
+   "word": "beneficial",
+   "pos": "adjective",
+   "ipa": "/ˌbenɪˈfɪʃl/",
+   "bnPronunciation": "বেনিফিশিয়াল",
+   "meaningBn": "উপকারী",
+   "exampleEn": "Morning walks are beneficial to health.",
+   "exampleBn": "সকালের হাঁটা স্বাস্থ্যের জন্য উপকারী।"
+  },
+  "b": {
+   "word": "beneficent",
+   "pos": "adjective",
+   "ipa": "/bɪˈnefɪsnt/",
+   "bnPronunciation": "বেনেফিসেন্ট",
+   "meaningBn": "দানশীল, পরোপকারী",
+   "exampleEn": "The beneficent man built a school for poor children.",
+   "exampleBn": "দানশীল মানুষটি দরিদ্র শিশুদের জন্য একটি স্কুল গড়লেন।"
+  },
+  "differenceBn": "beneficial বলা হয় কোনো জিনিস বা কাজকে, যা উপকার করে; beneficent বলা হয় মানুষকে, যিনি অন্যের ভালো করেন।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_052",
+  "order": 52,
+  "isHomophone": false,
+  "a": {
+   "word": "complacent",
+   "pos": "adjective",
+   "ipa": "/kəmˈpleɪsnt/",
+   "bnPronunciation": "কমপ্লেসেন্ট",
+   "meaningBn": "আত্মতুষ্ট",
+   "exampleEn": "Don't become complacent after one success.",
+   "exampleBn": "একবার সফল হয়ে আত্মতুষ্ট হয়ো না।"
+  },
+  "b": {
+   "word": "complaisant",
+   "pos": "adjective",
+   "ipa": "/kəmˈpleɪzənt/",
+   "bnPronunciation": "কমপ্লেজেন্ট",
+   "meaningBn": "অন্যকে খুশি করতে তৎপর",
+   "exampleEn": "The complaisant host agreed to every request.",
+   "exampleBn": "অমায়িক আয়োজক প্রতিটি অনুরোধে রাজি হলেন।"
+  },
+  "differenceBn": "complacent মানে নিজের অবস্থায় এত সন্তুষ্ট যে আর চেষ্টা করে না; complaisant মানে অন্যের ইচ্ছা সহজে মেনে নেয় এমন।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_053",
+  "order": 53,
+  "isHomophone": false,
+  "a": {
+   "word": "contemptible",
+   "pos": "adjective",
+   "ipa": "/kənˈtemptəbl/",
+   "bnPronunciation": "কনটেম্পটিবল",
+   "meaningBn": "ঘৃণ্য",
+   "exampleEn": "Cheating the poor is a contemptible act.",
+   "exampleBn": "গরিবদের ঠকানো একটি ঘৃণ্য কাজ।"
+  },
+  "b": {
+   "word": "contemptuous",
+   "pos": "adjective",
+   "ipa": "/kənˈtemptʃuəs/",
+   "bnPronunciation": "কনটেম্পচুয়াস",
+   "meaningBn": "অবজ্ঞাপূর্ণ",
+   "exampleEn": "He gave a contemptuous smile.",
+   "exampleBn": "সে অবজ্ঞার হাসি হাসল।"
+  },
+  "differenceBn": "contemptible মানে ঘৃণা পাওয়ার যোগ্য; contemptuous মানে অন্যের প্রতি ঘৃণা বা অবজ্ঞা দেখায় এমন।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_054",
+  "order": 54,
+  "isHomophone": false,
+  "a": {
+   "word": "definite",
+   "pos": "adjective",
+   "ipa": "/ˈdefɪnət/",
+   "bnPronunciation": "ডেফিনিট",
+   "meaningBn": "নির্দিষ্ট, নিশ্চিত",
+   "exampleEn": "We need a definite date for the meeting.",
+   "exampleBn": "সভার জন্য আমাদের একটি নির্দিষ্ট তারিখ দরকার।"
+  },
+  "b": {
+   "word": "definitive",
+   "pos": "adjective",
+   "ipa": "/dɪˈfɪnətɪv/",
+   "bnPronunciation": "ডিফিনিটিভ",
+   "meaningBn": "চূড়ান্ত, সবচেয়ে প্রামাণ্য",
+   "exampleEn": "This is the definitive biography of the poet.",
+   "exampleBn": "এটিই কবির সবচেয়ে প্রামাণ্য জীবনী।"
+  },
+  "differenceBn": "definite মানে স্পষ্ট ও নিশ্চিত; definitive মানে চূড়ান্ত বা সবচেয়ে নির্ভরযোগ্য (a definitive answer)।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_055",
+  "order": 55,
+  "isHomophone": false,
+  "a": {
+   "word": "exceptional",
+   "pos": "adjective",
+   "ipa": "/ɪkˈsepʃənl/",
+   "bnPronunciation": "এক্সেপশনাল",
+   "meaningBn": "অসাধারণ, ব্যতিক্রমী",
+   "exampleEn": "She showed exceptional talent in mathematics.",
+   "exampleBn": "গণিতে সে অসাধারণ মেধার পরিচয় দিল।"
+  },
+  "b": {
+   "word": "exceptionable",
+   "pos": "adjective",
+   "ipa": "/ɪkˈsepʃənəbl/",
+   "bnPronunciation": "এক্সেপশনেবল",
+   "meaningBn": "আপত্তিকর",
+   "exampleEn": "His exceptionable remarks offended the audience.",
+   "exampleBn": "তার আপত্তিকর মন্তব্য শ্রোতাদের আহত করল।"
+  },
+  "differenceBn": "exceptional মানে অসাধারণ বা স্বাভাবিকের বাইরে; exceptionable মানে আপত্তি তোলার মতো (take exception = আপত্তি করা)।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_056",
+  "order": 56,
+  "isHomophone": false,
+  "a": {
+   "word": "graceful",
+   "pos": "adjective",
+   "ipa": "/ˈɡreɪsfl/",
+   "bnPronunciation": "গ্রেসফুল",
+   "meaningBn": "লাবণ্যময়, সাবলীল",
+   "exampleEn": "The dancer's movements were graceful.",
+   "exampleBn": "নৃত্যশিল্পীর ভঙ্গি ছিল লাবণ্যময়।"
+  },
+  "b": {
+   "word": "gracious",
+   "pos": "adjective",
+   "ipa": "/ˈɡreɪʃəs/",
+   "bnPronunciation": "গ্রেশাস",
+   "meaningBn": "সদয়, অমায়িক",
+   "exampleEn": "The host was gracious to all the guests.",
+   "exampleBn": "আয়োজক সব অতিথির প্রতি অমায়িক ছিলেন।"
+  },
+  "differenceBn": "graceful বোঝায় চলাফেরা বা ভঙ্গির সৌন্দর্য; gracious বোঝায় আচরণের সৌজন্য ও দয়া।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_057",
+  "order": 57,
+  "isHomophone": false,
+  "a": {
+   "word": "emigrate",
+   "pos": "verb",
+   "ipa": "/ˈemɪɡreɪt/",
+   "bnPronunciation": "এমিগ্রেট",
+   "meaningBn": "দেশ ছেড়ে বিদেশে যাওয়া",
+   "exampleEn": "Many people emigrate from Bangladesh for work.",
+   "exampleBn": "বহু মানুষ কাজের জন্য বাংলাদেশ ছেড়ে বিদেশে যান।"
+  },
+  "b": {
+   "word": "immigrate",
+   "pos": "verb",
+   "ipa": "/ˈɪmɪɡreɪt/",
+   "bnPronunciation": "ইমিগ্রেট",
+   "meaningBn": "অন্য দেশে এসে বসবাস করা",
+   "exampleEn": "His family immigrated to Canada in 2015.",
+   "exampleBn": "তার পরিবার ২০১৫ সালে কানাডায় অভিবাসী হয়।"
+  },
+  "differenceBn": "",
+  "mnemonic": "Emigrate = Exit (নিজ দেশ ছাড়া); Immigrate = In (নতুন দেশে প্রবেশ)"
+ },
+ {
+  "id": "pair_058",
+  "order": 58,
+  "isHomophone": false,
+  "a": {
+   "word": "adapt",
+   "pos": "verb",
+   "ipa": "/əˈdæpt/",
+   "bnPronunciation": "অ্যাডাপ্ট",
+   "meaningBn": "খাপ খাওয়ানো",
+   "exampleEn": "Students must adapt to the new syllabus.",
+   "exampleBn": "শিক্ষার্থীদের নতুন সিলেবাসের সাথে মানিয়ে নিতে হবে।"
+  },
+  "b": {
+   "word": "adopt",
+   "pos": "verb",
+   "ipa": "/əˈdɒpt/",
+   "bnPronunciation": "অ্যাডপ্ট",
+   "meaningBn": "গ্রহণ করা; দত্তক নেওয়া",
+   "exampleEn": "The couple adopted a baby girl.",
+   "exampleBn": "দম্পতিটি একটি কন্যাশিশু দত্তক নিলেন।"
+  },
+  "differenceBn": "",
+  "mnemonic": "adApt = Adjust (মানিয়ে নেওয়া); adOpt = Own (নিজের করে নেওয়া)"
+ },
+ {
+  "id": "pair_059",
+  "order": 59,
+  "isHomophone": false,
+  "a": {
+   "word": "deprecate",
+   "pos": "verb",
+   "ipa": "/ˈdeprəkeɪt/",
+   "bnPronunciation": "ডেপ্রিকেট",
+   "meaningBn": "নিন্দা বা অপছন্দ প্রকাশ করা",
+   "exampleEn": "The teacher deprecated the use of mobile phones in class.",
+   "exampleBn": "শিক্ষক ক্লাসে মোবাইল ফোন ব্যবহারের নিন্দা করলেন।"
+  },
+  "b": {
+   "word": "depreciate",
+   "pos": "verb",
+   "ipa": "/dɪˈpriːʃieɪt/",
+   "bnPronunciation": "ডিপ্রিশিয়েট",
+   "meaningBn": "মূল্য কমে যাওয়া",
+   "exampleEn": "A new car depreciates quickly.",
+   "exampleBn": "নতুন গাড়ির দাম দ্রুত কমে যায়।"
+  },
+  "differenceBn": "deprecate মানে কোনো কিছুর বিরোধিতা বা নিন্দা করা; depreciate মানে সময়ের সাথে দাম কমে যাওয়া।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_060",
+  "order": 60,
+  "isHomophone": false,
+  "a": {
+   "word": "affection",
+   "pos": "noun",
+   "ipa": "/əˈfekʃn/",
+   "bnPronunciation": "অ্যাফেকশন",
+   "meaningBn": "স্নেহ, ভালোবাসা",
+   "exampleEn": "The grandmother looked at the child with affection.",
+   "exampleBn": "দাদি শিশুটির দিকে স্নেহভরে তাকালেন।"
+  },
+  "b": {
+   "word": "affectation",
+   "pos": "noun",
+   "ipa": "/ˌæfekˈteɪʃn/",
+   "bnPronunciation": "অ্যাফেকটেশন",
+   "meaningBn": "কৃত্রিম ভাব, লোকদেখানো আচরণ",
+   "exampleEn": "His British accent is just an affectation.",
+   "exampleBn": "তার ব্রিটিশ উচ্চারণ নিছক লোকদেখানো ভান।"
+  },
+  "differenceBn": "affection হলো আন্তরিক স্নেহ; affectation হলো ভান বা লোক দেখানো আচরণ।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_061",
+  "order": 61,
+  "isHomophone": false,
+  "a": {
+   "word": "lie",
+   "pos": "verb",
+   "ipa": "/laɪ/",
+   "bnPronunciation": "লাই",
+   "meaningBn": "শুয়ে থাকা (lay, lain)",
+   "exampleEn": "I lie down for an hour after lunch.",
+   "exampleBn": "দুপুরের খাবারের পর আমি এক ঘণ্টা শুয়ে থাকি।"
+  },
+  "b": {
+   "word": "lay",
+   "pos": "verb",
+   "ipa": "/leɪ/",
+   "bnPronunciation": "লে",
+   "meaningBn": "কিছু রাখা, শোয়ানো (laid, laid)",
+   "exampleEn": "Please lay the books on the table.",
+   "exampleBn": "অনুগ্রহ করে বইগুলো টেবিলে রাখুন।"
+  },
+  "differenceBn": "lie-এর পরে object বসে না (নিজে শোয়া); lay-এর পরে object লাগে (কিছু রাখা)। সাবধান: lie-এর past form-ও lay।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_062",
+  "order": 62,
+  "isHomophone": false,
+  "a": {
+   "word": "rise",
+   "pos": "verb",
+   "ipa": "/raɪz/",
+   "bnPronunciation": "রাইজ",
+   "meaningBn": "ওঠা, বাড়া",
+   "exampleEn": "The sun rises in the east.",
+   "exampleBn": "সূর্য পূর্ব দিকে ওঠে।"
+  },
+  "b": {
+   "word": "raise",
+   "pos": "verb",
+   "ipa": "/reɪz/",
+   "bnPronunciation": "রেইজ",
+   "meaningBn": "তোলা, বাড়ানো",
+   "exampleEn": "Raise your hand if you know the answer.",
+   "exampleBn": "উত্তর জানলে হাত তোলো।"
+  },
+  "differenceBn": "rise নিজে নিজে ওঠে, পরে object বসে না; raise অন্য কিছুকে তোলে, পরে object লাগে।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_063",
+  "order": 63,
+  "isHomophone": false,
+  "a": {
+   "word": "borrow",
+   "pos": "verb",
+   "ipa": "/ˈbɒrəʊ/",
+   "bnPronunciation": "বরো",
+   "meaningBn": "ধার নেওয়া",
+   "exampleEn": "May I borrow your pen?",
+   "exampleBn": "আমি কি আপনার কলমটি ধার নিতে পারি?"
+  },
+  "b": {
+   "word": "lend",
+   "pos": "verb",
+   "ipa": "/lend/",
+   "bnPronunciation": "লেন্ড",
+   "meaningBn": "ধার দেওয়া",
+   "exampleEn": "Can you lend me 500 taka?",
+   "exampleBn": "আমাকে ৫০০ টাকা ধার দিতে পারবে?"
+  },
+  "differenceBn": "borrow মানে নিজে নেওয়া (borrow from); lend মানে অন্যকে দেওয়া (lend to)। \"Can you borrow me a pen?\" ভুল।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_064",
+  "order": 64,
+  "isHomophone": false,
+  "a": {
+   "word": "bring",
+   "pos": "verb",
+   "ipa": "/brɪŋ/",
+   "bnPronunciation": "ব্রিং",
+   "meaningBn": "নিয়ে আসা",
+   "exampleEn": "Please bring your certificates to the interview.",
+   "exampleBn": "সাক্ষাৎকারে আপনার সনদপত্রগুলো নিয়ে আসবেন।"
+  },
+  "b": {
+   "word": "take",
+   "pos": "verb",
+   "ipa": "/teɪk/",
+   "bnPronunciation": "টেক",
+   "meaningBn": "নিয়ে যাওয়া",
+   "exampleEn": "Take an umbrella when you go out.",
+   "exampleBn": "বাইরে যাওয়ার সময় একটি ছাতা নিয়ে যাও।"
+  },
+  "differenceBn": "bring মানে বক্তার দিকে আনা (এখানে); take মানে বক্তার কাছ থেকে দূরে নেওয়া (সেখানে)।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_065",
+  "order": 65,
+  "isHomophone": false,
+  "a": {
+   "word": "say",
+   "pos": "verb",
+   "ipa": "/seɪ/",
+   "bnPronunciation": "সে",
+   "meaningBn": "বলা",
+   "exampleEn": "Please say it again.",
+   "exampleBn": "অনুগ্রহ করে আবার বলুন।"
+  },
+  "b": {
+   "word": "tell",
+   "pos": "verb",
+   "ipa": "/tel/",
+   "bnPronunciation": "টেল",
+   "meaningBn": "কাউকে বলা, জানানো",
+   "exampleEn": "Please tell me the truth.",
+   "exampleBn": "অনুগ্রহ করে আমাকে সত্যিটা বলো।"
+  },
+  "differenceBn": "say-এর পরে সরাসরি মানুষ বসে না (say to someone); tell-এর পরে সাধারণত মানুষ বসে (tell someone)।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_066",
+  "order": 66,
+  "isHomophone": false,
+  "a": {
+   "word": "speak",
+   "pos": "verb",
+   "ipa": "/spiːk/",
+   "bnPronunciation": "স্পিক",
+   "meaningBn": "কথা বলা (ভাষা, আনুষ্ঠানিক)",
+   "exampleEn": "Can you speak French?",
+   "exampleBn": "তুমি কি ফরাসি ভাষা বলতে পারো?"
+  },
+  "b": {
+   "word": "talk",
+   "pos": "verb",
+   "ipa": "/tɔːk/",
+   "bnPronunciation": "টক",
+   "meaningBn": "আলাপ করা",
+   "exampleEn": "We talked for hours about cricket.",
+   "exampleBn": "আমরা ক্রিকেট নিয়ে ঘণ্টার পর ঘণ্টা আলাপ করলাম।"
+  },
+  "differenceBn": "speak আনুষ্ঠানিক প্রসঙ্গে বা ভাষার ক্ষেত্রে (speak English); talk অনানুষ্ঠানিক আলাপে (talk to a friend)।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_067",
+  "order": 67,
+  "isHomophone": false,
+  "a": {
+   "word": "hear",
+   "pos": "verb",
+   "ipa": "/hɪə(r)/",
+   "bnPronunciation": "হিয়ার",
+   "meaningBn": "শোনা (কানে আসা)",
+   "exampleEn": "Did you hear that noise?",
+   "exampleBn": "তুমি কি ওই শব্দটা শুনেছ?"
+  },
+  "b": {
+   "word": "listen",
+   "pos": "verb",
+   "ipa": "/ˈlɪsn/",
+   "bnPronunciation": "লিসন",
+   "meaningBn": "মনোযোগ দিয়ে শোনা",
+   "exampleEn": "Listen to the teacher carefully.",
+   "exampleBn": "শিক্ষকের কথা মনোযোগ দিয়ে শোনো।"
+  },
+  "differenceBn": "hear মানে স্বাভাবিকভাবে কানে আসা, চেষ্টা লাগে না; listen মানে মনোযোগ দিয়ে শোনা (listen to)।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_068",
+  "order": 68,
+  "isHomophone": false,
+  "a": {
+   "word": "see",
+   "pos": "verb",
+   "ipa": "/siː/",
+   "bnPronunciation": "সি",
+   "meaningBn": "দেখা (চোখে পড়া)",
+   "exampleEn": "I can see the river from my window.",
+   "exampleBn": "আমার জানালা থেকে নদীটি দেখা যায়।"
+  },
+  "b": {
+   "word": "watch",
+   "pos": "verb",
+   "ipa": "/wɒtʃ/",
+   "bnPronunciation": "ওয়াচ",
+   "meaningBn": "মনোযোগ দিয়ে দেখা",
+   "exampleEn": "We watched the cricket match on TV.",
+   "exampleBn": "আমরা টিভিতে ক্রিকেট খেলা দেখলাম।"
+  },
+  "differenceBn": "see মানে স্বাভাবিকভাবে চোখে পড়া; watch মানে সময় নিয়ে মনোযোগ দিয়ে চলমান কিছু দেখা (TV, খেলা)।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_069",
+  "order": 69,
+  "isHomophone": false,
+  "a": {
+   "word": "rob",
+   "pos": "verb",
+   "ipa": "/rɒb/",
+   "bnPronunciation": "রব",
+   "meaningBn": "ডাকাতি করা (মানুষ বা স্থান)",
+   "exampleEn": "Two men robbed the bank last night.",
+   "exampleBn": "গত রাতে দুই ব্যক্তি ব্যাংকে ডাকাতি করেছে।"
+  },
+  "b": {
+   "word": "steal",
+   "pos": "verb",
+   "ipa": "/stiːl/",
+   "bnPronunciation": "স্টিল",
+   "meaningBn": "চুরি করা (জিনিস)",
+   "exampleEn": "Someone tried to steal my phone on the bus.",
+   "exampleBn": "বাসে কেউ আমার ফোন চুরি করার চেষ্টা করেছিল।"
+  },
+  "differenceBn": "rob-এর object মানুষ বা স্থান (rob a bank); steal-এর object জিনিস (steal money)।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_070",
+  "order": 70,
+  "isHomophone": false,
+  "a": {
+   "word": "win",
+   "pos": "verb",
+   "ipa": "/wɪn/",
+   "bnPronunciation": "উইন",
+   "meaningBn": "জেতা (খেলা, পুরস্কার)",
+   "exampleEn": "We hope to win the match.",
+   "exampleBn": "আমরা ম্যাচটি জেতার আশা করি।"
+  },
+  "b": {
+   "word": "beat",
+   "pos": "verb",
+   "ipa": "/biːt/",
+   "bnPronunciation": "বিট",
+   "meaningBn": "হারানো (প্রতিপক্ষকে)",
+   "exampleEn": "Bangladesh beat Sri Lanka by five wickets.",
+   "exampleBn": "বাংলাদেশ শ্রীলঙ্কাকে পাঁচ উইকেটে হারাল।"
+  },
+  "differenceBn": "win-এর object খেলা বা পুরস্কার (win a match); beat-এর object প্রতিপক্ষ (beat a team)। \"We won India\" ভুল।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_071",
+  "order": 71,
+  "isHomophone": false,
+  "a": {
+   "word": "remember",
+   "pos": "verb",
+   "ipa": "/rɪˈmembə(r)/",
+   "bnPronunciation": "রিমেম্বার",
+   "meaningBn": "মনে রাখা, মনে পড়া",
+   "exampleEn": "I remember my first day at school.",
+   "exampleBn": "স্কুলে আমার প্রথম দিনের কথা আমার মনে আছে।"
+  },
+  "b": {
+   "word": "remind",
+   "pos": "verb",
+   "ipa": "/rɪˈmaɪnd/",
+   "bnPronunciation": "রিমাইন্ড",
+   "meaningBn": "মনে করিয়ে দেওয়া",
+   "exampleEn": "Please remind me to call him.",
+   "exampleBn": "তাকে ফোন করার কথা আমাকে মনে করিয়ে দিও।"
+  },
+  "differenceBn": "remember মানে নিজে মনে রাখা; remind মানে অন্যকে মনে করিয়ে দেওয়া (remind someone of/about)।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_072",
+  "order": 72,
+  "isHomophone": false,
+  "a": {
+   "word": "learn",
+   "pos": "verb",
+   "ipa": "/lɜːn/",
+   "bnPronunciation": "লার্ন",
+   "meaningBn": "শেখা",
+   "exampleEn": "I am learning to drive.",
+   "exampleBn": "আমি গাড়ি চালানো শিখছি।"
+  },
+  "b": {
+   "word": "teach",
+   "pos": "verb",
+   "ipa": "/tiːtʃ/",
+   "bnPronunciation": "টিচ",
+   "meaningBn": "শেখানো",
+   "exampleEn": "Mr Karim teaches us English.",
+   "exampleBn": "করিম সাহেব আমাদের ইংরেজি পড়ান।"
+  },
+  "differenceBn": "learn মানে নিজে শেখা; teach মানে অন্যকে শেখানো। \"He learned me English\" ভুল, হবে \"He taught me English\"।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_073",
+  "order": 73,
+  "isHomophone": false,
+  "a": {
+   "word": "job",
+   "pos": "noun",
+   "ipa": "/dʒɒb/",
+   "bnPronunciation": "জব",
+   "meaningBn": "চাকরি (গণনাযোগ্য)",
+   "exampleEn": "She got a job at a bank.",
+   "exampleBn": "সে একটি ব্যাংকে চাকরি পেল।"
+  },
+  "b": {
+   "word": "work",
+   "pos": "noun",
+   "ipa": "/wɜːk/",
+   "bnPronunciation": "ওয়ার্ক",
+   "meaningBn": "কাজ (অগণনাযোগ্য)",
+   "exampleEn": "I have a lot of work today.",
+   "exampleBn": "আজ আমার অনেক কাজ আছে।"
+  },
+  "differenceBn": "job গণনাযোগ্য (a job, two jobs); work অগণনাযোগ্য, তাই \"a work\" বলা যায় না।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_074",
+  "order": 74,
+  "isHomophone": false,
+  "a": {
+   "word": "house",
+   "pos": "noun",
+   "ipa": "/haʊs/",
+   "bnPronunciation": "হাউস",
+   "meaningBn": "বাড়ি (ভবন)",
+   "exampleEn": "They built a new house in the village.",
+   "exampleBn": "তারা গ্রামে একটি নতুন বাড়ি বানাল।"
+  },
+  "b": {
+   "word": "home",
+   "pos": "noun",
+   "ipa": "/həʊm/",
+   "bnPronunciation": "হোম",
+   "meaningBn": "ঘর, আপন নিবাস",
+   "exampleEn": "I go home at six every day.",
+   "exampleBn": "আমি প্রতিদিন ছয়টায় বাড়ি ফিরি।"
+  },
+  "differenceBn": "house হলো দালান বা কাঠামো; home হলো আপনজনদের সাথে বাস করার আবেগের জায়গা। লক্ষ করুন: go home, to বসে না।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_075",
+  "order": 75,
+  "isHomophone": false,
+  "a": {
+   "word": "shade",
+   "pos": "noun",
+   "ipa": "/ʃeɪd/",
+   "bnPronunciation": "শেড",
+   "meaningBn": "ছায়াময় স্থান",
+   "exampleEn": "Let's sit in the shade of that tree.",
+   "exampleBn": "চলো ওই গাছের ছায়ায় বসি।"
+  },
+  "b": {
+   "word": "shadow",
+   "pos": "noun",
+   "ipa": "/ˈʃædəʊ/",
+   "bnPronunciation": "শ্যাডো",
+   "meaningBn": "ছায়ার আকৃতি",
+   "exampleEn": "The child was playing with his shadow.",
+   "exampleBn": "শিশুটি নিজের ছায়ার সাথে খেলছিল।"
+  },
+  "differenceBn": "shade হলো রোদ থেকে আড়াল করা শীতল জায়গা; shadow হলো কোনো বস্তুর নির্দিষ্ট আকৃতির কালো প্রতিচ্ছবি।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_076",
+  "order": 76,
+  "isHomophone": false,
+  "a": {
+   "word": "disease",
+   "pos": "noun",
+   "ipa": "/dɪˈziːz/",
+   "bnPronunciation": "ডিজিজ",
+   "meaningBn": "রোগ",
+   "exampleEn": "Dengue is a mosquito-borne disease.",
+   "exampleBn": "ডেঙ্গু মশাবাহিত একটি রোগ।"
+  },
+  "b": {
+   "word": "decease",
+   "pos": "noun",
+   "ipa": "/dɪˈsiːs/",
+   "bnPronunciation": "ডিসিজ",
+   "meaningBn": "মৃত্যু",
+   "exampleEn": "The property passed to his son after his decease.",
+   "exampleBn": "তার মৃত্যুর পর সম্পত্তি তার ছেলের কাছে গেল।"
+  },
+  "differenceBn": "disease মানে রোগ; decease মানে মৃত্যু (আনুষ্ঠানিক শব্দ)। deceased মানে মৃত ব্যক্তি ।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_077",
+  "order": 77,
+  "isHomophone": false,
+  "a": {
+   "word": "envy",
+   "pos": "noun",
+   "ipa": "/ˈenvi/",
+   "bnPronunciation": "এনভি",
+   "meaningBn": "ঈর্ষা",
+   "exampleEn": "His new car filled me with envy.",
+   "exampleBn": "তার নতুন গাড়ি দেখে আমার ঈর্ষা হলো।"
+  },
+  "b": {
+   "word": "jealousy",
+   "pos": "noun",
+   "ipa": "/ˈdʒeləsi/",
+   "bnPronunciation": "জেলাসি",
+   "meaningBn": "হিংসা",
+   "exampleEn": "Jealousy can destroy a friendship.",
+   "exampleBn": "হিংসা একটি বন্ধুত্ব নষ্ট করে দিতে পারে।"
+  },
+  "differenceBn": "envy হলো অন্যের যা আছে তা নিজে পাওয়ার কামনা; jealousy হলো নিজের প্রিয় কিছু বা কাউকে হারানোর আশঙ্কা থেকে জন্মানো হিংসা।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_078",
+  "order": 78,
+  "isHomophone": false,
+  "a": {
+   "word": "sympathy",
+   "pos": "noun",
+   "ipa": "/ˈsɪmpəθi/",
+   "bnPronunciation": "সিমপ্যাথি",
+   "meaningBn": "সহানুভূতি",
+   "exampleEn": "We expressed our sympathy to the flood victims.",
+   "exampleBn": "আমরা বন্যাদুর্গতদের প্রতি সহানুভূতি জানালাম।"
+  },
+  "b": {
+   "word": "empathy",
+   "pos": "noun",
+   "ipa": "/ˈempəθi/",
+   "bnPronunciation": "এমপ্যাথি",
+   "meaningBn": "সমানুভূতি",
+   "exampleEn": "A good teacher shows empathy for weak students.",
+   "exampleBn": "একজন ভালো শিক্ষক দুর্বল শিক্ষার্থীদের অবস্থা অনুভব করেন।"
+  },
+  "differenceBn": "sympathy মানে অন্যের কষ্টে দুঃখ প্রকাশ করা; empathy মানে নিজেকে অন্যের জায়গায় রেখে তার অনুভূতি বোঝা।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_079",
+  "order": 79,
+  "isHomophone": false,
+  "a": {
+   "word": "famous",
+   "pos": "adjective",
+   "ipa": "/ˈfeɪməs/",
+   "bnPronunciation": "ফেমাস",
+   "meaningBn": "বিখ্যাত",
+   "exampleEn": "Rabindranath Tagore is a famous poet.",
+   "exampleBn": "রবীন্দ্রনাথ ঠাকুর একজন বিখ্যাত কবি।"
+  },
+  "b": {
+   "word": "notorious",
+   "pos": "adjective",
+   "ipa": "/nəʊˈtɔːriəs/",
+   "bnPronunciation": "নোটোরিয়াস",
+   "meaningBn": "কুখ্যাত",
+   "exampleEn": "The area is notorious for traffic jams.",
+   "exampleBn": "এলাকাটি যানজটের জন্য কুখ্যাত।"
+  },
+  "differenceBn": "famous মানে ভালো কাজের জন্য পরিচিত; notorious মানে খারাপ কিছুর জন্য পরিচিত।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_080",
+  "order": 80,
+  "isHomophone": false,
+  "a": {
+   "word": "artist",
+   "pos": "noun",
+   "ipa": "/ˈɑːtɪst/",
+   "bnPronunciation": "আর্টিস্ট",
+   "meaningBn": "শিল্পী",
+   "exampleEn": "Zainul Abedin was a great artist.",
+   "exampleBn": "জয়নুল আবেদিন ছিলেন একজন মহান শিল্পী।"
+  },
+  "b": {
+   "word": "artisan",
+   "pos": "noun",
+   "ipa": "/ˌɑːtɪˈzæn/",
+   "bnPronunciation": "আর্টিজান",
+   "meaningBn": "কারিগর",
+   "exampleEn": "Local artisans make beautiful jamdani saris.",
+   "exampleBn": "স্থানীয় কারিগররা সুন্দর জামদানি শাড়ি তৈরি করেন।"
+  },
+  "differenceBn": "artist সৃজনশীল শিল্পকর্ম করেন (চিত্রকর, গায়ক); artisan হাতের দক্ষতায় ব্যবহারিক জিনিস বানান (তাঁতি, কুমার)।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_081",
+  "order": 81,
+  "isHomophone": false,
+  "a": {
+   "word": "avenge",
+   "pos": "verb",
+   "ipa": "/əˈvendʒ/",
+   "bnPronunciation": "অ্যাভেঞ্জ",
+   "meaningBn": "অন্যায়ের প্রতিকার নেওয়া",
+   "exampleEn": "The hero avenged his father's death.",
+   "exampleBn": "নায়ক তার বাবার মৃত্যুর প্রতিশোধ নিলেন।"
+  },
+  "b": {
+   "word": "revenge",
+   "pos": "noun",
+   "ipa": "/rɪˈvendʒ/",
+   "bnPronunciation": "রিভেঞ্জ",
+   "meaningBn": "প্রতিশোধ",
+   "exampleEn": "He took revenge on his rival.",
+   "exampleBn": "সে তার প্রতিদ্বন্দ্বীর ওপর প্রতিশোধ নিল।"
+  },
+  "differenceBn": "avenge সাধারণত অন্যের প্রতি হওয়া অন্যায়ের ন্যায়সংগত প্রতিকার; revenge ব্যক্তিগত ক্ষোভ থেকে প্রতিশোধ (take revenge)।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_082",
+  "order": 82,
+  "isHomophone": false,
+  "a": {
+   "word": "assure",
+   "pos": "verb",
+   "ipa": "/əˈʃʊə(r)/",
+   "bnPronunciation": "অ্যাশিওর",
+   "meaningBn": "আশ্বস্ত করা",
+   "exampleEn": "I assure you that the work will be done.",
+   "exampleBn": "আমি আপনাকে আশ্বস্ত করছি যে কাজটি হবে।"
+  },
+  "b": {
+   "word": "ensure",
+   "pos": "verb",
+   "ipa": "/ɪnˈʃʊə(r)/",
+   "bnPronunciation": "ইনশিওর",
+   "meaningBn": "নিশ্চি ত করা",
+   "exampleEn": "Please ensure that all doors are locked.",
+   "exampleBn": "অনুগ্রহ করে নিশ্চিত করুন যে সব দরজা তালাবদ্ধ।"
+  },
+  "differenceBn": "assure করা হয় মানুষকে (ভরসা দেওয়া); ensure করা হয় কোনো ঘটনা বা ফলকে (নিশ্চিত করা)। আর insure মানে বিমা করা।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_083",
+  "order": 83,
+  "isHomophone": false,
+  "a": {
+   "word": "compose",
+   "pos": "verb",
+   "ipa": "/kəmˈpəʊz/",
+   "bnPronunciation": "কম্পোজ",
+   "meaningBn": "গঠন করা; রচনা করা",
+   "exampleEn": "Bangladesh is composed of eight divisions.",
+   "exampleBn": "বাংলাদেশ আটটি বিভাগ নিয়ে গঠিত।"
+  },
+  "b": {
+   "word": "comprise",
+   "pos": "verb",
+   "ipa": "/kəmˈpraɪz/",
+   "bnPronunciation": "কমপ্রাইজ",
+   "meaningBn": "নিয়ে গঠিত হওয়া",
+   "exampleEn": "The committee comprises five members.",
+   "exampleBn": "কমিটিটি পাঁচজন সদস্য নিয়ে গঠিত।"
+  },
+  "differenceBn": "অংশগুলো মিলে সম্পূর্ণকে compose করে; সম্পূর্ণটি অংশগুলোকে comprise করে। \"comprised of\" এড়িয়ে চলুন, বলুন \"composed of\" বা শুধু \"comprises\"।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_084",
+  "order": 84,
+  "isHomophone": false,
+  "a": {
+   "word": "ability",
+   "pos": "noun",
+   "ipa": "/əˈbɪləti/",
+   "bnPronunciation": "অ্যাবিলিটি",
+   "meaningBn": "দক্ষতা, সামর্থ্য",
+   "exampleEn": "She has the ability to solve problems quickly.",
+   "exampleBn": "তার দ্রুত সমস্যা সমাধানের দক্ষতা আছে।"
+  },
+  "b": {
+   "word": "capacity",
+   "pos": "noun",
+   "ipa": "/kəˈpæsəti/",
+   "bnPronunciation": "ক্যাপাসিটি",
+   "meaningBn": "ধারণক্ষমতা",
+   "exampleEn": "The stadium has a capacity of 25,000.",
+   "exampleBn": "স্টেডিয়ামটির ধারণক্ষমতা ২৫,০০০।"
+  },
+  "differenceBn": "ability মানে কিছু করতে পারার দক্ষতা; capacity মানে কতটুকু ধারণ বা উৎপাদন করতে পারে তার পরিমাণ।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_085",
+  "order": 85,
+  "isHomophone": false,
+  "a": {
+   "word": "hanged",
+   "pos": "verb",
+   "ipa": "/hæŋd/",
+   "bnPronunciation": "হ্যাংড",
+   "meaningBn": "ফাঁসি দেওয়া হয়েছে",
+   "exampleEn": "The murderer was hanged.",
+   "exampleBn": "খুনিকে ফাঁসি দেওয়া হয়েছিল।"
+  },
+  "b": {
+   "word": "hung",
+   "pos": "verb",
+   "ipa": "/hʌŋ/",
+   "bnPronunciation": "হাং",
+   "meaningBn": "ঝোলানো হয়েছে",
+   "exampleEn": "She hung the picture on the wall.",
+   "exampleBn": "সে ছবিটি দেয়ালে টাঙাল।"
+  },
+  "differenceBn": "মানুষের ফাঁসির ক্ষেত্রে hang-এর past form hanged; জিনিস ঝোলানোর ক্ষেত্রে hung।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_086",
+  "order": 86,
+  "isHomophone": false,
+  "a": {
+   "word": "beside",
+   "pos": "other",
+   "ipa": "/bɪˈsaɪd/",
+   "bnPronunciation": "বিসাইড",
+   "meaningBn": "পাশে",
+   "exampleEn": "Sit beside me.",
+   "exampleBn": "আমার পাশে বসো।"
+  },
+  "b": {
+   "word": "besides",
+   "pos": "other",
+   "ipa": "/bɪˈsaɪdz/",
+   "bnPronunciation": "বিসাইডজ",
+   "meaningBn": "এ ছাড়াও",
+   "exampleEn": "Besides English, he speaks Arabic.",
+   "exampleBn": "ইংরেজি ছাড়াও সে আরবি বলতে পারে।"
+  },
+  "differenceBn": "beside মানে পাশে (স্থান); besides মানে এর পাশাপাশি, অতিরিক্ত। একটি s-এর পার্থক্যে অর্থ বদলে যায়।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_087",
+  "order": 87,
+  "isHomophone": false,
+  "a": {
+   "word": "farther",
+   "pos": "adverb",
+   "ipa": "/ˈfɑːðə(r)/",
+   "bnPronunciation": "ফারদার",
+   "meaningBn": "আরও দূরে (দূরত্ব)",
+   "exampleEn": "My school is farther than yours.",
+   "exampleBn": "আমার স্কুল তোমারটার চেয়ে আরও দূরে।"
+  },
+  "b": {
+   "word": "further",
+   "pos": "adjective",
+   "ipa": "/ˈfɜːðə(r)/",
+   "bnPronunciation": "ফার্দার",
+   "meaningBn": "আরও, অধিকতর",
+   "exampleEn": "For further information, call us.",
+   "exampleBn": "আরও তথ্যের জন্য আমাদের ফোন করুন।"
+  },
+  "differenceBn": "farther মাপা যায় এমন দূরত্ব বোঝায় (FARther = FAR); further বোঝায় অতিরিক্ত মাত্রা বা আরও কিছু (further information)।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_088",
+  "order": 88,
+  "isHomophone": false,
+  "a": {
+   "word": "fewer",
+   "pos": "adjective",
+   "ipa": "/ˈfjuːə(r)/",
+   "bnPronunciation": "ফিউয়ার",
+   "meaningBn": "কম (গণনাযোগ্য)",
+   "exampleEn": "There are fewer students today.",
+   "exampleBn": "আজ শিক্ষার্থী কম এসেছে।"
+  },
+  "b": {
+   "word": "less",
+   "pos": "adjective",
+   "ipa": "/les/",
+   "bnPronunciation": "লেস",
+   "meaningBn": "কম (অগণনাযোগ্য)",
+   "exampleEn": "Drink less tea and more water.",
+   "exampleBn": "চা কম আর পানি বেশি পান করো।"
+  },
+  "differenceBn": "fewer বসে গণনাযোগ্য বিশেষ্যের আগে (fewer books); less বসে অগণনাযোগ্য বিশেষ্যের আগে (less water)।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_089",
+  "order": 89,
+  "isHomophone": false,
+  "a": {
+   "word": "among",
+   "pos": "other",
+   "ipa": "/əˈmʌŋ/",
+   "bnPronunciation": "অ্যামং",
+   "meaningBn": "অনেকের মধ্যে",
+   "exampleEn": "Divide the mangoes among the five children.",
+   "exampleBn": "আমগুলো পাঁচ শিশুর মধ্যে ভাগ করে দাও।"
+  },
+  "b": {
+   "word": "between",
+   "pos": "other",
+   "ipa": "/bɪˈtwiːn/",
+   "bnPronunciation": "বিটুইন",
+   "meaningBn": "দুইয়ের মধ্যে",
+   "exampleEn": "The river flows between two villages.",
+   "exampleBn": "নদীটি দুটি গ্রামের মাঝ দিয়ে বয়ে গেছে।"
+  },
+  "differenceBn": "between সাধারণত দুইয়ের মধ্যে বা আলাদা করে চেনা যায় এমনদের মধ্যে; among তিন বা ততোধিকের দলবদ্ধ মধ্যে।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_090",
+  "order": 90,
+  "isHomophone": false,
+  "a": {
+   "word": "later",
+   "pos": "adverb",
+   "ipa": "/ˈleɪtə(r)/",
+   "bnPronunciation": "লেটার",
+   "meaningBn": "পরে (সময়)",
+   "exampleEn": "I will call you later.",
+   "exampleBn": "আমি তোমাকে পরে ফোন করব।"
+  },
+  "b": {
+   "word": "latter",
+   "pos": "adjective",
+   "ipa": "/ˈlætə(r)/",
+   "bnPronunciation": "ল্যাটার",
+   "meaningBn": "শেষোক্ত (দুটির মধ্যে)",
+   "exampleEn": "Of tea and coffee, I prefer the latter.",
+   "exampleBn": "চা ও কফির মধ্যে আমি শেষেরটি পছন্দ করি।"
+  },
+  "differenceBn": "later সময়ের পরে বোঝায়; latter দুটির মধ্যে দ্বিতীয়টি বোঝায় (প্রথমটি former)।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_091",
+  "order": 91,
+  "isHomophone": false,
+  "a": {
+   "word": "last",
+   "pos": "adjective",
+   "ipa": "/lɑːst/",
+   "bnPronunciation": "লাস্ট",
+   "meaningBn": "শেষ (এরপর আর নেই)",
+   "exampleEn": "December is the last month of the year.",
+   "exampleBn": "ডিসেম্বর বছরের শেষ মাস।"
+  },
+  "b": {
+   "word": "latest",
+   "pos": "adjective",
+   "ipa": "/ˈleɪtɪst/",
+   "bnPronunciation": "লেটেস্ট",
+   "meaningBn": "সাম্প্রতিকতম",
+   "exampleEn": "Have you read his latest novel?",
+   "exampleBn": "তুমি কি তার সাম্প্রতিকতম উপন্যাসটি পড়েছ?"
+  },
+  "differenceBn": "last মানে একেবারে শেষ, এরপর আর নেই; latest মানে সবচেয়ে নতুন, ভবিষ্যতে আরও আসতে পারে।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_092",
+  "order": 92,
+  "isHomophone": false,
+  "a": {
+   "word": "since",
+   "pos": "other",
+   "ipa": "/sɪns/",
+   "bnPronunciation": "সিন্স",
+   "meaningBn": "থেকে (সময়বিন্দু)",
+   "exampleEn": "I have lived in Dhaka since 2015.",
+   "exampleBn": "আমি ২০১৫ সাল থেকে ঢাকায় আছি।"
+  },
+  "b": {
+   "word": "for",
+   "pos": "other",
+   "ipa": "/fɔː(r)/",
+   "bnPronunciation": "ফর",
+   "meaningBn": "ধরে (সময়ের দৈর্ঘ্য)",
+   "exampleEn": "I have lived in Dhaka for ten years.",
+   "exampleBn": "আমি দশ বছর ধরে ঢাকায় আছি।"
+  },
+  "differenceBn": "since বসে শুরুর সময়বিন্দুর আগে (since 2020, since Monday); for বসে সময়ের দৈর্ঘ্যের আগে (for two years)।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_093",
+  "order": 93,
+  "isHomophone": false,
+  "a": {
+   "word": "allusion",
+   "pos": "noun",
+   "ipa": "/əˈluːʒn/",
+   "bnPronunciation": "অ্যালুশন",
+   "meaningBn": "পরোক্ষ উল্লেখ",
+   "exampleEn": "The poem contains an allusion to the Liberation War.",
+   "exampleBn": "কবিতাটিতে মুক্তিযুদ্ধের প্রতি একটি পরোক্ষ ইঙ্গিত আছে।"
+  },
+  "b": {
+   "word": "illusion",
+   "pos": "noun",
+   "ipa": "/ɪˈluːʒn/",
+   "bnPronunciation": "ইলুশন",
+   "meaningBn": "বিভ্রম, ভ্রান্ত ধারণা",
+   "exampleEn": "A mirage is an optical illusion.",
+   "exampleBn": "মরীচিকা একটি দৃষ্টিবিভ্রম।"
+  },
+  "differenceBn": "allusion হলো ইঙ্গিতে কোনো কিছুর উল্লেখ (allude to); illusion হলো চোখ বা মনের ভুল ধারণা।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_094",
+  "order": 94,
+  "isHomophone": true,
+  "a": {
+   "word": "discreet",
+   "pos": "adjective",
+   "ipa": "/dɪˈskriːt/",
+   "bnPronunciation": "ডিসক্রিট",
+   "meaningBn": "বিচক্ষণ, কথায় সাবধানী",
+   "exampleEn": "Please be discreet about this matter.",
+   "exampleBn": "এ বিষয়ে দয়া করে সাবধানে কথা বলবেন।"
+  },
+  "b": {
+   "word": "discrete",
+   "pos": "adjective",
+   "ipa": "/dɪˈskriːt/",
+   "bnPronunciation": "ডিসক্রিট",
+   "meaningBn": "পৃথক, স্বতন্ত্র",
+   "exampleEn": "The course is divided into discrete units.",
+   "exampleBn": "কোর্সটি পৃথক পৃথক ইউনিটে বিভক্ত।"
+  },
+  "differenceBn": "discreet মানে কথাবার্তায় সাবধানী, গোপন কথা ফাঁস করে না; discrete মানে আলাদা আলাদা অংশে বিভক্ত। discrETE-এ t দুই e-কে আলাদা করে রেখেছে।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_095",
+  "order": 95,
+  "isHomophone": false,
+  "a": {
+   "word": "prescribe",
+   "pos": "verb",
+   "ipa": "/prɪˈskraɪb/",
+   "bnPronunciation": "প্রেসক্রাইব",
+   "meaningBn": "নির্দেশ দেওয়া; ব্যবস্থাপত্র দেওয়া",
+   "exampleEn": "The doctor prescribed some medicine.",
+   "exampleBn": "ডাক্তার কিছু ওষুধ লিখে দিলেন।"
+  },
+  "b": {
+   "word": "proscribe",
+   "pos": "verb",
+   "ipa": "/prəˈskraɪb/",
+   "bnPronunciation": "প্রোসক্রাইব",
+   "meaningBn": "নিষিদ্ধ করা",
+   "exampleEn": "The government proscribed the extremist group.",
+   "exampleBn": "সরকার চরমপন্থী সংগঠনটিকে নিষিদ্ধ করল।"
+  },
+  "differenceBn": "prescribe মানে কী করতে হবে তা নির্দেশ করা (ডাক্তার ওষুধ লেখেন); proscribe মানে আইনগতভাবে নিষিদ্ধ করা।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_096",
+  "order": 96,
+  "isHomophone": false,
+  "a": {
+   "word": "precede",
+   "pos": "verb",
+   "ipa": "/prɪˈsiːd/",
+   "bnPronunciation": "প্রিসিড",
+   "meaningBn": "আগে আসা",
+   "exampleEn": "A short speech preceded the dinner.",
+   "exampleBn": "নৈশভোজের আগে একটি ছোট বক্তৃতা হলো।"
+  },
+  "b": {
+   "word": "proceed",
+   "pos": "verb",
+   "ipa": "/prəˈsiːd/",
+   "bnPronunciation": "প্রোসিড",
+   "meaningBn": "এগিয়ে যাওয়া",
+   "exampleEn": "Please proceed to Gate 3.",
+   "exampleBn": "অনুগ্রহ করে ৩ নম্বর গেটে এগিয়ে যান।"
+  },
+  "differenceBn": "precede মানে সময় বা ক্রমে আগে থাকা (pre = আগে); proceed মানে কাজ চালিয়ে যাওয়া বা সামনে এগোনো।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_097",
+  "order": 97,
+  "isHomophone": false,
+  "a": {
+   "word": "persecute",
+   "pos": "verb",
+   "ipa": "/ˈpɜːsɪkjuːt/",
+   "bnPronunciation": "পারসিকিউট",
+   "meaningBn": "নিপীড়ন করা",
+   "exampleEn": "In history, many people were persecuted for their beliefs.",
+   "exampleBn": "ইতিহাসে অনেক মানুষ বিশ্বাসের কারণে নির্যাতিত হয়েছেন।"
+  },
+  "b": {
+   "word": "prosecute",
+   "pos": "verb",
+   "ipa": "/ˈprɒsɪkjuːt/",
+   "bnPronunciation": "প্রসিকিউট",
+   "meaningBn": "আদালতে মামলা করা",
+   "exampleEn": "Smugglers will be prosecuted.",
+   "exampleBn": "চোরাকারবারিদের বিরুদ্ধে মামলা করা হবে।"
+  },
+  "differenceBn": "persecute মানে বিশ্বাস বা পরিচয়ের কারণে অন্যায়ভাবে নিপীড়ন; prosecute মানে আইনগতভাবে বিচারের মুখোমুখি করা।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_098",
+  "order": 98,
+  "isHomophone": false,
+  "a": {
+   "word": "apprise",
+   "pos": "verb",
+   "ipa": "/əˈpraɪz/",
+   "bnPronunciation": "অ্যাপ্রাইজ",
+   "meaningBn": "অবহিত করা",
+   "exampleEn": "Please apprise me of any changes.",
+   "exampleBn": "যেকোনো পরিবর্তন সম্পর্কে আমাকে অবহিত করবেন।"
+  },
+  "b": {
+   "word": "appraise",
+   "pos": "verb",
+   "ipa": "/əˈpreɪz/",
+   "bnPronunciation": "অ্যাপ্রেইজ",
+   "meaningBn": "মূল্যায়ন করা",
+   "exampleEn": "The manager appraises staff performance every year.",
+   "exampleBn": "ব্যবস্থাপক প্রতিবছর কর্মীদের কাজের মূল্যায়ন করেন।"
+  },
+  "differenceBn": "apprise মানে কাউকে কোনো বিষয়ে জানানো (apprise someone of); appraise মানে মূল্য বা মান যাচাই করা।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_099",
+  "order": 99,
+  "isHomophone": false,
+  "a": {
+   "word": "loath",
+   "pos": "adjective",
+   "ipa": "/ləʊθ/",
+   "bnPronunciation": "লোথ",
+   "meaningBn": "অনিচ্ছুক",
+   "exampleEn": "He was loath to leave his village.",
+   "exampleBn": "সে নিজের গ্রাম ছাড়তে অনিচ্ছুক ছিল।"
+  },
+  "b": {
+   "word": "loathe",
+   "pos": "verb",
+   "ipa": "/ləʊð/",
+   "bnPronunciation": "লোদ",
+   "meaningBn": "তীব্র ঘৃণা করা",
+   "exampleEn": "I loathe dishonesty.",
+   "exampleBn": "আমি অসততা ঘৃণা করি।"
+  },
+  "differenceBn": "loath বিশেষণ, মানে অনিচ্ছুক (loath to do); loathe ক্রিয়া, মানে তীব্র ঘৃণা করা। শেষে e যোগে উচ্চারণ 'থ' থেকে 'দ' হয়।",
+  "mnemonic": ""
+ },
+ {
+  "id": "pair_100",
+  "order": 100,
+  "isHomophone": false,
+  "a": {
+   "word": "fable",
+   "pos": "noun",
+   "ipa": "/ˈfeɪbl/",
+   "bnPronunciation": "ফেবল",
+   "meaningBn": "উপকথা",
+   "exampleEn": "“The Fox and the Grapes” is a famous fable.",
+   "exampleBn": "“শিয়াল ও আঙুর” একটি বিখ্যাত উপকথা।"
+  },
+  "b": {
+   "word": "parable",
+   "pos": "noun",
+   "ipa": "/ˈpærəbl/",
+   "bnPronunciation": "প্যারাবল",
+   "meaningBn": "নীতিগল্প",
+   "exampleEn": "The teacher explained honesty through a parable.",
+   "exampleBn": "শিক্ষক একটি নীতিগল্পের মাধ্যমে সততা বোঝালেন।"
+  },
+  "differenceBn": "fable সাধারণত পশুপাখির মুখে নীতিশিক্ষার গল্প (ঈশপের গল্প); parable মানুষের জীবনের সরল গল্পের মাধ্যমে নৈতিক শিক্ষা দেয়।",
+  "mnemonic": ""
+ }
+]

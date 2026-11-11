@@ -1,0 +1,1042 @@
+[
+ {
+  "id": "oneword_001",
+  "descriptionEn": "One who cannot read or write",
+  "answer": "illiterate",
+  "meaningBn": "নিরক্ষর",
+  "categoryBn": "ব্যক্তি",
+  "categoryEn": "People"
+ },
+ {
+  "id": "oneword_002",
+  "descriptionEn": "One who always looks on the bright side",
+  "answer": "optimist",
+  "meaningBn": "আশাবাদী",
+  "categoryBn": "ব্যক্তি",
+  "categoryEn": "People"
+ },
+ {
+  "id": "oneword_003",
+  "descriptionEn": "One who always looks on the dark side",
+  "answer": "pessimist",
+  "meaningBn": "নিরাশাবাদী",
+  "categoryBn": "ব্যক্তি",
+  "categoryEn": "People"
+ },
+ {
+  "id": "oneword_004",
+  "descriptionEn": "One who does not believe in God",
+  "answer": "atheist",
+  "meaningBn": "নাস্তিক",
+  "categoryBn": "ব্যক্তি",
+  "categoryEn": "People"
+ },
+ {
+  "id": "oneword_005",
+  "descriptionEn": "One who believes in God",
+  "answer": "theist",
+  "meaningBn": "আস্তিক",
+  "categoryBn": "ব্যক্তি",
+  "categoryEn": "People"
+ },
+ {
+  "id": "oneword_006",
+  "descriptionEn": "One who is unable to pay debts",
+  "answer": "insolvent",
+  "meaningBn": "দেউলিয়া",
+  "categoryBn": "ব্যক্তি",
+  "categoryEn": "People"
+ },
+ {
+  "id": "oneword_007",
+  "descriptionEn": "One who eats too much",
+  "answer": "glutton",
+  "meaningBn": "পেটুক",
+  "categoryBn": "ব্যক্তি",
+  "categoryEn": "People"
+ },
+ {
+  "id": "oneword_008",
+  "descriptionEn": "One who does not eat meat or fish",
+  "answer": "vegetarian",
+  "meaningBn": "নিরামিষভোজী",
+  "categoryBn": "ব্যক্তি",
+  "categoryEn": "People"
+ },
+ {
+  "id": "oneword_009",
+  "descriptionEn": "One who loves mankind",
+  "answer": "philanthropist",
+  "meaningBn": "মানবহিতৈষী",
+  "categoryBn": "ব্যক্তি",
+  "categoryEn": "People"
+ },
+ {
+  "id": "oneword_010",
+  "descriptionEn": "One who hates mankind",
+  "answer": "misanthrope",
+  "meaningBn": "মানববিদ্বেষী",
+  "categoryBn": "ব্যক্তি",
+  "categoryEn": "People"
+ },
+ {
+  "id": "oneword_011",
+  "descriptionEn": "One who loves books",
+  "answer": "bibliophile",
+  "meaningBn": "গ্রন্থপ্রেমী",
+  "categoryBn": "ব্যক্তি",
+  "categoryEn": "People"
+ },
+ {
+  "id": "oneword_012",
+  "descriptionEn": "One who collects postage stamps",
+  "answer": "philatelist",
+  "meaningBn": "ডাকটিকিট সংগ্রাহক",
+  "categoryBn": "ব্যক্তি",
+  "categoryEn": "People"
+ },
+ {
+  "id": "oneword_013",
+  "descriptionEn": "One who knows many languages",
+  "answer": "polyglot",
+  "meaningBn": "বহুভাষাবিদ",
+  "categoryBn": "ব্যক্তি",
+  "categoryEn": "People"
+ },
+ {
+  "id": "oneword_014",
+  "descriptionEn": "One who walks in sleep",
+  "answer": "somnambulist",
+  "meaningBn": "নিদ্রাচারী",
+  "categoryBn": "ব্যক্তি",
+  "categoryEn": "People"
+ },
+ {
+  "id": "oneword_015",
+  "descriptionEn": "One who knows everything",
+  "answer": "omniscient",
+  "meaningBn": "সর্বজ্ঞ",
+  "categoryBn": "ব্যক্তি",
+  "categoryEn": "People"
+ },
+ {
+  "id": "oneword_016",
+  "descriptionEn": "One who is all-powerful",
+  "answer": "omnipotent",
+  "meaningBn": "সর্বশক্তিমান",
+  "categoryBn": "ব্যক্তি",
+  "categoryEn": "People"
+ },
+ {
+  "id": "oneword_017",
+  "descriptionEn": "One who is present everywhere",
+  "answer": "omnipresent",
+  "meaningBn": "সর্বব্যাপী",
+  "categoryBn": "ব্যক্তি",
+  "categoryEn": "People"
+ },
+ {
+  "id": "oneword_018",
+  "descriptionEn": "One who lives in a foreign country",
+  "answer": "expatriate",
+  "meaningBn": "প্রবাসী",
+  "categoryBn": "ব্যক্তি",
+  "categoryEn": "People"
+ },
+ {
+  "id": "oneword_019",
+  "descriptionEn": "One who leaves his country to settle elsewhere",
+  "answer": "emigrant",
+  "meaningBn": "দেশত্যাগী",
+  "categoryBn": "ব্যক্তি",
+  "categoryEn": "People"
+ },
+ {
+  "id": "oneword_020",
+  "descriptionEn": "One who comes into a country to settle",
+  "answer": "immigrant",
+  "meaningBn": "অভিবাসী",
+  "categoryBn": "ব্যক্তি",
+  "categoryEn": "People"
+ },
+ {
+  "id": "oneword_021",
+  "descriptionEn": "One who flees to another country for safety",
+  "answer": "refugee",
+  "meaningBn": "শরণার্থী",
+  "categoryBn": "ব্যক্তি",
+  "categoryEn": "People"
+ },
+ {
+  "id": "oneword_022",
+  "descriptionEn": "One who sells flowers",
+  "answer": "florist",
+  "meaningBn": "ফুলবিক্রেতা",
+  "categoryBn": "ব্যক্তি",
+  "categoryEn": "People"
+ },
+ {
+  "id": "oneword_023",
+  "descriptionEn": "One who studies the stars and planets",
+  "answer": "astronomer",
+  "meaningBn": "জ্যোতির্বিজ্ঞানী",
+  "categoryBn": "ব্যক্তি",
+  "categoryEn": "People"
+ },
+ {
+  "id": "oneword_024",
+  "descriptionEn": "One who studies birds",
+  "answer": "ornithologist",
+  "meaningBn": "পক্ষীবিদ",
+  "categoryBn": "ব্যক্তি",
+  "categoryEn": "People"
+ },
+ {
+  "id": "oneword_025",
+  "descriptionEn": "One who treats eye diseases",
+  "answer": "ophthalmologist",
+  "meaningBn": "চক্ষুবিশেষজ্ঞ",
+  "categoryBn": "ব্যক্তি",
+  "categoryEn": "People"
+ },
+ {
+  "id": "oneword_026",
+  "descriptionEn": "One who treats children",
+  "answer": "paediatrician",
+  "meaningBn": "শিশুরোগ বিশেষজ্ঞ",
+  "categoryBn": "ব্যক্তি",
+  "categoryEn": "People"
+ },
+ {
+  "id": "oneword_027",
+  "descriptionEn": "One who treats skin diseases",
+  "answer": "dermatologist",
+  "meaningBn": "চর্মরোগ বিশেষজ্ঞ",
+  "categoryBn": "ব্যক্তি",
+  "categoryEn": "People"
+ },
+ {
+  "id": "oneword_028",
+  "descriptionEn": "One who works without payment",
+  "answer": "volunteer",
+  "meaningBn": "স্বেচ্ছাসেবক",
+  "categoryBn": "ব্যক্তি",
+  "categoryEn": "People"
+ },
+ {
+  "id": "oneword_029",
+  "descriptionEn": "One who doubts everything",
+  "answer": "sceptic",
+  "meaningBn": "সংশয়বাদী",
+  "categoryBn": "ব্যক্তি",
+  "categoryEn": "People"
+ },
+ {
+  "id": "oneword_030",
+  "descriptionEn": "One who flatters others for gain",
+  "answer": "sycophant",
+  "meaningBn": "তোষামোদকারী",
+  "categoryBn": "ব্যক্তি",
+  "categoryEn": "People"
+ },
+ {
+  "id": "oneword_031",
+  "descriptionEn": "One who pretends to be what he is not",
+  "answer": "hypocrite",
+  "meaningBn": "ভণ্ড",
+  "categoryBn": "ব্যক্তি",
+  "categoryEn": "People"
+ },
+ {
+  "id": "oneword_032",
+  "descriptionEn": "One who betrays his country",
+  "answer": "traitor",
+  "meaningBn": "দেশদ্রোহী",
+  "categoryBn": "ব্যক্তি",
+  "categoryEn": "People"
+ },
+ {
+  "id": "oneword_033",
+  "descriptionEn": "One who moves from place to place",
+  "answer": "nomad",
+  "meaningBn": "যাযাবর",
+  "categoryBn": "ব্যক্তি",
+  "categoryEn": "People"
+ },
+ {
+  "id": "oneword_034",
+  "descriptionEn": "One who is in charge of a museum",
+  "answer": "curator",
+  "meaningBn": "জাদুঘরের তত্ত্বাবধায়ক",
+  "categoryBn": "ব্যক্তি",
+  "categoryEn": "People"
+ },
+ {
+  "id": "oneword_035",
+  "descriptionEn": "One who runs away from justice",
+  "answer": "fugitive",
+  "meaningBn": "পলাতক",
+  "categoryBn": "ব্যক্তি",
+  "categoryEn": "People"
+ },
+ {
+  "id": "oneword_036",
+  "descriptionEn": "One who speaks on behalf of others",
+  "answer": "spokesperson",
+  "meaningBn": "মুখপাত্র",
+  "categoryBn": "ব্যক্তি",
+  "categoryEn": "People"
+ },
+ {
+  "id": "oneword_037",
+  "descriptionEn": "One who is new to a job or activity",
+  "answer": "novice",
+  "meaningBn": "নবিশ",
+  "categoryBn": "ব্যক্তি",
+  "categoryEn": "People"
+ },
+ {
+  "id": "oneword_038",
+  "descriptionEn": "One who is easily deceived",
+  "answer": "gullible",
+  "meaningBn": "সহজে প্রতারিত হয় এমন",
+  "categoryBn": "ব্যক্তি",
+  "categoryEn": "People"
+ },
+ {
+  "id": "oneword_039",
+  "descriptionEn": "Government by the people",
+  "answer": "democracy",
+  "meaningBn": "গণতন্ত্র",
+  "categoryBn": "সরকার, সমাজ ও হত্যা",
+  "categoryEn": "Government, Society and Killing"
+ },
+ {
+  "id": "oneword_040",
+  "descriptionEn": "Government by one person with absolute power",
+  "answer": "autocracy",
+  "meaningBn": "স্বৈরতন্ত্র",
+  "categoryBn": "সরকার, সমাজ ও হত্যা",
+  "categoryEn": "Government, Society and Killing"
+ },
+ {
+  "id": "oneword_041",
+  "descriptionEn": "Government by a small powerful group",
+  "answer": "oligarchy",
+  "meaningBn": "গোষ্ঠীতন্ত্র",
+  "categoryBn": "সরকার, সমাজ ও হত্যা",
+  "categoryEn": "Government, Society and Killing"
+ },
+ {
+  "id": "oneword_042",
+  "descriptionEn": "Government by officials",
+  "answer": "bureaucracy",
+  "meaningBn": "আমলাতন্ত্র",
+  "categoryBn": "সরকার, সমাজ ও হত্যা",
+  "categoryEn": "Government, Society and Killing"
+ },
+ {
+  "id": "oneword_043",
+  "descriptionEn": "Government by the rich",
+  "answer": "plutocracy",
+  "meaningBn": "ধনিকতন্ত্র",
+  "categoryBn": "সরকার, সমাজ ও হত্যা",
+  "categoryEn": "Government, Society and Killing"
+ },
+ {
+  "id": "oneword_044",
+  "descriptionEn": "Government by religious leaders",
+  "answer": "theocracy",
+  "meaningBn": "ধর্মতন্ত্র",
+  "categoryBn": "সরকার, সমাজ ও হত্যা",
+  "categoryEn": "Government, Society and Killing"
+ },
+ {
+  "id": "oneword_045",
+  "descriptionEn": "Government by a king or queen",
+  "answer": "monarchy",
+  "meaningBn": "রাজতন্ত্র",
+  "categoryBn": "সরকার, সমাজ ও হত্যা",
+  "categoryEn": "Government, Society and Killing"
+ },
+ {
+  "id": "oneword_046",
+  "descriptionEn": "Absence of government",
+  "answer": "anarchy",
+  "meaningBn": "নৈরাজ্য",
+  "categoryBn": "সরকার, সমাজ ও হত্যা",
+  "categoryEn": "Government, Society and Killing"
+ },
+ {
+  "id": "oneword_047",
+  "descriptionEn": "A list of items to be discussed at a meeting",
+  "answer": "agenda",
+  "meaningBn": "আলোচ্যসূচি",
+  "categoryBn": "সরকার, সমাজ ও হত্যা",
+  "categoryEn": "Government, Society and Killing"
+ },
+ {
+  "id": "oneword_048",
+  "descriptionEn": "The minimum number of members needed for a meeting",
+  "answer": "quorum",
+  "meaningBn": "কোরাম",
+  "categoryBn": "সরকার, সমাজ ও হত্যা",
+  "categoryEn": "Government, Society and Killing"
+ },
+ {
+  "id": "oneword_049",
+  "descriptionEn": "A direct vote by the people on a question",
+  "answer": "referendum",
+  "meaningBn": "গণভোট",
+  "categoryBn": "সরকার, সমাজ ও হত্যা",
+  "categoryEn": "Government, Society and Killing"
+ },
+ {
+  "id": "oneword_050",
+  "descriptionEn": "A person who is not in the armed forces",
+  "answer": "civilian",
+  "meaningBn": "বেসামরিক ব্যক্তি",
+  "categoryBn": "সরকার, সমাজ ও হত্যা",
+  "categoryEn": "Government, Society and Killing"
+ },
+ {
+  "id": "oneword_051",
+  "descriptionEn": "Killing of a king",
+  "answer": "regicide",
+  "meaningBn": "রাজহত্যা",
+  "categoryBn": "সরকার, সমাজ ও হত্যা",
+  "categoryEn": "Government, Society and Killing"
+ },
+ {
+  "id": "oneword_052",
+  "descriptionEn": "Killing of one's father",
+  "answer": "patricide",
+  "meaningBn": "পিতৃহত্যা",
+  "categoryBn": "সরকার, সমাজ ও হত্যা",
+  "categoryEn": "Government, Society and Killing"
+ },
+ {
+  "id": "oneword_053",
+  "descriptionEn": "Killing of one's mother",
+  "answer": "matricide",
+  "meaningBn": "মাতৃহত্যা",
+  "categoryBn": "সরকার, সমাজ ও হত্যা",
+  "categoryEn": "Government, Society and Killing"
+ },
+ {
+  "id": "oneword_054",
+  "descriptionEn": "Killing of a human being",
+  "answer": "homicide",
+  "meaningBn": "নরহত্যা",
+  "categoryBn": "সরকার, সমাজ ও হত্যা",
+  "categoryEn": "Government, Society and Killing"
+ },
+ {
+  "id": "oneword_055",
+  "descriptionEn": "Killing of a whole race or group",
+  "answer": "genocide",
+  "meaningBn": "গণহত্যা",
+  "categoryBn": "সরকার, সমাজ ও হত্যা",
+  "categoryEn": "Government, Society and Killing"
+ },
+ {
+  "id": "oneword_056",
+  "descriptionEn": "A substance that kills insects",
+  "answer": "insecticide",
+  "meaningBn": "কীটনাশক",
+  "categoryBn": "সরকার, সমাজ ও হত্যা",
+  "categoryEn": "Government, Society and Killing"
+ },
+ {
+  "id": "oneword_057",
+  "descriptionEn": "A substance that kills germs",
+  "answer": "germicide",
+  "meaningBn": "জীবাণুনাশক",
+  "categoryBn": "সরকার, সমাজ ও হত্যা",
+  "categoryEn": "Government, Society and Killing"
+ },
+ {
+  "id": "oneword_058",
+  "descriptionEn": "A place where birds are kept",
+  "answer": "aviary",
+  "meaningBn": "পক্ষীশালা",
+  "categoryBn": "স্থান",
+  "categoryEn": "Places"
+ },
+ {
+  "id": "oneword_059",
+  "descriptionEn": "A place where bees are kept",
+  "answer": "apiary",
+  "meaningBn": "মৌমাছি পালনকেন্দ্র",
+  "categoryBn": "স্থান",
+  "categoryEn": "Places"
+ },
+ {
+  "id": "oneword_060",
+  "descriptionEn": "A place where fish are kept",
+  "answer": "aquarium",
+  "meaningBn": "মৎস্যাধার",
+  "categoryBn": "স্থান",
+  "categoryEn": "Places"
+ },
+ {
+  "id": "oneword_061",
+  "descriptionEn": "A place where horses are kept",
+  "answer": "stable",
+  "meaningBn": "আস্তাবল",
+  "categoryBn": "স্থান",
+  "categoryEn": "Places"
+ },
+ {
+  "id": "oneword_062",
+  "descriptionEn": "A place where coins are made",
+  "answer": "mint",
+  "meaningBn": "টাকশাল",
+  "categoryBn": "স্থান",
+  "categoryEn": "Places"
+ },
+ {
+  "id": "oneword_063",
+  "descriptionEn": "A place where weapons are stored",
+  "answer": "arsenal",
+  "meaningBn": "অস্ত্রাগার",
+  "categoryBn": "স্থান",
+  "categoryEn": "Places"
+ },
+ {
+  "id": "oneword_064",
+  "descriptionEn": "A place where dead bodies are kept",
+  "answer": "mortuary",
+  "meaningBn": "মর্গ",
+  "categoryBn": "স্থান",
+  "categoryEn": "Places"
+ },
+ {
+  "id": "oneword_065",
+  "descriptionEn": "A place where orphans live",
+  "answer": "orphanage",
+  "meaningBn": "এতিমখানা",
+  "categoryBn": "স্থান",
+  "categoryEn": "Places"
+ },
+ {
+  "id": "oneword_066",
+  "descriptionEn": "A place where books are kept for reading",
+  "answer": "library",
+  "meaningBn": "গ্রন্থাগার",
+  "categoryBn": "স্থান",
+  "categoryEn": "Places"
+ },
+ {
+  "id": "oneword_067",
+  "descriptionEn": "A cupboard where clothes are kept",
+  "answer": "wardrobe",
+  "meaningBn": "পোশাকের আলমারি",
+  "categoryBn": "স্থান",
+  "categoryEn": "Places"
+ },
+ {
+  "id": "oneword_068",
+  "descriptionEn": "A place where grain is stored",
+  "answer": "granary",
+  "meaningBn": "শস্যাগার",
+  "categoryBn": "স্থান",
+  "categoryEn": "Places"
+ },
+ {
+  "id": "oneword_069",
+  "descriptionEn": "A shed where aircraft are kept",
+  "answer": "hangar",
+  "meaningBn": "বিমান রাখার ছাউনি",
+  "categoryBn": "স্থান",
+  "categoryEn": "Places"
+ },
+ {
+  "id": "oneword_070",
+  "descriptionEn": "A place where monks live",
+  "answer": "monastery",
+  "meaningBn": "মঠ",
+  "categoryBn": "স্থান",
+  "categoryEn": "Places"
+ },
+ {
+  "id": "oneword_071",
+  "descriptionEn": "A place where the dead are buried",
+  "answer": "cemetery",
+  "meaningBn": "সমাধিক্ষেত্র",
+  "categoryBn": "স্থান",
+  "categoryEn": "Places"
+ },
+ {
+  "id": "oneword_072",
+  "descriptionEn": "A place where young plants are grown",
+  "answer": "nursery",
+  "meaningBn": "চারাঘর",
+  "categoryBn": "স্থান",
+  "categoryEn": "Places"
+ },
+ {
+  "id": "oneword_073",
+  "descriptionEn": "Fear of water",
+  "answer": "hydrophobia",
+  "meaningBn": "জলাতঙ্ক",
+  "categoryBn": "ভয় ও বিদ্যা",
+  "categoryEn": "Phobias and Fields of Study"
+ },
+ {
+  "id": "oneword_074",
+  "descriptionEn": "Fear of heights",
+  "answer": "acrophobia",
+  "meaningBn": "উচ্চতাভীতি",
+  "categoryBn": "ভয় ও বিদ্যা",
+  "categoryEn": "Phobias and Fields of Study"
+ },
+ {
+  "id": "oneword_075",
+  "descriptionEn": "Fear of closed spaces",
+  "answer": "claustrophobia",
+  "meaningBn": "বদ্ধস্থানভীতি",
+  "categoryBn": "ভয় ও বিদ্যা",
+  "categoryEn": "Phobias and Fields of Study"
+ },
+ {
+  "id": "oneword_076",
+  "descriptionEn": "Fear or hatred of foreigners",
+  "answer": "xenophobia",
+  "meaningBn": "বিদেশিভীতি",
+  "categoryBn": "ভয় ও বিদ্যা",
+  "categoryEn": "Phobias and Fields of Study"
+ },
+ {
+  "id": "oneword_077",
+  "descriptionEn": "Fear of darkness",
+  "answer": "nyctophobia",
+  "meaningBn": "অন্ধকারভীতি",
+  "categoryBn": "ভয় ও বিদ্যা",
+  "categoryEn": "Phobias and Fields of Study"
+ },
+ {
+  "id": "oneword_078",
+  "descriptionEn": "Study of the mind",
+  "answer": "psychology",
+  "meaningBn": "মনোবিজ্ঞান",
+  "categoryBn": "ভয় ও বিদ্যা",
+  "categoryEn": "Phobias and Fields of Study"
+ },
+ {
+  "id": "oneword_079",
+  "descriptionEn": "Study of ancient remains",
+  "answer": "archaeology",
+  "meaningBn": "প্রত্নতত্ত্ব",
+  "categoryBn": "ভয় ও বিদ্যা",
+  "categoryEn": "Phobias and Fields of Study"
+ },
+ {
+  "id": "oneword_080",
+  "descriptionEn": "Study of earthquakes",
+  "answer": "seismology",
+  "meaningBn": "ভূকম্পনবিদ্যা",
+  "categoryBn": "ভয় ও বিদ্যা",
+  "categoryEn": "Phobias and Fields of Study"
+ },
+ {
+  "id": "oneword_081",
+  "descriptionEn": "Study of insects",
+  "answer": "entomology",
+  "meaningBn": "কীটতত্ত্ব",
+  "categoryBn": "ভয় ও বিদ্যা",
+  "categoryEn": "Phobias and Fields of Study"
+ },
+ {
+  "id": "oneword_082",
+  "descriptionEn": "Study of handwriting",
+  "answer": "graphology",
+  "meaningBn": "হস্তলিপিবিদ্যা",
+  "categoryBn": "ভয় ও বিদ্যা",
+  "categoryEn": "Phobias and Fields of Study"
+ },
+ {
+  "id": "oneword_083",
+  "descriptionEn": "Study of human societies and cultures",
+  "answer": "anthropology",
+  "meaningBn": "নৃবিজ্ঞান",
+  "categoryBn": "ভয় ও বিদ্যা",
+  "categoryEn": "Phobias and Fields of Study"
+ },
+ {
+  "id": "oneword_084",
+  "descriptionEn": "Study of plants",
+  "answer": "botany",
+  "meaningBn": "উদ্ভিদবিদ্যা",
+  "categoryBn": "ভয় ও বিদ্যা",
+  "categoryEn": "Phobias and Fields of Study"
+ },
+ {
+  "id": "oneword_085",
+  "descriptionEn": "Study of coins",
+  "answer": "numismatics",
+  "meaningBn": "মুদ্রাতত্ত্ব",
+  "categoryBn": "ভয় ও বিদ্যা",
+  "categoryEn": "Phobias and Fields of Study"
+ },
+ {
+  "id": "oneword_086",
+  "descriptionEn": "Study of the origin of words",
+  "answer": "etymology",
+  "meaningBn": "শব্দের ব্যুৎপত্তিবিদ্যা",
+  "categoryBn": "ভয় ও বিদ্যা",
+  "categoryEn": "Phobias and Fields of Study"
+ },
+ {
+  "id": "oneword_087",
+  "descriptionEn": "A life story written by oneself",
+  "answer": "autobiography",
+  "meaningBn": "আত্মজীবনী",
+  "categoryBn": "গুণ, কাল ও অন্যান্য",
+  "categoryEn": "Qualities, Time and Others"
+ },
+ {
+  "id": "oneword_088",
+  "descriptionEn": "A life story written by someone else",
+  "answer": "biography",
+  "meaningBn": "জীবনী",
+  "categoryBn": "গুণ, কাল ও অন্যান্য",
+  "categoryEn": "Qualities, Time and Others"
+ },
+ {
+  "id": "oneword_089",
+  "descriptionEn": "A speech made without preparation",
+  "answer": "extempore",
+  "meaningBn": "উপস্থিত বক্তৃতা",
+  "categoryBn": "গুণ, কাল ও অন্যান্য",
+  "categoryEn": "Qualities, Time and Others"
+ },
+ {
+  "id": "oneword_090",
+  "descriptionEn": "Speaking one's thoughts aloud when alone",
+  "answer": "soliloquy",
+  "meaningBn": "স্বগতোক্তি",
+  "categoryBn": "গুণ, কাল ও অন্যান্য",
+  "categoryEn": "Qualities, Time and Others"
+ },
+ {
+  "id": "oneword_091",
+  "descriptionEn": "That which cannot be read",
+  "answer": "illegible",
+  "meaningBn": "অপাঠ্য",
+  "categoryBn": "গুণ, কাল ও অন্যান্য",
+  "categoryEn": "Qualities, Time and Others"
+ },
+ {
+  "id": "oneword_092",
+  "descriptionEn": "That which cannot be seen",
+  "answer": "invisible",
+  "meaningBn": "অদৃশ্য",
+  "categoryBn": "গুণ, কাল ও অন্যান্য",
+  "categoryEn": "Qualities, Time and Others"
+ },
+ {
+  "id": "oneword_093",
+  "descriptionEn": "That which cannot be avoided",
+  "answer": "inevitable",
+  "meaningBn": "অনিবার্য",
+  "categoryBn": "গুণ, কাল ও অন্যান্য",
+  "categoryEn": "Qualities, Time and Others"
+ },
+ {
+  "id": "oneword_094",
+  "descriptionEn": "That which cannot be cured",
+  "answer": "incurable",
+  "meaningBn": "দুরারোগ্য",
+  "categoryBn": "গুণ, কাল ও অন্যান্য",
+  "categoryEn": "Qualities, Time and Others"
+ },
+ {
+  "id": "oneword_095",
+  "descriptionEn": "That which cannot be corrected",
+  "answer": "incorrigible",
+  "meaningBn": "সংশোধনের অযোগ্য",
+  "categoryBn": "গুণ, কাল ও অন্যান্য",
+  "categoryEn": "Qualities, Time and Others"
+ },
+ {
+  "id": "oneword_096",
+  "descriptionEn": "That which cannot be believed",
+  "answer": "incredible",
+  "meaningBn": "অবিশ্বাস্য",
+  "categoryBn": "গুণ, কাল ও অন্যান্য",
+  "categoryEn": "Qualities, Time and Others"
+ },
+ {
+  "id": "oneword_097",
+  "descriptionEn": "That which cannot be described",
+  "answer": "indescribable",
+  "meaningBn": "অবর্ণনীয়",
+  "categoryBn": "গুণ, কাল ও অন্যান্য",
+  "categoryEn": "Qualities, Time and Others"
+ },
+ {
+  "id": "oneword_098",
+  "descriptionEn": "That which cannot be conquered",
+  "answer": "invincible",
+  "meaningBn": "অজেয়",
+  "categoryBn": "গুণ, কাল ও অন্যান্য",
+  "categoryEn": "Qualities, Time and Others"
+ },
+ {
+  "id": "oneword_099",
+  "descriptionEn": "That which cannot be heard",
+  "answer": "inaudible",
+  "meaningBn": "অশ্রাব্য",
+  "categoryBn": "গুণ, কাল ও অন্যান্য",
+  "categoryEn": "Qualities, Time and Others"
+ },
+ {
+  "id": "oneword_100",
+  "descriptionEn": "That which is fit to be eaten",
+  "answer": "edible",
+  "meaningBn": "ভোজ্য",
+  "categoryBn": "গুণ, কাল ও অন্যান্য",
+  "categoryEn": "Qualities, Time and Others"
+ },
+ {
+  "id": "oneword_101",
+  "descriptionEn": "That which can be carried easily",
+  "answer": "portable",
+  "meaningBn": "বহনযোগ্য",
+  "categoryBn": "গুণ, কাল ও অন্যান্য",
+  "categoryEn": "Qualities, Time and Others"
+ },
+ {
+  "id": "oneword_102",
+  "descriptionEn": "That which cannot be seen through",
+  "answer": "opaque",
+  "meaningBn": "অস্বচ্ছ",
+  "categoryBn": "গুণ, কাল ও অন্যান্য",
+  "categoryEn": "Qualities, Time and Others"
+ },
+ {
+  "id": "oneword_103",
+  "descriptionEn": "That which cannot be penetrated",
+  "answer": "impenetrable",
+  "meaningBn": "দুর্ভেদ্য",
+  "categoryBn": "গুণ, কাল ও অন্যান্য",
+  "categoryEn": "Qualities, Time and Others"
+ },
+ {
+  "id": "oneword_104",
+  "descriptionEn": "That which cannot be counted",
+  "answer": "innumerable",
+  "meaningBn": "অগণিত",
+  "categoryBn": "গুণ, কাল ও অন্যান্য",
+  "categoryEn": "Qualities, Time and Others"
+ },
+ {
+  "id": "oneword_105",
+  "descriptionEn": "That which cannot be imitated",
+  "answer": "inimitable",
+  "meaningBn": "অননুকরণীয়",
+  "categoryBn": "গুণ, কাল ও অন্যান্য",
+  "categoryEn": "Qualities, Time and Others"
+ },
+ {
+  "id": "oneword_106",
+  "descriptionEn": "That which cannot be satisfied",
+  "answer": "insatiable",
+  "meaningBn": "অতৃপ্ত",
+  "categoryBn": "গুণ, কাল ও অন্যান্য",
+  "categoryEn": "Qualities, Time and Others"
+ },
+ {
+  "id": "oneword_107",
+  "descriptionEn": "That which cannot be repaired",
+  "answer": "irreparable",
+  "meaningBn": "অপূরণীয়",
+  "categoryBn": "গুণ, কাল ও অন্যান্য",
+  "categoryEn": "Qualities, Time and Others"
+ },
+ {
+  "id": "oneword_108",
+  "descriptionEn": "That which cannot be explained",
+  "answer": "inexplicable",
+  "meaningBn": "ব্যাখ্যাতীত",
+  "categoryBn": "গুণ, কাল ও অন্যান্য",
+  "categoryEn": "Qualities, Time and Others"
+ },
+ {
+  "id": "oneword_109",
+  "descriptionEn": "That which cannot be taken back",
+  "answer": "irrevocable",
+  "meaningBn": "প্রত্যাহারের অযোগ্য",
+  "categoryBn": "গুণ, কাল ও অন্যান্য",
+  "categoryEn": "Qualities, Time and Others"
+ },
+ {
+  "id": "oneword_110",
+  "descriptionEn": "Water that is fit to drink",
+  "answer": "potable",
+  "meaningBn": "পানযোগ্য",
+  "categoryBn": "গুণ, কাল ও অন্যান্য",
+  "categoryEn": "Qualities, Time and Others"
+ },
+ {
+  "id": "oneword_111",
+  "descriptionEn": "Animals that are active at night",
+  "answer": "nocturnal",
+  "meaningBn": "নিশাচর",
+  "categoryBn": "গুণ, কাল ও অন্যান্য",
+  "categoryEn": "Qualities, Time and Others"
+ },
+ {
+  "id": "oneword_112",
+  "descriptionEn": "Words written on a tomb",
+  "answer": "epitaph",
+  "meaningBn": "সমাধিলিপি",
+  "categoryBn": "গুণ, কাল ও অন্যান্য",
+  "categoryEn": "Qualities, Time and Others"
+ },
+ {
+  "id": "oneword_113",
+  "descriptionEn": "A collection of poems or stories",
+  "answer": "anthology",
+  "meaningBn": "সংকলন",
+  "categoryBn": "গুণ, কাল ও অন্যান্য",
+  "categoryEn": "Qualities, Time and Others"
+ },
+ {
+  "id": "oneword_114",
+  "descriptionEn": "A list of books on a subject",
+  "answer": "bibliography",
+  "meaningBn": "গ্রন্থপঞ্জি",
+  "categoryBn": "গুণ, কাল ও অন্যান্য",
+  "categoryEn": "Qualities, Time and Others"
+ },
+ {
+  "id": "oneword_115",
+  "descriptionEn": "The art of beautiful handwriting",
+  "answer": "calligraphy",
+  "meaningBn": "চারুলিপি",
+  "categoryBn": "গুণ, কাল ও অন্যান্য",
+  "categoryEn": "Qualities, Time and Others"
+ },
+ {
+  "id": "oneword_116",
+  "descriptionEn": "Lasting for a very short time",
+  "answer": "ephemeral",
+  "meaningBn": "ক্ষণস্থায়ী",
+  "categoryBn": "গুণ, কাল ও অন্যান্য",
+  "categoryEn": "Qualities, Time and Others"
+ },
+ {
+  "id": "oneword_117",
+  "descriptionEn": "No longer in use",
+  "answer": "obsolete",
+  "meaningBn": "অপ্রচলিত",
+  "categoryBn": "গুণ, কাল ও অন্যান্য",
+  "categoryEn": "Qualities, Time and Others"
+ },
+ {
+  "id": "oneword_118",
+  "descriptionEn": "A remedy for all diseases",
+  "answer": "panacea",
+  "meaningBn": "সর্বরোগহর ঔষধ",
+  "categoryBn": "গুণ, কাল ও অন্যান্য",
+  "categoryEn": "Qualities, Time and Others"
+ },
+ {
+  "id": "oneword_119",
+  "descriptionEn": "A medicine that counteracts poison",
+  "answer": "antidote",
+  "meaningBn": "প্রতিষেধক",
+  "categoryBn": "গুণ, কাল ও অন্যান্য",
+  "categoryEn": "Qualities, Time and Others"
+ },
+ {
+  "id": "oneword_120",
+  "descriptionEn": "Animals that eat flesh",
+  "answer": "carnivorous",
+  "meaningBn": "মাংসাশী",
+  "categoryBn": "গুণ, কাল ও অন্যান্য",
+  "categoryEn": "Qualities, Time and Others"
+ },
+ {
+  "id": "oneword_121",
+  "descriptionEn": "Animals that eat plants",
+  "answer": "herbivorous",
+  "meaningBn": "তৃণভোজী",
+  "categoryBn": "গুণ, কাল ও অন্যান্য",
+  "categoryEn": "Qualities, Time and Others"
+ },
+ {
+  "id": "oneword_122",
+  "descriptionEn": "Animals that eat both plants and flesh",
+  "answer": "omnivorous",
+  "meaningBn": "সর্বভুক",
+  "categoryBn": "গুণ, কাল ও অন্যান্য",
+  "categoryEn": "Qualities, Time and Others"
+ },
+ {
+  "id": "oneword_123",
+  "descriptionEn": "Animals that live both on land and in water",
+  "answer": "amphibian",
+  "meaningBn": "উভচর",
+  "categoryBn": "গুণ, কাল ও অন্যান্য",
+  "categoryEn": "Qualities, Time and Others"
+ },
+ {
+  "id": "oneword_124",
+  "descriptionEn": "Happening every year",
+  "answer": "annual",
+  "meaningBn": "বার্ষিক",
+  "categoryBn": "গুণ, কাল ও অন্যান্য",
+  "categoryEn": "Qualities, Time and Others"
+ },
+ {
+  "id": "oneword_125",
+  "descriptionEn": "Happening every two years",
+  "answer": "biennial",
+  "meaningBn": "দ্বিবার্ষিক",
+  "categoryBn": "গুণ, কাল ও অন্যান্য",
+  "categoryEn": "Qualities, Time and Others"
+ },
+ {
+  "id": "oneword_126",
+  "descriptionEn": "A period of ten years",
+  "answer": "decade",
+  "meaningBn": "দশক",
+  "categoryBn": "গুণ, কাল ও অন্যান্য",
+  "categoryEn": "Qualities, Time and Others"
+ },
+ {
+  "id": "oneword_127",
+  "descriptionEn": "A period of a thousand years",
+  "answer": "millennium",
+  "meaningBn": "সহস্রাব্দ",
+  "categoryBn": "গুণ, কাল ও অন্যান্য",
+  "categoryEn": "Qualities, Time and Others"
+ },
+ {
+  "id": "oneword_128",
+  "descriptionEn": "The hundredth anniversary",
+  "answer": "centenary",
+  "meaningBn": "শতবার্ষিকী",
+  "categoryBn": "গুণ, কাল ও অন্যান্য",
+  "categoryEn": "Qualities, Time and Others"
+ },
+ {
+  "id": "oneword_129",
+  "descriptionEn": "A false name used by a writer",
+  "answer": "pseudonym",
+  "meaningBn": "ছদ্মনাম",
+  "categoryBn": "গুণ, কাল ও অন্যান্য",
+  "categoryEn": "Qualities, Time and Others"
+ },
+ {
+  "id": "oneword_130",
+  "descriptionEn": "Belonging to the whole world",
+  "answer": "universal",
+  "meaningBn": "সার্বজনীন",
+  "categoryBn": "গুণ, কাল ও অন্যান্য",
+  "categoryEn": "Qualities, Time and Others"
+ }
+]

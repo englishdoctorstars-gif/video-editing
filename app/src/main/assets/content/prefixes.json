@@ -1,0 +1,493 @@
+[
+ {
+  "id": "prefix_01",
+  "affix": "En-",
+  "meaningBn": "Verb (করা অর্থে)",
+  "examples": [
+   "enlarge",
+   "enrich"
+  ],
+  "typeBn": "গুণ-ক্রিয়া"
+ },
+ {
+  "id": "prefix_02",
+  "affix": "Inter-",
+  "meaningBn": "অভ্যন্তরীণ, পারস্পরিক",
+  "examples": [
+   "international",
+   "interact"
+  ],
+  "typeBn": "স্থান-কাল"
+ },
+ {
+  "id": "prefix_03",
+  "affix": "Re-",
+  "meaningBn": "পুনরায়, আবার",
+  "examples": [
+   "rewrite",
+   "rebuild"
+  ],
+  "typeBn": "গুণ-ক্রিয়া"
+ },
+ {
+  "id": "prefix_04",
+  "affix": "Well-",
+  "meaningBn": "সু, ভালো",
+  "examples": [
+   "well-known",
+   "well-being"
+  ],
+  "typeBn": "গুণ-ক্রিয়া"
+ },
+ {
+  "id": "prefix_05",
+  "affix": "Mal-",
+  "meaningBn": "অপ, ভুল",
+  "examples": [
+   "malnutrition",
+   "malpractice"
+  ],
+  "typeBn": "গুণ-ক্রিয়া"
+ },
+ {
+  "id": "prefix_06",
+  "affix": "Self-",
+  "meaningBn": "স্ব, নিজ",
+  "examples": [
+   "self-confidence",
+   "self-made"
+  ],
+  "typeBn": "গুণ-ক্রিয়া"
+ },
+ {
+  "id": "prefix_07",
+  "affix": "Co-",
+  "meaningBn": "সহ",
+  "examples": [
+   "co-operate",
+   "co-worker"
+  ],
+  "typeBn": "গুণ-ক্রিয়া"
+ },
+ {
+  "id": "prefix_08",
+  "affix": "Over-",
+  "meaningBn": "অতিমাত্রায়, অতিরিক্ত",
+  "examples": [
+   "overload",
+   "overweight"
+  ],
+  "typeBn": "সংখ্যা-মাত্রা"
+ },
+ {
+  "id": "prefix_09",
+  "affix": "Under-",
+  "meaningBn": "অধীন, নীচ, কম",
+  "examples": [
+   "underpaid",
+   "underground"
+  ],
+  "typeBn": "সংখ্যা-মাত্রা"
+ },
+ {
+  "id": "prefix_10",
+  "affix": "Fore-",
+  "meaningBn": "পূর্ব",
+  "examples": [
+   "foresee",
+   "forecast"
+  ],
+  "typeBn": "স্থান-কাল"
+ },
+ {
+  "id": "prefix_11",
+  "affix": "Anti-",
+  "meaningBn": "প্রতি, বিরোধী",
+  "examples": [
+   "antivirus",
+   "antisocial"
+  ],
+  "typeBn": "নেতিবাচক"
+ },
+ {
+  "id": "prefix_12",
+  "affix": "A-",
+  "meaningBn": "মত",
+  "examples": [
+   "alike",
+   "asleep"
+  ],
+  "typeBn": "গুণ-ক্রিয়া"
+ },
+ {
+  "id": "prefix_13",
+  "affix": "Pro-",
+  "meaningBn": "পরবর্তী, উন্নত, পরের",
+  "examples": [
+   "progress",
+   "proceed"
+  ],
+  "typeBn": "স্থান-কাল"
+ },
+ {
+  "id": "prefix_14",
+  "affix": "Pre-",
+  "meaningBn": "পূর্বের, আগের",
+  "examples": [
+   "preview",
+   "prepaid"
+  ],
+  "typeBn": "স্থান-কাল"
+ },
+ {
+  "id": "prefix_15",
+  "affix": "Homo-",
+  "meaningBn": "সম, সমান",
+  "examples": [
+   "homogeneous",
+   "homonym"
+  ],
+  "typeBn": "গুণ-ক্রিয়া"
+ },
+ {
+  "id": "prefix_16",
+  "affix": "Semi-",
+  "meaningBn": "প্রায় সমান",
+  "examples": [
+   "semicircle",
+   "semifinal De-",
+   "Ir-",
+   "Il-",
+   "In-",
+   "Un-",
+   "Dis-",
+   "Mis-"
+  ],
+  "typeBn": "সংখ্যা-মাত্রা"
+ },
+ {
+  "id": "prefix_17",
+  "affix": "Non-",
+  "meaningBn": "নি, না, বে, অ",
+  "examples": [
+   "decode",
+   "irregular",
+   "illegal",
+   "incorrect",
+   "unhappy",
+   "dislike",
+   "misuse",
+   "non-stop"
+  ],
+  "typeBn": "নেতিবাচক"
+ },
+ {
+  "id": "prefix_18",
+  "affix": "Ex-",
+  "meaningBn": "পূর্ববর্তী, বাইরে",
+  "examples": [
+   "ex-president",
+   "export"
+  ],
+  "typeBn": "স্থান-কাল"
+ },
+ {
+  "id": "prefix_19",
+  "affix": "Extra-",
+  "meaningBn": "অতিরিক্ত, বাইরের",
+  "examples": [
+   "extraordinary",
+   "extracurricular"
+  ],
+  "typeBn": "সংখ্যা-মাত্রা"
+ },
+ {
+  "id": "prefix_20",
+  "affix": "Sub-",
+  "meaningBn": "নিচে, অধীন",
+  "examples": [
+   "subway",
+   "submarine"
+  ],
+  "typeBn": "স্থান-কাল"
+ },
+ {
+  "id": "prefix_21",
+  "affix": "Super-",
+  "meaningBn": "উপরে, অতি",
+  "examples": [
+   "supermarket",
+   "superpower"
+  ],
+  "typeBn": "সংখ্যা-মাত্রা"
+ },
+ {
+  "id": "prefix_22",
+  "affix": "Trans-",
+  "meaningBn": "পার, স্থানান্তর",
+  "examples": [
+   "transport",
+   "transfer"
+  ],
+  "typeBn": "স্থান-কাল"
+ },
+ {
+  "id": "prefix_23",
+  "affix": "Tele-",
+  "meaningBn": "দূর",
+  "examples": [
+   "telephone",
+   "television"
+  ],
+  "typeBn": "স্থান-কাল"
+ },
+ {
+  "id": "prefix_24",
+  "affix": "Micro-",
+  "meaningBn": "অতি ক্ষুদ্র",
+  "examples": [
+   "microscope",
+   "microchip"
+  ],
+  "typeBn": "সংখ্যা-মাত্রা"
+ },
+ {
+  "id": "prefix_25",
+  "affix": "Macro-",
+  "meaningBn": "বৃহৎ",
+  "examples": [
+   "macroeconomics"
+  ],
+  "typeBn": "সংখ্যা-মাত্রা"
+ },
+ {
+  "id": "prefix_26",
+  "affix": "Mega-",
+  "meaningBn": "বিশাল",
+  "examples": [
+   "megacity",
+   "megaphone"
+  ],
+  "typeBn": "সংখ্যা-মাত্রা"
+ },
+ {
+  "id": "prefix_27",
+  "affix": "Multi-",
+  "meaningBn": "বহু",
+  "examples": [
+   "multinational",
+   "multipurpose"
+  ],
+  "typeBn": "সংখ্যা-মাত্রা"
+ },
+ {
+  "id": "prefix_28",
+  "affix": "Poly-",
+  "meaningBn": "বহু",
+  "examples": [
+   "polygon",
+   "polytechnic Mono- /"
+  ],
+  "typeBn": "সংখ্যা-মাত্রা"
+ },
+ {
+  "id": "prefix_29",
+  "affix": "Uni-",
+  "meaningBn": "এক",
+  "examples": [
+   "monotone",
+   "uniform"
+  ],
+  "typeBn": "সংখ্যা-মাত্রা"
+ },
+ {
+  "id": "prefix_30",
+  "affix": "Bi-",
+  "meaningBn": "দুই",
+  "examples": [
+   "bicycle",
+   "bilingual"
+  ],
+  "typeBn": "সংখ্যা-মাত্রা"
+ },
+ {
+  "id": "prefix_31",
+  "affix": "Tri-",
+  "meaningBn": "তিন",
+  "examples": [
+   "triangle",
+   "tricycle Contra- /"
+  ],
+  "typeBn": "সংখ্যা-মাত্রা"
+ },
+ {
+  "id": "prefix_32",
+  "affix": "Counter-",
+  "meaningBn": "বিপরীত, বিরুদ্ধ",
+  "examples": [
+   "contradict",
+   "counterattack"
+  ],
+  "typeBn": "নেতিবাচক"
+ },
+ {
+  "id": "prefix_33",
+  "affix": "Auto-",
+  "meaningBn": "স্বয়ং, নিজে নিজে",
+  "examples": [
+   "autobiography",
+   "automatic"
+  ],
+  "typeBn": "গুণ-ক্রিয়া"
+ },
+ {
+  "id": "prefix_34",
+  "affix": "Bio-",
+  "meaningBn": "জীবন, জীব",
+  "examples": [
+   "biology",
+   "biography"
+  ],
+  "typeBn": "গুণ-ক্রিয়া"
+ },
+ {
+  "id": "prefix_35",
+  "affix": "Geo-",
+  "meaningBn": "ভূ, পৃথিবী",
+  "examples": [
+   "geography",
+   "geology"
+  ],
+  "typeBn": "গুণ-ক্রিয়া"
+ },
+ {
+  "id": "prefix_36",
+  "affix": "Hyper-",
+  "meaningBn": "অতি, মাত্রাতিরিক্ত",
+  "examples": [
+   "hyperactive",
+   "hypertension"
+  ],
+  "typeBn": "সংখ্যা-মাত্রা"
+ },
+ {
+  "id": "prefix_37",
+  "affix": "Hypo-",
+  "meaningBn": "অল্প, নিচে",
+  "examples": [
+   "hypothermia",
+   "hypodermic"
+  ],
+  "typeBn": "সংখ্যা-মাত্রা"
+ },
+ {
+  "id": "prefix_38",
+  "affix": "Mid-",
+  "meaningBn": "মধ্য",
+  "examples": [
+   "midnight",
+   "midway"
+  ],
+  "typeBn": "স্থান-কাল"
+ },
+ {
+  "id": "prefix_39",
+  "affix": "Out-",
+  "meaningBn": "বাইরে, অধিক",
+  "examples": [
+   "outnumber",
+   "outdoor"
+  ],
+  "typeBn": "স্থান-কাল"
+ },
+ {
+  "id": "prefix_40",
+  "affix": "Post-",
+  "meaningBn": "পরবর্তী, পরে",
+  "examples": [
+   "postpone",
+   "postwar"
+  ],
+  "typeBn": "স্থান-কাল"
+ },
+ {
+  "id": "prefix_41",
+  "affix": "Circum-",
+  "meaningBn": "চারদিকে",
+  "examples": [
+   "circumference",
+   "circumstance Com- /"
+  ],
+  "typeBn": "স্থান-কাল"
+ },
+ {
+  "id": "prefix_42",
+  "affix": "Con-",
+  "meaningBn": "সঙ্গে, একত্রে",
+  "examples": [
+   "combine",
+   "connect"
+  ],
+  "typeBn": "গুণ-ক্রিয়া"
+ },
+ {
+  "id": "prefix_43",
+  "affix": "Ad-",
+  "meaningBn": "দিকে, প্রতি",
+  "examples": [
+   "adjoin",
+   "advance"
+  ],
+  "typeBn": "স্থান-কাল"
+ },
+ {
+  "id": "prefix_44",
+  "affix": "Ante-",
+  "meaningBn": "পূর্বে, আগে",
+  "examples": [
+   "antenatal",
+   "anteroom"
+  ],
+  "typeBn": "স্থান-কাল"
+ },
+ {
+  "id": "prefix_45",
+  "affix": "Ultra-",
+  "meaningBn": "অতিমাত্রায়, পরম",
+  "examples": [
+   "ultraviolet",
+   "ultrasound"
+  ],
+  "typeBn": "সংখ্যা-মাত্রা"
+ },
+ {
+  "id": "prefix_46",
+  "affix": "Vice-",
+  "meaningBn": "সহকারী, প্রতিনিধি",
+  "examples": [
+   "vice-chancellor",
+   "vice-president"
+  ],
+  "typeBn": "গুণ-ক্রিয়া"
+ },
+ {
+  "id": "prefix_47",
+  "affix": "Para-",
+  "meaningBn": "পাশে, সদৃশ",
+  "examples": [
+   "paramedic",
+   "paralegal Syn- /"
+  ],
+  "typeBn": "স্থান-কাল"
+ },
+ {
+  "id": "prefix_48",
+  "affix": "Sym-",
+  "meaningBn": "একত্রে, সমান",
+  "examples": [
+   "synonym",
+   "sympathy"
+  ],
+  "typeBn": "গুণ-ক্রিয়া"
+ }
+]
