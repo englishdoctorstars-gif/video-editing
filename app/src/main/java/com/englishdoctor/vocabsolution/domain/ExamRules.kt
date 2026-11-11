@@ -28,14 +28,20 @@ object ExamRules {
 
     fun levelOf(set: Int) = LEVEL_SETS.entries.first { set in it.value }.key
 
-    /** bestScores: set number → best score. */
-    fun isLevelUnlocked(level: String, bestScores: Map<Int, Int>): Boolean {
+    /**
+     * bestScores: set number → best score. A placement result can open levels directly:
+     * "intermediate" opens the intermediate sets, "advanced" opens everything.
+     */
+    fun isLevelUnlocked(level: String, bestScores: Map<Int, Int>, placement: String? = null): Boolean {
         val levels = LEVEL_SETS.keys.toList()
         val idx = levels.indexOf(level)
         if (idx <= 0) return true
+        if (placement == Placement.ADVANCED) return true
+        if (placement == Placement.INTERMEDIATE && level == "intermediate") return true
         val previous = LEVEL_SETS.getValue(levels[idx - 1])
         return previous.any { (bestScores[it] ?: 0) > PASS_ABOVE }
     }
 
-    fun isSetUnlocked(set: Int, bestScores: Map<Int, Int>) = isLevelUnlocked(levelOf(set), bestScores)
+    fun isSetUnlocked(set: Int, bestScores: Map<Int, Int>, placement: String? = null) =
+        isLevelUnlocked(levelOf(set), bestScores, placement)
 }

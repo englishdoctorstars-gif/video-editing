@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">Vocabsolution</string>
     <string name="reminder_channel">দৈনিক রিমাইন্ডার</string>
+    <string name="widget_name">আজকের শব্দ</string>
+    <string name="widget_description">প্রতিদিন একটি নতুন কঠিন শব্দ, অর্থ ও ধ্বনি-সূত্রসহ</string>
 </resources>

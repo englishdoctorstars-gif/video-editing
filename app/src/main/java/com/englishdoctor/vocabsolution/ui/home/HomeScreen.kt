@@ -38,7 +38,9 @@ import com.englishdoctor.vocabsolution.ui.components.ContentCard
 import com.englishdoctor.vocabsolution.ui.components.IpaText
 import com.englishdoctor.vocabsolution.ui.components.PosChip
 import com.englishdoctor.vocabsolution.ui.components.ProgressRing
+import com.englishdoctor.vocabsolution.ui.components.ShareButton
 import com.englishdoctor.vocabsolution.ui.components.SpeakButton
+import com.englishdoctor.vocabsolution.share.toShareCard
 import com.englishdoctor.vocabsolution.ui.learn.partColor
 import com.englishdoctor.vocabsolution.ui.openModule
 import com.englishdoctor.vocabsolution.ui.review.newItemsFor
@@ -118,6 +120,7 @@ fun HomeScreen(nav: NavHostController) {
                 Text("আজকের শব্দ · Word of the Day", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.secondary)
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     Text(wod.word, style = MaterialTheme.typography.headlineMedium, modifier = Modifier.weight(1f))
+                    ShareButton { wod.toShareCard() }
                     SpeakButton({ app.speaker.speak(wod.word) })
                 }
                 Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {

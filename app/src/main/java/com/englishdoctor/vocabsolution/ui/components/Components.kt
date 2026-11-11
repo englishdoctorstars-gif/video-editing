@@ -25,6 +25,7 @@ import androidx.compose.material.icons.filled.Bookmark
 import androidx.compose.material.icons.filled.BookmarkBorder
 import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.Search
+import androidx.compose.material.icons.filled.Share
 import androidx.compose.material.icons.automirrored.filled.VolumeUp
 import androidx.compose.material.icons.outlined.AddCircleOutline
 import androidx.compose.material3.AssistChip
@@ -259,5 +260,14 @@ fun EmptyState(emoji: String, title: String, body: String, modifier: Modifier = 
         Spacer(Modifier.height(8.dp))
         Text(title, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
         Text(body, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+    }
+}
+
+@Composable
+fun ShareButton(card: () -> com.englishdoctor.vocabsolution.share.ShareCardData) {
+    val context = androidx.compose.ui.platform.LocalContext.current
+    IconButton(onClick = { com.englishdoctor.vocabsolution.share.ShareCardRenderer.share(context, card()) }) {
+        Icon(androidx.compose.material.icons.Icons.Filled.Share, contentDescription = "ছবি হিসেবে শেয়ার করুন",
+            tint = MaterialTheme.colorScheme.primary)
     }
 }

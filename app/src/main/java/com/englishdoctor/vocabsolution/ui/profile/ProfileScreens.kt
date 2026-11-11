@@ -22,6 +22,7 @@ import androidx.compose.material.icons.automirrored.filled.ArrowForward
 import androidx.compose.material.icons.filled.Bookmark
 import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.Settings
+import androidx.compose.material.icons.filled.Speed
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Button
 import androidx.compose.material3.FilterChip
@@ -49,6 +50,7 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.NavHostController
 import com.englishdoctor.vocabsolution.BuildConfig
+import com.englishdoctor.vocabsolution.domain.Placement
 import com.englishdoctor.vocabsolution.domain.Srs
 import com.englishdoctor.vocabsolution.notify.bn
 import com.englishdoctor.vocabsolution.ui.LocalApp
@@ -95,6 +97,7 @@ fun ProfileScreen(nav: NavHostController) {
                         Text(p.name.ifBlank { "শিক্ষার্থী" }, style = MaterialTheme.typography.headlineSmall, color = Color.White)
                         Text("⭐ ${p.xp.bn()} XP · লেভেল ${(1 + p.xp / 500).bn()}", color = BrandGold, fontWeight = FontWeight.SemiBold)
                         Text("🔥 বর্তমান Streak ${p.currentStreak(today).bn()} দিন · সর্বোচ্চ ${p.bestStreak.bn()} দিন", color = Color.White)
+                        p.placementLevel?.let { Text("🎯 স্তর: ${Placement.LEVEL_BN[it]}", color = Color.White) }
                     }
                 }
             }
@@ -126,6 +129,7 @@ fun ProfileScreen(nav: NavHostController) {
             item {
                 ContentCard {
                     MenuRow(Icons.Filled.Bookmark, "বুকমার্ক") { nav.navigate(Routes.BOOKMARKS) }
+                    MenuRow(Icons.Filled.Speed, if (p.placementLevel == null) "স্তর যাচাই পরীক্ষা দিন" else "স্তর যাচাই আবার দিন") { nav.navigate(Routes.PLACEMENT) }
                     MenuRow(Icons.Filled.Settings, "সেটিংস") { nav.navigate(Routes.SETTINGS) }
                     MenuRow(Icons.Filled.Info, "অ্যাপ ও লেখক পরিচিতি") { nav.navigate(Routes.ABOUT) }
                 }

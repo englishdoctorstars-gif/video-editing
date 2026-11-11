@@ -37,6 +37,8 @@ data class Progress(
     val name: String = "",
     val goal: String = "general", // job | ielts | foundation | general
     val dailyGoal: Int = 10,
+    val placementLevel: String? = null,
+    val placementScore: Int = 0,
     val cards: Map<String, CardState> = emptyMap(),
     val bookmarks: Set<String> = emptySet(),
     val notes: Map<String, String> = emptyMap(),
@@ -107,6 +109,9 @@ class ProgressStore(private val context: Context, private val scope: CoroutineSc
     fun completeOnboarding(name: String, goal: String, dailyGoal: Int) =
         update { it.copy(onboarded = true, name = name.trim(), goal = goal, dailyGoal = dailyGoal) }
 
+    fun recordPlacement(level: String, score: Int) =
+        update { it.copy(placementLevel = level, placementScore = score).withActivity(xpGain = score * 5, count = 0) }
+
     fun isLearned(key: String) = _state.value.cards.containsKey(key)
 
     fun learn(key: String) = update { p ->
@@ -144,5 +149,8 @@ class ProgressStore(private val context: Context, private val scope: CoroutineSc
     fun updateProfile(name: String, goal: String, dailyGoal: Int) =
         update { it.copy(name = name.trim(), goal = goal, dailyGoal = dailyGoal) }
 
-    fun resetAll() = update { Progress(onboarded = true, name = it.name, goal = it.goal, dailyGoal = it.dailyGoal, settings = it.settings) }
+    fun resetAll() = update {
+        Progress(onboarded = true, name = it.name, goal = it.goal, dailyGoal = it.dailyGoal,
+            placementLevel = it.placementLevel, placementScore = it.placementScore, settings = it.settings)
+    }
 }

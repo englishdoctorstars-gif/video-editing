@@ -19,6 +19,7 @@ import androidx.work.WorkerParameters
 import com.englishdoctor.vocabsolution.MainActivity
 import com.englishdoctor.vocabsolution.R
 import com.englishdoctor.vocabsolution.VocabApp
+import com.englishdoctor.vocabsolution.widget.WordWidget
 import java.time.Duration
 import java.time.LocalDateTime
 import java.util.concurrent.TimeUnit
@@ -28,6 +29,7 @@ class ReminderWorker(ctx: Context, params: WorkerParameters) : CoroutineWorker(c
         val app = applicationContext as VocabApp
         val store = app.container.progress
         if (!store.loaded) store.load()
+        WordWidget.refresh(applicationContext) // new Word of the Day
         val p = store.state.value
         val today = store.today()
         if (!p.settings.reminderEnabled || p.todayDone(today) >= p.dailyGoal) return Result.success()

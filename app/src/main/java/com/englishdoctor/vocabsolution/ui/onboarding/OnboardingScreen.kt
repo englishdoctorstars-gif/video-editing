@@ -66,6 +66,21 @@ fun OnboardingScreen() {
     var goal by remember { mutableStateOf("general") }
     var daily by remember { mutableIntStateOf(10) }
     val notifyPermission = rememberLauncherForActivityResult(ActivityResultContracts.RequestPermission()) { }
+    var placement by remember { mutableStateOf(false) }
+
+    if (placement) {
+        // Last onboarding step: the optional placement test.
+        Column(Modifier.fillMaxSize().background(MaterialTheme.colorScheme.background).safeDrawingPadding()) {
+            PlacementTest(
+                onFinished = { level, score ->
+                    app.progress.recordPlacement(level, score)
+                    app.progress.completeOnboarding(name, goal, daily)
+                },
+                onSkip = { app.progress.completeOnboarding(name, goal, daily) },
+            )
+        }
+        return
+    }
 
     Column(Modifier.fillMaxSize().background(MaterialTheme.colorScheme.background).safeDrawingPadding()) {
         HorizontalPager(pager, Modifier.weight(1f)) { page ->
@@ -132,8 +147,8 @@ fun OnboardingScreen() {
             } else {
                 Button({
                     if (Build.VERSION.SDK_INT >= 33) notifyPermission.launch(Manifest.permission.POST_NOTIFICATIONS)
-                    app.progress.completeOnboarding(name, goal, daily)
-                }) { Text("শুরু করি 🚀") }
+                    placement = true
+                }) { Text("পরবর্তী") }
             }
         }
     }

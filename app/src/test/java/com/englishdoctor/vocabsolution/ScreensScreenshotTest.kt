@@ -25,6 +25,16 @@ import com.englishdoctor.vocabsolution.ui.learn.WordBuildingScreen
 import com.englishdoctor.vocabsolution.ui.profile.ProfileScreen
 import com.englishdoctor.vocabsolution.ui.review.ReviewHubScreen
 import com.englishdoctor.vocabsolution.ui.theme.VocabTheme
+import androidx.compose.foundation.Image
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.asImageBitmap
+import com.englishdoctor.vocabsolution.share.ShareCardRenderer
+import com.englishdoctor.vocabsolution.share.toShareCard
+import com.englishdoctor.vocabsolution.ui.onboarding.PlacementScreen
+import com.englishdoctor.vocabsolution.ui.onboarding.buildPlacement
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertTrue
 import org.junit.Rule
 import org.junit.Test
 import java.time.LocalDate
@@ -67,4 +77,30 @@ class ScreensScreenshotTest {
     @Test fun passageDark() = shot(dark = true) { PassageScreen(rememberNavController(), "read_05_02") }
     @Test fun paraphraseTopic() = shot { ParaphraseTopicScreen(rememberNavController(), 1) }
     @Test fun write() = shot { WriteScreen(rememberNavController()) }
+    @Test fun placement() = shot { PlacementScreen(rememberNavController()) }
+
+    @Test
+    fun placementQuestionsAreValid() {
+        val app = AppContainer(paparazzi.context)
+        repeat(30) {
+            val qs = buildPlacement(app.content)
+            assertEquals(10, qs.size)
+            assertEquals(listOf(3, 3, 4), (1..3).map { b -> qs.count { it.band == b } })
+            qs.forEach { assertTrue(it.q.prompt, it.q.correct in it.q.options.indices && it.q.options.size >= 2) }
+        }
+    }
+
+    @Test
+    fun shareCardHook() {
+        val app = AppContainer(paparazzi.context)
+        val bmp = ShareCardRenderer.render(paparazzi.context, app.content.hooks[2].toShareCard())
+        paparazzi.snapshot { Image(bmp.asImageBitmap(), null, Modifier.fillMaxWidth()) }
+    }
+
+    @Test
+    fun shareCardPair() {
+        val app = AppContainer(paparazzi.context)
+        val bmp = ShareCardRenderer.render(paparazzi.context, app.content.pairs[0].toShareCard())
+        paparazzi.snapshot { Image(bmp.asImageBitmap(), null, Modifier.fillMaxWidth()) }
+    }
 }

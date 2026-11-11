@@ -45,7 +45,9 @@ import com.englishdoctor.vocabsolution.ui.components.LearnChip
 import com.englishdoctor.vocabsolution.ui.components.PosChip
 import com.englishdoctor.vocabsolution.ui.components.PosMark
 import com.englishdoctor.vocabsolution.ui.components.ScreenScaffold
+import com.englishdoctor.vocabsolution.ui.components.ShareButton
 import com.englishdoctor.vocabsolution.ui.components.SpeakButton
+import com.englishdoctor.vocabsolution.share.toShareCard
 import com.englishdoctor.vocabsolution.ui.theme.CorrectGreen
 
 @Composable
@@ -141,6 +143,7 @@ private fun StoryCard(h: MemoryHook) {
         Row(verticalAlignment = Alignment.CenterVertically) {
             LearnChip(key in p.cards) { app.progress.learn(key) }
             Spacer(Modifier.weight(1f))
+            ShareButton { h.toShareCard() }
             BookmarkButton(key in p.bookmarks) { app.progress.toggleBookmark(key) }
         }
         OutlinedTextField(

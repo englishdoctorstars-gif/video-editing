@@ -76,7 +76,7 @@ fun ExamHubScreen(nav: NavHostController) {
                     color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
             ExamRules.LEVEL_SETS.forEach { (level, sets) ->
-                val unlocked = ExamRules.isLevelUnlocked(level, p.examBest)
+                val unlocked = ExamRules.isLevelUnlocked(level, p.examBest, p.placementLevel)
                 item {
                     SectionTitle("${ExamRules.LEVEL_BN[level]} · সেট ${sets.first.bn()}–${sets.last.bn()}", color = color)
                     Text(ExamRules.LEVEL_HINT.getValue(level), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)

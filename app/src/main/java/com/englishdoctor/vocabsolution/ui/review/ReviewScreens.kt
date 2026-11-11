@@ -51,7 +51,9 @@ import com.englishdoctor.vocabsolution.ui.components.FlipCard
 import com.englishdoctor.vocabsolution.ui.components.PosChip
 import com.englishdoctor.vocabsolution.ui.components.ScreenScaffold
 import com.englishdoctor.vocabsolution.ui.components.SectionTitle
+import com.englishdoctor.vocabsolution.ui.components.ShareButton
 import com.englishdoctor.vocabsolution.ui.components.SpeakButton
+import com.englishdoctor.vocabsolution.share.toShareCard
 import com.englishdoctor.vocabsolution.ui.components.TagPill
 import com.englishdoctor.vocabsolution.ui.theme.CorrectGreen
 import com.englishdoctor.vocabsolution.ui.theme.HomophoneAmber
@@ -187,7 +189,11 @@ fun ReviewSessionScreen(nav: NavHostController, mode: String) {
                 Spacer(Modifier.height(16.dp))
                 Text("অর্থ মনে করার চেষ্টা করুন, তারপর ট্যাপ করুন 👆", color = MaterialTheme.colorScheme.primary)
             }, back = {
-                Text(item.title, style = MaterialTheme.typography.titleMedium, color = MaterialTheme.colorScheme.primary)
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    Text(item.title, style = MaterialTheme.typography.titleMedium, color = MaterialTheme.colorScheme.primary,
+                        modifier = Modifier.weight(1f))
+                    ShareButton { item.toShareCard() }
+                }
                 Text(item.answer, style = MaterialTheme.typography.headlineSmall)
                 if (item.detail.isNotBlank()) Text(item.detail, style = MaterialTheme.typography.bodyLarge)
             })

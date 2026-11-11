@@ -17,6 +17,7 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.ui.Modifier
@@ -52,6 +53,7 @@ import com.englishdoctor.vocabsolution.ui.learn.RootDetailScreen
 import com.englishdoctor.vocabsolution.ui.learn.RootListScreen
 import com.englishdoctor.vocabsolution.ui.learn.WordBuildingScreen
 import com.englishdoctor.vocabsolution.ui.onboarding.OnboardingScreen
+import com.englishdoctor.vocabsolution.ui.onboarding.PlacementScreen
 import com.englishdoctor.vocabsolution.ui.profile.AboutScreen
 import com.englishdoctor.vocabsolution.ui.profile.BookmarksScreen
 import com.englishdoctor.vocabsolution.ui.profile.ProfileScreen
@@ -72,6 +74,7 @@ object Routes {
     const val SETTINGS = "settings"
     const val ABOUT = "about"
     const val BOOKMARKS = "bookmarks"
+    const val PLACEMENT = "placement"
     fun module(m: ModuleId) = "module/${m.name}"
     fun root(id: String) = "root/$id"
     fun hook(index: Int) = "hook/$index"
@@ -97,7 +100,7 @@ private val TABS = listOf(
 fun NavHostController.openModule(m: ModuleId) = navigate(if (m == ModuleId.EXAM) Routes.EXAM else Routes.module(m))
 
 @Composable
-fun VocabRoot(app: AppContainer) {
+fun VocabRoot(app: AppContainer, pendingRoute: String? = null, onRouteConsumed: () -> Unit = {}) {
     val progress by app.progress.state.collectAsStateWithLifecycle()
     CompositionLocalProvider(LocalApp provides app) {
         if (!progress.onboarded) {
@@ -105,6 +108,12 @@ fun VocabRoot(app: AppContainer) {
             return@CompositionLocalProvider
         }
         val nav = rememberNavController()
+        LaunchedEffect(pendingRoute) {
+            if (pendingRoute != null) {
+                nav.navigate(pendingRoute) { launchSingleTop = true }
+                onRouteConsumed()
+            }
+        }
         val entry by nav.currentBackStackEntryAsState()
         val current = entry?.destination?.route
         val dueCount = progress.dueKeys(app.progress.today()).size
@@ -144,6 +153,7 @@ fun VocabRoot(app: AppContainer) {
                 composable(Routes.SETTINGS) { SettingsScreen(nav) }
                 composable(Routes.ABOUT) { AboutScreen(nav) }
                 composable(Routes.BOOKMARKS) { BookmarksScreen(nav) }
+                composable(Routes.PLACEMENT) { PlacementScreen(nav) }
                 composable("module/{id}") { e ->
                     when (ModuleId.valueOf(e.arguments?.getString("id")!!)) {
                         ModuleId.WORD_BUILDING -> WordBuildingScreen(nav)

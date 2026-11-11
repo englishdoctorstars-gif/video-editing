@@ -43,7 +43,9 @@ import com.englishdoctor.vocabsolution.ui.components.IpaText
 import com.englishdoctor.vocabsolution.ui.components.LearnChip
 import com.englishdoctor.vocabsolution.ui.components.PosChip
 import com.englishdoctor.vocabsolution.ui.components.ScreenScaffold
+import com.englishdoctor.vocabsolution.ui.components.ShareButton
 import com.englishdoctor.vocabsolution.ui.components.SpeakButton
+import com.englishdoctor.vocabsolution.share.toShareCard
 import com.englishdoctor.vocabsolution.ui.components.TagPill
 import com.englishdoctor.vocabsolution.ui.theme.HomophoneAmber
 
@@ -109,7 +111,10 @@ fun PairDetailScreen(nav: NavHostController, id: String) {
     val p by app.progress.state.collectAsStateWithLifecycle()
     val key = "pair:${pair.id}"
     ScreenScaffold("${pair.a.word} vs ${pair.b.word}", "পার্থক্য কী? · ${pair.order.bn()}", onBack = { nav.popBackStack() },
-        accent = partColor(2), actions = { BookmarkButton(key in p.bookmarks) { app.progress.toggleBookmark(key) } }) { m ->
+        accent = partColor(2), actions = {
+            ShareButton { pair.toShareCard() }
+            BookmarkButton(key in p.bookmarks) { app.progress.toggleBookmark(key) }
+        }) { m ->
         Column(m.fillMaxSize().verticalScroll(rememberScrollState()).padding(16.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
             if (pair.isHomophone) TagPill("একই উচ্চারণ · Homophone", HomophoneAmber)
             Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {

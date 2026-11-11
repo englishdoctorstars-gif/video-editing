@@ -14,8 +14,8 @@ android {
         applicationId = "com.englishdoctor.vocabsolution"
         minSdk = 26
         targetSdk = 35
-        versionCode = 2
-        versionName = "0.2.0"
+        versionCode = 3
+        versionName = "0.3.0"
     }
 
     buildTypes {
@@ -36,6 +36,9 @@ android {
             "-opt-in=androidx.compose.foundation.layout.ExperimentalLayoutApi",
             "-opt-in=androidx.compose.foundation.ExperimentalFoundationApi",
         )
+    }
+    testOptions {
+        unitTests.isReturnDefaultValues = true // android.content.Intent in widget tests
     }
     buildFeatures {
         compose = true
@@ -58,6 +61,8 @@ dependencies {
     implementation(libs.kotlinx.serialization.json)
     implementation(libs.androidx.datastore.preferences)
     implementation(libs.androidx.work.runtime.ktx)
+    implementation(libs.glance.appwidget)
     debugImplementation(libs.androidx.ui.tooling)
     testImplementation(libs.junit)
+    testImplementation(libs.glance.appwidget.testing)
 }
