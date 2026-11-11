@@ -29,11 +29,11 @@ enum class ModuleId(
     MEMORY_HOOKS(3, "Memory Hooks", "গল্পে গল্পে শব্দ মনে রাখা", 1, true),
     CONFUSED(4, "Commonly Confused Words", "পার্থক্য কী?", 2, true),
     EQUIVALENTS(5, "Word Equivalents", "সমার্থক, বিপরীত ও এক কথায় প্রকাশ", 2, true),
-    COLLOCATIONS(6, "Everyday Collocations", "নিত্যদিনের ২০০ শব্দজুটি", 2, false),
-    LISTEN(7, "Listen Smart", "শুনে বোঝার শব্দভান্ডার", 3, false),
-    READ(8, "Read Smart", "পড়ে বোঝার শব্দভান্ডার", 3, false),
-    PARAPHRASE(9, "The Paraphrase Bank", "একই কথা, ভিন্ন ভাষায়", 3, false),
-    WRITE(10, "Write Smart", "লেখায় উচ্চ Band-এর শব্দ", 3, false),
+    COLLOCATIONS(6, "Everyday Collocations", "নিত্যদিনের ২০০ শব্দজুটি", 2, true),
+    LISTEN(7, "Listen Smart", "শুনে বোঝার শব্দভান্ডার", 3, true),
+    READ(8, "Read Smart", "পড়ে বোঝার শব্দভান্ডার", 3, true),
+    PARAPHRASE(9, "The Paraphrase Bank", "একই কথা, ভিন্ন ভাষায়", 3, true),
+    WRITE(10, "Write Smart", "লেখায় উচ্চ Band-এর শব্দ", 3, true),
     EXAM(11, "Exam Ready", "চাকরির পরীক্ষার ১০টি MCQ সেট", 4, true),
 }
 

@@ -34,7 +34,15 @@ import com.englishdoctor.vocabsolution.notify.bn
 import com.englishdoctor.vocabsolution.ui.exam.ExamHubScreen
 import com.englishdoctor.vocabsolution.ui.exam.ExamSessionScreen
 import com.englishdoctor.vocabsolution.ui.home.HomeScreen
+import com.englishdoctor.vocabsolution.ui.learn.CollocationsScreen
 import com.englishdoctor.vocabsolution.ui.learn.ConfusedListScreen
+import com.englishdoctor.vocabsolution.ui.learn.ListenScreen
+import com.englishdoctor.vocabsolution.ui.learn.ParaphraseTopicScreen
+import com.englishdoctor.vocabsolution.ui.learn.ParaphraseTopicsScreen
+import com.englishdoctor.vocabsolution.ui.learn.PassageScreen
+import com.englishdoctor.vocabsolution.ui.learn.ReadSubjectsScreen
+import com.englishdoctor.vocabsolution.ui.learn.ReadTopicsScreen
+import com.englishdoctor.vocabsolution.ui.learn.WriteScreen
 import com.englishdoctor.vocabsolution.ui.learn.EquivalentsScreen
 import com.englishdoctor.vocabsolution.ui.learn.LearnHubScreen
 import com.englishdoctor.vocabsolution.ui.learn.MemoryHookPagerScreen
@@ -68,6 +76,9 @@ object Routes {
     fun root(id: String) = "root/$id"
     fun hook(index: Int) = "hook/$index"
     fun pair(id: String) = "pair/$id"
+    fun readSubject(subject: Int) = "read/$subject"
+    fun passage(id: String) = "passage/$id"
+    fun paraTopic(topic: Int) = "para/$topic"
     fun reviewSession(mode: String) = "review_session/$mode"
     fun examSession(set: Int, mode: String) = "exam_session/$set/$mode"
 }
@@ -140,12 +151,20 @@ fun VocabRoot(app: AppContainer) {
                         ModuleId.MEMORY_HOOKS -> MemoryHooksListScreen(nav)
                         ModuleId.CONFUSED -> ConfusedListScreen(nav)
                         ModuleId.EQUIVALENTS -> EquivalentsScreen(nav)
-                        else -> LearnHubScreen(nav)
+                        ModuleId.COLLOCATIONS -> CollocationsScreen(nav)
+                        ModuleId.LISTEN -> ListenScreen(nav)
+                        ModuleId.READ -> ReadSubjectsScreen(nav)
+                        ModuleId.PARAPHRASE -> ParaphraseTopicsScreen(nav)
+                        ModuleId.WRITE -> WriteScreen(nav)
+                        ModuleId.EXAM -> ExamHubScreen(nav)
                     }
                 }
                 composable("root/{id}") { e -> RootDetailScreen(nav, e.arguments!!.getString("id")!!) }
                 composable("hook/{index}") { e -> MemoryHookPagerScreen(nav, e.arguments!!.getString("index")!!.toInt()) }
                 composable("pair/{id}") { e -> PairDetailScreen(nav, e.arguments!!.getString("id")!!) }
+                composable("read/{subject}") { e -> ReadTopicsScreen(nav, e.arguments!!.getString("subject")!!.toInt()) }
+                composable("passage/{id}") { e -> PassageScreen(nav, e.arguments!!.getString("id")!!) }
+                composable("para/{topic}") { e -> ParaphraseTopicScreen(nav, e.arguments!!.getString("topic")!!.toInt()) }
                 composable("review_session/{mode}") { e -> ReviewSessionScreen(nav, e.arguments!!.getString("mode")!!) }
                 composable("exam_session/{set}/{mode}") { e ->
                     ExamSessionScreen(nav, e.arguments!!.getString("set")!!.toInt(), e.arguments!!.getString("mode")!!)

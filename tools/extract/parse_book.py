@@ -2,7 +2,7 @@
 
 Usage:
     python3 -I clean_text.py BOOK.pdf clean.txt
-    python3 -I parse_book.py clean.txt OUT_DIR
+    python3 -I parse_book.py clean.txt OUT_DIR BOOK.pdf
 
 Writes one JSON file per content set and prints a validation report that
 compares the parsed counts with the counts stated in the book.
@@ -12,10 +12,13 @@ import os
 import re
 import sys
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))  # sibling modules under python -I
+
 BN_DIGITS = str.maketrans("০১২৩৪৫৬৭৮৯", "0123456789")
 POS_MARK = {"■": "noun", "▲": "verb", "●": "adjective", "◆": "adverb", "○": "other"}
 POS_ABBR = {"n": "noun", "v": "verb", "adj": "adjective", "adv": "adverb"}
 POS_NAME = {"Noun": "noun", "Verb": "verb", "Adjective": "adjective", "Adverb": "adverb"}
+BN = "ঀ-৿"
 HAS_BN = re.compile(r"[ঀ-৿]")
 HAS_LATIN = re.compile(r"[A-Za-z]")
 
@@ -62,8 +65,11 @@ def body_lines(pages, first: int, last: int, header_prefix: str):
     out = []
     for p in range(first, last + 1):
         lines = pages[p].split("\n")
+        # The page number sits next to the footer, in the last few lines (or the first, on odd layouts).
+        footer = {i for i, l in enumerate(lines) if l.strip() == "© English Doctor"}
+        page_no = {i for f in footer for i in (f - 1, f + 1) if 0 <= i < len(lines) and re.fullmatch(r"[০-৯]+", lines[i].strip())}
         skip_next = False
-        for ln in lines:
+        for idx, ln in enumerate(lines):
             s = ln.strip()
             if skip_next:
                 skip_next = False
@@ -71,7 +77,10 @@ def body_lines(pages, first: int, last: int, header_prefix: str):
             if s.startswith(header_prefix):
                 skip_next = True  # the running sub-title follows the header line
                 continue
-            if s == "© English Doctor" or re.fullmatch(r"[০-৯]+", s) or not s:
+            if s == "© English Doctor" or idx in page_no or not s:
+                continue
+            if ln.startswith(" ") and out:
+                out[-1] = out[-1] + " " + s  # continuation of a line PyMuPDF split
                 continue
             out.append(s)
     return out
@@ -490,7 +499,7 @@ def apply_answers(cur, text):
 
 
 # --------------------------------------------------------------- main
-def main(src: str, out_dir: str) -> None:
+def main(src: str, out_dir: str, pdf: str | None = None) -> None:
     pages = load_pages(src)
     os.makedirs(out_dir, exist_ok=True)
 
@@ -514,9 +523,36 @@ def main(src: str, out_dir: str) -> None:
     data["one_word"] = parse_oneword(section(ch5, r"^খ\. One-word", None))
     data["mcq"] = parse_mcq(chapter("১১", None))
 
+    import parse_part3 as p3
+    ch6 = chapter("৬", "৭")
+    data["collocations"] = p3.parse_collocations(section(ch6, r"^ক\. Power Verbs", r"^গ\. Common Mistakes"))
+    data["collocation_mistakes"] = p3.parse_mistakes(section(ch6, r"^গ\. Common Mistakes", None))
+    ch7 = chapter("৭", "৮")
+    data["listening_words"] = p3.parse_listening_words(section(ch7, r"^ক\. Section-wise", r"^খ\. Maps"))
+    data["map_words"] = p3.parse_pairs_en_bn(section(ch7, r"^খ\. Maps", r"^গ\. Numbers"), "map")
+    data["number_tips"] = p3.parse_number_tips(section(ch7, r"^গ\. Numbers", r"^ঘ\. Spelling Traps"))
+    data["spelling_traps"] = p3.parse_spelling_traps(section(ch7, r"^ঘ\. Spelling Traps", r"^ঙ\. Lecture"))
+    data["signposts"] = p3.parse_signposts(section(ch7, r"^ঙ\. Lecture", None))
+    data["reading_passages"] = p3.parse_passages(chapter("৮", "৯"))
+    data["paraphrases"] = p3.parse_paraphrases(chapter("৯", "১০"))
+    if pdf:
+        import tables
+        first = find_page(pages, "পর্ব · অধ্যায় ১০\n", 6)
+        last = find_page(pages, "পর্ব · অধ্যায় ১১\n", first + 1) - 1
+        ch10 = chapter("১০", "১১")
+        writing = p3.build_writing(tables.chapter_tables(pdf, first, last),
+                                   section(ch10, r"^বিষয়ভিত্তিক শব্দজুটি", r"^গ\. Linking Words"))
+        with open(os.path.join(out_dir, "writing.json"), "w", encoding="utf-8") as fh:
+            json.dump(writing, fh, ensure_ascii=False, indent=1)
+        print("  writing sections:", [len(s["rows"]) for s in writing["sections"]],
+              "topic vocab:", [len(c["items"]) for c in writing["topicVocab"]])
+
     expected = {"suffixes": 48, "prefixes": 48, "word_analysis": 20, "multiplying_words": 120,
                 "root_families": 96, "memory_hooks": 100, "confused_pairs": 100,
-                "synonyms_antonyms": 144, "one_word": 130, "mcq": 250}
+                "synonyms_antonyms": 144, "one_word": 130, "mcq": 250,
+                "collocations": 200, "collocation_mistakes": 25, "listening_words": 100, "map_words": 30,
+                "number_tips": 7, "spelling_traps": 59, "signposts": 17, "reading_passages": 150,
+                "paraphrases": 1152}
     print("Validation report")
     for name, items in data.items():
         flag = "OK " if len(items) == expected[name] else "!! "
@@ -536,4 +572,4 @@ def main(src: str, out_dir: str) -> None:
 
 
 if __name__ == "__main__":
-    main(sys.argv[1], sys.argv[2])
+    main(sys.argv[1], sys.argv[2], sys.argv[3] if len(sys.argv) > 3 else None)

@@ -1,0 +1,1064 @@
+{
+ "sections": [
+  {
+   "id": "write_01",
+   "group": "task1",
+   "titleBn": "ট্রেন্ড বা প্রবণতা বোঝানোর শব্দ",
+   "titleEn": "Trends",
+   "columns": [
+    "প্রবণতা",
+    "Verb ▲",
+    "Noun ■",
+    "নোট"
+   ],
+   "rows": [
+    [
+     "বৃদ্ধি · Upward",
+     "rise, increase, grow, climb",
+     "a rise, an increase, growth",
+     "sharp/rapid বৃদ্ধি: soar, surge, rocket"
+    ],
+    [
+     "হ্রাস · Downward",
+     "fall, decrease, decline, drop",
+     "a fall, a decrease, a decline, a drop",
+     "তীব্র হ্রাস: plummet, plunge, slump"
+    ],
+    [
+     "স্থিতি · No change",
+     "remain stable, stay constant, level off, stabilise",
+     "stability, a plateau",
+     "level off = ওঠানামার পর স্থির হওয়া"
+    ],
+    [
+     "ওঠানামা · Up and down",
+     "fluctuate, vary",
+     "a fluctuation, a variation",
+     "fluctuate between 20% and 30%"
+    ],
+    [
+     "সর্বোচ্চ · Highest point",
+     "peak, reach a peak, hit a high",
+     "a peak, the highest point",
+     "peaked at 80 in 2015"
+    ],
+    [
+     "সর্বনিম্ন · Lowest point",
+     "bottom out, reach a low",
+     "a low, the lowest point",
+     "bottomed out at 5% in 2010"
+    ],
+    [
+     "পুনরুদ্ধার · Recovery",
+     "recover, pick up, rebound",
+     "a recovery, a rebound",
+     "recovered to 40% by 2020"
+    ]
+   ]
+  },
+  {
+   "id": "write_02",
+   "group": "task1",
+   "titleBn": "পরিবর্তনের মাত্রা",
+   "titleEn": "Degree of change",
+   "columns": [
+    "Adverb ◆",
+    "Adjective ●",
+    "অর্থ"
+   ],
+   "rows": [
+    [
+     "slightly",
+     "slight",
+     "সামান্য"
+    ],
+    [
+     "marginally",
+     "marginal",
+     "খুব অল্প"
+    ],
+    [
+     "moderately",
+     "moderate",
+     "মাঝারি মাত্রায়"
+    ],
+    [
+     "steadily",
+     "steady",
+     "স্থিরভাবে, নিয়মিতভাবে"
+    ],
+    [
+     "gradually",
+     "gradual",
+     "ধীরে ধীরে"
+    ],
+    [
+     "considerably",
+     "considerable",
+     "উল্লেখযোগ্য মাত্রায়"
+    ],
+    [
+     "significantly",
+     "significant",
+     "তাৎপর্যপূর্ণভাবে"
+    ],
+    [
+     "substantially",
+     "substantial",
+     "যথেষ্ট পরিমাণে"
+    ],
+    [
+     "sharply",
+     "sharp",
+     "তীব্রভাবে"
+    ],
+    [
+     "dramatically",
+     "dramatic",
+     "নাটকীয়ভাবে"
+    ],
+    [
+     "rapidly",
+     "rapid",
+     "দ্রুত"
+    ],
+    [
+     "noticeably",
+     "noticeable",
+     "লক্ষণীয়ভাবে"
+    ]
+   ]
+  },
+  {
+   "id": "write_03",
+   "group": "task1",
+   "titleBn": "তুলনা ও অনুপাত",
+   "titleEn": "Comparisons and proportions",
+   "columns": [
+    "বাক্যাংশ",
+    "অর্থ",
+    "উদাহরণ"
+   ],
+   "rows": [
+    [
+     "twice as many/much as",
+     "দ্বিগুণ",
+     "Twice as many men as women used the library."
+    ],
+    [
+     "three times higher than",
+     "তিন গুণ বেশি",
+     "Sales in 2020 were three times higher than in 2010."
+    ],
+    [
+     "the majority of",
+     "অধিকাংশ",
+     "The majority of students preferred online classes."
+    ],
+    [
+     "a minority of",
+     "সংখ্যালঘু অংশ",
+     "Only a minority of people walked to work."
+    ],
+    [
+     "approximately / roughly",
+     "প্রায়",
+     "Approximately a quarter of the budget was spent on health."
+    ],
+    [
+     "just over / just under",
+     "সামান্য বেশি / সামান্য কম",
+     "Just under half of the respondents agreed."
+    ],
+    [
+     "account for / make up",
+     "অংশ গঠন করা",
+     "Rice accounted for 60% of total production."
+    ],
+    [
+     "compared with / in comparison to",
+     "তুলনায়",
+     "Compared with 2000, energy use doubled by 2020."
+    ],
+    [
+     "whereas / while",
+     "অন্যদিকে",
+     "Exports rose, whereas imports fell."
+    ],
+    [
+     "the highest / the lowest",
+     "সর্বোচ্চ / সর্বনিম্ন",
+     "Dhaka had the highest population density."
+    ],
+    [
+     "rank first / second",
+     "প্রথম / দ্বিতীয় অবস্থানে থাকা",
+     "Tourism ranked second as a source of income."
+    ],
+    [
+     "the proportion of",
+     "অনুপাত",
+     "The proportion of elderly people increased steadily."
+    ]
+   ]
+  },
+  {
+   "id": "write_04",
+   "group": "task1",
+   "titleBn": "প্রক্রিয়া ও মানচিত্র",
+   "titleEn": "Process and map",
+   "columns": [
+    "বাক্যাংশ",
+    "অর্থ",
+    "উদাহরণ"
+   ],
+   "rows": [
+    [
+     "first / initially",
+     "প্রথমে",
+     "First, the raw materials are collected."
+    ],
+    [
+     "subsequently / then",
+     "এরপর",
+     "Subsequently, the mixture is heated."
+    ],
+    [
+     "after that / following this",
+     "তারপর",
+     "Following this, the liquid is filtered."
+    ],
+    [
+     "once / as soon as",
+     "যখনই",
+     "Once it has cooled, it is packaged."
+    ],
+    [
+     "finally / in the final stage",
+     "শেষে",
+     "Finally, the product is delivered to shops."
+    ],
+    [
+     "was replaced by",
+     "দ্বারা প্রতিস্থাপিত হয়েছে",
+     "The farmland was replaced by a housing estate."
+    ],
+    [
+     "was converted into",
+     "রূপান্তরিত হয়েছে",
+     "The old school was converted into a museum."
+    ],
+    [
+     "was demolished",
+     "ভেঙে ফেলা হয়েছে",
+     "Several shops were demolished."
+    ],
+    [
+     "was constructed / built",
+     "নির্মিত হয়েছে",
+     "A new bridge was constructed across the river."
+    ],
+    [
+     "was expanded / extended",
+     "সম্প্রসারিত হয়েছে",
+     "The car park was expanded to the east."
+    ],
+    [
+     "was relocated",
+     "স্থানান্তরিত হয়েছে",
+     "The hospital was relocated to the north."
+    ]
+   ]
+  },
+  {
+   "id": "write_05",
+   "group": "task1",
+   "titleBn": "Overview বাক্যের সূচনা",
+   "titleEn": "Overview openers",
+   "columns": [
+    "বাক্যাংশ",
+    "অর্থ"
+   ],
+   "rows": [
+    [
+     "Overall, it is clear that …",
+     "সামগ্রিকভাবে স্পষ্ট যে …"
+    ],
+    [
+     "The most striking feature is …",
+     "সবচেয়ে লক্ষণীয় বিষয় হলো …"
+    ],
+    [
+     "In general, … while …",
+     "সাধারণভাবে … অন্যদিকে …"
+    ],
+    [
+     "It is noticeable that …",
+     "লক্ষ করার মতো যে …"
+    ],
+    [
+     "The graph illustrates / compares …",
+     "লেখচিত্রটি দেখায় / তুলনা করে …"
+    ]
+   ]
+  },
+  {
+   "id": "write_06",
+   "group": "task2",
+   "titleBn": "মতামত প্রকাশ",
+   "titleEn": "Giving an opinion",
+   "columns": [
+    "বাক্যাংশ",
+    "অর্থ"
+   ],
+   "rows": [
+    [
+     "In my view / In my opinion",
+     "আমার মতে"
+    ],
+    [
+     "I strongly believe that",
+     "আমি দৃঢ়ভাবে বিশ্বাস করি যে"
+    ],
+    [
+     "From my perspective",
+     "আমার দৃষ্টিকোণ থেকে"
+    ],
+    [
+     "I am inclined to agree that",
+     "আমি মোটামুটি একমত যে"
+    ],
+    [
+     "It is widely argued that",
+     "ব্যাপকভাবে বলা হয় যে"
+    ]
+   ]
+  },
+  {
+   "id": "write_07",
+   "group": "task2",
+   "titleBn": "যুক্তি উপস্থাপন",
+   "titleEn": "Presenting arguments",
+   "columns": [
+    "বাক্যাংশ",
+    "অর্থ"
+   ],
+   "rows": [
+    [
+     "One major advantage is that",
+     "একটি বড় সুবিধা হলো"
+    ],
+    [
+     "A key reason for this is that",
+     "এর একটি মূল কারণ হলো"
+    ],
+    [
+     "This is primarily because",
+     "এর প্রধান কারণ হলো"
+    ],
+    [
+     "Proponents argue that",
+     "সমর্থকেরা যুক্তি দেন যে"
+    ],
+    [
+     "There is a strong case for",
+     "… এর পক্ষে জোরালো যুক্তি আছে"
+    ]
+   ]
+  },
+  {
+   "id": "write_08",
+   "group": "task2",
+   "titleBn": "বিপরীত যুক্তি",
+   "titleEn": "Concession",
+   "columns": [
+    "বাক্যাংশ",
+    "অর্থ"
+   ],
+   "rows": [
+    [
+     "Admittedly,",
+     "স্বীকার করতেই হয়,"
+    ],
+    [
+     "Although it is true that",
+     "যদিও এ কথা সত্য যে"
+    ],
+    [
+     "Critics contend that",
+     "সমালোচকেরা দাবি করেন যে"
+    ],
+    [
+     "Nevertheless, / Nonetheless,",
+     "তবুও"
+    ],
+    [
+     "On the other hand,",
+     "অন্যদিকে"
+    ]
+   ]
+  },
+  {
+   "id": "write_09",
+   "group": "task2",
+   "titleBn": "উদাহরণ",
+   "titleEn": "Examples",
+   "columns": [
+    "বাক্যাংশ",
+    "অর্থ"
+   ],
+   "rows": [
+    [
+     "For instance, / For example,",
+     "যেমন"
+    ],
+    [
+     "A case in point is",
+     "এর একটি উপযুক্ত দৃষ্টান্ত হলো"
+    ],
+    [
+     "To illustrate,",
+     "ব্যাখ্যা করতে গেলে"
+    ],
+    [
+     "such as",
+     "যেমন (তালিকার আগে)"
+    ]
+   ]
+  },
+  {
+   "id": "write_10",
+   "group": "task2",
+   "titleBn": "কারণ ও ফল",
+   "titleEn": "Cause and effect",
+   "columns": [
+    "বাক্যাংশ",
+    "অর্থ"
+   ],
+   "rows": [
+    [
+     "lead to / result in",
+     "ফলে … হয়"
+    ],
+    [
+     "give rise to",
+     "জন্ম দেওয়া, সৃষ্টি করা"
+    ],
+    [
+     "contribute to",
+     "অবদান রাখা, ভূমিকা রাখা"
+    ],
+    [
+     "stem from / arise from",
+     "… থেকে উদ্ভূত হওয়া"
+    ],
+    [
+     "As a consequence, / Consequently,",
+     "ফলস্বরূপ"
+    ]
+   ]
+  },
+  {
+   "id": "write_11",
+   "group": "task2",
+   "titleBn": "উপসংহার",
+   "titleEn": "Conclusion",
+   "columns": [
+    "বাক্যাংশ",
+    "অর্থ"
+   ],
+   "rows": [
+    [
+     "In conclusion,",
+     "উপসংহারে"
+    ],
+    [
+     "To sum up,",
+     "সংক্ষেপে"
+    ],
+    [
+     "On balance,",
+     "সবদিক বিবেচনায়"
+    ],
+    [
+     "All things considered,",
+     "সবকিছু বিবেচনা করে"
+    ]
+   ]
+  },
+  {
+   "id": "write_12",
+   "group": "linking",
+   "titleBn": "বাক্য ও ভাবনা জোড়ার শব্দ",
+   "titleEn": "Linking words",
+   "columns": [
+    "কাজ",
+    "শব্দ ও বাক্যাংশ",
+    "বাংলা"
+   ],
+   "rows": [
+    [
+     "যোগ · Addition",
+     "furthermore, moreover, in addition, besides, what is more, also",
+     "তাছাড়া, এর সাথে"
+    ],
+    [
+     "বিপরীত · Contrast",
+     "however, nevertheless, on the other hand, in contrast, whereas, although, despite",
+     "তবে, অন্যদিকে, যদিও"
+    ],
+    [
+     "কারণ · Cause",
+     "because, since, as, due to, owing to, because of",
+     "কারণ, যেহেতু"
+    ],
+    [
+     "ফল · Result",
+     "therefore, thus, consequently, as a result, hence",
+     "সুতরাং, ফলে"
+    ],
+    [
+     "উদাহরণ · Example",
+     "for example, for instance, such as, namely, in particular",
+     "যেমন, বিশেষত"
+    ],
+    [
+     "ক্রম · Sequence",
+     "firstly, secondly, then, subsequently, finally, lastly",
+     "প্রথমত, এরপর, শেষে"
+    ],
+    [
+     "জোর · Emphasis",
+     "indeed, in fact, clearly, notably, above all",
+     "আসলে, বিশেষভাবে"
+    ],
+    [
+     "শর্ত · Condition",
+     "if, unless, provided that, as long as, otherwise",
+     "যদি, যদি না"
+    ],
+    [
+     "তুলনা · Similarity",
+     "similarly, likewise, in the same way, equally",
+     "একইভাবে"
+    ],
+    [
+     "সারাংশ · Summary",
+     "in conclusion, to sum up, overall, in short, on the whole",
+     "সংক্ষেপে, সামগ্রিকভাবে"
+    ]
+   ]
+  },
+  {
+   "id": "write_13",
+   "group": "academic",
+   "titleBn": "সাধারণ থেকে একাডেমিক ভাষায়",
+   "titleEn": "From simple to academic",
+   "columns": [
+    "সাধারণ",
+    "একাডেমিক",
+    "অর্থ"
+   ],
+   "rows": [
+    [
+     "a lot of",
+     "a considerable number of / a great deal of",
+     "অনেক"
+    ],
+    [
+     "big",
+     "substantial / significant",
+     "বড়"
+    ],
+    [
+     "show",
+     "demonstrate / illustrate",
+     "দেখানো"
+    ],
+    [
+     "think",
+     "consider / believe",
+     "মনে করা"
+    ],
+    [
+     "help",
+     "assist / support",
+     "সাহায্য করা"
+    ],
+    [
+     "need",
+     "require",
+     "প্রয়োজন হওয়া"
+    ],
+    [
+     "enough",
+     "sufficient / adequate",
+     "যথেষ্ট"
+    ],
+    [
+     "start",
+     "commence / initiate",
+     "শুরু করা"
+    ],
+    [
+     "end",
+     "conclude / terminate",
+     "শেষ করা"
+    ],
+    [
+     "get",
+     "obtain / acquire",
+     "পাওয়া"
+    ],
+    [
+     "keep",
+     "maintain / retain",
+     "রক্ষা করা"
+    ],
+    [
+     "find out",
+     "discover / ascertain",
+     "জানতে পারা"
+    ],
+    [
+     "look into",
+     "investigate / examine",
+     "খতিয়ে দেখা"
+    ],
+    [
+     "go up",
+     "increase / rise",
+     "বাড়া"
+    ],
+    [
+     "go down",
+     "decrease / decline",
+     "কমা"
+    ],
+    [
+     "cut down",
+     "reduce",
+     "কমানো"
+    ],
+    [
+     "put off",
+     "postpone",
+     "স্থগিত করা"
+    ],
+    [
+     "set up",
+     "establish",
+     "প্রতিষ্ঠা করা"
+    ],
+    [
+     "deal with",
+     "address / tackle",
+     "মোকাবিলা করা"
+    ],
+    [
+     "a bit",
+     "slightly / somewhat",
+     "সামান্য"
+    ],
+    [
+     "really",
+     "extremely / highly",
+     "খুবই"
+    ],
+    [
+     "very important",
+     "crucial / vital",
+     "অত্যন্ত গুরুত্বপূর্ণ"
+    ],
+    [
+     "bad",
+     "detrimental / adverse",
+     "ক্ষতিকর"
+    ],
+    [
+     "good",
+     "beneficial / favourable",
+     "উপকারী"
+    ],
+    [
+     "kids",
+     "children",
+     "শিশু"
+    ],
+    [
+     "nowadays",
+     "in contemporary society",
+     "বর্তমান সময়ে"
+    ],
+    [
+     "lots of people",
+     "numerous people / many individuals",
+     "অনেক মানুষ"
+    ],
+    [
+     "so",
+     "therefore / consequently",
+     "সুতরাং"
+    ],
+    [
+     "but",
+     "however",
+     "কিন্তু"
+    ],
+    [
+     "also",
+     "furthermore / moreover",
+     "তাছাড়া"
+    ],
+    [
+     "like",
+     "such as",
+     "যেমন"
+    ],
+    [
+     "try",
+     "attempt",
+     "চেষ্টা করা"
+    ],
+    [
+     "buy",
+     "purchase",
+     "কেনা"
+    ],
+    [
+     "ask",
+     "enquire",
+     "জিজ্ঞাসা করা"
+    ],
+    [
+     "job",
+     "employment / occupation",
+     "চাকরি, পেশা"
+    ],
+    [
+     "don't / can't",
+     "do not / cannot",
+     "সংক্ষিপ্ত রূপ এড়িয়ে চলুন"
+    ]
+   ]
+  },
+  {
+   "id": "write_14",
+   "group": "mistakes",
+   "titleBn": "Writing-এর প্রচলিত ভুল",
+   "titleEn": "Common mistakes",
+   "columns": [
+    "✗ ভুল",
+    "✓ সঠিক",
+    "কেন"
+   ],
+   "rows": [
+    [
+     "informations",
+     "information",
+     "অগণনাযোগ্য, বহুবচনে s হয় না"
+    ],
+    [
+     "advices / researches",
+     "advice / research",
+     "অগণনাযোগ্য বিশেষ্য"
+    ],
+    [
+     "In nowadays",
+     "Nowadays",
+     "nowadays-এর আগে in বসে না"
+    ],
+    [
+     "the number of money",
+     "the amount of money",
+     "অগণনাযোগ্যের সাথে amount"
+    ],
+    [
+     "the amount of people",
+     "the number of people",
+     "গণনাযোগ্যের সাথে number"
+    ],
+    [
+     "an increase of prices",
+     "an increase in prices",
+     "পরিবর্তনের বিষয়ের আগে in"
+    ],
+    [
+     "increased by 20% (যখন মান বোঝায়)",
+     "increased to 20%",
+     "by = পরিবর্তনের পরিমাণ, to = শেষ মান"
+    ],
+    [
+     "the percent of",
+     "the percentage of",
+     "percent সংখ্যার পরে বসে (20 percent)"
+    ],
+    [
+     "rised / falled",
+     "rose / fell",
+     "অনিয়মিত ক্রি য়ার রূপ"
+    ],
+    [
+     "childrens / peoples",
+     "children / people",
+     "এগুলো নিজেই বহুবচন"
+    ],
+    [
+     "discuss about",
+     "discuss",
+     "discuss-এর পরে about বসে না"
+    ],
+    [
+     "more better / more easier",
+     "better / easier",
+     "দ্বিগুণ তুলনা নয়"
+    ],
+    [
+     "Although …, but …",
+     "Although …, …",
+     "although ও but একসাথে নয়"
+    ],
+    [
+     "According to me",
+     "In my view",
+     "মতামতে according to me নয়"
+    ],
+    [
+     "etc. দিয়ে উদাহরণ শেষ করা",
+     "such as A, B and C",
+     "একাডেমিক লেখায় etc. এড়িয়ে চলুন"
+    ]
+   ]
+  }
+ ],
+ "topicVocab": [
+  {
+   "categoryBn": "শিক্ষা",
+   "categoryEn": "Education",
+   "items": [
+    {
+     "en": "compulsory education",
+     "bn": "বাধ্যতামূলক শিক্ষা"
+    },
+    {
+     "en": "academic performance",
+     "bn": "শিক্ষাগত সাফল্য"
+    },
+    {
+     "en": "rote learning",
+     "bn": "মুখস্থনির্ভর শিক্ষা"
+    },
+    {
+     "en": "critical thinking",
+     "bn": "বিশ্লেষণী চিন্তা"
+    },
+    {
+     "en": "tuition fees",
+     "bn": "শিক্ষা ফি"
+    },
+    {
+     "en": "lifelong learning",
+     "bn": "আজীবন শিক্ষা"
+    },
+    {
+     "en": "vocational training",
+     "bn": "কারিগরি প্রশিক্ষণ"
+    },
+    {
+     "en": "equal access to education",
+     "bn": "শিক্ষায় সমান সুযোগ"
+    }
+   ]
+  },
+  {
+   "categoryBn": "প্রযুক্তি",
+   "categoryEn": "Technology",
+   "items": [
+    {
+     "en": "technological advancement",
+     "bn": "প্রযুক্তিগত অগ্রগতি"
+    },
+    {
+     "en": "social media platforms",
+     "bn": "সামাজিক মাধ্যম"
+    },
+    {
+     "en": "screen time",
+     "bn": "পর্দায় কাটানো সময়"
+    },
+    {
+     "en": "online privacy",
+     "bn": "অনলাইন গোপনীয়তা"
+    },
+    {
+     "en": "digital divide",
+     "bn": "ডিজিটাল বৈষম্য"
+    },
+    {
+     "en": "artificial intelligence",
+     "bn": "কৃত্রিম বুদ্ধিমত্তা"
+    },
+    {
+     "en": "remote working",
+     "bn": "দূর থেকে কাজ"
+    },
+    {
+     "en": "cyber security",
+     "bn": "সাইবার নিরাপত্তা"
+    }
+   ]
+  },
+  {
+   "categoryBn": "পরিবেশ",
+   "categoryEn": "Environment",
+   "items": [
+    {
+     "en": "climate change",
+     "bn": "জলবায়ু পরিবর্তন"
+    },
+    {
+     "en": "carbon emissions",
+     "bn": "কার্বন নিঃসরণ"
+    },
+    {
+     "en": "renewable energy",
+     "bn": "নবায়নযোগ্য শক্তি"
+    },
+    {
+     "en": "deforestation",
+     "bn": "বন উজাড়"
+    },
+    {
+     "en": "plastic pollution",
+     "bn": "প্লাস্টিক দূষণ"
+    },
+    {
+     "en": "natural resources",
+     "bn": "প্রাকৃতিক সম্পদ"
+    },
+    {
+     "en": "environmental awareness",
+     "bn": "পরিবেশ সচেতনতা"
+    },
+    {
+     "en": "sustainable development",
+     "bn": "টেকসই উন্নয়ন"
+    }
+   ]
+  },
+  {
+   "categoryBn": "স্বাস্থ্য",
+   "categoryEn": "Health",
+   "items": [
+    {
+     "en": "sedentary lifestyle",
+     "bn": "নিষ্ক্রিয় জীবনযাপন"
+    },
+    {
+     "en": "balanced diet",
+     "bn": "সুষম খাদ্য"
+    },
+    {
+     "en": "public health",
+     "bn": "জনস্বাস্থ্য"
+    },
+    {
+     "en": "mental well-being",
+     "bn": "মানসিক সুস্থতা"
+    },
+    {
+     "en": "preventive measures",
+     "bn": "প্রতিরোধমূলক ব্যবস্থা"
+    },
+    {
+     "en": "healthcare system",
+     "bn": "স্বাস্থ্যসেবা ব্যবস্থা"
+    },
+    {
+     "en": "life expectancy",
+     "bn": "গড় আয়ু"
+    },
+    {
+     "en": "junk food",
+     "bn": "অস্বাস্থ্যকর খাবার"
+    }
+   ]
+  },
+  {
+   "categoryBn": "কাজ ও অর্থনীতি",
+   "categoryEn": "Work and Economy",
+   "items": [
+    {
+     "en": "job satisfaction",
+     "bn": "কাজে সন্তুষ্টি"
+    },
+    {
+     "en": "work-life balance",
+     "bn": "কাজ ও জীবনের ভারসাম্য"
+    },
+    {
+     "en": "unemployment rate",
+     "bn": "বেকারত্বের হার"
+    },
+    {
+     "en": "economic growth",
+     "bn": "অর্থনৈতিক প্রবৃদ্ধি"
+    },
+    {
+     "en": "income inequality",
+     "bn": "আয়বৈষম্য"
+    },
+    {
+     "en": "career prospects",
+     "bn": "ক্যারিয়ারের সম্ভাবনা"
+    },
+    {
+     "en": "skilled workforce",
+     "bn": "দক্ষ জনশক্তি"
+    },
+    {
+     "en": "cost of living",
+     "bn": "জীবনযাত্রার ব্যয়"
+    }
+   ]
+  },
+  {
+   "categoryBn": "সরকার ও সমাজ",
+   "categoryEn": "Government and Society",
+   "items": [
+    {
+     "en": "government funding",
+     "bn": "সরকারি অর্থায়ন"
+    },
+    {
+     "en": "public services",
+     "bn": "জনসেবা"
+    },
+    {
+     "en": "law enforcement",
+     "bn": "আইন প্রয়োগ"
+    },
+    {
+     "en": "social inequality",
+     "bn": "সামাজিক বৈষম্য"
+    },
+    {
+     "en": "urban migration",
+     "bn": "শহরমুখী অভিবাসন"
+    },
+    {
+     "en": "traffic congestion",
+     "bn": "যানজট"
+    },
+    {
+     "en": "community involvement",
+     "bn": "সামাজিক অংশগ্রহণ"
+    },
+    {
+     "en": "cultural identity",
+     "bn": "সাংস্কৃতিক পরিচয়"
+    }
+   ]
+  }
+ ]
+}

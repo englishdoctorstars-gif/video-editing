@@ -60,10 +60,10 @@ import com.englishdoctor.vocabsolution.ui.theme.WrongRed
 
 /** Which modules feed "নতুন পাঠ" first, per learner goal. Root words come last (there are 2,694). */
 private fun moduleOrder(goal: String) = when (goal) {
-    "job" -> listOf(ModuleId.EQUIVALENTS, ModuleId.CONFUSED, ModuleId.MEMORY_HOOKS, ModuleId.WORD_BUILDING, ModuleId.ROOT_POWER)
-    "ielts" -> listOf(ModuleId.MEMORY_HOOKS, ModuleId.CONFUSED, ModuleId.WORD_BUILDING, ModuleId.EQUIVALENTS, ModuleId.ROOT_POWER)
-    "foundation" -> listOf(ModuleId.WORD_BUILDING, ModuleId.MEMORY_HOOKS, ModuleId.ROOT_POWER, ModuleId.CONFUSED, ModuleId.EQUIVALENTS)
-    else -> listOf(ModuleId.MEMORY_HOOKS, ModuleId.CONFUSED, ModuleId.EQUIVALENTS, ModuleId.WORD_BUILDING, ModuleId.ROOT_POWER)
+    "job" -> listOf(ModuleId.EQUIVALENTS, ModuleId.CONFUSED, ModuleId.COLLOCATIONS, ModuleId.MEMORY_HOOKS, ModuleId.WORD_BUILDING, ModuleId.ROOT_POWER)
+    "ielts" -> listOf(ModuleId.READ, ModuleId.PARAPHRASE, ModuleId.LISTEN, ModuleId.WRITE, ModuleId.COLLOCATIONS, ModuleId.MEMORY_HOOKS)
+    "foundation" -> listOf(ModuleId.WORD_BUILDING, ModuleId.MEMORY_HOOKS, ModuleId.COLLOCATIONS, ModuleId.ROOT_POWER, ModuleId.CONFUSED, ModuleId.EQUIVALENTS)
+    else -> listOf(ModuleId.MEMORY_HOOKS, ModuleId.COLLOCATIONS, ModuleId.CONFUSED, ModuleId.EQUIVALENTS, ModuleId.WORD_BUILDING, ModuleId.READ)
 }
 
 /** New cards for today's lesson, interleaving modules so a lesson mixes chapters. */

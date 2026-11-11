@@ -11,7 +11,13 @@ import com.englishdoctor.vocabsolution.domain.Srs
 import com.englishdoctor.vocabsolution.ui.LocalApp
 import com.englishdoctor.vocabsolution.ui.exam.ExamHubScreen
 import com.englishdoctor.vocabsolution.ui.home.HomeScreen
+import com.englishdoctor.vocabsolution.ui.learn.CollocationsScreen
 import com.englishdoctor.vocabsolution.ui.learn.LearnHubScreen
+import com.englishdoctor.vocabsolution.ui.learn.ListenScreen
+import com.englishdoctor.vocabsolution.ui.learn.ParaphraseTopicScreen
+import com.englishdoctor.vocabsolution.ui.learn.PassageScreen
+import com.englishdoctor.vocabsolution.ui.learn.ReadSubjectsScreen
+import com.englishdoctor.vocabsolution.ui.learn.WriteScreen
 import com.englishdoctor.vocabsolution.ui.learn.MemoryHookPagerScreen
 import com.englishdoctor.vocabsolution.ui.learn.PairDetailScreen
 import com.englishdoctor.vocabsolution.ui.learn.RootDetailScreen
@@ -54,4 +60,11 @@ class ScreensScreenshotTest {
     @Test fun reviewHub() = shot { ReviewHubScreen(rememberNavController()) }
     @Test fun examHub() = shot { ExamHubScreen(rememberNavController()) }
     @Test fun profile() = shot { ProfileScreen(rememberNavController()) }
+    @Test fun collocations() = shot { CollocationsScreen(rememberNavController()) }
+    @Test fun listen() = shot { ListenScreen(rememberNavController()) }
+    @Test fun readSubjects() = shot { ReadSubjectsScreen(rememberNavController()) }
+    @Test fun passage() = shot { PassageScreen(rememberNavController(), "read_01_01") }
+    @Test fun passageDark() = shot(dark = true) { PassageScreen(rememberNavController(), "read_05_02") }
+    @Test fun paraphraseTopic() = shot { ParaphraseTopicScreen(rememberNavController(), 1) }
+    @Test fun write() = shot { WriteScreen(rememberNavController()) }
 }

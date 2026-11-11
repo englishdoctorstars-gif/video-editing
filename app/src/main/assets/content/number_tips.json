@@ -1,0 +1,37 @@
+[
+ {
+  "id": "tip_01",
+  "titleBn": "টেলিফোন নম্বর",
+  "bodyBn": "অঙ্কগুলো একটি একটি করে বলা হয়।\n0 কে প্রায়ই oh বলা হয়; পরপর দুটি একই অঙ্ক হলে double, তিনটি হলে triple।\n01712 335 890 → oh one seven one two, double three five, eight nine oh"
+ },
+ {
+  "id": "tip_02",
+  "titleBn": "তারিখ",
+  "bodyBn": "লেখার সময় 15 March বা 15th March, দুটিই চলে।\nবলা হয় the fifteenth of March।\nসাল: 1998 = nineteen ninety-eight, 2005 = two thousand and five, 2025 = twenty twenty-five।\nউত্তরে মাসের বানান ভুল করবেন না: February, Wednesday।"
+ },
+ {
+  "id": "tip_03",
+  "titleBn": "সময় ও টাকা",
+  "bodyBn": "7:45 = a quarter to eight বা seven forty-five; 6:30 = half past six।\n£12.50 = twelve pounds fifty।\nপ্রশ্নে মুদ্রার চিহ্ন না থাকলে উত্তরে চিহ্ন বা একক লিখুন।\na.m. / p.m. বা morning / evening শুনে নিশ্চিত হোন।"
+ },
+ {
+  "id": "tip_04",
+  "titleBn": "-teen না -ty?",
+  "bodyBn": "fifteen ও fifty, sixteen ও sixty শুনতে কাছাকাছি।\n-teen-এ জোর পড়ে শেষে (fif-TEEN), -ty-তে জোর পড়ে শুরুতে (FIF-ty)।\nকোনো নম্বর দুবার বলা হলে দ্বিতীয়বারেরটি বেশি নির্ভরযোগ্য।"
+ },
+ {
+  "id": "tip_05",
+  "titleBn": "বানান বলা",
+  "bodyBn": "নাম বা ঠিকানার বানান অক্ষর ধরে বলা হয়।\ndouble l = ll।\nকাছাকাছি শোনায় এমন অক্ষর: A/E/I, G/J, B/P/V, M/N, S/F।\nB-R-O-W-N-E → Browne (শেষে e আছে, Brown নয়); H-A-double-L → Hall"
+ },
+ {
+  "id": "tip_06",
+  "titleBn": "শব্দসীমা",
+  "bodyBn": "NO MORE THAN TWO WORDS AND/OR A NUMBER মানে সর্বোচ্চ দুটি শব্দ ও একটি সংখ্যা।\nহাইফেনযুক্ত শব্দ (well-known) একটি শব্দ ধরা হয়; সংখ্যা অঙ্কে লেখা যায়।\nশব্দসীমা পার হলে উত্তর সঠিক হলেও নম্বর কাটা যায়।"
+ },
+ {
+  "id": "tip_07",
+  "titleBn": "উত্তর বদলে যাওয়া",
+  "bodyBn": "বক্তা প্রথমে একটি তথ্য দিয়ে পরে সংশোধন করতে পারেন।\nactually, sorry, I mean, no, wait শুনলে সতর্ক হোন।\n“The class is on Tuesday… actually, it's been moved to Thursday.” → উত্তর: Thursday"
+ }
+]

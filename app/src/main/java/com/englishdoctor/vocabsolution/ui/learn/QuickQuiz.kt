@@ -53,6 +53,7 @@ fun QuickQuiz(
     onRestart: () -> Unit,
     onAnswered: (Boolean) -> Unit = {},
     modifier: Modifier = Modifier,
+    onIndexChange: (Int) -> Unit = {},
 ) {
     var index by remember(questions) { mutableIntStateOf(0) }
     var chosen by remember(questions) { mutableStateOf<Int?>(null) }
@@ -68,7 +69,7 @@ fun QuickQuiz(
             Text(if (pct >= 80) "দারুণ! 🎉" else if (pct >= 50) "ভালো হয়েছে 👍" else "চিন্তা নেই, ভুল থেকেই শেখা হয় 💪",
                 style = MaterialTheme.typography.headlineSmall)
             Text("স্কোর: ${score.bn()} / ${questions.size.bn()}", style = MaterialTheme.typography.titleLarge)
-            Button(onRestart, Modifier.fillMaxWidth()) { Text("আবার খেলুন") }
+            Button({ onRestart(); onIndexChange(0) }, Modifier.fillMaxWidth()) { Text("আবার খেলুন") }
             return
         }
         val q = questions[index]
@@ -97,7 +98,7 @@ fun QuickQuiz(
             Text(if (ok) "✓ সঠিক!" else "✗ সঠিক উত্তর: ${q.options[q.correct]}", color = if (ok) CorrectGreen else WrongRed,
                 style = MaterialTheme.typography.titleMedium)
             if (q.explanation.isNotBlank()) Text(q.explanation, color = MaterialTheme.colorScheme.onSurfaceVariant)
-            Button({ index++; chosen = null }, Modifier.fillMaxWidth()) {
+            Button({ index++; chosen = null; onIndexChange(index) }, Modifier.fillMaxWidth()) {
                 Text(if (index + 1 < questions.size) "পরের প্রশ্ন" else "ফলাফল দেখুন")
             }
         }

@@ -1,0 +1,152 @@
+[
+ {
+  "id": "mistake_01",
+  "wrong": "do a mistake",
+  "right": "make a mistake",
+  "meaningBn": "ভুল করা"
+ },
+ {
+  "id": "mistake_02",
+  "wrong": "make homework",
+  "right": "do homework",
+  "meaningBn": "বাড়ির কাজ করা"
+ },
+ {
+  "id": "mistake_03",
+  "wrong": "eat medicine",
+  "right": "take medicine",
+  "meaningBn": "ওষুধ খাওয়া"
+ },
+ {
+  "id": "mistake_04",
+  "wrong": "give an exam",
+  "right": "take (sit for) an exam",
+  "meaningBn": "পরীক্ষা দেওয়া"
+ },
+ {
+  "id": "mistake_05",
+  "wrong": "open the light",
+  "right": "switch on the light",
+  "meaningBn": "বাতি জ্বালানো"
+ },
+ {
+  "id": "mistake_06",
+  "wrong": "close the fan",
+  "right": "switch off the fan",
+  "meaningBn": "পাখা বন্ধ করা"
+ },
+ {
+  "id": "mistake_07",
+  "wrong": "make a photo",
+  "right": "take a photo",
+  "meaningBn": "ছবি তোলা"
+ },
+ {
+  "id": "mistake_08",
+  "wrong": "say a lie",
+  "right": "tell a lie",
+  "meaningBn": "মিথ্যা বলা"
+ },
+ {
+  "id": "mistake_09",
+  "wrong": "strong rain",
+  "right": "heavy rain",
+  "meaningBn": "ভারী বৃষ্টি"
+ },
+ {
+  "id": "mistake_10",
+  "wrong": "heavy wind",
+  "right": "strong wind",
+  "meaningBn": "প্রবল বাতাস"
+ },
+ {
+  "id": "mistake_11",
+  "wrong": "high traffic",
+  "right": "heavy traffic",
+  "meaningBn": "তীব্র যানজট"
+ },
+ {
+  "id": "mistake_12",
+  "wrong": "do a crime",
+  "right": "commit a crime",
+  "meaningBn": "অপরাধ করা"
+ },
+ {
+  "id": "mistake_13",
+  "wrong": "go to home",
+  "right": "go home",
+  "meaningBn": "বাড়ি যাওয়া"
+ },
+ {
+  "id": "mistake_14",
+  "wrong": "discuss about the matter",
+  "right": "discuss the matter",
+  "meaningBn": "বিষয়টি নিয়ে আলোচনা করা"
+ },
+ {
+  "id": "mistake_15",
+  "wrong": "return back",
+  "right": "return",
+  "meaningBn": "ফিরে আসা"
+ },
+ {
+  "id": "mistake_16",
+  "wrong": "cousin brother / cousin sister",
+  "right": "cousin",
+  "meaningBn": "চাচাতো/মামাতো ভাই- বোন"
+ },
+ {
+  "id": "mistake_17",
+  "wrong": "my head is paining",
+  "right": "I have a headache",
+  "meaningBn": "আমার মাথাব্যথা করছে"
+ },
+ {
+  "id": "mistake_18",
+  "wrong": "marry with someone",
+  "right": "marry someone",
+  "meaningBn": "কাউকে বিয়ে করা"
+ },
+ {
+  "id": "mistake_19",
+  "wrong": "enter into the room",
+  "right": "enter the room",
+  "meaningBn": "কক্ষে প্রবেশ করা"
+ },
+ {
+  "id": "mistake_20",
+  "wrong": "explain me",
+  "right": "explain to me",
+  "meaningBn": "আমাকে ব্যাখ্যা করা"
+ },
+ {
+  "id": "mistake_21",
+  "wrong": "reply the letter",
+  "right": "reply to the letter",
+  "meaningBn": "চিঠির উত্তর দেওয়া"
+ },
+ {
+  "id": "mistake_22",
+  "wrong": "according to me",
+  "right": "in my opinion",
+  "meaningBn": "আমার মতে"
+ },
+ {
+  "id": "mistake_23",
+  "wrong": "out of station",
+  "right": "out of town",
+  "meaningBn": "শহরের বাইরে"
+ },
+ {
+  "id": "mistake_24",
+  "wrong": "prepone the meeting bring the meeting",
+  "right": "forward",
+  "meaningBn": "সভা এগিয়ে আনা"
+ },
+ {
+  "id": "mistake_25",
+  "wrong": "revert back to me",
+  "right": "get back to me",
+  "meaningBn": "আমাকে উত্তর জানানো"
+ }
+]

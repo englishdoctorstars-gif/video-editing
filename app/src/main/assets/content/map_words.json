@@ -1,0 +1,152 @@
+[
+ {
+  "id": "map_01",
+  "term": "opposite",
+  "meaningBn": "বিপরীত দিকে"
+ },
+ {
+  "id": "map_02",
+  "term": "next to",
+  "meaningBn": "পাশে"
+ },
+ {
+  "id": "map_03",
+  "term": "adjacent to",
+  "meaningBn": "সংলগ্ন"
+ },
+ {
+  "id": "map_04",
+  "term": "behind",
+  "meaningBn": "পেছনে"
+ },
+ {
+  "id": "map_05",
+  "term": "in front of",
+  "meaningBn": "সামনে"
+ },
+ {
+  "id": "map_06",
+  "term": "between",
+  "meaningBn": "মাঝে"
+ },
+ {
+  "id": "map_07",
+  "term": "at the corner of",
+  "meaningBn": "কোণে"
+ },
+ {
+  "id": "map_08",
+  "term": "at the end of",
+  "meaningBn": "শেষ প্রান্তে"
+ },
+ {
+  "id": "map_09",
+  "term": "on your left",
+  "meaningBn": "আপনার বাঁ দিকে"
+ },
+ {
+  "id": "map_10",
+  "term": "on your right",
+  "meaningBn": "আপনার ডান দিকে"
+ },
+ {
+  "id": "map_11",
+  "term": "straight ahead",
+  "meaningBn": "সোজা সামনে"
+ },
+ {
+  "id": "map_12",
+  "term": "turn left",
+  "meaningBn": "বাঁয়ে ঘুরুন"
+ },
+ {
+  "id": "map_13",
+  "term": "go past",
+  "meaningBn": "পার হয়ে যান"
+ },
+ {
+  "id": "map_14",
+  "term": "cross the road",
+  "meaningBn": "রাস্তা পার হন"
+ },
+ {
+  "id": "map_15",
+  "term": "junction",
+  "meaningBn": "মোড়, সংযোগস্থল"
+ },
+ {
+  "id": "map_16",
+  "term": "crossroads",
+  "meaningBn": "চৌরাস্তা"
+ },
+ {
+  "id": "map_17",
+  "term": "roundabout",
+  "meaningBn": "গোলচত্বর"
+ },
+ {
+  "id": "map_18",
+  "term": "traffic lights",
+  "meaningBn": "ট্রাফিক বাতি"
+ },
+ {
+  "id": "map_19",
+  "term": "pedestrian crossing",
+  "meaningBn": "পথচারী পারাপার"
+ },
+ {
+  "id": "map_20",
+  "term": "footpath",
+  "meaningBn": "পায়ে চলার পথ"
+ },
+ {
+  "id": "map_21",
+  "term": "bridge",
+  "meaningBn": "সেতু"
+ },
+ {
+  "id": "map_22",
+  "term": "car park",
+  "meaningBn": "গাড়ি রাখার জায়গা"
+ },
+ {
+  "id": "map_23",
+  "term": "main entrance",
+  "meaningBn": "প্রধান প্রবেশপথ"
+ },
+ {
+  "id": "map_24",
+  "term": "exit",
+  "meaningBn": "বহির্গমন পথ"
+ },
+ {
+  "id": "map_25",
+  "term": "north-east",
+  "meaningBn": "উত্তর-পূর্ব"
+ },
+ {
+  "id": "map_26",
+  "term": "south-west",
+  "meaningBn": "দক্ষিণ-পশ্চিম"
+ },
+ {
+  "id": "map_27",
+  "term": "clockwise",
+  "meaningBn": "ঘড়ির কাঁটার দিকে"
+ },
+ {
+  "id": "map_28",
+  "term": "anticlockwise",
+  "meaningBn": "ঘড়ির কাঁটার বিপরীতে"
+ },
+ {
+  "id": "map_29",
+  "term": "ground floor",
+  "meaningBn": "নিচতলা"
+ },
+ {
+  "id": "map_30",
+  "term": "first floor",
+  "meaningBn": "দোতলা (ব্রিটিশ রীতি)"
+ }
+]

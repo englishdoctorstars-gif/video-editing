@@ -21,6 +21,21 @@ class ContentRepository(private val context: Context) {
     val oneWords: List<OneWord> by lazy { load("one_word") }
     val mcqs: List<Mcq> by lazy { load("mcq") }
 
+    val collocations: List<Collocation> by lazy { load("collocations") }
+    val collocationMistakes: List<CommonMistake> by lazy { load("collocation_mistakes") }
+    val listeningWords: List<ListeningWord> by lazy { load("listening_words") }
+    val mapWords: List<MapWord> by lazy { load("map_words") }
+    val numberTips: List<NumberTip> by lazy { load("number_tips") }
+    val spellingTraps: List<SpellingTrap> by lazy { load("spelling_traps") }
+    val signposts: List<Signpost> by lazy { load("signposts") }
+    val passages: List<ReadingPassage> by lazy { load("reading_passages") }
+    val paraphrases: List<Paraphrase> by lazy { load("paraphrases") }
+    val writing: Writing by lazy {
+        context.assets.open("content/writing.json").bufferedReader().use { json.decodeFromString(it.readText()) }
+    }
+
+    fun passage(id: String) = passages.first { it.id == id }
+
     fun mcqSet(set: Int): List<Mcq> = mcqs.filter { it.set == set }.sortedBy { it.number }
 
     fun root(id: String) = roots.first { it.id == id }
@@ -68,6 +83,49 @@ class ContentRepository(private val context: Context) {
                 add(StudyItem("synant:${it.id}", ModuleId.EQUIVALENTS, it.word, it.pos,
                     "সমার্থক ও বিপরীত", it.meaningBn,
                     detail = "≈ ${it.synonyms.joinToString(", ")}\n↔ ${it.antonyms.joinToString(", ")}"))
+            }
+            collocations.forEach {
+                add(StudyItem("coll:${it.id}", ModuleId.COLLOCATIONS, it.phrase, null,
+                    "শব্দজুটি · ${it.groupEn}", it.meaningBn, detail = "${it.exampleEn}\n${it.exampleBn}"))
+            }
+            collocationMistakes.forEach {
+                add(StudyItem("mistake:${it.id}", ModuleId.COLLOCATIONS, "✗ ${it.wrong}", null,
+                    "প্রচলিত ভুল · সঠিক রূপ কী?", "✓ ${it.right}", detail = it.meaningBn, speak = it.right))
+            }
+            listeningWords.forEach {
+                add(StudyItem("listen:${it.id}", ModuleId.LISTEN, it.word, it.pos,
+                    "Listening Section ${it.section} · ${it.ipa}", it.meaningBn))
+            }
+            spellingTraps.forEach {
+                add(StudyItem("spell:${it.id}", ModuleId.LISTEN, it.word, null,
+                    "বানানের ফাঁদ · কোথায় ভুল হয়?", it.trapBn, detail = it.meaningBn))
+            }
+            signposts.forEach {
+                add(StudyItem("signpost:${it.id}", ModuleId.LISTEN, it.signpost, null,
+                    "লেকচারের সংকেত-শব্দ", it.meaningBn, detail = it.functionBn))
+            }
+            passages.forEach { p ->
+                p.vocab.forEach { v ->
+                    add(StudyItem("readv:${p.id}:${v.word}", ModuleId.READ, v.word, v.pos,
+                        "${p.subject} · ${p.title} · ${v.ipa}", v.meaningBn))
+                }
+            }
+            paraphrases.forEach {
+                add(StudyItem("para:${it.id}", ModuleId.PARAPHRASE, it.collocation, null,
+                    "${it.topicEn} · (${it.structure})", it.meaningBn,
+                    detail = it.paraphrases.joinToString("\n") { p -> "≈ $p" }))
+            }
+            writing.sections.filter { it.group == "academic" }.forEach { s ->
+                s.rows.forEachIndexed { i, r ->
+                    add(StudyItem("acad:${s.id}:$i", ModuleId.WRITE, r.getOrElse(0) { "" }, null,
+                        "সাধারণ → একাডেমিক", r.getOrElse(1) { "" }, detail = r.getOrElse(2) { "" }, speak = r.getOrElse(1) { "" }))
+                }
+            }
+            writing.topicVocab.forEach { c ->
+                c.items.forEachIndexed { i, t ->
+                    add(StudyItem("topic:${c.categoryEn}:$i", ModuleId.WRITE, t.en, null,
+                        "Task 2 · ${c.categoryEn}", t.bn))
+                }
             }
             oneWords.forEach {
                 add(StudyItem("oneword:${it.id}", ModuleId.EQUIVALENTS, it.descriptionEn, null,

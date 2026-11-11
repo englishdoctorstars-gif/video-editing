@@ -134,3 +134,97 @@ val MCQ_TYPE_BN = mapOf(
     "fill_blank" to "শূন্যস্থান পূরণ",
     "word_formation" to "শব্দ গঠন",
 )
+
+// ---- Chapters 6-10 -------------------------------------------------------
+
+@Serializable
+data class Collocation(
+    val id: String,
+    val number: Int,
+    val section: String, // power_verbs | daily_life
+    val groupEn: String,
+    val groupBn: String,
+    val phrase: String,
+    val meaningBn: String,
+    val exampleEn: String,
+    val exampleBn: String,
+)
+
+@Serializable
+data class CommonMistake(val id: String, val wrong: String, val right: String, val meaningBn: String)
+
+@Serializable
+data class ListeningWord(
+    val id: String,
+    val section: Int,
+    val sectionBn: String,
+    val sectionDescBn: String,
+    val word: String,
+    val pos: String,
+    val ipa: String,
+    val meaningBn: String,
+)
+
+@Serializable
+data class MapWord(val id: String, val term: String, val meaningBn: String)
+
+@Serializable
+data class NumberTip(val id: String, val titleBn: String, val bodyBn: String)
+
+@Serializable
+data class SpellingTrap(val id: String, val word: String, val trapBn: String, val meaningBn: String)
+
+@Serializable
+data class Signpost(val id: String, val signpost: String, val functionBn: String, val meaningBn: String)
+
+@Serializable
+data class VocabEntry(val word: String, val pos: String, val ipa: String, val meaningBn: String)
+
+@Serializable
+data class ReadingPassage(
+    val id: String,
+    val subjectNo: Int,
+    val subject: String,
+    val topicNo: Int,
+    val title: String,
+    val bodyBn: String,
+    val vocab: List<VocabEntry>,
+)
+
+@Serializable
+data class Paraphrase(
+    val id: String,
+    val topicNo: Int,
+    val topicEn: String,
+    val topicBn: String,
+    val number: Int,
+    val collocation: String,
+    val structure: String,
+    val meaningBn: String,
+    val paraphrases: List<String>,
+)
+
+@Serializable
+data class WritingSection(
+    val id: String,
+    val group: String, // task1 | task2 | linking | academic | mistakes
+    val titleBn: String,
+    val titleEn: String,
+    val columns: List<String>,
+    val rows: List<List<String>>,
+)
+
+@Serializable
+data class TopicItem(val en: String, val bn: String)
+
+@Serializable
+data class TopicCategory(val categoryBn: String, val categoryEn: String, val items: List<TopicItem>)
+
+@Serializable
+data class Writing(val sections: List<WritingSection>, val topicVocab: List<TopicCategory>)
+
+val READ_SUBJECT_BN = mapOf(
+    1 to "পরিবেশ ও জলবায়ু", 2 to "স্বাস্থ্য ও চিকিৎসা", 3 to "শিক্ষা ও শেখা", 4 to "প্রযুক্তি ও উদ্ভাবন",
+    5 to "ইতিহাস ও প্রত্নতত্ত্ব", 6 to "মনোবিজ্ঞান ও মানব আচরণ", 7 to "ব্যবসা ও অর্থনীতি", 8 to "শিল্প ও সংস্কৃতি",
+    9 to "মহাকাশ ও বিজ্ঞান", 10 to "ভ্রমণ ও ভূগোল",
+)

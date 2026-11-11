@@ -7,7 +7,7 @@ Developed & Authored by **Shahjalal Sultanate (English Doctor)** — শাহ�
 
 *VOCABSOLUTION by English Doctor (2027)* বইয়ের কন্টেন্ট নিয়ে বাংলাভাষী শিক্ষার্থীদের জন্য তৈরি একটি অফলাইন, কালার-কোডেড ভোকাবুলারি অ্যাপ। পূর্ণ পরিকল্পনা: [`VOCABSOLUTION_APP_PROMPT.md`](VOCABSOLUTION_APP_PROMPT.md)।
 
-## বর্তমান অবস্থা (v0.1.0)
+## বর্তমান অবস্থা (v0.2.0) — বইয়ের ১১টি অধ্যায়ই অ্যাপে
 
 | অধ্যায় | অ্যাপে | কন্টেন্ট |
 |---|---|---|
@@ -16,7 +16,11 @@ Developed & Authored by **Shahjalal Sultanate (English Doctor)** — শাহ�
 | ৩ Memory Hooks | ✅ | ১০০ গল্প, ফ্লিপ কার্ড, নিজের নোট |
 | ৪ Commonly Confused Words | ✅ | ১০০ জোড়া, পাশাপাশি তুলনা, "কোনটি বসবে?" কুইজ |
 | ৫ Word Equivalents | ✅ | ১৪৪ সমার্থক-বিপরীত, ১৩০ এক কথায় প্রকাশ, কুইজ |
-| ৬–১০ (Collocations, IELTS) | 🔒 শীঘ্রই | পরবর্তী ধাপে |
+| ৬ Everyday Collocations | ✅ | ১০০ Power Verb + ১০০ দৈনন্দিন জুটি, ২৫টি প্রচলিত ভুল, Verb Wheel ও Fix-it কুইজ |
+| ৭ Listen Smart | ✅ | Section ১–৪-এর ১০০ শব্দ, Listen & Spell খেলা, ৫৯ বানানের ফাঁদ, ৩০ মানচিত্র-শব্দ, সংখ্যা-তারিখের নিয়ম, ১৭ সংকেত-শব্দ |
+| ৮ Read Smart | ✅ | ১০ বিষয় × ১৫ = ১৫০ প্যাসেজ, ১,৫০০ শব্দ রঙিন ও ট্যাপযোগ্য, আন্দাজ মোড, Context Quiz |
+| ৯ The Paraphrase Bank | ✅ | ১২ বিষয় × ৯৬ = ১,১৫২ collocation, গঠন-ফিল্টার, Paraphrase Match কুইজ |
+| ১০ Write Smart | ✅ | Task 1 ও Task 2-এর ১৪টি টেবিল, ৪৮টি Topic Vocabulary, Graph Describer ও Upgrade It কুইজ |
 | ১১ Exam Ready | ✅ | ১০ সেট, ২৫০ MCQ, ২০ মিনিট টাইমার, স্তর আনলক (>২০/২৫) |
 
 সব অধ্যায়ে যা আছে:
@@ -45,9 +49,10 @@ Developed & Authored by **Shahjalal Sultanate (English Doctor)** — শাহ�
 ```bash
 pip install pymupdf
 python3 -I tools/extract/clean_text.py BOOK.pdf clean.txt
-python3 -I tools/extract/parse_book.py clean.txt app/src/main/assets/content
+python3 -I tools/extract/parse_book.py clean.txt app/src/main/assets/content BOOK.pdf
 ```
 
+অধ্যায় ১০-এর টেবিলে একটি সেল কয়েক লাইনে ভাঙা থাকে। তাই `tables.py` টেবিলের হেডার-ব্যান্ড ও সারির রেখার অবস্থান থেকে সারি-কলাম পুনর্গঠন করে।
 `clean_text.py` PDF-এর লেখা থেকে বাংলা যুক্তাক্ষরের সমস্যাগুলো ঠিক করে: ডুপ্লিকেট কার-চিহ্ন এবং লাইনের মাঝে ভাঙা শব্দ। `parse_book.py` প্রতিটি সেটের সংখ্যা বইয়ের ঘোষিত সংখ্যার সাথে মিলিয়ে দেখে। একই যাচাই `ContentValidationTest`-এও চলে।
 
 ## কাঠামো

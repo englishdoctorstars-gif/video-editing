@@ -136,9 +136,9 @@ fun HomeScreen(nav: NavHostController) {
         item {
             val quick = when (p.goal) {
                 "job" -> listOf(ModuleId.EXAM, ModuleId.EQUIVALENTS, ModuleId.CONFUSED, ModuleId.WORD_BUILDING)
-                "ielts" -> listOf(ModuleId.ROOT_POWER, ModuleId.MEMORY_HOOKS, ModuleId.CONFUSED, ModuleId.WORD_BUILDING)
+                "ielts" -> listOf(ModuleId.READ, ModuleId.PARAPHRASE, ModuleId.LISTEN, ModuleId.WRITE)
                 "foundation" -> listOf(ModuleId.WORD_BUILDING, ModuleId.ROOT_POWER, ModuleId.MEMORY_HOOKS, ModuleId.EQUIVALENTS)
-                else -> listOf(ModuleId.MEMORY_HOOKS, ModuleId.CONFUSED, ModuleId.EQUIVALENTS, ModuleId.WORD_BUILDING)
+                else -> listOf(ModuleId.MEMORY_HOOKS, ModuleId.COLLOCATIONS, ModuleId.CONFUSED, ModuleId.EQUIVALENTS)
             }
             Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
                 quick.chunked(2).forEach { row ->

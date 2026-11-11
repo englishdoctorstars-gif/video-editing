@@ -71,6 +71,8 @@ private fun openItem(nav: NavHostController, item: StudyItem, hookIds: List<Stri
         "pair" -> nav.navigate(Routes.pair(parts[1]))
         "root" -> nav.navigate(Routes.root(parts[1]))
         "mcq" -> nav.navigate(Routes.EXAM)
-        else -> nav.navigate(Routes.module(item.module.takeIf { it != ModuleId.EXAM } ?: ModuleId.WORD_BUILDING))
+        "readv" -> nav.navigate(Routes.passage(parts[1]))
+        "para" -> nav.navigate(Routes.paraTopic(parts[1].split("_")[1].toInt()))
+        else -> nav.navigate(Routes.module(item.module))
     }
 }

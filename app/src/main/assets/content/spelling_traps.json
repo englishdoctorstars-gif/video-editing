@@ -1,0 +1,356 @@
+[
+ {
+  "id": "spell_01",
+  "word": "accommodation",
+  "trapBn": "দুটি c, দুটি m",
+  "meaningBn": "বাসস্থান"
+ },
+ {
+  "id": "spell_02",
+  "word": "address",
+  "trapBn": "দুটি d, দুটি s",
+  "meaningBn": "ঠিকানা"
+ },
+ {
+  "id": "spell_03",
+  "word": "apartment",
+  "trapBn": "একটি p",
+  "meaningBn": "ফ্ল্যাট"
+ },
+ {
+  "id": "spell_04",
+  "word": "beginning",
+  "trapBn": "শেষে দুটি n",
+  "meaningBn": "শুরু"
+ },
+ {
+  "id": "spell_05",
+  "word": "business",
+  "trapBn": "busi-ness, মাঝে i",
+  "meaningBn": "ব্যবসা"
+ },
+ {
+  "id": "spell_06",
+  "word": "calendar",
+  "trapBn": "শেষে -ar",
+  "meaningBn": "দিনপঞ্জি"
+ },
+ {
+  "id": "spell_07",
+  "word": "centre",
+  "trapBn": "ব্রিটিশ বানান -re",
+  "meaningBn": "কেন্দ্র"
+ },
+ {
+  "id": "spell_08",
+  "word": "colleague",
+  "trapBn": "-eague",
+  "meaningBn": "সহকর্মী"
+ },
+ {
+  "id": "spell_09",
+  "word": "committee",
+  "trapBn": "দুটি m, দুটি t, দুটি e",
+  "meaningBn": "কমিটি"
+ },
+ {
+  "id": "spell_10",
+  "word": "convenient",
+  "trapBn": "-ient",
+  "meaningBn": "সুবিধাজনক"
+ },
+ {
+  "id": "spell_11",
+  "word": "definitely",
+  "trapBn": "-ite-, -ate নয়",
+  "meaningBn": "নিশ্চি"
+ },
+ {
+  "id": "spell_12",
+  "word": "environment",
+  "trapBn": "মাঝে n (environ-ment)",
+  "meaningBn": "পরিবেশ"
+ },
+ {
+  "id": "spell_13",
+  "word": "February",
+  "trapBn": "প্রথম r বাদ দেবেন না",
+  "meaningBn": "ফেব্রুয়ারি"
+ },
+ {
+  "id": "spell_14",
+  "word": "government",
+  "trapBn": "মাঝে n (govern-ment)",
+  "meaningBn": "সরকার"
+ },
+ {
+  "id": "spell_15",
+  "word": "guarantee",
+  "trapBn": "gua-, শেষে -ee",
+  "meaningBn": "নিশ্চয়তা"
+ },
+ {
+  "id": "spell_16",
+  "word": "library",
+  "trapBn": "দুটি r",
+  "meaningBn": "গ্রন্থাগার"
+ },
+ {
+  "id": "spell_17",
+  "word": "maintenance",
+  "trapBn": "main-ten-ance",
+  "meaningBn": "রক্ষণাবেক্ষণ"
+ },
+ {
+  "id": "spell_18",
+  "word": "necessary",
+  "trapBn": "একটি c, দুটি s",
+  "meaningBn": "প্রয়োজনীয়"
+ },
+ {
+  "id": "spell_19",
+  "word": "occasionally",
+  "trapBn": "দুটি c, একটি s",
+  "meaningBn": "মাঝে মাঝে"
+ },
+ {
+  "id": "spell_20",
+  "word": "occurred",
+  "trapBn": "দুটি c, দুটি r",
+  "meaningBn": "ঘটেছিল"
+ },
+ {
+  "id": "spell_21",
+  "word": "parallel",
+  "trapBn": "মাঝে দুটি l",
+  "meaningBn": "সমান্তরাল"
+ },
+ {
+  "id": "spell_22",
+  "word": "questionnaire",
+  "trapBn": "দুটি n",
+  "meaningBn": "প্রশ্নমালা"
+ },
+ {
+  "id": "spell_23",
+  "word": "receive",
+  "trapBn": "e-এর পরে i (ei)",
+  "meaningBn": "গ্রহণ করা"
+ },
+ {
+  "id": "spell_24",
+  "word": "recommend",
+  "trapBn": "একটি c, দুটি m",
+  "meaningBn": "সুপারিশ করা"
+ },
+ {
+  "id": "spell_25",
+  "word": "restaurant",
+  "trapBn": "মাঝে -au-",
+  "meaningBn": "রেস্তোরাঁ"
+ },
+ {
+  "id": "spell_26",
+  "word": "schedule",
+  "trapBn": "sch-",
+  "meaningBn": "সময়সূচি"
+ },
+ {
+  "id": "spell_27",
+  "word": "separate",
+  "trapBn": "sep-a-rate",
+  "meaningBn": "পৃথক"
+ },
+ {
+  "id": "spell_28",
+  "word": "temperature",
+  "trapBn": "tem-per-a-ture",
+  "meaningBn": "তাপমাত্রা"
+ },
+ {
+  "id": "spell_29",
+  "word": "tomorrow",
+  "trapBn": "একটি m, দুটি r",
+  "meaningBn": "আগামীকাল"
+ },
+ {
+  "id": "spell_30",
+  "word": "Wednesday",
+  "trapBn": "নীরব d",
+  "meaningBn": "বুধবার"
+ },
+ {
+  "id": "spell_31",
+  "word": "vegetable",
+  "trapBn": "-table",
+  "meaningBn": "সবজি"
+ },
+ {
+  "id": "spell_32",
+  "word": "equipment",
+  "trapBn": "বহুবচনে s হয় না",
+  "meaningBn": "সরঞ্জাম"
+ },
+ {
+  "id": "spell_33",
+  "word": "licence",
+  "trapBn": "ব্রিটিশ বিশেষ্য -ence",
+  "meaningBn": "লাইসেন্স"
+ },
+ {
+  "id": "spell_34",
+  "word": "programme",
+  "trapBn": "ব্রিটিশ বানান -mme",
+  "meaningBn": "অনুষ্ঠান"
+ },
+ {
+  "id": "spell_35",
+  "word": "neighbour",
+  "trapBn": "ব্রিটিশ বানান -our",
+  "meaningBn": "প্রতিবেশী"
+ },
+ {
+  "id": "spell_36",
+  "word": "harass",
+  "trapBn": "একটি r, দুটি s",
+  "meaningBn": "হয়রানি করা"
+ },
+ {
+  "id": "spell_37",
+  "word": "embarrass",
+  "trapBn": "দুটি r, দুটি s",
+  "meaningBn": "বিব্রত করা"
+ },
+ {
+  "id": "spell_38",
+  "word": "disappear",
+  "trapBn": "একটি s, দুটি p",
+  "meaningBn": "অদৃশ্য হওয়া"
+ },
+ {
+  "id": "spell_39",
+  "word": "until",
+  "trapBn": "শেষে একটি l",
+  "meaningBn": "যতক্ষণ না"
+ },
+ {
+  "id": "spell_40",
+  "word": "successful",
+  "trapBn": "দুটি c, দুটি s, শেষে একটি l",
+  "meaningBn": "সফল"
+ },
+ {
+  "id": "spell_41",
+  "word": "foreign",
+  "trapBn": "-eign",
+  "meaningBn": "বিদেশি"
+ },
+ {
+  "id": "spell_42",
+  "word": "height",
+  "trapBn": "-eight",
+  "meaningBn": "উচ্চতা"
+ },
+ {
+  "id": "spell_43",
+  "word": "knowledge",
+  "trapBn": "নীরব k",
+  "meaningBn": "জ্ঞান"
+ },
+ {
+  "id": "spell_44",
+  "word": "pharmacy",
+  "trapBn": "ph = f",
+  "meaningBn": "ঔষধালয়"
+ },
+ {
+  "id": "spell_45",
+  "word": "psychology",
+  "trapBn": "নীরব p",
+  "meaningBn": "মনোবিজ্ঞান"
+ },
+ {
+  "id": "spell_46",
+  "word": "rhythm",
+  "trapBn": "স্বরবর্ণ নেই",
+  "meaningBn": "ছন্দ"
+ },
+ {
+  "id": "spell_47",
+  "word": "souvenir",
+  "trapBn": "sou-",
+  "meaningBn": "স্মারক"
+ },
+ {
+  "id": "spell_48",
+  "word": "technology",
+  "trapBn": "tech-",
+  "meaningBn": "প্রযুক্তি"
+ },
+ {
+  "id": "spell_49",
+  "word": "weird",
+  "trapBn": "ei",
+  "meaningBn": "অদ্ভুত"
+ },
+ {
+  "id": "spell_50",
+  "word": "achieve",
+  "trapBn": "ie",
+  "meaningBn": "অর্জন করা"
+ },
+ {
+  "id": "spell_51",
+  "word": "column",
+  "trapBn": "নীরব n",
+  "meaningBn": "কলাম"
+ },
+ {
+  "id": "spell_52",
+  "word": "cupboard",
+  "trapBn": "নীরব p",
+  "meaningBn": "আলমারি"
+ },
+ {
+  "id": "spell_53",
+  "word": "island",
+  "trapBn": "নীরব s",
+  "meaningBn": "দ্বীপ"
+ },
+ {
+  "id": "spell_54",
+  "word": "medicine",
+  "trapBn": "medi-cine",
+  "meaningBn": "ওষুধ"
+ },
+ {
+  "id": "spell_55",
+  "word": "mountain",
+  "trapBn": "-ain",
+  "meaningBn": "পর্বত"
+ },
+ {
+  "id": "spell_56",
+  "word": "museum",
+  "trapBn": "-eum",
+  "meaningBn": "জাদুঘর"
+ },
+ {
+  "id": "spell_57",
+  "word": "surname",
+  "trapBn": "sur-",
+  "meaningBn": "পদবি"
+ },
+ {
+  "id": "spell_58",
+  "word": "theatre",
+  "trapBn": "ব্রিটিশ বানান -re",
+  "meaningBn": "নাট্যশালা"
+ },
+ {
+  "id": "spell_59",
+  "word": "twelfth",
+  "trapBn": "-lfth",
+  "meaningBn": "দ্বাদশ"
+ }
+]

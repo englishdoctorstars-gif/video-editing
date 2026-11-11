@@ -1,0 +1,1002 @@
+[
+ {
+  "id": "listen_001",
+  "section": 1,
+  "sectionBn": "দৈনন্দিন সেবা ও বুকিং",
+  "sectionDescBn": "বাসা ভাড়া, ভর্তি, বুকিং বা তথ্য জানতে দুজনের কথোপকথন",
+  "word": "accommodation",
+  "pos": "noun",
+  "ipa": "/əˌkɒməˈdeɪʃn/",
+  "meaningBn": "বাসস্থান"
+ },
+ {
+  "id": "listen_002",
+  "section": 1,
+  "sectionBn": "দৈনন্দিন সেবা ও বুকিং",
+  "sectionDescBn": "বাসা ভাড়া, ভর্তি, বুকিং বা তথ্য জানতে দুজনের কথোপকথন",
+  "word": "deposit",
+  "pos": "noun",
+  "ipa": "/dɪˈpɒzɪt/",
+  "meaningBn": "জামানত"
+ },
+ {
+  "id": "listen_003",
+  "section": 1,
+  "sectionBn": "দৈনন্দিন সেবা ও বুকিং",
+  "sectionDescBn": "বাসা ভাড়া, ভর্তি, বুকিং বা তথ্য জানতে দুজনের কথোপকথন",
+  "word": "rent",
+  "pos": "noun",
+  "ipa": "/rent/",
+  "meaningBn": "ভাড়া"
+ },
+ {
+  "id": "listen_004",
+  "section": 1,
+  "sectionBn": "দৈনন্দিন সেবা ও বুকিং",
+  "sectionDescBn": "বাসা ভাড়া, ভর্তি, বুকিং বা তথ্য জানতে দুজনের কথোপকথন",
+  "word": "tenant",
+  "pos": "noun",
+  "ipa": "/ˈtenənt/",
+  "meaningBn": "ভাড়াটে"
+ },
+ {
+  "id": "listen_005",
+  "section": 1,
+  "sectionBn": "দৈনন্দিন সেবা ও বুকিং",
+  "sectionDescBn": "বাসা ভাড়া, ভর্তি, বুকিং বা তথ্য জানতে দুজনের কথোপকথন",
+  "word": "landlord",
+  "pos": "noun",
+  "ipa": "/ˈlændlɔːd/",
+  "meaningBn": "বাড়িওয়ালা"
+ },
+ {
+  "id": "listen_006",
+  "section": 1,
+  "sectionBn": "দৈনন্দিন সেবা ও বুকিং",
+  "sectionDescBn": "বাসা ভাড়া, ভর্তি, বুকিং বা তথ্য জানতে দুজনের কথোপকথন",
+  "word": "furnished",
+  "pos": "adjective",
+  "ipa": "/ˈfɜːnɪʃt/",
+  "meaningBn": "আসবাবসহ"
+ },
+ {
+  "id": "listen_007",
+  "section": 1,
+  "sectionBn": "দৈনন্দিন সেবা ও বুকিং",
+  "sectionDescBn": "বাসা ভাড়া, ভর্তি, বুকিং বা তথ্য জানতে দুজনের কথোপকথন",
+  "word": "utilities",
+  "pos": "noun",
+  "ipa": "/juːˈtɪlətiz/",
+  "meaningBn": "বিদ্যুৎ, পানি, গ্যাস ইত্যাদি সেবা"
+ },
+ {
+  "id": "listen_008",
+  "section": 1,
+  "sectionBn": "দৈনন্দিন সেবা ও বুকিং",
+  "sectionDescBn": "বাসা ভাড়া, ভর্তি, বুকিং বা তথ্য জানতে দুজনের কথোপকথন",
+  "word": "reservation",
+  "pos": "noun",
+  "ipa": "/ˌrezəˈveɪʃn/",
+  "meaningBn": "আগাম বুকিং"
+ },
+ {
+  "id": "listen_009",
+  "section": 1,
+  "sectionBn": "দৈনন্দিন সেবা ও বুকিং",
+  "sectionDescBn": "বাসা ভাড়া, ভর্তি, বুকিং বা তথ্য জানতে দুজনের কথোপকথন",
+  "word": "postcode",
+  "pos": "noun",
+  "ipa": "/ˈpəʊstkəʊd/",
+  "meaningBn": "পোস্ট কোড"
+ },
+ {
+  "id": "listen_010",
+  "section": 1,
+  "sectionBn": "দৈনন্দিন সেবা ও বুকিং",
+  "sectionDescBn": "বাসা ভাড়া, ভর্তি, বুকিং বা তথ্য জানতে দুজনের কথোপকথন",
+  "word": "surname",
+  "pos": "noun",
+  "ipa": "/ˈsɜːneɪm/",
+  "meaningBn": "পদবি, বংশনাম"
+ },
+ {
+  "id": "listen_011",
+  "section": 1,
+  "sectionBn": "দৈনন্দিন সেবা ও বুকিং",
+  "sectionDescBn": "বাসা ভাড়া, ভর্তি, বুকিং বা তথ্য জানতে দুজনের কথোপকথন",
+  "word": "occupation",
+  "pos": "noun",
+  "ipa": "/ˌɒkjuˈpeɪʃn/",
+  "meaningBn": "পেশা"
+ },
+ {
+  "id": "listen_012",
+  "section": 1,
+  "sectionBn": "দৈনন্দিন সেবা ও বুকিং",
+  "sectionDescBn": "বাসা ভাড়া, ভর্তি, বুকিং বা তথ্য জানতে দুজনের কথোপকথন",
+  "word": "insurance",
+  "pos": "noun",
+  "ipa": "/ɪnˈʃʊərəns/",
+  "meaningBn": "বিমা"
+ },
+ {
+  "id": "listen_013",
+  "section": 1,
+  "sectionBn": "দৈনন্দিন সেবা ও বুকিং",
+  "sectionDescBn": "বাসা ভাড়া, ভর্তি, বুকিং বা তথ্য জানতে দুজনের কথোপকথন",
+  "word": "membership",
+  "pos": "noun",
+  "ipa": "/ˈmembəʃɪp/",
+  "meaningBn": "সদস্যপদ শব্দ উচ্চারণ বাংলা অর্থ"
+ },
+ {
+  "id": "listen_014",
+  "section": 1,
+  "sectionBn": "দৈনন্দিন সেবা ও বুকিং",
+  "sectionDescBn": "বাসা ভাড়া, ভর্তি, বুকিং বা তথ্য জানতে দুজনের কথোপকথন",
+  "word": "fee",
+  "pos": "noun",
+  "ipa": "/fiː/",
+  "meaningBn": "ফি, মাশুল"
+ },
+ {
+  "id": "listen_015",
+  "section": 1,
+  "sectionBn": "দৈনন্দিন সেবা ও বুকিং",
+  "sectionDescBn": "বাসা ভাড়া, ভর্তি, বুকিং বা তথ্য জানতে দুজনের কথোপকথন",
+  "word": "discount",
+  "pos": "noun",
+  "ipa": "/ˈdɪskaʊnt/",
+  "meaningBn": "মূল্যছাড়"
+ },
+ {
+  "id": "listen_016",
+  "section": 1,
+  "sectionBn": "দৈনন্দিন সেবা ও বুকিং",
+  "sectionDescBn": "বাসা ভাড়া, ভর্তি, বুকিং বা তথ্য জানতে দুজনের কথোপকথন",
+  "word": "refund",
+  "pos": "noun",
+  "ipa": "/ˈriːfʌnd/",
+  "meaningBn": "টাকা ফেরত"
+ },
+ {
+  "id": "listen_017",
+  "section": 1,
+  "sectionBn": "দৈনন্দিন সেবা ও বুকিং",
+  "sectionDescBn": "বাসা ভাড়া, ভর্তি, বুকিং বা তথ্য জানতে দুজনের কথোপকথন",
+  "word": "receipt",
+  "pos": "noun",
+  "ipa": "/rɪˈsiːt/",
+  "meaningBn": "রসিদ"
+ },
+ {
+  "id": "listen_018",
+  "section": 1,
+  "sectionBn": "দৈনন্দিন সেবা ও বুকিং",
+  "sectionDescBn": "বাসা ভাড়া, ভর্তি, বুকিং বা তথ্য জানতে দুজনের কথোপকথন",
+  "word": "appointment",
+  "pos": "noun",
+  "ipa": "/əˈpɔɪntmənt/",
+  "meaningBn": "সাক্ষাতের নির্ধারিত সময়"
+ },
+ {
+  "id": "listen_019",
+  "section": 1,
+  "sectionBn": "দৈনন্দিন সেবা ও বুকিং",
+  "sectionDescBn": "বাসা ভাড়া, ভর্তি, বুকিং বা তথ্য জানতে দুজনের কথোপকথন",
+  "word": "enquiry",
+  "pos": "noun",
+  "ipa": "/ɪnˈkwaɪəri/",
+  "meaningBn": "জিজ্ঞাসা, অনুসন্ধান"
+ },
+ {
+  "id": "listen_020",
+  "section": 1,
+  "sectionBn": "দৈনন্দিন সেবা ও বুকিং",
+  "sectionDescBn": "বাসা ভাড়া, ভর্তি, বুকিং বা তথ্য জানতে দুজনের কথোপকথন",
+  "word": "available",
+  "pos": "adjective",
+  "ipa": "/əˈveɪləbl/",
+  "meaningBn": "পাওয়া যায় এমন"
+ },
+ {
+  "id": "listen_021",
+  "section": 1,
+  "sectionBn": "দৈনন্দিন সেবা ও বুকিং",
+  "sectionDescBn": "বাসা ভাড়া, ভর্তি, বুকিং বা তথ্য জানতে দুজনের কথোপকথন",
+  "word": "cancel",
+  "pos": "verb",
+  "ipa": "/ˈkænsl/",
+  "meaningBn": "বাতিল করা"
+ },
+ {
+  "id": "listen_022",
+  "section": 1,
+  "sectionBn": "দৈনন্দিন সেবা ও বুকিং",
+  "sectionDescBn": "বাসা ভাড়া, ভর্তি, বুকিং বা তথ্য জানতে দুজনের কথোপকথন",
+  "word": "confirm",
+  "pos": "verb",
+  "ipa": "/kənˈfɜːm/",
+  "meaningBn": "নিশ্চিত করা"
+ },
+ {
+  "id": "listen_023",
+  "section": 1,
+  "sectionBn": "দৈনন্দিন সেবা ও বুকিং",
+  "sectionDescBn": "বাসা ভাড়া, ভর্তি, বুকিং বা তথ্য জানতে দুজনের কথোপকথন",
+  "word": "register",
+  "pos": "verb",
+  "ipa": "/ˈredʒɪstə(r)/",
+  "meaningBn": "নিবন্ধন করা"
+ },
+ {
+  "id": "listen_024",
+  "section": 1,
+  "sectionBn": "দৈনন্দিন সেবা ও বুকিং",
+  "sectionDescBn": "বাসা ভাড়া, ভর্তি, বুকিং বা তথ্য জানতে দুজনের কথোপকথন",
+  "word": "deliver",
+  "pos": "verb",
+  "ipa": "/dɪˈlɪvə(r)/",
+  "meaningBn": "পৌঁছে দেওয়া"
+ },
+ {
+  "id": "listen_025",
+  "section": 1,
+  "sectionBn": "দৈনন্দিন সেবা ও বুকিং",
+  "sectionDescBn": "বাসা ভাড়া, ভর্তি, বুকিং বা তথ্য জানতে দুজনের কথোপকথন",
+  "word": "upgrade",
+  "pos": "verb",
+  "ipa": "/ˌʌpˈɡreɪd/",
+  "meaningBn": "মান বাড়ানো"
+ },
+ {
+  "id": "listen_026",
+  "section": 2,
+  "sectionBn": "জনসেবা, ভ্রমণ ও সুযোগ-সুবিধা",
+  "sectionDescBn": "একজন বক্তা কোনো স্থান, অনুষ্ঠান বা সেবার বর্ণনা দেন",
+  "word": "facilities",
+  "pos": "noun",
+  "ipa": "/fəˈsɪlətiz/",
+  "meaningBn": "সুযোগ-সুবিধা"
+ },
+ {
+  "id": "listen_027",
+  "section": 2,
+  "sectionBn": "জনসেবা, ভ্রমণ ও সুযোগ-সুবিধা",
+  "sectionDescBn": "একজন বক্তা কোনো স্থান, অনুষ্ঠান বা সেবার বর্ণনা দেন",
+  "word": "exhibition",
+  "pos": "noun",
+  "ipa": "/ˌeksɪˈbɪʃn/",
+  "meaningBn": "প্রদর্শনী"
+ },
+ {
+  "id": "listen_028",
+  "section": 2,
+  "sectionBn": "জনসেবা, ভ্রমণ ও সুযোগ-সুবিধা",
+  "sectionDescBn": "একজন বক্তা কোনো স্থান, অনুষ্ঠান বা সেবার বর্ণনা দেন",
+  "word": "admission",
+  "pos": "noun",
+  "ipa": "/ədˈmɪʃn/",
+  "meaningBn": "প্রবেশ; প্রবেশমূল্য"
+ },
+ {
+  "id": "listen_029",
+  "section": 2,
+  "sectionBn": "জনসেবা, ভ্রমণ ও সুযোগ-সুবিধা",
+  "sectionDescBn": "একজন বক্তা কোনো স্থান, অনুষ্ঠান বা সেবার বর্ণনা দেন",
+  "word": "souvenir",
+  "pos": "noun",
+  "ipa": "/ˌsuːvəˈnɪə(r)/",
+  "meaningBn": "স্মারক"
+ },
+ {
+  "id": "listen_030",
+  "section": 2,
+  "sectionBn": "জনসেবা, ভ্রমণ ও সুযোগ-সুবিধা",
+  "sectionDescBn": "একজন বক্তা কোনো স্থান, অনুষ্ঠান বা সেবার বর্ণনা দেন",
+  "word": "volunteer",
+  "pos": "noun",
+  "ipa": "/ˌvɒlənˈtɪə(r)/",
+  "meaningBn": "স্বেচ্ছাসেবক"
+ },
+ {
+  "id": "listen_031",
+  "section": 2,
+  "sectionBn": "জনসেবা, ভ্রমণ ও সুযোগ-সুবিধা",
+  "sectionDescBn": "একজন বক্তা কোনো স্থান, অনুষ্ঠান বা সেবার বর্ণনা দেন",
+  "word": "venue",
+  "pos": "noun",
+  "ipa": "/ˈvenjuː/",
+  "meaningBn": "অনুষ্ঠানস্থল"
+ },
+ {
+  "id": "listen_032",
+  "section": 2,
+  "sectionBn": "জনসেবা, ভ্রমণ ও সুযোগ-সুবিধা",
+  "sectionDescBn": "একজন বক্তা কোনো স্থান, অনুষ্ঠান বা সেবার বর্ণনা দেন",
+  "word": "schedule",
+  "pos": "noun",
+  "ipa": "/ˈʃedjuːl/",
+  "meaningBn": "সময়সূচি"
+ },
+ {
+  "id": "listen_033",
+  "section": 2,
+  "sectionBn": "জনসেবা, ভ্রমণ ও সুযোগ-সুবিধা",
+  "sectionDescBn": "একজন বক্তা কোনো স্থান, অনুষ্ঠান বা সেবার বর্ণনা দেন",
+  "word": "refreshments",
+  "pos": "noun",
+  "ipa": "/rɪˈfreʃmənts/",
+  "meaningBn": "জলখাবার"
+ },
+ {
+  "id": "listen_034",
+  "section": 2,
+  "sectionBn": "জনসেবা, ভ্রমণ ও সুযোগ-সুবিধা",
+  "sectionDescBn": "একজন বক্তা কোনো স্থান, অনুষ্ঠান বা সেবার বর্ণনা দেন",
+  "word": "reception",
+  "pos": "noun",
+  "ipa": "/rɪˈsepʃn/",
+  "meaningBn": "অভ্যর্থনা কক্ষ শব্দ উচ্চারণ বাংলা অর্থ"
+ },
+ {
+  "id": "listen_035",
+  "section": 2,
+  "sectionBn": "জনসেবা, ভ্রমণ ও সুযোগ-সুবিধা",
+  "sectionDescBn": "একজন বক্তা কোনো স্থান, অনুষ্ঠান বা সেবার বর্ণনা দেন",
+  "word": "gallery",
+  "pos": "noun",
+  "ipa": "/ˈɡæləri/",
+  "meaningBn": "চিত্রশালা"
+ },
+ {
+  "id": "listen_036",
+  "section": 2,
+  "sectionBn": "জনসেবা, ভ্রমণ ও সুযোগ-সুবিধা",
+  "sectionDescBn": "একজন বক্তা কোনো স্থান, অনুষ্ঠান বা সেবার বর্ণনা দেন",
+  "word": "heritage",
+  "pos": "noun",
+  "ipa": "/ˈherɪtɪdʒ/",
+  "meaningBn": "ঐতিহ্য"
+ },
+ {
+  "id": "listen_037",
+  "section": 2,
+  "sectionBn": "জনসেবা, ভ্রমণ ও সুযোগ-সুবিধা",
+  "sectionDescBn": "একজন বক্তা কোনো স্থান, অনুষ্ঠান বা সেবার বর্ণনা দেন",
+  "word": "conservation",
+  "pos": "noun",
+  "ipa": "/ˌkɒnsəˈveɪʃn/",
+  "meaningBn": "সংরক্ষণ"
+ },
+ {
+  "id": "listen_038",
+  "section": 2,
+  "sectionBn": "জনসেবা, ভ্রমণ ও সুযোগ-সুবিধা",
+  "sectionDescBn": "একজন বক্তা কোনো স্থান, অনুষ্ঠান বা সেবার বর্ণনা দেন",
+  "word": "workshop",
+  "pos": "noun",
+  "ipa": "/ˈwɜːkʃɒp/",
+  "meaningBn": "কর্মশালা"
+ },
+ {
+  "id": "listen_039",
+  "section": 2,
+  "sectionBn": "জনসেবা, ভ্রমণ ও সুযোগ-সুবিধা",
+  "sectionDescBn": "একজন বক্তা কোনো স্থান, অনুষ্ঠান বা সেবার বর্ণনা দেন",
+  "word": "leisure",
+  "pos": "noun",
+  "ipa": "/ˈleʒə(r)/",
+  "meaningBn": "অবসর"
+ },
+ {
+  "id": "listen_040",
+  "section": 2,
+  "sectionBn": "জনসেবা, ভ্রমণ ও সুযোগ-সুবিধা",
+  "sectionDescBn": "একজন বক্তা কোনো স্থান, অনুষ্ঠান বা সেবার বর্ণনা দেন",
+  "word": "recreation",
+  "pos": "noun",
+  "ipa": "/ˌrekriˈeɪʃn/",
+  "meaningBn": "বিনোদন"
+ },
+ {
+  "id": "listen_041",
+  "section": 2,
+  "sectionBn": "জনসেবা, ভ্রমণ ও সুযোগ-সুবিধা",
+  "sectionDescBn": "একজন বক্তা কোনো স্থান, অনুষ্ঠান বা সেবার বর্ণনা দেন",
+  "word": "equipment",
+  "pos": "noun",
+  "ipa": "/ɪˈkwɪpmənt/",
+  "meaningBn": "সরঞ্জাম"
+ },
+ {
+  "id": "listen_042",
+  "section": 2,
+  "sectionBn": "জনসেবা, ভ্রমণ ও সুযোগ-সুবিধা",
+  "sectionDescBn": "একজন বক্তা কোনো স্থান, অনুষ্ঠান বা সেবার বর্ণনা দেন",
+  "word": "instructor",
+  "pos": "noun",
+  "ipa": "/ɪnˈstrʌktə(r)/",
+  "meaningBn": "প্রশিক্ষক"
+ },
+ {
+  "id": "listen_043",
+  "section": 2,
+  "sectionBn": "জনসেবা, ভ্রমণ ও সুযোগ-সুবিধা",
+  "sectionDescBn": "একজন বক্তা কোনো স্থান, অনুষ্ঠান বা সেবার বর্ণনা দেন",
+  "word": "session",
+  "pos": "noun",
+  "ipa": "/ˈseʃn/",
+  "meaningBn": "পর্ব, অধিবেশন"
+ },
+ {
+  "id": "listen_044",
+  "section": 2,
+  "sectionBn": "জনসেবা, ভ্রমণ ও সুযোগ-সুবিধা",
+  "sectionDescBn": "একজন বক্তা কোনো স্থান, অনুষ্ঠান বা সেবার বর্ণনা দেন",
+  "word": "council",
+  "pos": "noun",
+  "ipa": "/ˈkaʊnsl/",
+  "meaningBn": "স্থানীয় পরিষদ"
+ },
+ {
+  "id": "listen_045",
+  "section": 2,
+  "sectionBn": "জনসেবা, ভ্রমণ ও সুযোগ-সুবিধা",
+  "sectionDescBn": "একজন বক্তা কোনো স্থান, অনুষ্ঠান বা সেবার বর্ণনা দেন",
+  "word": "annual",
+  "pos": "adjective",
+  "ipa": "/ˈænjuəl/",
+  "meaningBn": "বার্ষিক"
+ },
+ {
+  "id": "listen_046",
+  "section": 2,
+  "sectionBn": "জনসেবা, ভ্রমণ ও সুযোগ-সুবিধা",
+  "sectionDescBn": "একজন বক্তা কোনো স্থান, অনুষ্ঠান বা সেবার বর্ণনা দেন",
+  "word": "outdoor",
+  "pos": "adjective",
+  "ipa": "/ˈaʊtdɔː(r)/",
+  "meaningBn": "খোলা জায়গার"
+ },
+ {
+  "id": "listen_047",
+  "section": 2,
+  "sectionBn": "জনসেবা, ভ্রমণ ও সুযোগ-সুবিধা",
+  "sectionDescBn": "একজন বক্তা কোনো স্থান, অনুষ্ঠান বা সেবার বর্ণনা দেন",
+  "word": "accessible",
+  "pos": "adjective",
+  "ipa": "/əkˈsesəbl/",
+  "meaningBn": "সহজে প্রবেশযোগ্য"
+ },
+ {
+  "id": "listen_048",
+  "section": 2,
+  "sectionBn": "জনসেবা, ভ্রমণ ও সুযোগ-সুবিধা",
+  "sectionDescBn": "একজন বক্তা কোনো স্থান, অনুষ্ঠান বা সেবার বর্ণনা দেন",
+  "word": "guided",
+  "pos": "adjective",
+  "ipa": "/ˈɡaɪdɪd/",
+  "meaningBn": "গাইডসহ (guided tour)"
+ },
+ {
+  "id": "listen_049",
+  "section": 2,
+  "sectionBn": "জনসেবা, ভ্রমণ ও সুযোগ-সুবিধা",
+  "sectionDescBn": "একজন বক্তা কোনো স্থান, অনুষ্ঠান বা সেবার বর্ণনা দেন",
+  "word": "book",
+  "pos": "verb",
+  "ipa": "/bʊk/",
+  "meaningBn": "আগাম বুক করা"
+ },
+ {
+  "id": "listen_050",
+  "section": 2,
+  "sectionBn": "জনসেবা, ভ্রমণ ও সুযোগ-সুবিধা",
+  "sectionDescBn": "একজন বক্তা কোনো স্থান, অনুষ্ঠান বা সেবার বর্ণনা দেন",
+  "word": "renovate",
+  "pos": "verb",
+  "ipa": "/ˈrenəveɪt/",
+  "meaningBn": "সংস্কার করা"
+ },
+ {
+  "id": "listen_051",
+  "section": 3,
+  "sectionBn": "একাডেমিক আলোচনা",
+  "sectionDescBn": "শিক্ষার্থী ও শিক্ষকের মধ্যে অ্যাসাইনমেন্ট বা গবেষণা নিয়ে আলোচনা",
+  "word": "assignment",
+  "pos": "noun",
+  "ipa": "/əˈsaɪnmənt/",
+  "meaningBn": "নির্ধারিত কাজ"
+ },
+ {
+  "id": "listen_052",
+  "section": 3,
+  "sectionBn": "একাডেমিক আলোচনা",
+  "sectionDescBn": "শিক্ষার্থী ও শিক্ষকের মধ্যে অ্যাসাইনমেন্ট বা গবেষণা নিয়ে আলোচনা",
+  "word": "tutor",
+  "pos": "noun",
+  "ipa": "/ˈtjuːtə(r)/",
+  "meaningBn": "শিক্ষক, টিউটর"
+ },
+ {
+  "id": "listen_053",
+  "section": 3,
+  "sectionBn": "একাডেমিক আলোচনা",
+  "sectionDescBn": "শিক্ষার্থী ও শিক্ষকের মধ্যে অ্যাসাইনমেন্ট বা গবেষণা নিয়ে আলোচনা",
+  "word": "supervisor",
+  "pos": "noun",
+  "ipa": "/ˈsuːpəvaɪzə(r)/",
+  "meaningBn": "তত্ত্বাবধায়ক"
+ },
+ {
+  "id": "listen_054",
+  "section": 3,
+  "sectionBn": "একাডেমিক আলোচনা",
+  "sectionDescBn": "শিক্ষার্থী ও শিক্ষকের মধ্যে অ্যাসাইনমেন্ট বা গবেষণা নিয়ে আলোচনা",
+  "word": "seminar",
+  "pos": "noun",
+  "ipa": "/ˈsemɪnɑː(r)/",
+  "meaningBn": "সেমিনার"
+ },
+ {
+  "id": "listen_055",
+  "section": 3,
+  "sectionBn": "একাডেমিক আলোচনা",
+  "sectionDescBn": "শিক্ষার্থী ও শিক্ষকের মধ্যে অ্যাসাইনমেন্ট বা গবেষণা নিয়ে আলোচনা",
+  "word": "presentation",
+  "pos": "noun",
+  "ipa": "/ˌpreznˈteɪʃn/",
+  "meaningBn": "উপস্থাপনা শব্দ উচ্চারণ বাংলা অর্থ"
+ },
+ {
+  "id": "listen_056",
+  "section": 3,
+  "sectionBn": "একাডেমিক আলোচনা",
+  "sectionDescBn": "শিক্ষার্থী ও শিক্ষকের মধ্যে অ্যাসাইনমেন্ট বা গবেষণা নিয়ে আলোচনা",
+  "word": "deadline",
+  "pos": "noun",
+  "ipa": "/ˈdedlaɪn/",
+  "meaningBn": "শেষ সময়সীমা"
+ },
+ {
+  "id": "listen_057",
+  "section": 3,
+  "sectionBn": "একাডেমিক আলোচনা",
+  "sectionDescBn": "শিক্ষার্থী ও শিক্ষকের মধ্যে অ্যাসাইনমেন্ট বা গবেষণা নিয়ে আলোচনা",
+  "word": "questionnaire",
+  "pos": "noun",
+  "ipa": "/ˌkwestʃəˈneə(r)/",
+  "meaningBn": "প্রশ্নমালা"
+ },
+ {
+  "id": "listen_058",
+  "section": 3,
+  "sectionBn": "একাডেমিক আলোচনা",
+  "sectionDescBn": "শিক্ষার্থী ও শিক্ষকের মধ্যে অ্যাসাইনমেন্ট বা গবেষণা নিয়ে আলোচনা",
+  "word": "survey",
+  "pos": "noun",
+  "ipa": "/ˈsɜːveɪ/",
+  "meaningBn": "জরিপ"
+ },
+ {
+  "id": "listen_059",
+  "section": 3,
+  "sectionBn": "একাডেমিক আলোচনা",
+  "sectionDescBn": "শিক্ষার্থী ও শিক্ষকের মধ্যে অ্যাসাইনমেন্ট বা গবেষণা নিয়ে আলোচনা",
+  "word": "data",
+  "pos": "noun",
+  "ipa": "/ˈdeɪtə/",
+  "meaningBn": "উপাত্ত"
+ },
+ {
+  "id": "listen_060",
+  "section": 3,
+  "sectionBn": "একাডেমিক আলোচনা",
+  "sectionDescBn": "শিক্ষার্থী ও শিক্ষকের মধ্যে অ্যাসাইনমেন্ট বা গবেষণা নিয়ে আলোচনা",
+  "word": "analysis",
+  "pos": "noun",
+  "ipa": "/əˈnæləsɪs/",
+  "meaningBn": "বিশ্লেষণ"
+ },
+ {
+  "id": "listen_061",
+  "section": 3,
+  "sectionBn": "একাডেমিক আলোচনা",
+  "sectionDescBn": "শিক্ষার্থী ও শিক্ষকের মধ্যে অ্যাসাইনমেন্ট বা গবেষণা নিয়ে আলোচনা",
+  "word": "bibliography",
+  "pos": "noun",
+  "ipa": "/ˌbɪbliˈɒɡrəfi/",
+  "meaningBn": "গ্রন্থপঞ্জি"
+ },
+ {
+  "id": "listen_062",
+  "section": 3,
+  "sectionBn": "একাডেমিক আলোচনা",
+  "sectionDescBn": "শিক্ষার্থী ও শিক্ষকের মধ্যে অ্যাসাইনমেন্ট বা গবেষণা নিয়ে আলোচনা",
+  "word": "draft",
+  "pos": "noun",
+  "ipa": "/drɑːft/",
+  "meaningBn": "খসড়া"
+ },
+ {
+  "id": "listen_063",
+  "section": 3,
+  "sectionBn": "একাডেমিক আলোচনা",
+  "sectionDescBn": "শিক্ষার্থী ও শিক্ষকের মধ্যে অ্যাসাইনমেন্ট বা গবেষণা নিয়ে আলোচনা",
+  "word": "feedback",
+  "pos": "noun",
+  "ipa": "/ˈfiːdbæk/",
+  "meaningBn": "মতামত, প্রতিক্রিয়া"
+ },
+ {
+  "id": "listen_064",
+  "section": 3,
+  "sectionBn": "একাডেমিক আলোচনা",
+  "sectionDescBn": "শিক্ষার্থী ও শিক্ষকের মধ্যে অ্যাসাইনমেন্ট বা গবেষণা নিয়ে আলোচনা",
+  "word": "module",
+  "pos": "noun",
+  "ipa": "/ˈmɒdjuːl/",
+  "meaningBn": "পাঠ্য একক"
+ },
+ {
+  "id": "listen_065",
+  "section": 3,
+  "sectionBn": "একাডেমিক আলোচনা",
+  "sectionDescBn": "শিক্ষার্থী ও শিক্ষকের মধ্যে অ্যাসাইনমেন্ট বা গবেষণা নিয়ে আলোচনা",
+  "word": "semester",
+  "pos": "noun",
+  "ipa": "/sɪˈmestə(r)/",
+  "meaningBn": "সেমিস্টার"
+ },
+ {
+  "id": "listen_066",
+  "section": 3,
+  "sectionBn": "একাডেমিক আলোচনা",
+  "sectionDescBn": "শিক্ষার্থী ও শিক্ষকের মধ্যে অ্যাসাইনমেন্ট বা গবেষণা নিয়ে আলোচনা",
+  "word": "dissertation",
+  "pos": "noun",
+  "ipa": "/ˌdɪsəˈteɪʃn/",
+  "meaningBn": "গবেষণা অভিসন্দর্ভ"
+ },
+ {
+  "id": "listen_067",
+  "section": 3,
+  "sectionBn": "একাডেমিক আলোচনা",
+  "sectionDescBn": "শিক্ষার্থী ও শিক্ষকের মধ্যে অ্যাসাইনমেন্ট বা গবেষণা নিয়ে আলোচনা",
+  "word": "plagiarism",
+  "pos": "noun",
+  "ipa": "/ˈpleɪdʒərɪzəm/",
+  "meaningBn": "লেখাচুরি"
+ },
+ {
+  "id": "listen_068",
+  "section": 3,
+  "sectionBn": "একাডেমিক আলোচনা",
+  "sectionDescBn": "শিক্ষার্থী ও শিক্ষকের মধ্যে অ্যাসাইনমেন্ট বা গবেষণা নিয়ে আলোচনা",
+  "word": "statistics",
+  "pos": "noun",
+  "ipa": "/stəˈtɪstɪks/",
+  "meaningBn": "পরিসংখ্যান"
+ },
+ {
+  "id": "listen_069",
+  "section": 3,
+  "sectionBn": "একাডেমিক আলোচনা",
+  "sectionDescBn": "শিক্ষার্থী ও শিক্ষকের মধ্যে অ্যাসাইনমেন্ট বা গবেষণা নিয়ে আলোচনা",
+  "word": "hypothesis",
+  "pos": "noun",
+  "ipa": "/haɪˈpɒθəsɪs/",
+  "meaningBn": "অনুমিত সিদ্ধান্ত"
+ },
+ {
+  "id": "listen_070",
+  "section": 3,
+  "sectionBn": "একাডেমিক আলোচনা",
+  "sectionDescBn": "শিক্ষার্থী ও শিক্ষকের মধ্যে অ্যাসাইনমেন্ট বা গবেষণা নিয়ে আলোচনা",
+  "word": "evaluate",
+  "pos": "verb",
+  "ipa": "/ɪˈvæljueɪt/",
+  "meaningBn": "মূল্যায়ন করা"
+ },
+ {
+  "id": "listen_071",
+  "section": 3,
+  "sectionBn": "একাডেমিক আলোচনা",
+  "sectionDescBn": "শিক্ষার্থী ও শিক্ষকের মধ্যে অ্যাসাইনমেন্ট বা গবেষণা নিয়ে আলোচনা",
+  "word": "summarise",
+  "pos": "verb",
+  "ipa": "/ˈsʌməraɪz/",
+  "meaningBn": "সারসংক্ষেপ করা"
+ },
+ {
+  "id": "listen_072",
+  "section": 3,
+  "sectionBn": "একাডেমিক আলোচনা",
+  "sectionDescBn": "শিক্ষার্থী ও শিক্ষকের মধ্যে অ্যাসাইনমেন্ট বা গবেষণা নিয়ে আলোচনা",
+  "word": "collaborate",
+  "pos": "verb",
+  "ipa": "/kəˈlæbəreɪt/",
+  "meaningBn": "একসাথে কাজ করা"
+ },
+ {
+  "id": "listen_073",
+  "section": 3,
+  "sectionBn": "একাডেমিক আলোচনা",
+  "sectionDescBn": "শিক্ষার্থী ও শিক্ষকের মধ্যে অ্যাসাইনমেন্ট বা গবেষণা নিয়ে আলোচনা",
+  "word": "relevant",
+  "pos": "adjective",
+  "ipa": "/ˈreləvənt/",
+  "meaningBn": "প্রাসঙ্গিক"
+ },
+ {
+  "id": "listen_074",
+  "section": 3,
+  "sectionBn": "একাডেমিক আলোচনা",
+  "sectionDescBn": "শিক্ষার্থী ও শিক্ষকের মধ্যে অ্যাসাইনমেন্ট বা গবেষণা নিয়ে আলোচনা",
+  "word": "compulsory",
+  "pos": "adjective",
+  "ipa": "/kəmˈpʌlsəri/",
+  "meaningBn": "বাধ্যতামূলক"
+ },
+ {
+  "id": "listen_075",
+  "section": 3,
+  "sectionBn": "একাডেমিক আলোচনা",
+  "sectionDescBn": "শিক্ষার্থী ও শিক্ষকের মধ্যে অ্যাসাইনমেন্ট বা গবেষণা নিয়ে আলোচনা",
+  "word": "optional",
+  "pos": "adjective",
+  "ipa": "/ˈɒpʃənl/",
+  "meaningBn": "ঐচ্ছিক"
+ },
+ {
+  "id": "listen_076",
+  "section": 4,
+  "sectionBn": "একাডেমিক লেকচার",
+  "sectionDescBn": "একজন বক্তা কোনো বিজ্ঞান, ইতিহাস বা সমাজবিষয়ক লেকচার দেন",
+  "word": "phenomenon",
+  "pos": "noun",
+  "ipa": "/fəˈnɒmɪnən/",
+  "meaningBn": "ঘটনা, প্রপঞ্চ শব্দ উচ্চারণ বাংলা অর্থ"
+ },
+ {
+  "id": "listen_077",
+  "section": 4,
+  "sectionBn": "একাডেমিক লেকচার",
+  "sectionDescBn": "একজন বক্তা কোনো বিজ্ঞান, ইতিহাস বা সমাজবিষয়ক লেকচার দেন",
+  "word": "evolution",
+  "pos": "noun",
+  "ipa": "/ˌiːvəˈluːʃn/",
+  "meaningBn": "বিবর্তন"
+ },
+ {
+  "id": "listen_078",
+  "section": 4,
+  "sectionBn": "একাডেমিক লেকচার",
+  "sectionDescBn": "একজন বক্তা কোনো বিজ্ঞান, ইতিহাস বা সমাজবিষয়ক লেকচার দেন",
+  "word": "species",
+  "pos": "noun",
+  "ipa": "/ˈspiːʃiːz/",
+  "meaningBn": "প্রজাতি"
+ },
+ {
+  "id": "listen_079",
+  "section": 4,
+  "sectionBn": "একাডেমিক লেকচার",
+  "sectionDescBn": "একজন বক্তা কোনো বিজ্ঞান, ইতিহাস বা সমাজবিষয়ক লেকচার দেন",
+  "word": "habitat",
+  "pos": "noun",
+  "ipa": "/ˈhæbɪtæt/",
+  "meaningBn": "আবাসস্থল"
+ },
+ {
+  "id": "listen_080",
+  "section": 4,
+  "sectionBn": "একাডেমিক লেকচার",
+  "sectionDescBn": "একজন বক্তা কোনো বিজ্ঞান, ইতিহাস বা সমাজবিষয়ক লেকচার দেন",
+  "word": "ecosystem",
+  "pos": "noun",
+  "ipa": "/ˈiːkəʊsɪstəm/",
+  "meaningBn": "বাস্তুতন্ত্র"
+ },
+ {
+  "id": "listen_081",
+  "section": 4,
+  "sectionBn": "একাডেমিক লেকচার",
+  "sectionDescBn": "একজন বক্তা কোনো বিজ্ঞান, ইতিহাস বা সমাজবিষয়ক লেকচার দেন",
+  "word": "erosion",
+  "pos": "noun",
+  "ipa": "/ɪˈrəʊʒn/",
+  "meaningBn": "ক্ষয়"
+ },
+ {
+  "id": "listen_082",
+  "section": 4,
+  "sectionBn": "একাডেমিক লেকচার",
+  "sectionDescBn": "একজন বক্তা কোনো বিজ্ঞান, ইতিহাস বা সমাজবিষয়ক লেকচার দেন",
+  "word": "mineral",
+  "pos": "noun",
+  "ipa": "/ˈmɪnərəl/",
+  "meaningBn": "খনিজ"
+ },
+ {
+  "id": "listen_083",
+  "section": 4,
+  "sectionBn": "একাডেমিক লেকচার",
+  "sectionDescBn": "একজন বক্তা কোনো বিজ্ঞান, ইতিহাস বা সমাজবিষয়ক লেকচার দেন",
+  "word": "pollution",
+  "pos": "noun",
+  "ipa": "/pəˈluːʃn/",
+  "meaningBn": "দূষণ"
+ },
+ {
+  "id": "listen_084",
+  "section": 4,
+  "sectionBn": "একাডেমিক লেকচার",
+  "sectionDescBn": "একজন বক্তা কোনো বিজ্ঞান, ইতিহাস বা সমাজবিষয়ক লেকচার দেন",
+  "word": "agriculture",
+  "pos": "noun",
+  "ipa": "/ˈæɡrɪkʌltʃə(r)/",
+  "meaningBn": "কৃষি"
+ },
+ {
+  "id": "listen_085",
+  "section": 4,
+  "sectionBn": "একাডেমিক লেকচার",
+  "sectionDescBn": "একজন বক্তা কোনো বিজ্ঞান, ইতিহাস বা সমাজবিষয়ক লেকচার দেন",
+  "word": "irrigation",
+  "pos": "noun",
+  "ipa": "/ˌɪrɪˈɡeɪʃn/",
+  "meaningBn": "সেচ"
+ },
+ {
+  "id": "listen_086",
+  "section": 4,
+  "sectionBn": "একাডেমিক লেকচার",
+  "sectionDescBn": "একজন বক্তা কোনো বিজ্ঞান, ইতিহাস বা সমাজবিষয়ক লেকচার দেন",
+  "word": "civilisation",
+  "pos": "noun",
+  "ipa": "/ˌsɪvəlaɪˈzeɪʃn/",
+  "meaningBn": "সভ্যতা"
+ },
+ {
+  "id": "listen_087",
+  "section": 4,
+  "sectionBn": "একাডেমিক লেকচার",
+  "sectionDescBn": "একজন বক্তা কোনো বিজ্ঞান, ইতিহাস বা সমাজবিষয়ক লেকচার দেন",
+  "word": "architecture",
+  "pos": "noun",
+  "ipa": "/ˈɑːkɪtektʃə(r)/",
+  "meaningBn": "স্থাপত্য"
+ },
+ {
+  "id": "listen_088",
+  "section": 4,
+  "sectionBn": "একাডেমিক লেকচার",
+  "sectionDescBn": "একজন বক্তা কোনো বিজ্ঞান, ইতিহাস বা সমাজবিষয়ক লেকচার দেন",
+  "word": "navigation",
+  "pos": "noun",
+  "ipa": "/ˌnævɪˈɡeɪʃn/",
+  "meaningBn": "নৌচালনা"
+ },
+ {
+  "id": "listen_089",
+  "section": 4,
+  "sectionBn": "একাডেমিক লেকচার",
+  "sectionDescBn": "একজন বক্তা কোনো বিজ্ঞান, ইতিহাস বা সমাজবিষয়ক লেকচার দেন",
+  "word": "innovation",
+  "pos": "noun",
+  "ipa": "/ˌɪnəˈveɪʃn/",
+  "meaningBn": "উদ্ভাবন"
+ },
+ {
+  "id": "listen_090",
+  "section": 4,
+  "sectionBn": "একাডেমিক লেকচার",
+  "sectionDescBn": "একজন বক্তা কোনো বিজ্ঞান, ইতিহাস বা সমাজবিষয়ক লেকচার দেন",
+  "word": "prototype",
+  "pos": "noun",
+  "ipa": "/ˈprəʊtətaɪp/",
+  "meaningBn": "আদিনমুনা"
+ },
+ {
+  "id": "listen_091",
+  "section": 4,
+  "sectionBn": "একাডেমিক লেকচার",
+  "sectionDescBn": "একজন বক্তা কোনো বিজ্ঞান, ইতিহাস বা সমাজবিষয়ক লেকচার দেন",
+  "word": "efficiency",
+  "pos": "noun",
+  "ipa": "/ɪˈfɪʃnsi/",
+  "meaningBn": "দক্ষতা"
+ },
+ {
+  "id": "listen_092",
+  "section": 4,
+  "sectionBn": "একাডেমিক লেকচার",
+  "sectionDescBn": "একজন বক্তা কোনো বিজ্ঞান, ইতিহাস বা সমাজবিষয়ক লেকচার দেন",
+  "word": "consumption",
+  "pos": "noun",
+  "ipa": "/kənˈsʌmpʃn/",
+  "meaningBn": "ভোগ, ব্যবহার"
+ },
+ {
+  "id": "listen_093",
+  "section": 4,
+  "sectionBn": "একাডেমিক লেকচার",
+  "sectionDescBn": "একজন বক্তা কোনো বিজ্ঞান, ইতিহাস বা সমাজবিষয়ক লেকচার দেন",
+  "word": "behaviour",
+  "pos": "noun",
+  "ipa": "/bɪˈheɪvjə(r)/",
+  "meaningBn": "আচরণ"
+ },
+ {
+  "id": "listen_094",
+  "section": 4,
+  "sectionBn": "একাডেমিক লেকচার",
+  "sectionDescBn": "একজন বক্তা কোনো বিজ্ঞান, ইতিহাস বা সমাজবিষয়ক লেকচার দেন",
+  "word": "nutrition",
+  "pos": "noun",
+  "ipa": "/njuˈtrɪʃn/",
+  "meaningBn": "পুষ্টি"
+ },
+ {
+  "id": "listen_095",
+  "section": 4,
+  "sectionBn": "একাডেমিক লেকচার",
+  "sectionDescBn": "একজন বক্তা কোনো বিজ্ঞান, ইতিহাস বা সমাজবিষয়ক লেকচার দেন",
+  "word": "decline",
+  "pos": "verb",
+  "ipa": "/dɪˈklaɪn/",
+  "meaningBn": "হ্রাস পাওয়া"
+ },
+ {
+  "id": "listen_096",
+  "section": 4,
+  "sectionBn": "একাডেমিক লেকচার",
+  "sectionDescBn": "একজন বক্তা কোনো বিজ্ঞান, ইতিহাস বা সমাজবিষয়ক লেকচার দেন",
+  "word": "migrate",
+  "pos": "verb",
+  "ipa": "/maɪˈɡreɪt/",
+  "meaningBn": "অভিপ্রয়াণ করা"
+ },
+ {
+  "id": "listen_097",
+  "section": 4,
+  "sectionBn": "একাডেমিক লেকচার",
+  "sectionDescBn": "একজন বক্তা কোনো বিজ্ঞান, ইতিহাস বা সমাজবিষয়ক লেকচার দেন",
+  "word": "renewable",
+  "pos": "adjective",
+  "ipa": "/rɪˈnjuːəbl/",
+  "meaningBn": "নবায়নযোগ্য"
+ },
+ {
+  "id": "listen_098",
+  "section": 4,
+  "sectionBn": "একাডেমিক লেকচার",
+  "sectionDescBn": "একজন বক্তা কোনো বিজ্ঞান, ইতিহাস বা সমাজবিষয়ক লেকচার দেন",
+  "word": "significant",
+  "pos": "adjective",
+  "ipa": "/sɪɡˈnɪfɪkənt/",
+  "meaningBn": "উল্লেখযোগ্য"
+ },
+ {
+  "id": "listen_099",
+  "section": 4,
+  "sectionBn": "একাডেমিক লেকচার",
+  "sectionDescBn": "একজন বক্তা কোনো বিজ্ঞান, ইতিহাস বা সমাজবিষয়ক লেকচার দেন",
+  "word": "gradually",
+  "pos": "adverb",
+  "ipa": "/ˈɡrædʒuəli/",
+  "meaningBn": "ধীরে ধীরে"
+ },
+ {
+  "id": "listen_100",
+  "section": 4,
+  "sectionBn": "একাডেমিক লেকচার",
+  "sectionDescBn": "একজন বক্তা কোনো বিজ্ঞান, ইতিহাস বা সমাজবিষয়ক লেকচার দেন",
+  "word": "predominantly",
+  "pos": "adverb",
+  "ipa": "/prɪˈdɒmɪnəntli/",
+  "meaningBn": "প্রধানত"
+ }
+]

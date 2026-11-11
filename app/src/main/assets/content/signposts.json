@@ -1,0 +1,104 @@
+[
+ {
+  "id": "signpost_01",
+  "signpost": "firstly / to begin with",
+  "functionBn": "ক্রম শুরু",
+  "meaningBn": "প্রথমত"
+ },
+ {
+  "id": "signpost_02",
+  "signpost": "moreover / in addition",
+  "functionBn": "তথ্য যোগ",
+  "meaningBn": "তাছাড়া"
+ },
+ {
+  "id": "signpost_03",
+  "signpost": "however",
+  "functionBn": "বিপরীত তথ্য",
+  "meaningBn": "তবে"
+ },
+ {
+  "id": "signpost_04",
+  "signpost": "on the other hand",
+  "functionBn": "তুলনা",
+  "meaningBn": "অন্যদিকে"
+ },
+ {
+  "id": "signpost_05",
+  "signpost": "in contrast",
+  "functionBn": "তুলনা",
+  "meaningBn": "বিপরীতভাবে"
+ },
+ {
+  "id": "signpost_06",
+  "signpost": "similarly",
+  "functionBn": "মিল",
+  "meaningBn": "একইভাবে"
+ },
+ {
+  "id": "signpost_07",
+  "signpost": "for example / for instance",
+  "functionBn": "উদাহরণ",
+  "meaningBn": "যেমন"
+ },
+ {
+  "id": "signpost_08",
+  "signpost": "in other words",
+  "functionBn": "ব্যাখ্যা",
+  "meaningBn": "অন্য কথায়"
+ },
+ {
+  "id": "signpost_09",
+  "signpost": "as a result / therefore",
+  "functionBn": "ফলাফল",
+  "meaningBn": "ফলে, সুতরাং"
+ },
+ {
+  "id": "signpost_10",
+  "signpost": "let's move on to",
+  "functionBn": "বিষয় বদল",
+  "meaningBn": "এবার আলোচনা করি"
+ },
+ {
+  "id": "signpost_11",
+  "signpost": "turning now to",
+  "functionBn": "বিষয় বদল",
+  "meaningBn": "এখন এই প্রসঙ্গে আসি"
+ },
+ {
+  "id": "signpost_12",
+  "signpost": "the main point is",
+  "functionBn": "গুরুত্ব",
+  "meaningBn": "মূল কথা হলো"
+ },
+ {
+  "id": "signpost_13",
+  "signpost": "it's worth noting that",
+  "functionBn": "গুরুত্ব",
+  "meaningBn": "লক্ষ করার মতো যে"
+ },
+ {
+  "id": "signpost_14",
+  "signpost": "the most important factor",
+  "functionBn": "গুরুত্ব",
+  "meaningBn": "সবচেয়ে গুরুত্বপূর্ণ বিষয়"
+ },
+ {
+  "id": "signpost_15",
+  "signpost": "actually / I mean",
+  "functionBn": "সংশোধন: উত্তর বদলাতে পারে",
+  "meaningBn": "আসলে, মানে"
+ },
+ {
+  "id": "signpost_16",
+  "signpost": "finally",
+  "functionBn": "শেষ পয়েন্ট",
+  "meaningBn": "সবশেষে"
+ },
+ {
+  "id": "signpost_17",
+  "signpost": "to sum up / in conclusion",
+  "functionBn": "উপসংহার",
+  "meaningBn": "সংক্ষেপে, উপসংহারে"
+ }
+]
