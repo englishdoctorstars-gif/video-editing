@@ -4,6 +4,20 @@
   var WHATSAPP_NUMBER = '8801682888114';
   var EMAIL = 'englishdoctorbd@gmail.com';
 
+  // Social / app links. Paste a URL to show that link everywhere on the page;
+  // links left empty stay hidden, so the site never shows a dead link.
+  var LINKS = {
+    facebook: '',
+    youtube: '',
+    instagram: '',
+    linkedin: '',
+    play: ''   // Google Play page of the Vocabsolution app, once it is live
+  };
+  document.querySelectorAll('[data-link]').forEach(function (a) {
+    var url = LINKS[a.dataset.link];
+    if (url) a.href = url; else a.hidden = true;
+  });
+
   document.getElementById('yr').textContent = new Date().getFullYear();
 
   // Mobile menu

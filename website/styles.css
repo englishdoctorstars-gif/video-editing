@@ -324,3 +324,19 @@ details p{padding:0 22px 18px;color:var(--muted)}
   .form__row,.form__btns,.mini-stats{grid-template-columns:1fr}
   .tabs{flex-wrap:wrap;justify-content:center;border-radius:18px}
 }
+
+/* links without a URL yet (see LINKS in main.js) */
+[hidden]{display:none!important}
+.topbar__social{display:flex;gap:14px}
+
+/* legal pages */
+.legal-hero{background:linear-gradient(135deg,var(--navy),var(--blue));color:#fff;padding:56px 0 48px}
+.legal-hero h1{font-size:clamp(1.8rem,4vw,2.6rem)}
+.legal-hero p{color:#dbe6ff;margin-top:6px}
+.legal{padding:48px 0 72px}
+.legal h2{font-size:1.35rem;color:var(--navy);margin:32px 0 8px}
+.legal p,.legal li{color:var(--muted)}
+.legal ul{padding-left:22px;display:grid;gap:6px}
+.legal a{color:var(--blue);font-weight:600}
+.legal .lang{margin-top:48px;padding-top:24px;border-top:1px solid var(--line)}
+.back{display:inline-block;margin-bottom:18px;color:var(--yellow);font-weight:700}

@@ -15,8 +15,24 @@ Contact: +880 1682-888114 · englishdoctorbd@gmail.com · Dhaka, Bangladesh.
 The contact form needs no backend: it opens WhatsApp or the visitor's email app
 pre-filled. "Enroll" buttons pre-select the course in the form.
 
-## Still to fill in
-- WhatsApp number in `main.js` (currently the same as the phone number — confirm)
-- Facebook / YouTube / LinkedIn / Instagram / Google Play / Login / Blog / Privacy / Terms links (`href="#"`)
-- Mentor photo: swap `assets/logo.png` in the About section for a real photo
-- A cover image for the Vocabsolution book (currently drawn in CSS)
+## Pages
+`index.html` (home) · `privacy.html` · `terms.html` · `404.html` · `robots.txt`
+
+## Social and app links
+Edit `LINKS` at the top of `main.js` (Facebook, YouTube, Instagram, LinkedIn, Google Play).
+Any link left empty is hidden on every page, so the site never shows a dead link.
+WhatsApp, phone and email are already live.
+
+## Publishing (GitHub Pages)
+`.github/workflows/website.yml` publishes the `website/` folder whenever it changes on the
+repository's default branch (or run it by hand from the Actions tab).
+1. Repo Settings → Pages → Source: **GitHub Actions**.
+2. Merge this branch into the default branch.
+3. For your own domain: Settings → Pages → Custom domain, then add the DNS records GitHub shows.
+   `404.html` uses root paths (`/styles.css`), so it looks right on a custom domain.
+
+Any other static host works too: upload the contents of `website/`.
+
+## Optional extras
+- A real mentor photo in the About section (currently the logo)
+- A photo of the Vocabsolution book cover (currently drawn in CSS)
