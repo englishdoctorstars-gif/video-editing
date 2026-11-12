@@ -42,7 +42,7 @@ h2 small{font-size:.55em;color:var(--muted);font-weight:500}
 .topbar__in{display:flex;gap:24px;padding:6px 0;flex-wrap:wrap}
 .topbar a:hover{color:var(--yellow)}
 .topbar__social{margin-left:auto}
-.header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.95);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.header{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:rgba(255,255,255,.95);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
 .header__in{display:flex;align-items:center;justify-content:space-between;padding:10px 0}
 .brand{display:flex;align-items:center;gap:10px;font-family:Poppins,sans-serif;font-size:1.25rem;line-height:1}
 .brand img{width:48px;height:48px;border-radius:50%}
@@ -184,7 +184,7 @@ details p{padding:0 22px 18px;color:var(--muted)}
 .footer__grid a:not(.brand){display:block;margin-bottom:8px}
 .footer__grid a:hover{color:#fff}
 .footer__bottom{border-top:1px solid rgba(255,255,255,.1);margin-top:40px;padding:18px 0;text-align:center;font-size:.9rem}
-.wa-float{position:fixed;right:20px;bottom:20px;width:58px;height:58px;border-radius:50%;background:var(--yellow);display:grid;place-items:center;font-size:1.6rem;box-shadow:0 10px 24px rgba(0,0,0,.25);z-index:60}
+.wa-float{position:fixed;right:calc(20px + env(safe-area-inset-right,0px));bottom:calc(20px + env(safe-area-inset-bottom,0px));width:58px;height:58px;border-radius:50%;background:var(--yellow);display:grid;place-items:center;font-size:1.6rem;box-shadow:0 10px 24px rgba(0,0,0,.25);z-index:60}
 
 /* reveal */
 .reveal{opacity:0;transform:translateY(24px);transition:opacity .6s,transform .6s}
@@ -340,3 +340,9 @@ details p{padding:0 22px 18px;color:var(--muted)}
 .legal a{color:var(--blue);font-weight:600}
 .legal .lang{margin-top:48px;padding-top:24px;border-top:1px solid var(--line)}
 .back{display:inline-block;margin-bottom:18px;color:var(--yellow);font-weight:700}
+
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:60;background:#fff}
+.form__result{display:grid;gap:12px;padding:18px;border-radius:14px;background:var(--tint)}
+.form__result[hidden]{display:none}
+.form__result textarea{font-size:.9rem;background:#fff}
+a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var(--yellow);outline-offset:2px}

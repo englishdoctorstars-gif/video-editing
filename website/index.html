@@ -329,22 +329,29 @@
       </div>
       <form class="form" id="contactForm">
         <div class="form__row">
-          <label>Name *<input name="name" required placeholder="Your name"></label>
-          <label>Phone<input name="phone" type="tel" placeholder="01XXXXXXXXX"></label>
+          <label>Name *<input id="f-name" name="name" required placeholder="Your name"></label>
+          <label>Phone<input id="f-phone" name="phone" type="tel" placeholder="01XXXXXXXXX"></label>
         </div>
-        <label>Email *<input name="email" type="email" required placeholder="you@example.com"></label>
+        <label>Email *<input id="f-email" name="email" type="email" required placeholder="you@example.com"></label>
         <label>Subject *
-          <select name="subject" required>
+          <select id="f-subject" name="subject" required>
             <option>General enquiry</option>
             <option>Basic to IELTS</option><option>IELTS Focus</option><option>IELTS Crash</option>
             <option>PTE Focus</option><option>Spoken English</option><option>Vocabsolution</option>
             <option>Free Mock Test</option><option>Vocabsolution Book</option><option>Study Abroad</option>
           </select>
         </label>
-        <label>Message *<textarea name="message" rows="4" required placeholder="Tell us more..."></textarea></label>
-        <div class="form__btns">
-          <button class="btn btn--yellow" type="submit" data-via="whatsapp">Send on WhatsApp</button>
-          <button class="btn btn--outline" type="submit" data-via="email">Send by Email</button>
+        <label>Message *<textarea id="f-message" name="message" rows="4" required placeholder="Tell us more..."></textarea></label>
+        <button class="btn btn--yellow btn--block" type="submit">Prepare my message</button>
+        <div class="form__result" id="formResult" hidden>
+          <p><b>Your message is ready.</b> Choose how to send it:</p>
+          <div class="form__btns">
+            <a class="btn btn--blue" id="sendWa" href="https://wa.me/8801682888114" target="_blank" rel="noopener">Open WhatsApp</a>
+            <a class="btn btn--outline" id="sendMail" href="mailto:englishdoctorbd@gmail.com">Open Email</a>
+          </div>
+          <p class="form__note">If nothing opens, copy the message and send it to WhatsApp <b>+880 1682-888114</b> or <b>englishdoctorbd@gmail.com</b>.</p>
+          <textarea id="msgPreview" rows="5" readonly aria-label="Your message"></textarea>
+          <button class="btn btn--outline btn--block" type="button" id="copyMsg">Copy message</button>
         </div>
       </form>
     </div>

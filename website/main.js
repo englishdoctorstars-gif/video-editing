@@ -58,24 +58,16 @@
     requestAnimationFrame(step);
   }
 
-  // Reveal on scroll + counters
-  var revealEls = document.querySelectorAll('.card, .feature, .free__item, .review, .path li, .dest__item, details');
-  revealEls.forEach(function (el) { el.classList.add('reveal'); });
+  // Count-up animation for the stats (numbers are already correct in the HTML)
   var counters = document.querySelectorAll('[data-count]');
-
-  if ('IntersectionObserver' in window) {
+  var reduce = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if ('IntersectionObserver' in window && !reduce) {
     var io = new IntersectionObserver(function (entries) {
       entries.forEach(function (en) {
-        if (!en.isIntersecting) return;
-        if (en.target.dataset.count) countUp(en.target); else en.target.classList.add('is-in');
-        io.unobserve(en.target);
+        if (en.isIntersecting) { countUp(en.target); io.unobserve(en.target); }
       });
-    }, { threshold: 0.15 });
-    revealEls.forEach(function (el) { io.observe(el); });
+    }, { threshold: 0.5 });
     counters.forEach(function (el) { io.observe(el); });
-  } else {
-    revealEls.forEach(function (el) { el.classList.add('is-in'); });
-    counters.forEach(function (el) { el.textContent = toBn(+el.dataset.count); });
   }
 
   // "Enroll" buttons pre-select the course in the contact form
@@ -87,23 +79,27 @@
     });
   });
 
-  // Contact form -> WhatsApp or email (no backend needed)
-  var via = 'whatsapp';
-  form.querySelectorAll('[data-via]').forEach(function (b) {
-    b.addEventListener('click', function () { via = b.dataset.via; });
-  });
+  // Contact form: build the message, then offer real WhatsApp / email links
+  var result = document.getElementById('formResult');
+  var preview = document.getElementById('msgPreview');
   form.addEventListener('submit', function (e) {
     e.preventDefault();
     var d = new FormData(form);
     var body = 'Name: ' + d.get('name') + '\nEmail: ' + d.get('email') +
       (d.get('phone') ? '\nPhone: ' + d.get('phone') : '') + '\nSubject: ' + d.get('subject') +
       '\n\n' + d.get('message');
-    if (via === 'email') {
-      location.href = 'mailto:' + EMAIL + '?subject=' + encodeURIComponent(d.get('subject')) + '&body=' + encodeURIComponent(body);
-    } else {
-      window.open('https://wa.me/' + WHATSAPP_NUMBER + '?text=' + encodeURIComponent(body), '_blank');
-    }
+    document.getElementById('sendWa').href = 'https://wa.me/' + WHATSAPP_NUMBER + '?text=' + encodeURIComponent(body);
+    document.getElementById('sendMail').href = 'mailto:' + EMAIL + '?subject=' + encodeURIComponent(d.get('subject')) + '&body=' + encodeURIComponent(body);
+    preview.value = body;
+    result.hidden = false;
+    result.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'nearest' });
   });
-
-  
+  document.getElementById('copyMsg').addEventListener('click', function (ev) {
+    var btn = ev.currentTarget;
+    function done() { btn.textContent = 'Copied'; setTimeout(function () { btn.textContent = 'Copy message'; }, 1500); }
+    function fallback() { preview.focus(); preview.select(); }
+    try {
+      if (navigator.clipboard) navigator.clipboard.writeText(preview.value).then(done, fallback); else fallback();
+    } catch (err) { fallback(); }
+  });
 })();
