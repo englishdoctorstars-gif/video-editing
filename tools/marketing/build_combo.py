@@ -6,6 +6,12 @@ with layered motion graphics and original synthesised music and sound effects.
 Layers: marketing/ad-graphics/combo/ (ComboLayersTest).
 Output: marketing/videos/vocabsolution_all_features_55s_1x1.mp4 and the audio stem
 marketing/videos/vocabsolution_all_features_music_sfx.wav.
+
+    python3 -I tools/marketing/build_combo.py --sfx-only
+
+Makes the voice-over version instead: same picture, sound effects only (no music), kept
+quieter (about -24 LUFS, peaks near -6 dB) so a voice-over sits clearly on top.
+Output: ..._sfx_only.mp4 and ..._sfx_only.wav. Reuses the picture of the main file if present.
 """
 import os
 import subprocess
@@ -245,8 +251,30 @@ def build_audio():
     A.write_wav(WAV, A.finish(0.75 * mus * duck + 0.9 * sfx, peak_db=-1.0))
 
 
+SFX_OUT = OUT.replace(".mp4", "_sfx_only.mp4")
+SFX_WAV = OUT.replace(".mp4", "_sfx_only.wav")
+
+
+def build_sfx_only():
+    """Voice-over bed: effects only, no music, leaving headroom for speech."""
+    A.write_wav(SFX_WAV, A.finish(0.9 * effects(), peak_db=-6.0))
+    picture = OUT
+    if not os.path.exists(picture):
+        picture = OUT.replace(".mp4", "_silent.mp4")
+        build_video(picture)
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", picture, "-i", SFX_WAV, "-map", "0:v", "-map", "1:a",
+                    "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-af", "aresample=48000",
+                    "-shortest", "-movflags", "+faststart", SFX_OUT], check=True)
+    if picture != OUT:
+        os.remove(picture)
+    print(SFX_OUT)
+
+
 def main():
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
+    if "--sfx-only" in sys.argv:
+        build_sfx_only()
+        return
     build_audio()
     silent = OUT.replace(".mp4", "_silent.mp4")
     build_video(silent)

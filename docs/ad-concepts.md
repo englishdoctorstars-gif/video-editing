@@ -29,6 +29,8 @@
 | ৪৭–৫০.৫ | এক অ্যাপে সব | ৮টি ফিচার টাইল · "বইয়ের ১১টি অধ্যায় · ইন্টারনেট ছাড়াই · কোনো বিজ্ঞাপন নেই" |
 | ৫০.৫–৫৫ | এন্ড কার্ড | মাত্র ১০০ টাকা · WhatsApp 01682888114 · bKash / Nagad 01682888114 · পেজ English Doctor · লেখকের নাম |
 
+**ভয়েস-ওভার সংস্করণ:** `marketing/videos/vocabsolution_all_features_55s_1x1_sfx_only.mp4` — একই ছবি, ব্যাকগ্রাউন্ড মিউজিক নেই, শুধু সাউন্ড ইফেক্ট (−২২ LUFS, সর্বোচ্চ −৫ dB, যাতে কণ্ঠ পরিষ্কার শোনা যায়)। ইফেক্টের আলাদা ফাইল `..._sfx_only.wav`। সময় মিলিয়ে ভয়েস-ওভার স্ক্রিপ্ট: `marketing/videos/vocabsolution_all_features_voiceover_script.txt`। নতুন করে বানাতে: `python3 -I tools/marketing/build_combo.py --sfx-only`।
+
 > **"Speaking" নিয়ে সততা:** অ্যাপে কথা বলা রেকর্ড করে যাচাইয়ের (স্পিচ রেকগনিশন) ফিচার নেই; আছে ব্রিটিশ উচ্চারণ শোনা ও IPA। তাই ভিডিওতে বলা হয়েছে "শুনুন, তারপর বলুন — সঠিক উচ্চারণে আত্মবিশ্বাসে বলুন"। "স্পিকিং প্র্যাকটিস" বা "উচ্চারণ যাচাই" দাবি করা হয়নি।
 
 **Facebook অ্যাড কপি:**
@@ -415,6 +417,9 @@ python3 -I tools/release/collect_ad_screens.py
 | `marketing/ad-graphics/concept1/c1_*.png` | ১০৮০×১০৮০ | কনসেপ্ট ১-এর ১২টি ফ্রেম, ১:১ এন্ড কার্ডসহ |
 | `marketing/videos/vocabsolution_all_features_55s_1x1.mp4` | ১০৮০×১০৮০, ৫৫ সে. | **★ মূল অ্যাড: সব ফিচার এক ভিডিওতে** (English Doctor পেজ) |
 | `marketing/videos/vocabsolution_all_features_music_sfx.wav` | ৫৫ সে., স্টেরিও | মূল অ্যাডের মিউজিক+শব্দ |
+| `marketing/videos/vocabsolution_all_features_55s_1x1_sfx_only.mp4` | ১০৮০×১০৮০, ৫৫ সে. | **ভয়েস-ওভারের জন্য:** মিউজিক নেই, শুধু ইফেক্ট |
+| `marketing/videos/vocabsolution_all_features_55s_1x1_sfx_only.wav` | ৫৫ সে., স্টেরিও | শুধু ইফেক্টের ফাইল |
+| `marketing/videos/vocabsolution_all_features_voiceover_script.txt` | — | সময় মিলিয়ে ভয়েস-ওভার স্ক্রিপ্ট |
 | `marketing/ad-graphics/combo/` | ১০৮০×১০৮০ | মূল অ্যাডের ৫৩টি স্তর |
 | `marketing/videos/concept3_ielts_dream_30s_9x16.mp4` | ১০৮০×১৯২০, ৩০ সে. | **কনসেপ্ট ৩-এর তৈরি ভিডিও** — মোশন গ্রাফিক্স, নিজস্ব মিউজিক ও সাউন্ড ইফেক্ট |
 | `marketing/videos/concept3_ielts_dream_music_sfx.wav` | ৩০ সে., স্টেরিও | কনসেপ্ট ৩-এর মিউজিক+শব্দ, আলাদা এডিটের জন্য |
