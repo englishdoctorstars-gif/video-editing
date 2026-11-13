@@ -3,7 +3,9 @@
 ভিত্তি: [`social-video-ad-prompt.md`](social-video-ad-prompt.md)।
 অ্যাপের আসল স্ক্রিন: [`marketing/ad-screens/`](../marketing/ad-screens/) (২০টি, ১০৮০×২৪০০)।
 
-**পূরণের ঘর:** `[মূল্য]` · `[WhatsApp নম্বর]` · `[পেজের নাম]` · `[অফার/মেয়াদ]`
+**বিক্রয় তথ্য (সব অ্যাডে একই):** পুরো অ্যাপ **মাত্র ১০০ টাকা** · WhatsApp **01682888114** · bKash/Nagad **Send Money: 01682888114** · Facebook পেজ **English Doctor**
+
+**তৈরি উপকরণ:** এন্ড কার্ড ও "কীভাবে কিনবেন" কার্ড (`marketing/ad-graphics/`), কনসেপ্ট ২-এর তৈরি ভিডিও (`marketing/videos/concept2_word_challenge_15s_9x16.mp4`) — বিস্তারিত শেষে "তৈরি অ্যাড উপকরণ" অংশে।
 
 ---
 
@@ -11,27 +13,22 @@
 
 ### ০.১ কেনার পথ (CTA)
 
-অ্যাপ কেনা হবে মেসেজের মাধ্যমে। তাই প্রতিটি অ্যাড চালাতে হবে এভাবে:
+অ্যাপ কেনা হবে সরাসরি যোগাযোগে। ক্রেতা WhatsApp বা Facebook পেজে মেসেজ দেবেন, bKash/Nagad-এ টাকা পাঠাবেন, তারপর আপনি নিজে যাচাই করে অ্যাপ পাঠাবেন।
 
-- **Meta Ads Manager-এ:** Objective হবে **Engagement → Messaging**, অথবা **Sales → Messaging apps**। Destination হবে **WhatsApp** বা **Messenger**, কিংবা দুটোই।
+- **Meta Ads Manager-এ:** Objective হবে **Engagement → Messaging**, অথবা **Sales → Messaging apps**। Destination হবে **WhatsApp** (নম্বর 01682888114) এবং/অথবা **Messenger** (পেজ English Doctor)।
+  - Click-to-WhatsApp অ্যাড চালাতে 01682888114 নম্বরটি WhatsApp Business অ্যাপে খুলে Facebook পেজ "English Doctor"-এর সাথে যুক্ত করতে হবে (পেজের Settings → Linked accounts → WhatsApp)।
 - **CTA বাটন:** "Send WhatsApp message" অথবা "Send message"।
 - **আগে থেকে লেখা মেসেজ** (Pre-filled message), যাতে দর্শক শুধু Send চাপলেই হয়:
-  `আসসালামু আলাইকুম, আমি Vocabsolution অ্যাপটি কিনতে চাই। মূল্য ও নিয়ম জানাবেন?`
-- **শেষ ফ্রেমে (এন্ড কার্ডে) সবসময় থাকবে:**
-  - WhatsApp আইকন + `[WhatsApp নম্বর]`
-  - "অথবা আমাদের পেজে মেসেজ দিন: `[পেজের নাম]`"
-  - "Vocabsolution — by English Doctor · মুখস্থের অবসান!"
+  `আসসালামু আলাইকুম, আমি ১০০ টাকায় Vocabsolution অ্যাপটি কিনতে চাই।`
+- **শেষ ফ্রেম (এন্ড কার্ড):** তৈরি আছে, সরাসরি ব্যবহার করুন:
+  - ৯:১৬ (Reels/Stories): `marketing/ad-graphics/endcard_9x16.png`
+  - ৪:৫ (Feed): `marketing/ad-graphics/endcard_4x5.png`
+  - এতে আছে: লোগো · মুখস্থের অবসান! · **পুরো অ্যাপ মাত্র ১০০ টাকা** · WhatsApp 01682888114 · bKash/Nagad Send Money 01682888114 · Facebook পেজ English Doctor
+- **"কীভাবে কিনবেন" কার্ড** (৩টি ধাপ), অ্যাডের শেষে, পোস্টে বা WhatsApp-এর উত্তরে ব্যবহারের জন্য: `how_to_buy_9x16.png`, `how_to_buy_4x5.png`
 - **ভয়েস-ওভারের শেষ লাইন** (সব কনসেপ্টে একই রাখুন, যাতে মনে গেঁথে যায়):
-  > "নিচের বাটনে চাপ দিয়ে WhatsApp-এ মেসেজ দিন — আজই শুরু করুন।"
+  > "পুরো অ্যাপ মাত্র ১০০ টাকা। WhatsApp করুন জিরো-ওয়ান-সিক্স-এইট-টু, ট্রিপল-এইট, ওয়ান-ওয়ান-ফোর — অথবা মেসেজ দিন ফেসবুক পেজ English Doctor-এ।"
 
-> ⚠️ **ব্যবসায়িক সতর্কতা (চালু করার আগে সমাধান দরকার):**
-> 1. **অ্যাপে এখন কোনো লক বা পেমেন্ট ব্যবস্থা নেই**, সব ফিচার সবার জন্য খোলা। WhatsApp-এ বিক্রি করতে হলে ঠিক করতে হবে ক্রেতা অ্যাপটি কীভাবে পাবেন। দুটি পথ আছে:
->    - (ক) পেমেন্টের পর APK ফাইল বা ডাউনলোড লিংক পাঠানো।
->    - (খ) অ্যাপে **অ্যাক্টিভেশন কোড** ব্যবস্থা যোগ করা: প্রথম কয়েকটি অধ্যায় ফ্রি থাকবে, কোড দিলে সব খুলবে।
->
->    আমি (খ) সুপারিশ করি। বললে এটি অ্যাপে যোগ করে দেব।
-> 2. **Google Play-তে বিক্রি হলে** অ্যাপের ভেতরের ডিজিটাল কন্টেন্টের টাকা নিতে হয় Google Play Billing দিয়েই। Play-তে রাখা অ্যাপের জন্য বাইরে (bKash/WhatsApp) টাকা নিয়ে আনলক করা Play-এর নীতিবিরুদ্ধ। তাই WhatsApp-বিক্রির সংস্করণটি Play-এর বাইরে বিতরণ করতে হবে, অথবা Play-তে আলাদা মূল্য নির্ধারণ করতে হবে।
-> 3. তাই এই অ্যাডগুলোতে **"Google Play" বা "ফ্রি ডাউনলোড" কথাটি রাখা হয়নি**।
+> **Google Play সম্পর্কে:** Play-তে রাখা অ্যাপের ডিজিটাল কন্টেন্টের টাকা নিতে হয় Google Play Billing দিয়ে। bKash/Nagad-এ টাকা নিয়ে যে সংস্করণ বিক্রি হবে, সেটি Play-এর বাইরে (সরাসরি অ্যাপ ফাইল পাঠিয়ে) বিতরণ করতে হবে। তাই এই অ্যাডগুলোতে "Google Play" বা "ফ্রি ডাউনলোড" কথাটি নেই।
 
 ### ০.২ AI ভিজ্যুয়াল বানানোর নিয়ম
 
@@ -85,7 +82,7 @@
 | ১০–১৬ | ছোট অ্যানিমেটেড কাটঅ্যাওয়ে: ক্লান্ত অফিসকর্মী বসের টেবিলে ফাইল রেখে হাসছেন | **VO:** রহিম সাহেব দশ বছর অফিস করে বললেন — "স্যার, **কাল থেকে সব বাদ!**" সব-বাদ-কাল... Sabbatical — **দীর্ঘ ছুটি।** | সব বাদ … কাল = Sabbatical | মিউজিক শুরু |
 | ১৬–২২ | দ্রুত কাট: 📱 `06_word_breaker`, `14_exam_ready`, `15_review_flashcard` | **VO:** ১০০টা কঠিন শব্দের গল্প, বিসিএস-ব্যাংকের ২৫০টা MCQ, কবে রিভিউ করবেন সেটাও মনে করিয়ে দেয়। | ১০০ গল্প · ২৫০ MCQ · ১-৩-৭-৩০ রিভিউ | বিট |
 | ২২–২৬ | **টুইস্ট:** পরের দিন, একই দোকান। এবার রাফি তানভীরকে প্রশ্ন করে, হাসিমুখে | **রাফি:** বল তো, Sagacious মানে কী? ...**সাগর-শেষ — বিচক্ষণ!** | পরের দিন... | হাসি |
-| ২৬–৩০ | এন্ড কার্ড | **VO:** Vocabsolution — নিচের বাটনে চাপ দিয়ে WhatsApp-এ মেসেজ দিন। | লোগো · মুখস্থের অবসান! · WhatsApp `[নম্বর]` · পেজ `[নাম]` | শেষ নোট |
+| ২৬–৩০ | এন্ড কার্ড | **VO:** পুরো অ্যাপ মাত্র ১০০ টাকা — WhatsApp করুন 01682888114। | এন্ড কার্ড: ১০০ টাকা · WhatsApp 01682888114 · bKash/Nagad · পেজ English Doctor | শেষ নোট |
 
 **AI দৃশ্য-প্রম্পট:**
 1. `RAFI and TANVIR sitting on a wooden bench at a busy roadside tea stall in Dhaka in late afternoon, clay cups of milk tea, TANVIR leaning in grinning as if asking a quiz question, RAFI looking puzzled scratching his head, side angle, handheld camera, 5 seconds` + সাধারণ স্টাইল
@@ -94,7 +91,7 @@
 4. `next day, same tea stall, RAFI confidently asking TANVIR a question with a proud smile, TANVIR laughing and clapping, golden evening light, 4 seconds` + স্টাইল
 
 **Facebook কপি:**
-- **Primary text:** কাল রাতে মুখস্থ করলেন, আজ ভুলে গেলেন? 😅 Vocabsolution-এ প্রতিটি কঠিন শব্দ শিখবেন ছোট্ট বাংলা গল্পে — তাই মনে থাকে। বিসিএস-ব্যাংকের ২৫০টি MCQ, ১-৩-৭-৩০ রিভিউ, ইন্টারনেট ছাড়াই চলে। 👉 অ্যাপটি পেতে WhatsApp-এ মেসেজ দিন।
+- **Primary text:** কাল রাতে মুখস্থ করলেন, আজ ভুলে গেলেন? 😅 Vocabsolution-এ প্রতিটি কঠিন শব্দ শিখবেন ছোট্ট বাংলা গল্পে — তাই মনে থাকে। বিসিএস-ব্যাংকের ২৫০টি MCQ, ১-৩-৭-৩০ রিভিউ, ইন্টারনেট ছাড়াই চলে। 👉 💰 পুরো অ্যাপ মাত্র ১০০ টাকা · WhatsApp: 01682888114 · bKash/Nagad Send Money: 01682888114 · পেজ: English Doctor
 - **Headline:** মুখস্থ নয়, গল্পে শব্দ শিখুন
 - **Description:** ইংলিশ ডক্টরের অ্যাপ
 - **CTA বাটন:** Send WhatsApp message
@@ -128,13 +125,13 @@
 | ০–৩ | গাঢ় নেভি ব্যাকগ্রাউন্ডে সাদা অক্ষর, সোনালি টাইমার (এডিটিং-এ বানাবেন) | বলুন তো — Sagacious মানে কী? | SAGACIOUS · ৩…২…১ | টিক-টিক |
 | ৩–৫ | চারটি বিকল্প ভেসে ওঠে | কমেন্টে উত্তর দিন! | ক) নিষ্ঠুর খ) বিচক্ষণ গ) দুর্বল ঘ) ধনী | পপ |
 | ৫–১১ | AI শট: বৃদ্ধ মাঝি ঝড়ের মেঘ দেখে নৌকা বাঁধছেন। এরপর 📱 `05_hook_sagacious_story` | মনে রাখার গল্প: ভোলার বুড়ো মাঝি **সাগরের শুরু থেকে শেষ** সব চেনেন, ঝড়ের আগেই বুঝে যান। **সাগর-শেষ — Sagacious — বিচক্ষণ!** | সাগর-শেষ = Sagacious = বিচক্ষণ ✓ | ঢেউ, তারপর "টিং" |
-| ১১–১৫ | এন্ড কার্ড | এমন ১০০টা গল্প Vocabsolution-এ। WhatsApp-এ মেসেজ দিন। | সঠিক উত্তর: খ ✓ · WhatsApp `[নম্বর]` | শেষ নোট |
+| ১১–১৫ | এন্ড কার্ড | এমন ১০০টা গল্প Vocabsolution-এ — পুরো অ্যাপ মাত্র ১০০ টাকা। WhatsApp করুন। | সঠিক উত্তর: খ ✓ → এন্ড কার্ড (১০০ টাকা · WhatsApp 01682888114) | শেষ নোট |
 
 **AI দৃশ্য-প্রম্পট:**
 1. `elderly Bangladeshi boatman with white beard and lungi standing on a wooden fishing boat on a wide river estuary near Bhola, looking calmly at dark storm clouds gathering on the horizon, then tying the boat to a bamboo pole, wind rising, cinematic wide shot, 6 seconds` + স্টাইল
 
 **Facebook কপি:**
-- **Primary text:** 🧠 শব্দ চ্যালেঞ্জ! Sagacious মানে কী? ক) নিষ্ঠুর খ) বিচক্ষণ গ) দুর্বল ঘ) ধনী — কমেন্টে উত্তর দিন 👇 গল্পে শব্দ মনে রাখার এমন ১০০টি কৌশল আছে Vocabsolution অ্যাপে। পেতে WhatsApp করুন।
+- **Primary text:** 🧠 শব্দ চ্যালেঞ্জ! Sagacious মানে কী? ক) নিষ্ঠুর খ) বিচক্ষণ গ) দুর্বল ঘ) ধনী — কমেন্টে উত্তর দিন 👇 গল্পে শব্দ মনে রাখার এমন ১০০টি কৌশল আছে Vocabsolution অ্যাপে। পেতে নিচের বাটনে চাপ দিন 👇 💰 পুরো অ্যাপ মাত্র ১০০ টাকা · WhatsApp: 01682888114 · bKash/Nagad Send Money: 01682888114 · পেজ: English Doctor
 - **Headline:** গল্পে শিখুন, কখনো ভুলবেন না
 - **CTA বাটন:** Send WhatsApp message
 
@@ -171,7 +168,7 @@
 | ৯–১৫ | ফোনে Read Smart, রঙিন শব্দে ট্যাপ 📱 `10_read_smart_passage` → `11_paraphrase_bank` | **VO:** Vocabsolution-এ ১৫০টা প্যাসেজে শব্দ শিখবেন প্রসঙ্গের ভেতরে, আর ১,১৫২টা paraphrase — একই কথার ভিন্ন রূপ। | ১৫০ প্যাসেজ · ১,১৫২ paraphrase | মিউজিক উঠতে থাকে |
 | ১৫–২০ | 📱 `12_listen_and_spell`, তারপর `13_write_graph_quiz` | **VO:** শুনে বানান লেখার খেলা, Writing-এর জন্য গ্রাফ বর্ণনার ভাষা। | Listening · Reading · Writing | বিট |
 | ২০–২৬ | ভোর, নুসরাত আত্মবিশ্বাসী মুখে ব্যাগ গুছিয়ে পরীক্ষাকেন্দ্রের দিকে হাঁটছে। আম্মা দরজায় দোয়া করছেন | **নুসরাত:** এবার আমি তৈরি। | প্রস্তুতি হোক বুঝে | আবেগী শীর্ষবিন্দু |
-| ২৬–৩০ | এন্ড কার্ড | **VO:** Vocabsolution — IELTS-এর শব্দভান্ডার, বাংলায় বুঝে। WhatsApp-এ মেসেজ দিন। | লোগো · WhatsApp `[নম্বর]` · পেজ `[নাম]` | শেষ নোট |
+| ২৬–৩০ | এন্ড কার্ড | **VO:** Vocabsolution — IELTS-এর শব্দভান্ডার, বাংলায় বুঝে। মাত্র ১০০ টাকা — WhatsApp করুন। | এন্ড কার্ড: ১০০ টাকা · WhatsApp 01682888114 · bKash/Nagad · পেজ English Doctor | শেষ নোট |
 
 > ⚠️ শেষে "Band 7 পেয়েছি" বা কোনো স্কোর দেখানো যাবে না। এটি ফলাফলের নিশ্চয়তা দেওয়ার মতো শোনায় এবং নীতিবিরুদ্ধ। শেষ দৃশ্যে শুধু আত্মবিশ্বাস দেখানো হয়েছে।
 
@@ -182,7 +179,7 @@
 4. `early morning, NUSRAT with a backpack walking out of a modest apartment door, AMMA in the doorway raising her hands in a prayer gesture, soft golden sunrise, hopeful mood, 6 seconds` + স্টাইল
 
 **Facebook কপি:**
-- **Primary text:** IELTS-এ প্রশ্নের শব্দ আর প্যাসেজের শব্দ প্রায় কখনো এক থাকে না। Vocabsolution-এ পাবেন ১,১৫২টি paraphrase, ১৫০টি Reading প্যাসেজ, শুনে বানান লেখার খেলা আর Writing-এর উচ্চ Band-এর ভাষা — সব বাংলায় ব্যাখ্যাসহ। ✈️ প্রস্তুতি হোক বুঝে। WhatsApp-এ মেসেজ দিন।
+- **Primary text:** IELTS-এ প্রশ্নের শব্দ আর প্যাসেজের শব্দ প্রায় কখনো এক থাকে না। Vocabsolution-এ পাবেন ১,১৫২টি paraphrase, ১৫০টি Reading প্যাসেজ, শুনে বানান লেখার খেলা আর Writing-এর উচ্চ Band-এর ভাষা — সব বাংলায় ব্যাখ্যাসহ। ✈️ প্রস্তুতি হোক বুঝে। 💰 পুরো অ্যাপ মাত্র ১০০ টাকা · WhatsApp: 01682888114 · bKash/Nagad Send Money: 01682888114 · পেজ: English Doctor
 - **Headline:** IELTS শব্দভান্ডার, বাংলায় বুঝে
 - **CTA বাটন:** Send WhatsApp message
 - **হ্যাশট্যাগ:** #IELTS_Bangladesh #IELTSPreparation #Vocabsolution #EnglishDoctor
@@ -213,7 +210,7 @@
 | ৪–৯ | দ্রুত কাট, প্রতিটিতে লাল ✗ তারপর সবুজ ✓ | do a mistake নয়, **make a mistake**। eat medicine নয়, **take medicine**। | ✗ do a mistake → ✓ make a mistake · ✗ eat medicine → ✓ take medicine | ✗ বাজার, ✓ টিং |
 | ৯–১৪ | সাদিয়া ফোনে দেখছে, 📱 `09_common_mistakes` → `08_confused_affect_effect` | বাঙালিদের সবচেয়ে প্রচলিত ভুল, কাছাকাছি শব্দের পার্থক্য আর ২০০টা শব্দজুটি — Vocabsolution-এ। | ২৫টি প্রচলিত ভুল · ১০০ জোড়া পার্থক্য · ২০০ শব্দজুটি | বিট |
 | ১৪–১৭ | সাদিয়া আত্মবিশ্বাসে ইমেইল পাঠায়, বস প্রশংসায় মাথা নাড়েন | এবার লিখুন আত্মবিশ্বাসে। | ✓ Please get back to me | "সেন্ড" শব্দ |
-| ১৭–২০ | এন্ড কার্ড | WhatsApp-এ মেসেজ দিন। | লোগো · WhatsApp `[নম্বর]` | শেষ নোট |
+| ১৭–২০ | এন্ড কার্ড | মাত্র ১০০ টাকা — WhatsApp করুন। | এন্ড কার্ড: ১০০ টাকা · WhatsApp 01682888114 · bKash/Nagad · পেজ English Doctor | শেষ নোট |
 
 **AI দৃশ্য-প্রম্পট:**
 1. `SADIA typing an email on a laptop in a modern Dhaka office with glass walls, laptop screen out of focus and plain, she hesitates and frowns slightly, over-the-shoulder shot, 4 seconds` + স্টাইল
@@ -221,7 +218,7 @@
 3. `SADIA clicks send on her laptop with a confident smile, an older male manager walking past glances at her screen and gives an approving nod, 3 seconds` + স্টাইল
 
 **Facebook কপি:**
-- **Primary text:** "Please revert back to me" — অফিসের ইমেইলে খুব চেনা, কিন্তু ভুল! ✗ do a mistake → ✓ make a mistake · ✗ eat medicine → ✓ take medicine। বাঙালিদের প্রচলিত ভুলগুলোর সংশোধন, ২০০টি শব্দজুটি আর ১০০ জোড়া কাছাকাছি শব্দের পার্থক্য — Vocabsolution-এ। WhatsApp-এ মেসেজ দিন।
+- **Primary text:** "Please revert back to me" — অফিসের ইমেইলে খুব চেনা, কিন্তু ভুল! ✗ do a mistake → ✓ make a mistake · ✗ eat medicine → ✓ take medicine। বাঙালিদের প্রচলিত ভুলগুলোর সংশোধন, ২০০টি শব্দজুটি আর ১০০ জোড়া কাছাকাছি শব্দের পার্থক্য — Vocabsolution-এ। 💰 পুরো অ্যাপ মাত্র ১০০ টাকা · WhatsApp: 01682888114 · bKash/Nagad Send Money: 01682888114 · পেজ: English Doctor
 - **Headline:** ইংরেজিতে আর ছোট ভুল নয়
 - **CTA বাটন:** Send WhatsApp message
 
@@ -252,7 +249,7 @@
 | ৮–১৪ | আম্মা চশমা পরে কাছে আসেন, 📱 `03_hook_sabbatical_story` | **ছেলে:** দেখো, Sabbatical মানে দীর্ঘ ছুটি — "কাল থেকে সব বাদ!" **আম্মা** *(হেসে)*: বাহ্, এটা তো আমিও মনে রাখলাম! | গল্পে গল্পে শেখা | হাসি |
 | ১৪–২০ | দ্রুত কাট 📱 `14_exam_ready`, `18_progress_badges`, `19_home_dark` | **VO:** বিজ্ঞাপন নেই, ইন্টারনেট লাগে না, কোনো ব্যক্তিগত তথ্য নেয় না — পরীক্ষার প্রস্তুতি থেকে IELTS পর্যন্ত। | বিজ্ঞাপন নেই · নেট লাগে না · নিরাপদ | বিট |
 | ২০–২৭ | **ইংলিশ ডক্টর (আসল ফুটেজ)**, পড়ার ঘর বা ক্লাসরুমে, ক্যামেরার দিকে | **ইংলিশ ডক্টর:** আমি শাহজালাল সালতানাত, ইংলিশ ডক্টর। আমার বই Vocabsolution-এর পুরো পদ্ধতি এখন অ্যাপে — মুখস্থ নয়, বুঝে শেখা। | শাহজালাল সালতানাত · ইংলিশ ডক্টর | মিউজিক নরম |
-| ২৭–৩০ | এন্ড কার্ড | **VO:** অ্যাপটি পেতে WhatsApp-এ মেসেজ দিন। | লোগো · WhatsApp `[নম্বর]` · পেজ `[নাম]` | শেষ নোট |
+| ২৭–৩০ | এন্ড কার্ড | **VO:** পুরো অ্যাপ মাত্র ১০০ টাকা — WhatsApp করুন 01682888114। | এন্ড কার্ড: ১০০ টাকা · WhatsApp 01682888114 · bKash/Nagad · পেজ English Doctor | শেষ নোট |
 
 **AI দৃশ্য-প্রম্পট:**
 1. `evening in a middle-class Bangladeshi living room with a sofa and a showcase cabinet, a 17-year-old boy in a t-shirt absorbed in his smartphone, AMMA standing in the doorway with hands on hips looking suspicious, comedic tone, 4 seconds` + স্টাইল
@@ -261,7 +258,7 @@
 4. ইংলিশ ডক্টরের অংশ আসল ভিডিওতে ধারণ করুন: বইয়ের তাক বা হোয়াইটবোর্ডের সামনে, বুক-সমান ফ্রেম, চোখ ক্যামেরায়, হাতে Vocabsolution বই।
 
 **Facebook কপি:**
-- **Primary text:** সন্তান ফোনে কী করছে, ভাবছেন? 📱 যদি সেটা হয় Vocabsolution — তাহলে নিশ্চিন্ত! গল্পে গল্পে ইংরেজি শব্দ, পরীক্ষার MCQ, দৈনিক লক্ষ্য আর Streak। কোনো বিজ্ঞাপন নেই, ইন্টারনেট লাগে না, কোনো ব্যক্তিগত তথ্য নেয় না। ইংলিশ ডক্টর শাহজালাল সালতানাতের বই থেকে তৈরি। WhatsApp-এ মেসেজ দিন।
+- **Primary text:** সন্তান ফোনে কী করছে, ভাবছেন? 📱 যদি সেটা হয় Vocabsolution — তাহলে নিশ্চিন্ত! গল্পে গল্পে ইংরেজি শব্দ, পরীক্ষার MCQ, দৈনিক লক্ষ্য আর Streak। কোনো বিজ্ঞাপন নেই, ইন্টারনেট লাগে না, কোনো ব্যক্তিগত তথ্য নেয় না। ইংলিশ ডক্টর শাহজালাল সালতানাতের বই থেকে তৈরি। 💰 পুরো অ্যাপ মাত্র ১০০ টাকা · WhatsApp: 01682888114 · bKash/Nagad Send Money: 01682888114 · পেজ: English Doctor
 - **Headline:** ফোনেই কাজের পড়া, নিরাপদে
 - **CTA বাটন:** Send WhatsApp message
 - **হ্যাশট্যাগ:** #Vocabsolution #EnglishDoctor #HSC #ইংরেজি_শিক্ষা
@@ -270,24 +267,29 @@
 
 ---
 
-## WhatsApp/পেজে মেসেজ আসার পর বিক্রয়-প্রবাহ
+## WhatsApp/পেজে মেসেজ আসার পর বিক্রয়-প্রবাহ (ম্যানুয়াল)
 
-অ্যাড থেকে মেসেজ এলে দ্রুত উত্তরে বিক্রি বাড়ে। WhatsApp Business-এ এগুলো সংরক্ষণ করে রাখুন।
+অ্যাড থেকে মেসেজ এলে দ্রুত উত্তরে বিক্রি বাড়ে। WhatsApp Business-এ (নম্বর 01682888114) আর পেজ "English Doctor"-এর Messenger-এ এগুলো সংরক্ষিত উত্তর হিসেবে রাখুন।
+
+**প্রবাহ:** মেসেজ → মূল্য ও নিয়ম জানানো → bKash/Nagad-এ ১০০ টাকা Send Money → ক্রেতা TrxID পাঠান → আপনি bKash/Nagad অ্যাপে টাকা আসা মিলিয়ে দেখেন → অ্যাপের ফাইল ও ইনস্টলের নিয়ম পাঠান।
 
 **স্বাগত মেসেজ (Greeting, স্বয়ংক্রিয়):**
 > আসসালামু আলাইকুম! Vocabsolution-এ আগ্রহের জন্য ধন্যবাদ 🙏
 > ইংলিশ ডক্টর শাহজালাল সালতানাতের বই থেকে তৈরি অ্যাপ — ১১টি অধ্যায়, গল্পে গল্পে শব্দ, ২৫০টি MCQ, IELTS-এর শব্দভান্ডার, ইন্টারনেট ছাড়াই চলে।
-> 💰 মূল্য: `[মূল্য]` টাকা `[অফার/মেয়াদ]`
+> 💰 পুরো অ্যাপ মাত্র **১০০ টাকা**
 > জানতে লিখুন: ১ — কীভাবে কিনব · ২ — কী কী আছে · ৩ — কোন ফোনে চলবে
 
 **দ্রুত উত্তর (Quick replies):**
-- **/কিনব:** "bKash/Nagad: `[নম্বর]` (Send Money) — `[মূল্য]` টাকা। পাঠানোর পর ট্রানজেকশন আইডি এখানে দিন। ১৫–৩০ মিনিটের মধ্যে অ্যাপ ও নির্দেশনা পাঠানো হবে।"
+- **/কিনব:** "bKash বা Nagad থেকে **01682888114** নম্বরে **১০০ টাকা Send Money** করুন। তারপর এখানে লিখুন: ① যে নম্বর থেকে পাঠিয়েছেন ② Transaction ID (TrxID)। যাচাই করে অ্যাপ ও ইনস্টলের নিয়ম পাঠিয়ে দেব।" (সাথে `how_to_buy_9x16.png` পাঠান)
+- **/পেলাম:** "ধন্যবাদ! পেমেন্ট পেয়েছি ✓ এই লিংক/ফাইল থেকে অ্যাপটি নামিয়ে নিন। ইনস্টলের সময় ফোন 'অজানা উৎস' থেকে ইনস্টলের অনুমতি চাইলে Allow দিন। কোনো সমস্যা হলে এখানেই জানাবেন।"
 - **/ফিচার:** অ্যাপের মূল ফিচারগুলোর তালিকা, সাথে `marketing/ad-screens/`-এর ৩–৪টি স্ক্রিনশট।
-- **/ফোন:** "Android 8.0 বা নতুন যেকোনো ফোনে চলে। জায়গা লাগে খুব কম। একবার ইনস্টলের পর ইন্টারনেট লাগে না।"
+- **/ফোন:** "Android 8.0 বা নতুন যেকোনো ফোনে চলে। একবার ইনস্টলের পর ইন্টারনেট লাগে না।"
 - **/আইফোন:** "দুঃখিত, এখন শুধু Android-এ পাওয়া যাচ্ছে।"
 - **/ধন্যবাদ:** "অ্যাপটি কেমন লাগছে জানাবেন 🙏 প্রতিদিন ১০টি শব্দ দিয়ে শুরু করুন — ১-৩-৭-৩০ পদ্ধতিতে অ্যাপই মনে করিয়ে দেবে।"
 
-> এখানে আবার মনে করিয়ে দিচ্ছি: "অ্যাপ পাঠানো হবে" কথাটি বাস্তবে কাজ করতে আগে অ্যাপে অ্যাক্টিভেশন কোড ব্যবস্থা লাগবে, অথবা APK পাঠানোর একটি পদ্ধতি ঠিক করতে হবে (০.১ দেখুন)।
+**নিজের জন্য হিসাব:** একটি সাধারণ খাতা বা Google Sheet-এ রাখুন — তারিখ, ক্রেতার নাম/নম্বর, পদ্ধতি (bKash/Nagad), পাঠানো নম্বর, TrxID, অ্যাপ পাঠানো হয়েছে কিনা। একই TrxID দ্বিতীয়বার এলে গ্রহণ করবেন না।
+
+> **অ্যাপের ফাইল:** ক্রেতাকে পাঠানোর জন্য আপনার নিজের চাবি দিয়ে সই করা রিলিজ APK ব্যবহার করুন (`docs/PLAY_STORE_RELEASE.md`-এর ধাপ ১–২; একই কমান্ডে `./gradlew :app:assembleRelease`)। পরীক্ষার APK (debug) বিক্রির জন্য নয়।
 
 ---
 
@@ -301,8 +303,8 @@
 2. **দ্বিতীয় সপ্তাহ:** সেরা ২টি কনসেপ্টে বাজেট বাড়ান। সেগুলোর ৩টি হুক A/B টেস্ট করুন।
 3. **রিটার্গেটিং:** যাঁরা ভিডিওর ৫০% বা বেশি দেখেছেন কিন্তু মেসেজ দেননি, তাঁদের দেখান ১০ সেকেন্ডের এই অ্যাডটি:
    - VO: "এখনো ভাবছেন? শুরু করুন প্রতিদিন মাত্র ১০টি শব্দ দিয়ে।"
-   - 📱 `16_placement_test` → `01_home`
-   - সাথে `[অফার]` আর WhatsApp CTA
+   - 📱 `01_home` → `03_hook_sabbatical_story`, শেষে `how_to_buy_9x16.png`
+   - শেষ লাইন: "মাত্র ১০০ টাকা — WhatsApp করুন 01682888114"
 4. **সময় নির্বাচন:** বিসিএস সার্কুলার বা প্রিলি-র আগে কনসেপ্ট ১ ও ২-এ জোর দিন। IELTS-এর পরীক্ষার তারিখের আগে কনসেপ্ট ৩-এ।
 
 ## অর্গানিক পোস্টের ১০টি আইডিয়া (অ্যাডের পাশাপাশি পেজে)
@@ -335,7 +337,7 @@
 | `13_write_graph_quiz` | গ্রাফ বর্ণনা কুইজ | ৩ |
 | `14_exam_ready` | MCQ স্তর ও স্কোর | ১, ৫ |
 | `15_review_flashcard` | ১-৩-৭-৩০ রিভিউ কার্ড | ১ |
-| `16_placement_test` | স্তর যাচাই | রিটার্গেটিং |
+| `16_placement_test` | স্তর যাচাই | ব্যবহার করবেন না (শুরুর স্তর যাচাই অ্যাপ থেকে বাদ যাবে) |
 | `17_all_chapters` | ১১টি অধ্যায় | যেকোনো |
 | `18_progress_badges` | XP, ব্যাজ | ৫ |
 | `19_home_dark` | ডার্ক মোড | ৫ |
@@ -346,4 +348,29 @@
 ```bash
 ./gradlew :app:recordPaparazziDebug --tests '*AdScreensTest*'
 python3 -I tools/release/collect_ad_screens.py
+```
+
+## তৈরি অ্যাড উপকরণ
+
+| ফাইল | মাপ | কাজ |
+|---|---|---|
+| `marketing/ad-graphics/endcard_9x16.png` | ১০৮০×১৯২০ | Reels/Stories-এর শেষ ফ্রেম |
+| `marketing/ad-graphics/endcard_4x5.png` | ১০৮০×১৩৫০ | Feed-এর শেষ ফ্রেম |
+| `marketing/ad-graphics/how_to_buy_9x16.png` / `how_to_buy_4x5.png` | ৯:১৬ / ৪:৫ | কেনার ৩টি ধাপ |
+| `marketing/ad-graphics/c2_*.png` | ১০৮০×১৯২০ | কনসেপ্ট ২-এর ফ্রেম |
+| `marketing/videos/concept2_word_challenge_15s_9x16.mp4` | ১০৮০×১৯২০, ১৫ সে. | **কনসেপ্ট ২-এর তৈরি ভিডিও** — কাউন্টডাউন, বিকল্প, গল্প, অ্যাপ স্ক্রিন, উত্তর, এন্ড কার্ড; টিক-টিক ও "টিং" শব্দসহ |
+
+**কনসেপ্ট ২-এর ভিডিও চূড়ান্ত করতে:**
+1. CapCut-এ খুলে হালকা মিউজিক যোগ করুন (রয়্যালটি-ফ্রি)।
+2. চাইলে ভয়েস-ওভার রেকর্ড করুন (স্ক্রিপ্ট উপরে কনসেপ্ট ২-এ)।
+3. চাইলে ৫–৮ সেকেন্ডের গল্পের ফ্রেমটি (`c2_05_story`) AI দিয়ে বানানো ভোলার মাঝির দৃশ্য দিয়ে বদলে দিন।
+
+ভিডিও শব্দ ছাড়াও পুরোপুরি বোঝা যায়, তাই এখনই পরীক্ষামূলকভাবে চালানো যায়।
+
+**নতুন করে তৈরি করতে:**
+```bash
+./gradlew :app:recordPaparazziDebug --tests '*AdGraphics*'
+# app/src/test/snapshots/images/ থেকে marketing/ad-graphics/-এ কপি হয় (নিচের স্ক্রিপ্ট)
+python3 -I tools/marketing/collect_ad_graphics.py
+python3 -I tools/marketing/build_word_challenge.py
 ```

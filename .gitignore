@@ -17,3 +17,4 @@ keystore.properties
 app/src/test/snapshots/images/*store*
 release-builds/
 app/src/test/snapshots/images/*AdScreensTest*
+app/src/test/snapshots/images/*AdGraphics*
