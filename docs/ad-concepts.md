@@ -23,7 +23,7 @@
 - **শেষ ফ্রেম (এন্ড কার্ড):** তৈরি আছে, সরাসরি ব্যবহার করুন:
   - ৯:১৬ (Reels/Stories): `marketing/ad-graphics/endcard_9x16.png`
   - ৪:৫ (Feed): `marketing/ad-graphics/endcard_4x5.png`
-  - এতে আছে: লোগো · মুখস্থের অবসান! · **পুরো অ্যাপ মাত্র ১০০ টাকা** · WhatsApp 01682888114 · bKash/Nagad Send Money 01682888114 · Facebook পেজ English Doctor
+  - এতে আছে: লোগো · মুখস্থের অবসান! · **পুরো অ্যাপ মাত্র ১০০ টাকা** · WhatsApp 01682888114 · bKash / Nagad 01682888114 · Facebook পেজ English Doctor (এন্ড কার্ডে "Send Money" কথাটি রাখা হয়নি; টাকা পাঠানোর নির্দেশনা আছে "কীভাবে কিনবেন" কার্ডে)
 - **"কীভাবে কিনবেন" কার্ড** (৩টি ধাপ), অ্যাডের শেষে, পোস্টে বা WhatsApp-এর উত্তরে ব্যবহারের জন্য: `how_to_buy_9x16.png`, `how_to_buy_4x5.png`
 - **ভয়েস-ওভারের শেষ লাইন** (সব কনসেপ্টে একই রাখুন, যাতে মনে গেঁথে যায়):
   > "পুরো অ্যাপ মাত্র ১০০ টাকা। WhatsApp করুন জিরো-ওয়ান-সিক্স-এইট-টু, ট্রিপল-এইট, ওয়ান-ওয়ান-ফোর — অথবা মেসেজ দিন ফেসবুক পেজ English Doctor-এ।"
@@ -185,6 +185,12 @@
 - **Headline:** IELTS শব্দভান্ডার, বাংলায় বুঝে
 - **CTA বাটন:** Send WhatsApp message
 - **হ্যাশট্যাগ:** #IELTS_Bangladesh #IELTSPreparation #Vocabsolution #EnglishDoctor
+
+**✅ তৈরি ভিডিও (৯:১৬, পেশাদার মোশন গ্রাফিক্স):** `marketing/videos/concept3_ielts_dream_30s_9x16.mp4` — ১০৮০×১৯২০, ৩০ সেকেন্ড।
+- **দৃশ্য:** "reduce the harm" বনাম "mitigate" → "মিস!" স্ট্যাম্প → Listening-এ বানান ভুল "= শূন্য নম্বর" → "এবার প্রস্তুতি হোক বুঝে" ও লোগো → Read Smart, Paraphrase Bank ("mitigate ≈ reduce the harm ✓"), Listening·Writing — অ্যাপের আসল স্ক্রিনে → "স্বপ্নের পথে": ঢাকা থেকে UK·Canada·Australia-র দিকে প্লেন → এন্ড কার্ড।
+- **মোশন:** কার্ড স্লাইড, স্ট্যাম্প ও চিপ পপ, ফোন নিচ থেকে ওঠে, প্লেন বাঁকা পথে ওড়ে, ব্যাকগ্রাউন্ডে ধীর জুম।
+- **মিউজিক ও শব্দ (নিজস্ব তৈরি, কপিরাইটমুক্ত):** শুরুতে টেনশনের পিয়ানো (Am–F–Dm–E) ও হার্টবিট, মোড় ঘোরার আগে riser, সমাধানে C–G–Am–F আর্পেজিও ও হালকা বিট, স্বপ্নের দৃশ্যে মেলোডি, শেষে C-মেজরে সমাপ্তি। whoosh, ভুলে buzz, টাইপিং টিক, সঠিকে chime, লোগো ও এন্ড কার্ডে impact আর shimmer। শব্দের মাত্রা −১৬ LUFS। মিউজিক ও শব্দের আলাদা ফাইল: `concept3_ielts_dream_music_sfx.wav`।
+- **স্তরগুলো:** `marketing/ad-graphics/concept3/` (স্বচ্ছ PNG)। সময় ও নড়াচড়া `tools/marketing/build_concept3.py`-এ বদলানো যায়।
 
 **কেন কাজ করবে:** বিদেশে পড়ার স্বপ্ন আর পরিবারের আশা — দুটোই গভীর অনুভূতি। আর paraphrase-এর সমস্যাটি IELTS প্রার্থীরা নিজের জীবন থেকে চেনেন।
 
@@ -362,6 +368,9 @@ python3 -I tools/release/collect_ad_screens.py
 | `marketing/ad-graphics/c2_*.png` | ১০৮০×১৯২০ | কনসেপ্ট ২-এর ফ্রেম |
 | `marketing/videos/concept1_tea_stall_30s_1x1.mp4` | ১০৮০×১০৮০, ৩০ সে. | **কনসেপ্ট ১-এর তৈরি ভিডিও** (Feed), ইলাস্ট্রেটেড কমিক-স্টাইল |
 | `marketing/ad-graphics/concept1/c1_*.png` | ১০৮০×১০৮০ | কনসেপ্ট ১-এর ১২টি ফ্রেম, ১:১ এন্ড কার্ডসহ |
+| `marketing/videos/concept3_ielts_dream_30s_9x16.mp4` | ১০৮০×১৯২০, ৩০ সে. | **কনসেপ্ট ৩-এর তৈরি ভিডিও** — মোশন গ্রাফিক্স, নিজস্ব মিউজিক ও সাউন্ড ইফেক্ট |
+| `marketing/videos/concept3_ielts_dream_music_sfx.wav` | ৩০ সে., স্টেরিও | কনসেপ্ট ৩-এর মিউজিক+শব্দ, আলাদা এডিটের জন্য |
+| `marketing/ad-graphics/concept3/` | ১০৮০×১৯২০ | কনসেপ্ট ৩-এর ২৪টি স্তর (ব্যাকগ্রাউন্ড ও স্বচ্ছ PNG) |
 | `marketing/videos/concept2_word_challenge_15s_9x16.mp4` | ১০৮০×১৯২০, ১৫ সে. | **কনসেপ্ট ২-এর তৈরি ভিডিও** — কাউন্টডাউন, বিকল্প, গল্প, অ্যাপ স্ক্রিন, উত্তর, এন্ড কার্ড; টিক-টিক ও "টিং" শব্দসহ |
 
 **কনসেপ্ট ২-এর ভিডিও চূড়ান্ত করতে:**
@@ -381,4 +390,8 @@ python3 -I tools/marketing/build_word_challenge.py
 ./gradlew :app:recordPaparazziDebug --tests '*Concept1FramesTest*'
 python3 -I tools/marketing/collect_ad_graphics.py
 python3 -I tools/marketing/build_concept1.py
+# কনসেপ্ট ৩ (৯:১৬, মোশন গ্রাফিক্স + মিউজিক) — দরকার: pip install numpy scipy
+./gradlew :app:recordPaparazziDebug --tests '*Concept3LayersTest*' --tests '*AdGraphics*'
+python3 -I tools/marketing/collect_ad_graphics.py
+python3 -I tools/marketing/build_concept3.py
 ```

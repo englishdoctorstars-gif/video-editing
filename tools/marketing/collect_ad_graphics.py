@@ -18,6 +18,14 @@ for f in sorted(glob.glob(os.path.join(SRC, "*Concept1FramesTest*.png"))):
     name = re.search(r"_(c1_\d\d_[a-z]+)\.png$", f).group(1)
     Image.open(f).convert("RGB").save(os.path.join(DST, "concept1", name + ".png"), "PNG", optimize=True)
     print("concept1/" + name)
+os.makedirs(os.path.join(DST, "concept3"), exist_ok=True)
+for f in sorted(glob.glob(os.path.join(SRC, "*Concept3LayersTest*.png"))):
+    name = re.search(r"Test_[A-Za-z0-9]+_(.+)\.png$", f).group(1)
+    img = Image.open(f).convert("RGBA")
+    if name.startswith("bg_"):
+        img = img.convert("RGB")  # backgrounds are opaque; other layers keep transparency
+    img.save(os.path.join(DST, "concept3", name + ".png"), "PNG", optimize=True)
+    print("concept3/" + name)
 for f in sorted(glob.glob(os.path.join(SRC, "*AdGraphics*.png"))):
     name = re.search(r"Test_[A-Za-z0-9]+_(.+)\.png$", f).group(1)
     Image.open(f).convert("RGB").save(os.path.join(DST, name + ".png"), "PNG", optimize=True)

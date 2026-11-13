@@ -226,7 +226,7 @@ private fun EndCardSquare() = NavyFrame {
         Column(Modifier.weight(1.1f), verticalArrangement = Arrangement.spacedBy(10.dp)) {
             Text("পুরো অ্যাপ মাত্র ${Sales.PRICE}", style = st(23.sp, BrandNavy),
                 modifier = Modifier.fillMaxWidth().background(BrandGold, RoundedCornerShape(50)).padding(vertical = 8.dp))
-            listOf("💬" to ("WhatsApp-এ মেসেজ দিন" to Sales.NUMBER), "💳" to ("bKash / Nagad — Send Money" to Sales.NUMBER),
+            listOf("💬" to ("WhatsApp-এ মেসেজ দিন" to Sales.NUMBER), "💳" to ("bKash / Nagad" to Sales.NUMBER),
                 "👍" to ("অথবা Facebook পেজে" to Sales.PAGE)).forEach { (icon, lv) ->
                 Row(Modifier.fillMaxWidth().background(Color.White.copy(alpha = 0.12f), RoundedCornerShape(14.dp)).padding(horizontal = 12.dp, vertical = 8.dp),
                     verticalAlignment = Alignment.CenterVertically) {

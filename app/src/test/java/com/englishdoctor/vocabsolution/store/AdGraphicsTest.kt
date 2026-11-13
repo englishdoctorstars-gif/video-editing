@@ -99,7 +99,7 @@ fun EndCard(compact: Boolean) = NavyBackground {
         Text("পুরো অ্যাপ মাত্র ${Sales.PRICE}", style = t(if (compact) 19.sp else 22.sp, BrandNavy),
             modifier = Modifier.background(BrandGold, RoundedCornerShape(50)).padding(horizontal = 22.dp, vertical = 6.dp))
         InfoRow("💬", "WhatsApp-এ মেসেজ দিন", Sales.NUMBER, compact)
-        InfoRow("💳", "bKash / Nagad — Send Money", Sales.NUMBER, compact)
+        InfoRow("💳", "bKash / Nagad", Sales.NUMBER, compact)
         InfoRow("👍", "অথবা Facebook পেজে মেসেজ দিন", Sales.PAGE, compact)
         Text("ইন্টারনেট ছাড়াই চলে · কোনো বিজ্ঞাপন নেই", style = t(if (compact) 12.sp else 14.sp, Color.White.copy(alpha = 0.85f), FontWeight.SemiBold))
     }
