@@ -2,6 +2,7 @@
 
     python3 -I tools/marketing/build_psych_ad.py              # 1:1  (1080×1080)
     python3 -I tools/marketing/build_psych_ad.py --vertical   # 9:16 (1080×1920, Reels safe zone)
+    python3 -I tools/marketing/build_psych_ad.py --full [--vertical]   # long cut with all nine features
 
 No author/developer introduction. Flow: open question with a countdown → the viewer learns the
 word in the ad (proof by experience) → realisation → pain → real cause → forgetting curve vs
@@ -98,6 +99,38 @@ LAYERS = [
     ("i_pay", 42.4, TOTAL, "up_small", "pop"),
 ]
 PULSE_PERIOD = 1.2
+TAIL = 0.0   # how much later the closing scenes (offer, CTA) start than in the 47-second cut
+
+# --full: the long "সব এক অ্যাপে" cut. Same opening (question → learn a word → pain), then a tour
+# of nine features (4.6 s each), the review curve, and the same offer and call to action.
+if "--full" in sys.argv:
+    FEATURE, N_FEATURES, TOUR0 = 4.6, 9, 19.4
+    tour_end = TOUR0 + 8 * FEATURE                      # features 1-8, then the review curve
+    e_delta = tour_end - 19.4
+    m9 = tour_end + 5.4                                 # feature 9 follows the curve
+    TAIL = m9 + FEATURE - 30.0
+
+    def moved(prefixes, delta):
+        return [(n, a + delta, b + delta, an, snd) for n, a, b, an, snd in LAYERS if n.split("_")[0] in prefixes]
+
+    def feature(k, start):
+        side = "right" if k % 2 == 0 else "left"       # cards enter from the side opposite the phone
+        end = start + FEATURE + 0.1
+        return [(f"m{k}_title", start + 0.35, end, "down", "whoosh_soft"), (f"m{k}_phone", start + 0.5, end, "float", "whoosh")] + [
+            (f"m{k}_c{j}", start + 1.1 + j * 0.7, end, side, f"note:{(72, 76, 79)[j]}") for j in range(3)]
+
+    opening = [(("c_5" if n == "c_4" else n), a, b, an, snd) for n, a, b, an, snd in moved(("a", "b", "c", "d"), 0.0)]
+    tour = [layer for k in range(8) for layer in feature(k, TOUR0 + k * FEATURE)]
+    LAYERS = opening + tour + moved(("e",), e_delta) + feature(8, m9) + moved(("g", "h", "i"), TAIL)
+    feature_bg = ["bg_teal", "bg_navy", "bg_plum", "bg_teal", "bg_navy", "bg_plum", "bg_teal", "bg_plum"]
+    WIPES = [3.6, 9.6, 13.4] + [TOUR0 + k * FEATURE for k in range(8)] + [tour_end, m9, 30.0 + TAIL, 34.8 + TAIL, 40.4 + TAIL]
+    SCENE_BG = ["bg_plum", "bg_navy", "bg_pain"] + feature_bg + ["bg_navy", "bg_teal", "bg_plum", "bg_ink", "bg_navy"]
+    TOTAL = round(TOTAL + TAIL, 2)
+    LAYERS = [(n, a, TOTAL if n.startswith("i_") else b, an, snd) for n, a, b, an, snd in LAYERS]
+    ENDS = WIPES[1:] + [TOTAL]
+    FLASHES = [17.4, 38.3 + TAIL]
+    OUT = os.path.join(ROOT, f"marketing/videos/vocabsolution_full_ad_{int(TOTAL)}s_" + ("9x16" if VERTICAL else "1x1") + ".mp4")
+    WAV = os.path.join(ROOT, "marketing/videos/vocabsolution_full_ad_sfx.wav")
 
 
 def ease(t_in, dur=0.55):
@@ -220,9 +253,9 @@ def effects():
     for _, t_in, _, _, kind in LAYERS:
         if kind:
             A.place(s, sound(kind), t_in)
-    for at in (43.3, 44.5):   # soft taps with the button pulse
+    for at in (43.3 + TAIL, 44.5 + TAIL):   # soft taps with the button pulse
         A.place(s, A.pop(0.16), at)
-    A.place(s, A.shimmer(0.3), 45.4)
+    A.place(s, A.shimmer(0.3), 45.4 + TAIL)
     return s
 
 

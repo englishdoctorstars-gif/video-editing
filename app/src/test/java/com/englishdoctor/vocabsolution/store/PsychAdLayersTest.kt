@@ -411,6 +411,63 @@ private val Stack = listOf("২,৬৯৪ শব্দ — ৯৬টি শব�
     }
 }
 
+// ---- M · full feature tour (used by the long "সব এক অ্যাপে" ad) ---------------------------------
+
+private class Feature(val q: String, val a: String, val screen: String, val accent: Color, val cards: List<String>)
+
+private val Features = listOf(
+    Feature("বড় শব্দ দেখলেই ভয়?", "ভাঙলেই অর্থ পরিষ্কার", "06_word_breaker", Teal,
+        listOf("de + human + ize + ation", "= অমানবিকীকরণ", "উপসর্গ · মূল · প্রত্যয় চিনুন")),
+    Feature("একটা একটা করে আর কত?", "১টি মূল → ১০১টি শব্দ", "07_root_family_act", Sky,
+        listOf("ACT → action · active · react…", "৯৬টি শব্দ-পরিবার · ২,৬৯৪ শব্দ", "রঙ দেখেই চিনুন: ■ noun ▲ verb ● adjective")),
+    Feature("affect না effect?", "আর গুলিয়ে ফেলবেন না", "08_confused_affect_effect", Violet,
+        listOf("affect = প্রভাবিত করা (verb)", "effect = ফল, প্রভাব (noun)", "💡 A = Action, E = End result")),
+    Feature("অজান্তেই ভুল ইংরেজি?", "ভুল ধরুন, ঠিকটা শিখুন", "09_common_mistakes", Color(0xFFFF8F00),
+        listOf("✗ do a mistake", "✓ make a mistake", "✗ eat medicine → ✓ take medicine")),
+    Feature("IELTS passage কঠিন লাগে?", "প্রসঙ্গ থেকে অর্থ ধরুন", "10_read_smart_passage", Mint,
+        listOf("আন্দাজ মোড: আগে ভাবুন, পরে ট্যাপ", "১,১৫২টি paraphrase", "mitigate ≈ reduce the harm")),
+    Feature("শুনে শব্দ ধরতে পারেন না?", "শুনুন, তারপর বানান লিখুন", "12_listen_and_spell", Sky,
+        listOf("🔊 ব্রিটিশ উচ্চারণ + IPA", "🐢 ধীরে শোনার অপশন", "বানানের ফাঁদ চিনুন")),
+    Feature("Writing-এ একই শব্দ বারবার?", "উচ্চ Band-এর শব্দ শিখুন", "13_write_graph_quiz", Violet,
+        listOf("Task 1: গ্রাফ বর্ণনার শব্দ", "Task 2 ও Linking words", "increased gradually · fluctuated")),
+    Feature("বিসিএস · ব্যাংক · চাকরির পরীক্ষা?", "ঘড়ি ধরে প্র্যাকটিস", "14_exam_ready", Gold2,
+        listOf("২৫০টি MCQ", "⏱️ ২০ মিনিটের সেট", "বিসিএস · ব্যাংক · এনটিআরসিএ ধাঁচে")),
+    Feature("শুরু করে ছেড়ে দেন?", "অ্যাপই আপনাকে ধরে রাখবে", "18_progress_badges", Color(0xFFFF8F00),
+        listOf("🔥 Streak · ⭐ XP · 🏅 ব্যাজ", "📅 প্রতিদিন Word of the Day", "📱 হোম স্ক্রিন উইজেট · 🌙 ডার্ক মোড")),
+)
+
+private fun bnDigit(n: Int) = "০১২৩৪৫৬৭৮৯"[n].toString()
+
+@Composable private fun MTitle(i: Int) = Full {
+    val f = Features[i]
+    Column(Modifier.align(Alignment.TopCenter).padding(top = 16.dp), horizontalAlignment = Alignment.CenterHorizontally) {
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+            Pill("${bnDigit(i + 1)} / ${bnDigit(Features.size)}", 14.sp)
+            Text(f.q, style = tp(21.sp, Soft, FontWeight.SemiBold))
+        }
+        Spacer(Modifier.height(4.dp))
+        Text(f.a, style = tp(35.sp, f.accent))
+    }
+}
+@Composable private fun MPhone(i: Int) = Full { At((if (i % 2 == 0) 112 else 428).dp, 322.dp) { Phone(Features[i].screen, 150.dp, if (i % 2 == 0) -3f else 3f) } }
+@Composable private fun MCard(i: Int, j: Int) = Full {
+    val f = Features[i]
+    At((if (i % 2 == 0) 372 else 168).dp, (196 + j * 104).dp) {
+        Box(Modifier.width(292.dp).height(88.dp).shadow(16.dp, RoundedCornerShape(20.dp)).background(Brush.verticalGradient(listOf(Glass, Deep)), RoundedCornerShape(20.dp))
+            .border(1.5.dp, f.accent.copy(alpha = 0.65f), RoundedCornerShape(20.dp)).padding(horizontal = 12.dp), contentAlignment = Alignment.Center) {
+            Text(f.cards[j], style = tp(if (f.cards[j].length > 24) 18.sp else 22.sp, if (j == 1) f.accent else Color.White))
+        }
+    }
+}
+@Composable private fun C5() = Full {
+    At(270.dp, 425.dp) {
+        Column(horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(6.dp)) {
+            Text("এমন ১০০টি গল্প আছে অ্যাপে", style = tp(24.sp, Soft, FontWeight.SemiBold))
+            Pill("আর আছে আরও ৯টি শক্তি — শেষ পর্যন্ত দেখুন", 18.sp)
+        }
+    }
+}
+
 // ---- layer list -------------------------------------------------------------------------------
 
 private const val CURVE_STEPS = 10
@@ -430,6 +487,11 @@ private val PSYCH_LAYERS: List<Pair<String, @Composable () -> Unit>> = buildList
     add("h_head" to { HHead() }); (0..3).forEach { i -> add("h_row$i" to { HRow(i) }) }
     add("h_old" to { HOld() }); add("h_strike" to { HStrike() }); add("h_price" to { HPrice() }); add("h_sub" to { HSub() })
     add("i_line" to { ILine() }); add("i_btn" to { IButton() }); add("i_pay" to { IPay() })
+    add("c_5" to { C5() })
+    Features.indices.forEach { i ->
+        add("m${i}_title" to { MTitle(i) }); add("m${i}_phone" to { MPhone(i) })
+        (0..2).forEach { j -> add("m${i}_c$j" to { MCard(i, j) }) }
+    }
 }
 
 private val PSYCH_BACKGROUNDS: List<Pair<String, @Composable () -> Unit>> = listOf(
