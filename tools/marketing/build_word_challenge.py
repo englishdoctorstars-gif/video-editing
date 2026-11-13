@@ -46,10 +46,10 @@ total = length
 answer_at = sum(d for _, d in COUNTDOWN) + sum(d for _, d, _ in SEGMENTS[:3])
 audio = [
     f"anullsrc=r=44100:cl=stereo,atrim=0:{total:.2f}[bed]",
-    "sine=f=1000:d=0.08,volume=0.6,aformat=channel_layouts=stereo[t0]",
-    "sine=f=1000:d=0.08,volume=0.6,aformat=channel_layouts=stereo,adelay=1000|1000[t1]",
-    "sine=f=1000:d=0.08,volume=0.6,aformat=channel_layouts=stereo,adelay=2000|2000[t2]",
-    f"sine=f=1568:d=0.6,afade=t=out:st=0.05:d=0.55,volume=0.7,aformat=channel_layouts=stereo,adelay={int(answer_at*1000)}|{int(answer_at*1000)}[ding]",
+    "sine=f=1000:d=0.08,volume=3.0,aformat=channel_layouts=stereo[t0]",
+    "sine=f=1000:d=0.08,volume=3.0,aformat=channel_layouts=stereo,adelay=1000|1000[t1]",
+    "sine=f=1000:d=0.08,volume=3.0,aformat=channel_layouts=stereo,adelay=2000|2000[t2]",
+    f"sine=f=1568:d=0.6,afade=t=out:st=0.05:d=0.55,volume=3.5,aformat=channel_layouts=stereo,adelay={int(answer_at*1000)}|{int(answer_at*1000)}[ding]",
     "[bed][t0][t1][t2][ding]amix=inputs=5:duration=first:normalize=0[a]",
 ]
 graph = ";".join(filters + audio)

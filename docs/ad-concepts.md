@@ -97,6 +97,8 @@
 - **CTA বাটন:** Send WhatsApp message
 - **হ্যাশট্যাগ:** #Vocabsolution #EnglishDoctor #বিসিএস_প্রস্তুতি #ব্যাংক_জব #মুখস্থের_অবসান
 
+**✅ তৈরি ভিডিও (১:১, ইলাস্ট্রেটেড সংস্করণ):** `marketing/videos/concept1_tea_stall_30s_1x1.mp4` — ১০৮০×১০৮০, ৩০ সেকেন্ড। আঁকা চায়ের দোকান, চরিত্রের অবতার আর কথার বুদবুদে পুরো গল্প; সাথে অ্যাপের আসল স্ক্রিন আর এন্ড কার্ড। পপ, ফ্লিপ ও টিং শব্দ আছে। ১২টি ফ্রেম `marketing/ad-graphics/concept1/`-এ। AI ফুটেজ পেলে দৃশ্যের ফ্রেম (`c1_01`–`c1_03`, `c1_06`, `c1_09`–`c1_11`) একই দৈর্ঘ্যের ক্লিপ দিয়ে বদলানো যায়। Facebook/Instagram Feed-এ ১:১ সবচেয়ে বেশি জায়গা পায়।
+
 **থাম্বনেইল:** রাফির বিভ্রান্ত মুখ, বড় বাংলা লেখা "Sabbatical মানে কী?"
 **কেন কাজ করবে:** প্রশ্নটা দর্শককেও থামিয়ে দেয়। শেষে টুইস্টে ফলাফল চোখে দেখা যায়, আর দর্শক নিজেও দুটি শব্দ শিখে যান।
 **১৫ সেকেন্ডের কাট:** ০–৩ হুক → ৬–১৬ গল্প → এন্ড কার্ড।
@@ -358,6 +360,8 @@ python3 -I tools/release/collect_ad_screens.py
 | `marketing/ad-graphics/endcard_4x5.png` | ১০৮০×১৩৫০ | Feed-এর শেষ ফ্রেম |
 | `marketing/ad-graphics/how_to_buy_9x16.png` / `how_to_buy_4x5.png` | ৯:১৬ / ৪:৫ | কেনার ৩টি ধাপ |
 | `marketing/ad-graphics/c2_*.png` | ১০৮০×১৯২০ | কনসেপ্ট ২-এর ফ্রেম |
+| `marketing/videos/concept1_tea_stall_30s_1x1.mp4` | ১০৮০×১০৮০, ৩০ সে. | **কনসেপ্ট ১-এর তৈরি ভিডিও** (Feed), ইলাস্ট্রেটেড কমিক-স্টাইল |
+| `marketing/ad-graphics/concept1/c1_*.png` | ১০৮০×১০৮০ | কনসেপ্ট ১-এর ১২টি ফ্রেম, ১:১ এন্ড কার্ডসহ |
 | `marketing/videos/concept2_word_challenge_15s_9x16.mp4` | ১০৮০×১৯২০, ১৫ সে. | **কনসেপ্ট ২-এর তৈরি ভিডিও** — কাউন্টডাউন, বিকল্প, গল্প, অ্যাপ স্ক্রিন, উত্তর, এন্ড কার্ড; টিক-টিক ও "টিং" শব্দসহ |
 
 **কনসেপ্ট ২-এর ভিডিও চূড়ান্ত করতে:**
@@ -373,4 +377,8 @@ python3 -I tools/release/collect_ad_screens.py
 # app/src/test/snapshots/images/ থেকে marketing/ad-graphics/-এ কপি হয় (নিচের স্ক্রিপ্ট)
 python3 -I tools/marketing/collect_ad_graphics.py
 python3 -I tools/marketing/build_word_challenge.py
+# কনসেপ্ট ১ (১:১)
+./gradlew :app:recordPaparazziDebug --tests '*Concept1FramesTest*'
+python3 -I tools/marketing/collect_ad_graphics.py
+python3 -I tools/marketing/build_concept1.py
 ```

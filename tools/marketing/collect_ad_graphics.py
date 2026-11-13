@@ -13,6 +13,11 @@ ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)
 SRC = os.path.join(ROOT, "app/src/test/snapshots/images")
 DST = os.path.join(ROOT, "marketing/ad-graphics")
 os.makedirs(DST, exist_ok=True)
+os.makedirs(os.path.join(DST, "concept1"), exist_ok=True)
+for f in sorted(glob.glob(os.path.join(SRC, "*Concept1FramesTest*.png"))):
+    name = re.search(r"_(c1_\d\d_[a-z]+)\.png$", f).group(1)
+    Image.open(f).convert("RGB").save(os.path.join(DST, "concept1", name + ".png"), "PNG", optimize=True)
+    print("concept1/" + name)
 for f in sorted(glob.glob(os.path.join(SRC, "*AdGraphics*.png"))):
     name = re.search(r"Test_[A-Za-z0-9]+_(.+)\.png$", f).group(1)
     Image.open(f).convert("RGB").save(os.path.join(DST, name + ".png"), "PNG", optimize=True)
