@@ -29,6 +29,8 @@
 | ৪৭–৫০.৫ | এক অ্যাপে সব | ৮টি ফিচার টাইল · "বইয়ের ১১টি অধ্যায় · ইন্টারনেট ছাড়াই · কোনো বিজ্ঞাপন নেই" |
 | ৫০.৫–৫৫ | এন্ড কার্ড | মাত্র ১০০ টাকা · WhatsApp 01682888114 · bKash / Nagad 01682888114 · পেজ English Doctor · লেখকের নাম |
 
+**৯:১৬ Reels সংস্করণ:** `marketing/videos/vocabsolution_all_features_55s_9x16.mp4` (মিউজিকসহ) ও `..._9x16_sfx_only.mp4` (শুধু ইফেক্ট, ভয়েস-ওভারের জন্য) — ১০৮০×১৯২০, একই সময়রেখা ও শব্দ। Reels-এর উপরের ~১৪% আর নিচের ~৩৫% অংশ নাম, ক্যাপশন ও বাটনে ঢাকা পড়ে, তাই সব জরুরি লেখা মাঝের নিরাপদ অংশে রাখা হয়েছে; উপরে ব্র্যান্ড-লাইন আর কন্টেন্টের নিচে অধ্যায়ের অগ্রগতি-বিন্দু (০১–০৭) সাজসজ্জা হিসেবে। একই ভয়েস-ওভার স্ক্রিপ্ট দুই মাপেই চলবে। নতুন করে বানাতে: `python3 -I tools/marketing/build_combo.py --vertical` (ভয়েস-ওভার সংস্করণ: `--vertical --sfx-only`)।
+
 **ভয়েস-ওভার সংস্করণ:** `marketing/videos/vocabsolution_all_features_55s_1x1_sfx_only.mp4` — একই ছবি, ব্যাকগ্রাউন্ড মিউজিক নেই, শুধু সাউন্ড ইফেক্ট (−২২ LUFS, সর্বোচ্চ −৫ dB, যাতে কণ্ঠ পরিষ্কার শোনা যায়)। ইফেক্টের আলাদা ফাইল `..._sfx_only.wav`। সময় মিলিয়ে ভয়েস-ওভার স্ক্রিপ্ট: `marketing/videos/vocabsolution_all_features_voiceover_script.txt`। নতুন করে বানাতে: `python3 -I tools/marketing/build_combo.py --sfx-only`।
 
 > **"Speaking" নিয়ে সততা:** অ্যাপে কথা বলা রেকর্ড করে যাচাইয়ের (স্পিচ রেকগনিশন) ফিচার নেই; আছে ব্রিটিশ উচ্চারণ শোনা ও IPA। তাই ভিডিওতে বলা হয়েছে "শুনুন, তারপর বলুন — সঠিক উচ্চারণে আত্মবিশ্বাসে বলুন"। "স্পিকিং প্র্যাকটিস" বা "উচ্চারণ যাচাই" দাবি করা হয়নি।
@@ -48,9 +50,10 @@
 **নতুন করে তৈরি করতে:**
 ```bash
 pip install numpy scipy pillow
-./gradlew :app:recordPaparazziDebug --tests '*ComboLayersTest*'
+./gradlew :app:recordPaparazziDebug --tests '*ComboLayersTest*' --tests '*ComboVerticalLayersTest*'
 python3 -I tools/marketing/collect_ad_graphics.py
-python3 -I tools/marketing/build_combo.py
+python3 -I tools/marketing/build_combo.py                 # ১:১
+python3 -I tools/marketing/build_combo.py --vertical      # ৯:১৬ Reels
 ```
 সময়, নড়াচড়া, শব্দ ও মিউজিক বদলাতে `tools/marketing/build_combo.py`-এর `LAYERS` তালিকা আর `music()` ফাংশন দেখুন; লেখা বা ডিজাইন বদলাতে `ComboLayersTest.kt`।
 
@@ -418,6 +421,9 @@ python3 -I tools/release/collect_ad_screens.py
 | `marketing/videos/vocabsolution_all_features_55s_1x1.mp4` | ১০৮০×১০৮০, ৫৫ সে. | **★ মূল অ্যাড: সব ফিচার এক ভিডিওতে** (English Doctor পেজ) |
 | `marketing/videos/vocabsolution_all_features_music_sfx.wav` | ৫৫ সে., স্টেরিও | মূল অ্যাডের মিউজিক+শব্দ |
 | `marketing/videos/vocabsolution_all_features_55s_1x1_sfx_only.mp4` | ১০৮০×১০৮০, ৫৫ সে. | **ভয়েস-ওভারের জন্য:** মিউজিক নেই, শুধু ইফেক্ট |
+| `marketing/videos/vocabsolution_all_features_55s_9x16.mp4` | ১০৮০×১৯২০, ৫৫ সে. | **মূল অ্যাড, Reels/Stories সংস্করণ** (মিউজিকসহ) |
+| `marketing/videos/vocabsolution_all_features_55s_9x16_sfx_only.mp4` | ১০৮০×১৯২০, ৫৫ সে. | Reels সংস্করণ, ভয়েস-ওভারের জন্য (শুধু ইফেক্ট) |
+| `marketing/ad-graphics/combo916/` | ১০৮০×১৯২০ | Reels সংস্করণের ৬১টি স্তর |
 | `marketing/videos/vocabsolution_all_features_55s_1x1_sfx_only.wav` | ৫৫ সে., স্টেরিও | শুধু ইফেক্টের ফাইল |
 | `marketing/videos/vocabsolution_all_features_voiceover_script.txt` | — | সময় মিলিয়ে ভয়েস-ওভার স্ক্রিপ্ট |
 | `marketing/ad-graphics/combo/` | ১০৮০×১০৮০ | মূল অ্যাডের ৫৩টি স্তর |

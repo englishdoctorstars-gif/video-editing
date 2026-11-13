@@ -22,3 +22,4 @@ app/src/test/snapshots/images/*Concept1Frames*
 app/src/test/snapshots/images/*Concept3Layers*
 __pycache__/
 app/src/test/snapshots/images/*ComboLayers*
+app/src/test/snapshots/images/*ComboVerticalLayers*

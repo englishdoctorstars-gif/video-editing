@@ -8,6 +8,11 @@ Output: marketing/videos/vocabsolution_all_features_55s_1x1.mp4 and the audio st
 marketing/videos/vocabsolution_all_features_music_sfx.wav.
 
     python3 -I tools/marketing/build_combo.py --sfx-only
+    python3 -I tools/marketing/build_combo.py --vertical [--sfx-only]
+
+--vertical makes the 9:16 Reels version (1080×1920) from marketing/ad-graphics/combo916/
+(ComboVerticalLayersTest): same timing and sound, content inside the Reels safe zone, plus a
+brand line and chapter progress dots. Outputs use the _9x16 names.
 
 Makes the voice-over version instead: same picture, sound effects only (no music), kept
 quieter (about -24 LUFS, peaks near -6 dB) so a voice-over sits clearly on top.
@@ -23,10 +28,12 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import audio_synth as A  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-L = os.path.join(ROOT, "marketing/ad-graphics/combo")
-OUT = os.path.join(ROOT, "marketing/videos/vocabsolution_all_features_55s_1x1.mp4")
+VERTICAL = "--vertical" in sys.argv
+L = os.path.join(ROOT, "marketing/ad-graphics/combo916" if VERTICAL else "marketing/ad-graphics/combo")
+OUT = os.path.join(ROOT, "marketing/videos/vocabsolution_all_features_55s_" + ("9x16" if VERTICAL else "1x1") + ".mp4")
 WAV = os.path.join(ROOT, "marketing/videos/vocabsolution_all_features_music_sfx.wav")
-TOTAL, FPS, SIZE = 55.0, 30, 1080
+TOTAL, FPS = 55.0, 30
+W, H = (1080, 1920) if VERTICAL else (1080, 1080)
 
 # (layer, in, out, animation, sound). Scenes follow the story:
 # hook → turn → dissection → root power → stories → IELTS paraphrase → listening/pronunciation
@@ -98,6 +105,13 @@ LAYERS = [
 
     ("endcard", 50.45, TOTAL, "bg", "impact"),
 ]
+
+if VERTICAL:
+    # Brand line and chapter progress dots, drawn above every chapter background.
+    CHAPTERS = [(8.0, 13.4), (13.4, 19.4), (19.4, 25.6), (25.6, 30.8), (30.8, 36.2), (36.2, 41.3), (41.3, 47.0)]
+    extras = [("brand_top", 8.0, 50.45, "fade", None)]
+    extras += [(f"prog_{i}", a, b, "fade", None) for i, (a, b) in enumerate(CHAPTERS)]
+    LAYERS = LAYERS[:-1] + extras + LAYERS[-1:]
 END_SHIMMER = 50.6
 
 
@@ -120,7 +134,7 @@ def position(anim, t_in):
 def build_video(silent_mp4):
     inputs = ["-loop", "1", "-framerate", str(FPS), "-t", str(TOTAL), "-i", os.path.join(L, "bg_night.png")]
     frames = int(TOTAL * FPS)
-    graph = [f"[0:v]scale={SIZE}:{SIZE},zoompan=z='1+0.08*on/{frames}':d=1:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s={SIZE}x{SIZE}:fps={FPS},"
+    graph = [f"[0:v]scale={W}:{H},zoompan=z='1+0.08*on/{frames}':d=1:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s={W}x{H}:fps={FPS},"
              f"format=rgba,settb=1/{FPS}[base]"]
     prev = "base"
     for i, (name, t_in, t_out, anim, _) in enumerate(LAYERS, start=1):
@@ -129,7 +143,7 @@ def build_video(silent_mp4):
         chain = f"[{i}:v]format=rgba,setpts=PTS-STARTPTS+{t_in}/TB"
         if anim == "bg":
             n = int(dur * FPS)
-            chain += (f",zoompan=z='1+0.04*on/{n}':d=1:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s={SIZE}x{SIZE}:fps={FPS}"
+            chain += (f",zoompan=z='1+0.04*on/{n}':d=1:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s={W}x{H}:fps={FPS}"
                       f",setpts=PTS-STARTPTS+{t_in}/TB,format=rgba")
         if anim == "pop":
             chain += f",scale=w='trunc(iw*(1+0.16*pow(1-min(1,max(0,(t-{t_in})/0.32)),2))/2)*2':h=-2:eval=frame"
@@ -245,6 +259,8 @@ def effects():
 
 
 def build_audio():
+    if VERTICAL and os.path.exists(WAV):
+        return  # same soundtrack as the 1:1 version
     mus, sfx = music(), effects()
     env = np.convolve(np.abs(sfx), np.ones(int(0.08 * A.SR)) / int(0.08 * A.SR), mode="same")
     duck = 1 - 0.45 * np.clip(env / (env.max() or 1) * 3, 0, 1)
@@ -252,7 +268,7 @@ def build_audio():
 
 
 SFX_OUT = OUT.replace(".mp4", "_sfx_only.mp4")
-SFX_WAV = OUT.replace(".mp4", "_sfx_only.wav")
+SFX_WAV = os.path.join(ROOT, "marketing/videos/vocabsolution_all_features_55s_1x1_sfx_only.wav")
 
 
 def build_sfx_only():

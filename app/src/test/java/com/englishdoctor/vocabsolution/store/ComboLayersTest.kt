@@ -27,6 +27,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.rotate
 import androidx.compose.ui.draw.shadow
+import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
@@ -402,7 +403,9 @@ private val Tiles = listOf(
 
 // ---- 10 · end card ----------------------------------------------------------------------------
 
-@Composable private fun EndCard() = Box(Modifier.fillMaxSize().background(Brush.verticalGradient(listOf(BrandNavy, Color(0xFF1F4A80))))) {
+@Composable private fun ComboEndCard(withBackground: Boolean = true) = Box(
+    if (withBackground) Modifier.fillMaxSize().background(Brush.verticalGradient(listOf(BrandNavy, Color(0xFF1F4A80)))) else Modifier.fillMaxSize(),
+) {
     Row(Modifier.fillMaxSize().padding(28.dp), verticalAlignment = Alignment.CenterVertically) {
         Column(Modifier.weight(0.95f), horizontalAlignment = Alignment.CenterHorizontally) {
             Image(painterResource(R.drawable.ic_launcher_foreground), null, Modifier.size(128.dp))
@@ -432,6 +435,34 @@ private val Tiles = listOf(
     }
 }
 
+/** Every layer of the all-features ad, shared by the 1:1 and 9:16 renders. */
+private val LAYERS: List<Pair<String, @Composable () -> Unit>> = listOf(
+    "hook_1" to { HookLine1() }, "hook_2" to { HookLine2() }, "hook_3" to { HookAudience() },
+    "turn_line" to { TurnLine() }, "turn_logo" to { TurnLogo() },
+    "d_head" to { Heading("০১", "শব্দ ব্যবচ্ছেদ", "শব্দ ভাঙুন, অর্থ বুঝুন") }, "d_word" to { DissWord() },
+    "d_parts" to { DissParts() }, "d_meaning" to { DissMeaning() },
+    "r_head" to { Heading("০২", "Root Power", "এক মূল, পুরো পরিবার") }, "r_lines" to { RootLines() }, "r_center" to { RootCenter() },
+    "r_ring1" to { RootRing(0..3) }, "r_ring2" to { RootRing(4..7) }, "r_footer" to { Footer("৯৬টি শব্দ-পরিবার · ২,৬৯৪টি শব্দ · রঙে চেনা যায় পদ") },
+    "s_head" to { Heading("০৩", "Memory Hooks", "গল্পে গল্পে মনে রাখুন") }, "s_phone" to { StoryPhone() },
+    "s_step1" to { StoryStep(0) }, "s_step2" to { StoryStep(1) }, "s_step3" to { StoryStep(2) }, "s_quote" to { StoryQuote() },
+    "p_head" to { Heading("০৪", "IELTS Paraphrase", "একই কথা, ভিন্ন রূপ") }, "p_question" to { ParaQuestion() },
+    "p_passage" to { ParaPassage() }, "p_link" to { ParaLink() }, "p_footer" to { Footer("১,১৫২টি paraphrase · ১৫০টি Reading প্যাসেজ · Writing-এর ভাষা") },
+    "l_head" to { Heading("০৫", "Listening ও উচ্চারণ", "শুনুন, লিখুন, বলুন") }, "l_phone" to { ListenPhone() },
+    "l_card1" to { ListenCard(0) }, "l_card2" to { ListenCard(1) }, "l_card3" to { ListenCard(2) },
+    "u_head" to { Heading("০৬", "সঠিক প্রয়োগ", "ভুল ইংরেজি আর নয়") }, "u_row1" to { UsageRow(0) }, "u_row2" to { UsageRow(1) },
+    "u_row3" to { UsageRow(2) }, "u_footer" to { Footer("২০০টি শব্দজুটি · ১০০ জোড়া পার্থক্য · প্রচলিত ভুলের সংশোধন") },
+    "e_head" to { Heading("০৭", "পরীক্ষা ও রিভিউ", "অনুশীলন আর স্থায়ী মনে রাখা") }, "e_phone" to { ExamPhone() }, "e_timer" to { ExamTimer() },
+    "e_dot1" to { ReviewDot(0) }, "e_dot2" to { ReviewDot(1) }, "e_dot3" to { ReviewDot(2) }, "e_dot4" to { ReviewDot(3) }, "e_text" to { ReviewText() },
+    "g_title" to { GridTitle() }, "g_row1" to { GridRow(0) }, "g_row2" to { GridRow(1) }, "g_footer" to { GridFooter() },
+)
+
+@Composable private fun bgNight() = Bg(Night1, Night2, Color(0xFF6C7BFF), Color(0xFF9C4DFF))
+@Composable private fun bgBlue() = Bg(Color(0xFF0D2C54), Color(0xFF1F4A80), Color(0xFF42A5F5), BrandGold)
+@Composable private fun bgTeal() = Bg(Color(0xFF062A33), Color(0xFF0D4F5C), Color(0xFF26A69A), Color(0xFF42A5F5))
+@Composable private fun bgPlum() = Bg(Color(0xFF1E0F35), Color(0xFF3A1E5C), Color(0xFFAB47BC), BrandGold)
+private val BACKGROUNDS: List<Pair<String, @Composable () -> Unit>> =
+    listOf("bg_night" to { bgNight() }, "bg_blue" to { bgBlue() }, "bg_teal" to { bgTeal() }, "bg_plum" to { bgPlum() })
+
 class ComboLayersTest {
     @get:Rule
     val paparazzi = Paparazzi(
@@ -440,68 +471,63 @@ class ComboLayersTest {
         useDeviceResolution = true,
     )
 
-    private fun shot(name: String, content: @Composable () -> Unit) = paparazzi.snapshot(name = name) { content() }
+    @Test
+    fun square() {
+        (BACKGROUNDS + LAYERS + listOf("endcard" to @Composable { ComboEndCard() })).forEach { (name, content) ->
+            paparazzi.snapshot(name = name) { content() }
+        }
+    }
+}
 
-    @Test fun bgNight() = shot("bg_night") { Bg(Night1, Night2, Color(0xFF6C7BFF), Color(0xFF9C4DFF)) }
-    @Test fun bgBlue() = shot("bg_blue") { Bg(Color(0xFF0D2C54), Color(0xFF1F4A80), Color(0xFF42A5F5), BrandGold) }
-    @Test fun bgTeal() = shot("bg_teal") { Bg(Color(0xFF062A33), Color(0xFF0D4F5C), Color(0xFF26A69A), Color(0xFF42A5F5)) }
-    @Test fun bgPlum() = shot("bg_plum") { Bg(Color(0xFF1E0F35), Color(0xFF3A1E5C), Color(0xFFAB47BC), BrandGold) }
-    @Test fun endcard() = shot("endcard") { EndCard() }
+// ---- 9:16 Reels: the same square design inside the Reels safe zone ------------------------------
+// Canvas 540×960dp (1080×1920 at xhdpi). Reels covers roughly the top 14% and the bottom 35% with its
+// own interface, so the square content is scaled to 486dp and sits at 140–626dp. Backgrounds fill the
+// whole frame; a brand line sits above and the chapter progress just below the content.
 
-    @Test fun h1() = shot("hook_1") { HookLine1() }
-    @Test fun h2() = shot("hook_2") { HookLine2() }
-    @Test fun h3() = shot("hook_3") { HookAudience() }
-    @Test fun t1() = shot("turn_line") { TurnLine() }
-    @Test fun t2() = shot("turn_logo") { TurnLogo() }
+@Composable
+private fun Vertical(content: @Composable () -> Unit) = Box(Modifier.fillMaxSize()) {
+    Box(Modifier.offset(y = 113.dp).size(540.dp).graphicsLayer(scaleX = 0.9f, scaleY = 0.9f)) { content() }
+}
 
-    @Test fun d0() = shot("d_head") { Heading("০১", "শব্দ ব্যবচ্ছেদ", "শব্দ ভাঙুন, অর্থ বুঝুন") }
-    @Test fun d1() = shot("d_word") { DissWord() }
-    @Test fun d2() = shot("d_parts") { DissParts() }
-    @Test fun d3() = shot("d_meaning") { DissMeaning() }
+@Composable private fun BrandTop() = Full {
+    Row(Modifier.align(Alignment.TopCenter).padding(top = 72.dp), verticalAlignment = Alignment.CenterVertically) {
+        Image(painterResource(R.drawable.ic_launcher_foreground), null, Modifier.size(40.dp))
+        Text("Vocabsolution · English Doctor", style = ts(17.sp, Color.White.copy(alpha = 0.8f), FontWeight.SemiBold))
+    }
+}
 
-    @Test fun r0() = shot("r_head") { Heading("০২", "Root Power", "এক মূল, পুরো পরিবার") }
-    @Test fun r1() = shot("r_lines") { RootLines() }
-    @Test fun r2() = shot("r_center") { RootCenter() }
-    @Test fun r3() = shot("r_ring1") { RootRing(0..3) }
-    @Test fun r4() = shot("r_ring2") { RootRing(4..7) }
-    @Test fun r5() = shot("r_footer") { Footer("৯৬টি শব্দ-পরিবার · ২,৬৯৪টি শব্দ · রঙে চেনা যায় পদ") }
+@Composable private fun Progress(active: Int) = Full {
+    Row(Modifier.align(Alignment.TopCenter).padding(top = 648.dp), verticalAlignment = Alignment.CenterVertically) {
+        (0 until 7).forEach { i ->
+            if (i > 0) Box(Modifier.width(18.dp).height(2.dp).background(Color.White.copy(alpha = if (i <= active) 0.7f else 0.25f)))
+            val on = i == active
+            Box(Modifier.size(if (on) 38.dp else 28.dp).background(if (on) BrandGold else if (i < active) Color.White.copy(alpha = 0.35f) else Color.White.copy(alpha = 0.12f), CircleShape),
+                contentAlignment = Alignment.Center) {
+                Text(listOf("০১", "০২", "০৩", "০৪", "০৫", "০৬", "০৭")[i], style = ts(if (on) 15.sp else 12.sp, if (on) BrandNavy else Color.White.copy(alpha = 0.85f)))
+            }
+        }
+    }
+}
 
-    @Test fun s0() = shot("s_head") { Heading("০৩", "Memory Hooks", "গল্পে গল্পে মনে রাখুন") }
-    @Test fun s1() = shot("s_phone") { StoryPhone() }
-    @Test fun s2() = shot("s_step1") { StoryStep(0) }
-    @Test fun s3() = shot("s_step2") { StoryStep(1) }
-    @Test fun s4() = shot("s_step3") { StoryStep(2) }
-    @Test fun s5() = shot("s_quote") { StoryQuote() }
+class ComboVerticalLayersTest {
+    @get:Rule
+    val paparazzi = Paparazzi(
+        deviceConfig = DeviceConfig.PIXEL_5.copy(screenWidth = 1080, screenHeight = 1920, xdpi = 320, ydpi = 320, density = Density.XHIGH),
+        theme = "android:Theme.Translucent.NoTitleBar",
+        useDeviceResolution = true,
+    )
 
-    @Test fun p0() = shot("p_head") { Heading("০৪", "IELTS Paraphrase", "একই কথা, ভিন্ন রূপ") }
-    @Test fun p1() = shot("p_question") { ParaQuestion() }
-    @Test fun p2() = shot("p_passage") { ParaPassage() }
-    @Test fun p3() = shot("p_link") { ParaLink() }
-    @Test fun p4() = shot("p_footer") { Footer("১,১৫২টি paraphrase · ১৫০টি Reading প্যাসেজ · Writing-এর ভাষা") }
-
-    @Test fun l0() = shot("l_head") { Heading("০৫", "Listening ও উচ্চারণ", "শুনুন, লিখুন, বলুন") }
-    @Test fun l1() = shot("l_phone") { ListenPhone() }
-    @Test fun l2() = shot("l_card1") { ListenCard(0) }
-    @Test fun l3() = shot("l_card2") { ListenCard(1) }
-    @Test fun l4() = shot("l_card3") { ListenCard(2) }
-
-    @Test fun u0() = shot("u_head") { Heading("০৬", "সঠিক প্রয়োগ", "ভুল ইংরেজি আর নয়") }
-    @Test fun u1() = shot("u_row1") { UsageRow(0) }
-    @Test fun u2() = shot("u_row2") { UsageRow(1) }
-    @Test fun u3() = shot("u_row3") { UsageRow(2) }
-    @Test fun u4() = shot("u_footer") { Footer("২০০টি শব্দজুটি · ১০০ জোড়া পার্থক্য · প্রচলিত ভুলের সংশোধন") }
-
-    @Test fun e0() = shot("e_head") { Heading("০৭", "পরীক্ষা ও রিভিউ", "অনুশীলন আর স্থায়ী মনে রাখা") }
-    @Test fun e1() = shot("e_phone") { ExamPhone() }
-    @Test fun e2() = shot("e_timer") { ExamTimer() }
-    @Test fun e3() = shot("e_dot1") { ReviewDot(0) }
-    @Test fun e4() = shot("e_dot2") { ReviewDot(1) }
-    @Test fun e5() = shot("e_dot3") { ReviewDot(2) }
-    @Test fun e6() = shot("e_dot4") { ReviewDot(3) }
-    @Test fun e7() = shot("e_text") { ReviewText() }
-
-    @Test fun g0() = shot("g_title") { GridTitle() }
-    @Test fun g1() = shot("g_row1") { GridRow(0) }
-    @Test fun g2() = shot("g_row2") { GridRow(1) }
-    @Test fun g3() = shot("g_footer") { GridFooter() }
+    @Test
+    fun vertical() {
+        BACKGROUNDS.forEach { (name, content) -> paparazzi.snapshot(name = name) { content() } }
+        LAYERS.forEach { (name, content) -> paparazzi.snapshot(name = name) { Vertical(content) } }
+        paparazzi.snapshot(name = "brand_top") { BrandTop() }
+        (0 until 7).forEach { i -> paparazzi.snapshot(name = "prog_$i") { Progress(i) } }
+        paparazzi.snapshot(name = "endcard") {
+            Box(Modifier.fillMaxSize().background(Brush.verticalGradient(listOf(Color(0xFF0A2346), BrandNavy, Color(0xFF1F4A80))))) {
+                BrandTop()
+                Vertical { ComboEndCard(withBackground = false) }
+            }
+        }
+    }
 }
