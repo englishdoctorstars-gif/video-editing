@@ -150,23 +150,13 @@ def position(anim, t_in):
     }.get(anim, ("0", "0"))
 
 
-def build_video(silent_mp4):
+def render_window(stack, start, length, out_mp4):
+    """Renders [start, start+length) using only the layers visible in that window."""
+    stack = [p for p in stack if p[1] < start + length and p[2] + 0.1 > start]
     frames = int(TOTAL * FPS)
     inputs = ["-loop", "1", "-framerate", str(FPS), "-t", str(TOTAL), "-i", os.path.join(L, "bg_ink.png")]
     graph = [f"[0:v]scale={W}:{H},zoompan=z='1+0.06*on/{frames}':d=1:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s={W}x{H}:fps={FPS},"
              f"format=rgba,settb=1/{FPS}[base]"]
-    plan = [("particles", 0.0, WIPES[0] + 0.3, "drift")]
-    for i, w in enumerate(WIPES):
-        end = ENDS[i] + 0.3 if ENDS[i] < TOTAL else TOTAL
-        plan += [(SCENE_BG[i], w + 0.25, end, "bg"), ("particles", w + 0.25, end, "drift")]
-    content = [(n, a, b, an) for n, a, b, an, _ in LAYERS]
-    if VERTICAL:
-        content.append(("brand_line", 0.3, TOTAL, "fade"))
-    stack = sorted(plan + content, key=lambda p: (p[1], 0 if p[3] in ("bg", "drift") else 1))
-    stack += [("wipe", w, w + 0.55, "wipe") for w in WIPES]
-    stack += [("@flash", t, t + 0.4, "flash") for t in FLASHES]
-    stack += [("@bar", 0.0, TOTAL, "bar")]
-
     prev = "base"
     for i, (name, t_in, t_out, anim) in enumerate(stack, start=1):
         dur = t_out - t_in + (0.0 if anim in ("count", "flash", "bar") else 0.1)
@@ -208,9 +198,37 @@ def build_video(silent_mp4):
     with open(script, "w") as f:
         f.write(";".join(graph))
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *inputs, "-filter_complex_script", script, "-map", "[out]",
-                    "-t", str(TOTAL), "-r", str(FPS), "-c:v", "libx264", "-preset", "medium", "-crf", "18",
-                    "-pix_fmt", "yuv420p", silent_mp4], check=True)
+                    "-ss", str(start), "-t", str(length), "-r", str(FPS), "-c:v", "libx264", "-preset", "medium", "-crf", "18",
+                    "-pix_fmt", "yuv420p", out_mp4], check=True)
     os.remove(script)
+
+
+def build_video(silent_mp4):
+    plan = [("particles", 0.0, WIPES[0] + 0.3, "drift")]
+    for i, w in enumerate(WIPES):
+        end = ENDS[i] + 0.3 if ENDS[i] < TOTAL else TOTAL
+        plan += [(SCENE_BG[i], w + 0.25, end, "bg"), ("particles", w + 0.25, end, "drift")]
+    content = [(n, a, b, an) for n, a, b, an, _ in LAYERS]
+    stack = sorted(plan + content, key=lambda p: (p[1], 0 if p[3] in ("bg", "drift") else 1))
+    if VERTICAL:
+        stack.append(("brand_line", 0.3, TOTAL, "fade"))   # above every scene background
+    stack += [("wipe", w, w + 0.55, "wipe") for w in WIPES]
+    stack += [("@flash", t, t + 0.4, "flash") for t in FLASHES]
+    stack += [("@bar", 0.0, TOTAL, "bar")]
+
+    # Rendered in 20-second windows: one pass over every layer of the long cut runs out of memory.
+    parts, start = [], 0.0
+    while start < TOTAL - 0.01:
+        length = round(min(20.0, TOTAL - start), 2)
+        parts.append(silent_mp4.replace(".mp4", f"_part{len(parts)}.mp4"))
+        render_window(stack, start, length, parts[-1])
+        start += length
+    listing = silent_mp4.replace(".mp4", "_parts.txt")
+    with open(listing, "w") as f:
+        f.writelines(f"file '{p}'\n" for p in parts)
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", listing, "-c", "copy", silent_mp4], check=True)
+    for p in parts + [listing]:
+        os.remove(p)
 
 
 # ---- sound effects only (no music) ---------------------------------------------------------
