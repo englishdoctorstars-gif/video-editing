@@ -79,21 +79,21 @@ fun MemoryHooksListScreen(nav: NavHostController) {
 }
 
 @Composable
-fun MemoryHookPagerScreen(nav: NavHostController, start: Int) {
+fun MemoryHookPagerScreen(nav: NavHostController, start: Int, startFlipped: Boolean = false) {
     val app = LocalApp.current
     val hooks = app.content.hooks
     val pager = rememberPagerState(initialPage = start.coerceIn(0, hooks.lastIndex)) { hooks.size }
     ScreenScaffold("Memory Hooks", "${(pager.currentPage + 1).bn()} / ${hooks.size.bn()} · বাম-ডানে সোয়াইপ করুন",
         onBack = { nav.popBackStack() }, accent = partColor(1)) { m ->
-        HorizontalPager(pager, m.fillMaxSize(), key = { hooks[it].id }) { page -> StoryCard(hooks[page]) }
+        HorizontalPager(pager, m.fillMaxSize(), key = { hooks[it].id }) { page -> StoryCard(hooks[page], startFlipped) }
     }
 }
 
 @Composable
-private fun StoryCard(h: MemoryHook) {
+private fun StoryCard(h: MemoryHook, startFlipped: Boolean = false) {
     val app = LocalApp.current
     val p by app.progress.state.collectAsStateWithLifecycle()
-    var flipped by rememberSaveable(h.id) { mutableStateOf(false) }
+    var flipped by rememberSaveable(h.id) { mutableStateOf(startFlipped) }
     val key = "hook:${h.id}"
     var note by remember(h.id) { mutableStateOf(p.notes[key] ?: "") }
     val accent = partColor(1)

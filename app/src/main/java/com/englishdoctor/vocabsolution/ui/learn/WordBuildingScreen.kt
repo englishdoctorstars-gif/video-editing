@@ -49,9 +49,9 @@ import com.englishdoctor.vocabsolution.ui.theme.color
 private val TABS = listOf("প্রত্যয়", "উপসর্গ", "শব্দ ভাঙো", "শব্দ গুণন", "POS কুইজ")
 
 @Composable
-fun WordBuildingScreen(nav: NavHostController) {
+fun WordBuildingScreen(nav: NavHostController, initialTab: Int = 0, revealAll: Boolean = false) {
     val color = partColor(1)
-    var tab by rememberSaveable { mutableIntStateOf(0) }
+    var tab by rememberSaveable { mutableIntStateOf(initialTab) }
     ScreenScaffold(ModuleId.WORD_BUILDING.titleEn, "অধ্যায় ১ · ${ModuleId.WORD_BUILDING.titleBn}",
         onBack = { nav.popBackStack() }, onSearch = { nav.navigate(Routes.SEARCH) }, accent = color) { m ->
         Column(m.fillMaxSize()) {
@@ -61,7 +61,7 @@ fun WordBuildingScreen(nav: NavHostController) {
             when (tab) {
                 0 -> SuffixList()
                 1 -> PrefixList()
-                2 -> AnalysisList()
+                2 -> AnalysisList(revealAll)
                 3 -> MultiplyingGrid(nav)
                 else -> PosDetective()
             }
@@ -126,10 +126,10 @@ fun ExampleWords(words: List<String>) {
 
 /** Word Breaker: guess the parts first, then reveal prefix + root + suffix. */
 @Composable
-private fun AnalysisList() {
+private fun AnalysisList(revealAll: Boolean = false) {
     val app = LocalApp.current
     val p by app.progress.state.collectAsStateWithLifecycle()
-    val revealed = remember { mutableStateOf(setOf<String>()) }
+    val revealed = remember { mutableStateOf(if (revealAll) app.content.analyses.map { it.id }.toSet() else setOf()) }
     LazyColumn(contentPadding = PaddingValues(16.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
         item {
             Text("প্রথমে নিজে শব্দটি ভাঙার চেষ্টা করুন, তারপর \"ভেঙে দেখাও\" চাপুন।", color = MaterialTheme.colorScheme.onSurfaceVariant)

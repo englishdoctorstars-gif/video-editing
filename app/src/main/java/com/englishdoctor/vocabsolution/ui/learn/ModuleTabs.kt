@@ -26,8 +26,8 @@ import com.englishdoctor.vocabsolution.ui.components.ScreenScaffold
 
 /** Standard module screen: title bar in the part colour plus a scrollable tab row. */
 @Composable
-fun ModuleTabsScreen(nav: NavHostController, module: ModuleId, tabs: List<String>, content: @Composable (Int) -> Unit) {
-    var tab by rememberSaveable { mutableIntStateOf(0) }
+fun ModuleTabsScreen(nav: NavHostController, module: ModuleId, tabs: List<String>, initialTab: Int = 0, content: @Composable (Int) -> Unit) {
+    var tab by rememberSaveable { mutableIntStateOf(initialTab) }
     ScreenScaffold(module.titleEn, "অধ্যায় ${module.number.bn()} · ${module.titleBn}",
         onBack = { nav.popBackStack() }, onSearch = { nav.navigate(Routes.SEARCH) }, accent = partColor(module.part)) { m ->
         Column(m.fillMaxSize()) {

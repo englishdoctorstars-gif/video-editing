@@ -39,8 +39,8 @@ import com.englishdoctor.vocabsolution.ui.theme.CorrectGreen
 import com.englishdoctor.vocabsolution.ui.theme.WrongRed
 
 @Composable
-fun WriteScreen(nav: NavHostController) {
-    ModuleTabsScreen(nav, ModuleId.WRITE,
+fun WriteScreen(nav: NavHostController, initialTab: Int = 0) {
+    ModuleTabsScreen(nav, ModuleId.WRITE, initialTab = initialTab, tabs =
         listOf("Task 1", "গ্রাফ কুইজ 📈", "Task 2", "Linking Words", "সাধারণ → একাডেমিক", "Upgrade It 🎯", "প্রচলিত ভুল")) { tab ->
         when (tab) {
             0 -> Sections("task1")

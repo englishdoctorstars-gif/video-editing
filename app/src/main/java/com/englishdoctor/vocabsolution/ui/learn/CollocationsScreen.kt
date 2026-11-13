@@ -32,8 +32,8 @@ import com.englishdoctor.vocabsolution.ui.theme.CorrectGreen
 import com.englishdoctor.vocabsolution.ui.theme.WrongRed
 
 @Composable
-fun CollocationsScreen(nav: NavHostController) {
-    ModuleTabsScreen(nav, ModuleId.COLLOCATIONS, listOf("Power Verbs", "দৈনন্দিন জীবন", "প্রচলিত ভুল", "Verb Wheel 🎯", "Fix-it ✓")) { tab ->
+fun CollocationsScreen(nav: NavHostController, initialTab: Int = 0) {
+    ModuleTabsScreen(nav, ModuleId.COLLOCATIONS, initialTab = initialTab, tabs = listOf("Power Verbs", "দৈনন্দিন জীবন", "প্রচলিত ভুল", "Verb Wheel 🎯", "Fix-it ✓")) { tab ->
         when (tab) {
             0 -> CollocationList("power_verbs")
             1 -> CollocationList("daily_life")

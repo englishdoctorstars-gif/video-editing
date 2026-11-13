@@ -16,3 +16,4 @@ keystore.properties
 # Store renders are copied into fastlane/ by tools/release/collect_store_assets.py
 app/src/test/snapshots/images/*store*
 release-builds/
+app/src/test/snapshots/images/*AdScreensTest*

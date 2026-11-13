@@ -53,10 +53,10 @@ private val SIDE_A = Color(0xFF1E88E5)
 private val SIDE_B = Color(0xFFD81B60)
 
 @Composable
-fun ConfusedListScreen(nav: NavHostController) {
+fun ConfusedListScreen(nav: NavHostController, initialTab: Int = 0) {
     val app = LocalApp.current
     val p by app.progress.state.collectAsStateWithLifecycle()
-    var tab by rememberSaveable { mutableIntStateOf(0) }
+    var tab by rememberSaveable { mutableIntStateOf(initialTab) }
     var homophonesOnly by rememberSaveable { mutableStateOf(false) }
     ScreenScaffold(ModuleId.CONFUSED.titleBn, "অধ্যায় ৪ · ${ModuleId.CONFUSED.titleEn}",
         onBack = { nav.popBackStack() }, onSearch = { nav.navigate(Routes.SEARCH) }, accent = partColor(2)) { m ->

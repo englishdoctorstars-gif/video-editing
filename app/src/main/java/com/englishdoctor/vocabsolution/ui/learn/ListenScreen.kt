@@ -57,8 +57,8 @@ import com.englishdoctor.vocabsolution.ui.theme.WrongRed
 import com.englishdoctor.vocabsolution.ui.theme.color
 
 @Composable
-fun ListenScreen(nav: NavHostController) {
-    ModuleTabsScreen(nav, ModuleId.LISTEN,
+fun ListenScreen(nav: NavHostController, initialTab: Int = 0) {
+    ModuleTabsScreen(nav, ModuleId.LISTEN, initialTab = initialTab, tabs =
         listOf("Section শব্দ", "Listen & Spell 🎧", "বানানের ফাঁদ", "মানচিত্র", "সংখ্যা ও তারিখ", "সংকেত-শব্দ")) { tab ->
         when (tab) {
             0 -> SectionWords()
