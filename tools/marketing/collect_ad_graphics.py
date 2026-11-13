@@ -42,6 +42,15 @@ for f in sorted(glob.glob(os.path.join(SRC, "*ComboVerticalLayersTest*.png"))):
         img = img.convert("RGB")
     img.save(os.path.join(DST, "combo916", name + ".png"), "PNG", optimize=True)
     print("combo916/" + name)
+for folder, test in [("pro", "ProAdLayersTest"), ("pro916", "ProAdVerticalLayersTest")]:
+    os.makedirs(os.path.join(DST, folder), exist_ok=True)
+    for f in sorted(glob.glob(os.path.join(SRC, f"*_{test}_*.png"))):
+        name = re.search(r"Test_[A-Za-z0-9]+_(.+)\.png$", f).group(1)
+        img = Image.open(f).convert("RGBA")
+        if name.startswith("bg_"):
+            img = img.convert("RGB")
+        img.save(os.path.join(DST, folder, name + ".png"), "PNG", optimize=True)
+        print(folder + "/" + name)
 for f in sorted(glob.glob(os.path.join(SRC, "*AdGraphics*.png"))):
     name = re.search(r"Test_[A-Za-z0-9]+_(.+)\.png$", f).group(1)
     Image.open(f).convert("RGB").save(os.path.join(DST, name + ".png"), "PNG", optimize=True)

@@ -15,8 +15,8 @@
 - **অ্যাপ:** Vocabsolution (Android) · **ট্যাগলাইন:** "মুখস্থের অবসান!" ও "মুখস্থ নয়, বুঝে শেখা"
 - **নির্মাতা ও লেখক:** শাহজালাল সালতানাত (ইংলিশ ডক্টর) — ঢাকা বিশ্ববিদ্যালয় থেকে ইংরেজিতে স্নাতকোত্তর, English Doctor-এর প্রতিষ্ঠাতা, English Coach, Corporate Trainer ও Teacher Trainer
 - **ভিত্তি:** তাঁর বই "VOCABSOLUTION by English Doctor"-এর পুরো কন্টেন্ট, ১১টি অধ্যায়
-- **মূল্য:** পুরো অ্যাপ মাত্র **১০০ টাকা**
-- **কেনার নিয়ম:** WhatsApp **01682888114** অথবা Facebook পেজ **English Doctor**-এ মেসেজ → bKash/Nagad থেকে **01682888114** নম্বরে ১০০ টাকা **Send Money** → TrxID পাঠালে অ্যাপ পাঠানো হয়। অ্যাড চলবে Click-to-WhatsApp / Messenger হিসেবে; CTA বাটন "Send WhatsApp message"।
+- **মূল্য:** পুরো অ্যাপ মাত্র **২০০ টাকা**
+- **কেনার নিয়ম:** WhatsApp **01682888114** অথবা Facebook পেজ **English Doctor**-এ মেসেজ → bKash/Nagad থেকে **01682888114** নম্বরে ২০০ টাকা **Send Money** → TrxID পাঠালে অ্যাপ পাঠানো হয়। অ্যাড চলবে Click-to-WhatsApp / Messenger হিসেবে; CTA বাটন "Send WhatsApp message"।
 
 **ফিচার ও সংখ্যা:**
 | ফিচার | বিবরণ |
@@ -113,7 +113,7 @@
 - **রঙ:** নেভি `#0D2C54` (মূল), গোল্ড `#F2A900` (অ্যাকসেন্ট); পদের রঙ — বিশেষ্য নীল ■, ক্রিয়া লাল ▲, বিশেষণ সবুজ ●, ক্রিয়া-বিশেষণ বেগুনি ◆
 - **ফন্ট:** Hind Siliguri (বাংলা), পরিষ্কার Sans (ইংরেজি)
 - **লোগো:** সাদা "V", মাথায় চারটি রঙিন পদ-চিহ্ন, নিচে সোনালি দাগ
-- **শেষ ফ্রেম (এন্ড কার্ড):** লোগো · "Vocabsolution — by English Doctor" · "মুখস্থের অবসান!" · "পুরো অ্যাপ মাত্র ১০০ টাকা" · WhatsApp 01682888114 · bKash/Nagad Send Money 01682888114 · Facebook পেজ English Doctor (তৈরি আছে: `marketing/ad-graphics/endcard_*.png`)
+- **শেষ ফ্রেম (এন্ড কার্ড):** লোগো · "Vocabsolution — by English Doctor" · "মুখস্থের অবসান!" · "পুরো অ্যাপ মাত্র ২০০ টাকা" · WhatsApp 01682888114 · bKash/Nagad Send Money 01682888114 · Facebook পেজ English Doctor (তৈরি আছে: `marketing/ad-graphics/endcard_*.png`)
 - **সুর:** উষ্ণ, আত্মবিশ্বাসী, বন্ধুসুলভ, একটু হাস্যরস; কখনো অহংকারী বা ভয় দেখানো নয়
 
 ### ৮. ভাষার নিয়ম

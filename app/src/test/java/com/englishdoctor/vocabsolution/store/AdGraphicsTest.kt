@@ -47,7 +47,7 @@ import java.io.File
 
 /** Sales details used on every ad graphic. Keep in sync with docs/ad-concepts.md. */
 object Sales {
-    const val PRICE = "১০০ টাকা"
+    const val PRICE = "২০০ টাকা"
     const val NUMBER = "01682888114"
     const val PAGE = "English Doctor"
 }
