@@ -9,6 +9,51 @@
 
 ---
 
+## ★ মূল অ্যাড: "এক অ্যাপে সব" (১:১, ৫৫ সেকেন্ড) — English Doctor পেজের জন্য
+
+**ফাইল:** `marketing/videos/vocabsolution_all_features_55s_1x1.mp4` (১০৮০×১০৮০, H.264 + AAC, নিজস্ব মিউজিক ও সাউন্ড ইফেক্ট, −১৬ LUFS)
+**কাদের জন্য:** সবাই — চাকরিপ্রার্থী, IELTS, শিক্ষার্থী, পেশাজীবী (হুকেই বলা হয় "বিসিএস · ব্যাংক · IELTS · HSC · অফিস — সমস্যা সবার এক")।
+**কোথায়:** Facebook/Instagram Feed (১:১ সবচেয়ে বেশি জায়গা পায়)। Messaging অ্যাড, বাটন "Send WhatsApp message"।
+
+| সময় | অধ্যায় | যা দেখায় |
+|---|---|---|
+| ০–৪.৫ | হুক | "২০ বার লিখে মুখস্থ… পরের দিন সব ভুলে যান? 😩" · সব দর্শকের আইকন |
+| ৪.৫–৮ | সমাধান | "মুখস্থ নয়, বুঝে শেখা" · Vocabsolution লোগো |
+| ৮–১৩.৪ | ০১ · শব্দ ব্যবচ্ছেদ | Dehumanization → de + human + ize + ation (উপসর্গ/মূল/প্রত্যয়) → অমানবিকীকরণ, পদ চেনা |
+| ১৩.৪–১৯.৪ | ০২ · Root Power | ACT কেন্দ্রে, চারপাশে ৮টি শব্দ পদের রঙে · "৯৬টি শব্দ-পরিবার · ২,৬৯৪টি শব্দ" |
+| ১৯.৪–২৫.৬ | ০৩ · Memory Hooks | অ্যাপের আসল স্ক্রিন + Sabbatical → "সব বাদ … কাল" → দীর্ঘ ছুটি ✓ |
+| ২৫.৬–৩০.৮ | ০৪ · IELTS Paraphrase | "reduce the harm…" ≈ "mitigate climate change" · ১,১৫২ paraphrase, ১৫০ প্যাসেজ |
+| ৩০.৮–৩৬.২ | ০৫ · Listening ও উচ্চারণ | ব্রিটিশ উচ্চারণ ও IPA, শুনে বানান, "শুনুন, তারপর বলুন" |
+| ৩৬.২–৪১.৩ | ০৬ · সঠিক প্রয়োগ | ✗ do a mistake → ✓ make a mistake · revert back → get back · affect ↔ effect |
+| ৪১.৩–৪৭ | ০৭ · পরীক্ষা ও রিভিউ | ২০ মিনিটের MCQ (২৫০ প্রশ্ন) · ১-৩-৭-৩০ রিভিউ |
+| ৪৭–৫০.৫ | এক অ্যাপে সব | ৮টি ফিচার টাইল · "বইয়ের ১১টি অধ্যায় · ইন্টারনেট ছাড়াই · কোনো বিজ্ঞাপন নেই" |
+| ৫০.৫–৫৫ | এন্ড কার্ড | মাত্র ১০০ টাকা · WhatsApp 01682888114 · bKash / Nagad 01682888114 · পেজ English Doctor · লেখকের নাম |
+
+> **"Speaking" নিয়ে সততা:** অ্যাপে কথা বলা রেকর্ড করে যাচাইয়ের (স্পিচ রেকগনিশন) ফিচার নেই; আছে ব্রিটিশ উচ্চারণ শোনা ও IPA। তাই ভিডিওতে বলা হয়েছে "শুনুন, তারপর বলুন — সঠিক উচ্চারণে আত্মবিশ্বাসে বলুন"। "স্পিকিং প্র্যাকটিস" বা "উচ্চারণ যাচাই" দাবি করা হয়নি।
+
+**Facebook অ্যাড কপি:**
+- **Primary text:**
+  ২০ বার লিখে মুখস্থ, পরের দিন ভুলে যান? 😩 সমস্যা শব্দের সংখ্যায় নয়, পদ্ধতিতে।
+  Vocabsolution — ইংলিশ ডক্টর শাহজালাল সালতানাতের বই থেকে তৈরি অ্যাপ:
+  ✂️ শব্দ ভেঙে অর্থ বোঝা · 🌳 এক মূল থেকে পুরো শব্দ-পরিবার · 📖 গল্পে গল্পে কঠিন শব্দ · ≈ IELTS paraphrase · 🎧 Listening ও উচ্চারণ · 📝 চাকরির পরীক্ষার ২৫০টি MCQ · 🔁 ১-৩-৭-৩০ রিভিউ
+  ইন্টারনেট ছাড়াই চলে, কোনো বিজ্ঞাপন নেই।
+  💰 পুরো অ্যাপ মাত্র ১০০ টাকা · WhatsApp: 01682888114 · bKash/Nagad: 01682888114
+- **Headline:** মুখস্থ নয়, বুঝে শিখুন — মাত্র ১০০ টাকা
+- **Description:** English Doctor-এর অ্যাপ
+- **CTA বাটন:** Send WhatsApp message
+- **হ্যাশট্যাগ:** #Vocabsolution #EnglishDoctor #ইংরেজি_শব্দভান্ডার #IELTS_Bangladesh #বিসিএস_প্রস্তুতি
+
+**নতুন করে তৈরি করতে:**
+```bash
+pip install numpy scipy pillow
+./gradlew :app:recordPaparazziDebug --tests '*ComboLayersTest*'
+python3 -I tools/marketing/collect_ad_graphics.py
+python3 -I tools/marketing/build_combo.py
+```
+সময়, নড়াচড়া, শব্দ ও মিউজিক বদলাতে `tools/marketing/build_combo.py`-এর `LAYERS` তালিকা আর `music()` ফাংশন দেখুন; লেখা বা ডিজাইন বদলাতে `ComboLayersTest.kt`।
+
+---
+
 ## ০. সব কনসেপ্টের জন্য সাধারণ নিয়ম
 
 ### ০.১ কেনার পথ (CTA)
@@ -368,6 +413,9 @@ python3 -I tools/release/collect_ad_screens.py
 | `marketing/ad-graphics/c2_*.png` | ১০৮০×১৯২০ | কনসেপ্ট ২-এর ফ্রেম |
 | `marketing/videos/concept1_tea_stall_30s_1x1.mp4` | ১০৮০×১০৮০, ৩০ সে. | **কনসেপ্ট ১-এর তৈরি ভিডিও** (Feed), ইলাস্ট্রেটেড কমিক-স্টাইল |
 | `marketing/ad-graphics/concept1/c1_*.png` | ১০৮০×১০৮০ | কনসেপ্ট ১-এর ১২টি ফ্রেম, ১:১ এন্ড কার্ডসহ |
+| `marketing/videos/vocabsolution_all_features_55s_1x1.mp4` | ১০৮০×১০৮০, ৫৫ সে. | **★ মূল অ্যাড: সব ফিচার এক ভিডিওতে** (English Doctor পেজ) |
+| `marketing/videos/vocabsolution_all_features_music_sfx.wav` | ৫৫ সে., স্টেরিও | মূল অ্যাডের মিউজিক+শব্দ |
+| `marketing/ad-graphics/combo/` | ১০৮০×১০৮০ | মূল অ্যাডের ৫৩টি স্তর |
 | `marketing/videos/concept3_ielts_dream_30s_9x16.mp4` | ১০৮০×১৯২০, ৩০ সে. | **কনসেপ্ট ৩-এর তৈরি ভিডিও** — মোশন গ্রাফিক্স, নিজস্ব মিউজিক ও সাউন্ড ইফেক্ট |
 | `marketing/videos/concept3_ielts_dream_music_sfx.wav` | ৩০ সে., স্টেরিও | কনসেপ্ট ৩-এর মিউজিক+শব্দ, আলাদা এডিটের জন্য |
 | `marketing/ad-graphics/concept3/` | ১০৮০×১৯২০ | কনসেপ্ট ৩-এর ২৪টি স্তর (ব্যাকগ্রাউন্ড ও স্বচ্ছ PNG) |

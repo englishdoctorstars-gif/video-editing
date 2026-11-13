@@ -26,6 +26,14 @@ for f in sorted(glob.glob(os.path.join(SRC, "*Concept3LayersTest*.png"))):
         img = img.convert("RGB")  # backgrounds are opaque; other layers keep transparency
     img.save(os.path.join(DST, "concept3", name + ".png"), "PNG", optimize=True)
     print("concept3/" + name)
+os.makedirs(os.path.join(DST, "combo"), exist_ok=True)
+for f in sorted(glob.glob(os.path.join(SRC, "*ComboLayersTest*.png"))):
+    name = re.search(r"Test_[A-Za-z0-9]+_(.+)\.png$", f).group(1)
+    img = Image.open(f).convert("RGBA")
+    if name.startswith("bg_") or name == "endcard":
+        img = img.convert("RGB")
+    img.save(os.path.join(DST, "combo", name + ".png"), "PNG", optimize=True)
+    print("combo/" + name)
 for f in sorted(glob.glob(os.path.join(SRC, "*AdGraphics*.png"))):
     name = re.search(r"Test_[A-Za-z0-9]+_(.+)\.png$", f).group(1)
     Image.open(f).convert("RGB").save(os.path.join(DST, name + ".png"), "PNG", optimize=True)

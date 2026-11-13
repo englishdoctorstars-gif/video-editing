@@ -214,7 +214,7 @@ def main():
     silent = OUT.replace(".mp4", "_silent.mp4")
     build_video(silent)
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", silent, "-i", WAV, "-map", "0:v", "-map", "1:a",
-                    "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-af", "loudnorm=I=-16:TP=-1.5:LRA=11",
+                    "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-af", "loudnorm=I=-16:TP=-1.5:LRA=11,alimiter=limit=0.79:level=false,aresample=48000",
                     "-shortest", "-movflags", "+faststart", OUT], check=True)
     os.remove(silent)
     print(OUT)
