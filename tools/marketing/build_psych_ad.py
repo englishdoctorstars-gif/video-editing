@@ -3,6 +3,7 @@
     python3 -I tools/marketing/build_psych_ad.py              # 1:1  (1080×1080)
     python3 -I tools/marketing/build_psych_ad.py --vertical   # 9:16 (1080×1920, Reels safe zone)
     python3 -I tools/marketing/build_psych_ad.py --full [--vertical]   # long cut with all nine features
+    ... --audio-only   # keep the rendered picture, rebuild and replace only the sound
 
 No author/developer introduction. Flow: open question with a countdown → the viewer learns the
 word in the ad (proof by experience) → realisation → pain → real cause → forgetting curve vs
@@ -15,10 +16,8 @@ import os
 import subprocess
 import sys
 
-import numpy as np
-
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import audio_synth as A  # noqa: E402
+import sfx_pro  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 VERTICAL = "--vertical" in sys.argv
@@ -231,62 +230,25 @@ def build_video(silent_mp4):
         os.remove(p)
 
 
-# ---- sound effects only (no music) ---------------------------------------------------------
+# ---- sound effects only (no music): see sfx_pro.py ---------------------------------------------
 
-def mix(dur, *parts):
-    out = np.zeros(int(dur * A.SR), np.float32)
-    for snd, at in parts:
-        A.place(out, snd, at)
-    return out
-
-
-def sound(kind):
-    if kind.startswith("note:"):
-        return A.chime(int(kind[5:]), 0.3)
-    return {
-        "whoosh": lambda: A.whoosh(0.45, 0.42),
-        "whoosh_soft": lambda: A.whoosh(0.4, 0.26),
-        "pop": lambda: A.pop(0.32),
-        "buzz": lambda: A.buzz(0.3),
-        "impact": lambda: A.impact(0.55),
-        "impact_soft": lambda: A.impact(0.34),
-        "shimmer": lambda: A.shimmer(0.38),
-        "chime": lambda: A.chime(84, 0.38),
-        "slash": lambda: A.whoosh(0.18, 0.5),
-        "fall": lambda: A.whoosh(0.9, 0.34, up=False),
-        # Countdown: a sharp tick over a low thump, like a heartbeat clock.
-        "clock": lambda: mix(0.4, (A.tick(0.6), 0.0), (A.kick(0.32), 0.0)),
-        # The "got it" moment: soft thump with a rising two-note bell.
-        "win": lambda: mix(1.2, (A.impact(0.3), 0.0), (A.chime(79, 0.34), 0.0), (A.chime(86, 0.38), 0.13)),
-        # Cash register: mechanical clicks, then two bright bells.
-        "cash": lambda: mix(1.3, (A.impact(0.38), 0.0), (A.tick(0.55), 0.0), (A.tick(0.45), 0.05),
-                            (A.chime(96, 0.42), 0.09), (A.chime(100, 0.38), 0.17)),
-    }[kind]()
-
-
-def effects():
-    s = np.zeros(int(TOTAL * A.SR), np.float32)
-    for w in WIPES:
-        A.place(s, A.whoosh(0.55, 0.36, up=False), w - 0.05)
-    for _, t_in, _, _, kind in LAYERS:
-        if kind:
-            A.place(s, sound(kind), t_in)
-    for at in (43.3 + TAIL, 44.5 + TAIL):   # soft taps with the button pulse
-        A.place(s, A.pop(0.16), at)
-    A.place(s, A.shimmer(0.3), 45.4 + TAIL)
-    return s
+def mux(picture, out):
+    """Stereo effects at a fixed level: no automatic loudness riding, which pumps on sparse sound."""
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", picture, "-i", WAV, "-map", "0:v", "-map", "1:a",
+                    "-c:v", "copy", "-c:a", "aac", "-b:a", "256k", "-af", "aresample=48000",
+                    "-shortest", "-movflags", "+faststart", out], check=True)
 
 
 def main():
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
-    if not VERTICAL or not os.path.exists(WAV):
-        A.write_wav(WAV, A.finish(0.9 * effects(), peak_db=-3.0))
+    if not VERTICAL or not os.path.exists(WAV) or "--audio-only" in sys.argv:
+        sfx_pro.write(WAV, sfx_pro.score(LAYERS, WIPES, TOTAL, TAIL))
     silent = OUT.replace(".mp4", "_silent.mp4")
-    build_video(silent)
-    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", silent, "-i", WAV, "-map", "0:v", "-map", "1:a",
-                    "-c:v", "copy", "-c:a", "aac", "-b:a", "192k",
-                    "-af", "loudnorm=I=-19:TP=-3:LRA=15,alimiter=limit=0.6:level=false,aresample=48000",
-                    "-shortest", "-movflags", "+faststart", OUT], check=True)
+    if "--audio-only" in sys.argv:       # keep the existing picture, replace the sound
+        os.replace(OUT, silent)
+    else:
+        build_video(silent)
+    mux(silent, OUT)
     os.remove(silent)
     print(OUT)
 
