@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="bn"><head><meta charset="utf-8">
+<style>
+@font-face{font-family:Hind;font-weight:400;src:url("../../app/src/main/res/font/hind_siliguri_regular.ttf")}
+@font-face{font-family:Hind;font-weight:600;src:url("../../app/src/main/res/font/hind_siliguri_semibold.ttf")}
+@font-face{font-family:Hind;font-weight:700;src:url("../../app/src/main/res/font/hind_siliguri_bold.ttf")}
+@page{size:8.5in 11in;margin:0}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:8.5in;height:11in}
+body{font-family:Hind,sans-serif;color:#fff;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.cover{position:relative;width:8.5in;height:11in;overflow:hidden;
+  background:radial-gradient(90% 55% at 32% 55%,#2463e6 0%,#1244b8 38%,#0a2a78 72%,#061a4d 100%)}
+.tex{position:absolute;inset:0;width:100%;height:100%}
+.in{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;text-align:center;padding:.5in .6in 0}
+.kicker{display:flex;align-items:center;gap:.14in;font-family:Inter,Hind,sans-serif;font-weight:700;font-size:14pt;letter-spacing:2.5px;
+  padding:.06in .3in;border-radius:99px;border:1.3px solid rgba(255,255,255,.45);background:rgba(255,255,255,.1)}
+.kicker i{width:7px;height:7px;border-radius:50%;background:#ffc83d}
+.kicker span{font-family:Hind;letter-spacing:.5px;font-size:15pt}
+.t1{margin-top:.18in;font-weight:700;font-size:40pt;line-height:1.1;text-shadow:0 3px 0 rgba(4,18,60,.55)}
+.t2row{display:flex;align-items:center;justify-content:center;gap:.22in;margin-top:-.04in}
+.t2{font-weight:700;font-size:84pt;line-height:1.1;color:#ffc61a;
+  text-shadow:0 2px 0 #e09b00,0 4px 0 #c98600,0 6px 0 #0a2466,0 8px 0 #0a2466,0 16px 24px rgba(0,0,0,.35)}
+.bolt{width:1.15in;height:1.15in;filter:drop-shadow(0 8px 10px rgba(0,0,0,.35))}
+.tagline{margin-top:.1in;font-weight:700;font-size:22pt;color:#0a2466;background:linear-gradient(180deg,#ffd95a,#ffb800);
+  padding:.07in .36in;border-radius:.14in;box-shadow:0 6px 0 #0a2466,0 14px 22px rgba(0,0,0,.3)}
+.tagline b{font-family:Inter,sans-serif;font-weight:900}
+.mid{margin-top:.36in;width:100%;display:flex;align-items:center;justify-content:space-between;gap:.3in}
+.photo{position:relative;width:3.6in;height:3.6in;flex:none}
+.photo:before{content:"";position:absolute;inset:-.2in;border-radius:50%;background:radial-gradient(circle,rgba(255,200,61,.5) 55%,rgba(255,200,61,0) 72%)}
+.photo:after{content:"";position:absolute;inset:-.09in;border-radius:50%;border:3px solid #ffc83d;border-left-color:transparent;border-bottom-color:transparent;transform:rotate(18deg)}
+.photo img{position:relative;width:100%;height:100%;border-radius:50%;box-shadow:0 18px 40px rgba(0,0,0,.45)}
+.list{flex:1;text-align:left;background:linear-gradient(160deg,rgba(255,255,255,.16),rgba(255,255,255,.05));border:1.3px solid rgba(255,255,255,.3);
+  border-radius:.22in;padding:.24in .26in .2in;box-shadow:0 14px 30px rgba(0,0,0,.25)}
+.list h4{font-size:13pt;font-weight:700;color:#ffd45c;letter-spacing:.5px;margin-bottom:.1in}
+.list div{display:flex;align-items:center;gap:.14in;font-family:Inter,sans-serif;font-weight:800;font-size:19.5pt;padding:.075in 0;border-top:1px solid rgba(255,255,255,.14)}
+.list div:first-of-type{border-top:0}
+.list div i{flex:none;width:.3in;height:.3in;border-radius:50%;background:linear-gradient(180deg,#ffd95a,#ffb800);color:#0a2466;font-style:normal;
+  font-size:13pt;font-weight:900;display:flex;align-items:center;justify-content:center}
+.stats{margin-top:.34in;display:flex;gap:.2in;justify-content:center}
+.stats div{min-width:1.95in;padding:.1in .22in .08in;border-radius:.18in;border:1.6px solid #ffc83d;background:rgba(6,26,77,.45)}
+.stats b{display:block;font-size:25pt;line-height:1.15;color:#ffd45c}
+.stats small{font-size:13pt;font-weight:600}
+.author{position:absolute;left:0;right:0;bottom:.36in;text-align:center;padding:.17in 0 .15in;background:linear-gradient(90deg,#051640,#0a2466 50%,#051640);
+  border-top:4px solid #ffc83d;border-bottom:4px solid #ffc83d}
+.author small{display:block;font-size:13pt;font-weight:700;color:#ffc83d;letter-spacing:2px}
+.author b{font-size:27pt;font-weight:700;line-height:1.2}
+.author b span{font-weight:600;font-size:21pt;color:rgba(255,255,255,.88)}
+</style></head><body>
+<div class="cover">
+  <svg class="tex" viewBox="0 0 850 1100" preserveAspectRatio="none">
+    <defs>
+      <pattern id="hex" width="56" height="97" patternUnits="userSpaceOnUse">
+        <path d="M28 0 56 16.2V48.5L28 64.7 0 48.5V16.2ZM28 97 56 80.8V48.5M0 48.5V80.8L28 97" fill="none" stroke="#fff" stroke-opacity=".045" stroke-width="1.2"/>
+      </pattern>
+      <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".9"/><stop offset=".55" stop-color="#fff" stop-opacity=".25"/><stop offset="1" stop-color="#fff" stop-opacity=".8"/></linearGradient>
+      <mask id="m"><rect width="850" height="1100" fill="url(#fade)"/></mask>
+    </defs>
+    <rect width="850" height="1100" fill="url(#hex)" mask="url(#m)"/>
+    <g fill="none" stroke="#fff" stroke-opacity=".16" stroke-dasharray="5 7" stroke-width="1.2">
+      <circle cx="930" cy="150" r="330"/><circle cx="-60" cy="1010" r="300"/>
+    </g>
+    <circle cx="760" cy="70" r="150" fill="#3b7bff" opacity=".22"/>
+  </svg>
+  <div class="in">
+    <div class="kicker">POCKET BOOK <i></i> <span>বাংলা টু ইংলিশ</span></div>
+    <div class="t1">স্পোকেন ইংলিশের</div>
+    <div class="t2row">
+      <div class="t2">নাট বল্টু</div>
+      <svg class="bolt" viewBox="0 0 120 120">
+        <defs><linearGradient id="gd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffe27a"/><stop offset="1" stop-color="#ffab00"/></linearGradient></defs>
+        <g transform="rotate(-35 60 60)" stroke="#061a4d" stroke-width="5" stroke-linejoin="round">
+          <path d="M8 60 20 39h22l12 21-12 21H20Z" fill="url(#gd)"/>
+          <rect x="52" y="49" width="60" height="22" rx="4" fill="url(#gd)"/>
+          <g stroke-width="3"><path d="M64 49v22M74 49v22M84 49v22M94 49v22M104 49v22"/></g>
+        </g>
+        <g transform="translate(88 92)" stroke="#061a4d" stroke-width="5" stroke-linejoin="round">
+          <path d="M0-22 19-11V11L0 22-19 11V-11Z" fill="url(#gd)"/><circle r="8.5" fill="#1244b8"/>
+        </g>
+      </svg>
+    </div>
+    <div class="tagline"><b>No</b> গ্রামার, <b>No Tense</b>, সরাসরি ইংলিশ!</div>
+
+    <div class="mid">
+      <div class="photo"><img src="../../marketing/cover/english_doctor_badge.png"></div>
+      <div class="list">
+        <h4>এই বইয়ে যা শিখবেন</h4>
+        <div><i>✓</i>Prepositions</div>
+        <div><i>✓</i>Linkers</div>
+        <div><i>✓</i>Connectives</div>
+        <div><i>✓</i>Collocations</div>
+        <div><i>✓</i>Daily Phrases</div>
+      </div>
+    </div>
+
+    <div class="stats">
+      <div><b>৩৫০+</b><small>জরুরি ফ্রেজ</small></div>
+      <div><b>১০</b><small>অধ্যায়</small></div>
+      <div><b>উচ্চারণ</b><small>সহ</small></div>
+    </div>
+  </div>
+  <div class="author"><small>লেখক</small><b>শাহজালাল সালতানাত <span>(ইংলিশ ডক্টর)</span></b></div>
+</div>
+</body></html>
