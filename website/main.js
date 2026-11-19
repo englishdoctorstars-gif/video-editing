@@ -7,7 +7,7 @@
   // Social / app links. Paste a URL to show that link everywhere on the page;
   // links left empty stay hidden, so the site never shows a dead link.
   var LINKS = {
-    facebook: '',
+    facebook: 'https://www.facebook.com/share/1CMyw5BAVg/?mibextid=wwXIfr',
     youtube: '',
     instagram: '',
     linkedin: '',
@@ -17,6 +17,8 @@
     var url = LINKS[a.dataset.link];
     if (url) a.href = url; else a.hidden = true;
   });
+  // "Get the App" goes to Google Play once LINKS.play is set (until then: WhatsApp order)
+  if (LINKS.play) document.querySelectorAll('[data-play]').forEach(function (a) { a.href = LINKS.play; });
 
   document.getElementById('yr').textContent = new Date().getFullYear();
 
