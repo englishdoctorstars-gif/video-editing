@@ -102,34 +102,76 @@
       if (navigator.clipboard) navigator.clipboard.writeText(preview.value).then(done, fallback); else fallback();
     } catch (err) { fallback(); }
   });
-  // ===== Shop: bKash / Nagad payment =====
-  var payForm = document.getElementById('payForm');
+  // ===== Shop: bKash / Nagad payment (one-tap send) =====
+  var PAY_NUMBER = '01682888114';
   var bookSel = document.getElementById('p-book');
-  var amount = document.getElementById('p-amount');
   var due = document.getElementById('payDue');
+  var guide = document.getElementById('pay-guide');
+  var guideApp = document.getElementById('guideApp');
+  var guideAmount = document.getElementById('guideAmount');
+  var openApp = document.getElementById('openApp');
+  var methodInput = document.getElementById('p-method');
+  var isAndroid = /Android/i.test(navigator.userAgent);
   var bnDigits = '০১২৩৪৫৬৭৮৯';
   function bn(n) { return String(n).replace(/\d/g, function (d) { return bnDigits[d]; }); }
+  function price() { return bookSel.options[bookSel.selectedIndex].dataset.price; }
   function syncPrice() {
-    var price = bookSel.options[bookSel.selectedIndex].dataset.price;
-    amount.value = price;
-    due.innerHTML = 'পাঠাতে হবে: <b>৳' + bn(price) + '</b>';
+    due.innerHTML = 'পাঠাতে হবে: <b>৳' + bn(price()) + '</b>';
+    guideAmount.textContent = '৳' + bn(price());
   }
   bookSel.addEventListener('change', syncPrice);
   document.querySelectorAll('[data-book]').forEach(function (a) {
     a.addEventListener('click', function () { bookSel.value = a.dataset.book; syncPrice(); });
   });
 
-  function copyText(text, btn, label) {
-    function done() { btn.textContent = 'কপি হয়েছে ✓'; setTimeout(function () { btn.textContent = label; }, 1500); }
+  // Resolves true only when the number really reached the clipboard
+  function copyNumber() {
+    function legacy() {
+      try {
+        var t = document.createElement('textarea');
+        t.value = PAY_NUMBER; t.setAttribute('readonly', ''); t.style.position = 'fixed'; t.style.opacity = '0';
+        document.body.appendChild(t); t.select();
+        var ok = document.execCommand('copy');
+        document.body.removeChild(t);
+        return !!ok;
+      } catch (err) { return false; }
+    }
     try {
-      if (navigator.clipboard) navigator.clipboard.writeText(text).then(done, function () {});
-    } catch (err) { /* number stays visible to copy by hand */ }
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        return navigator.clipboard.writeText(PAY_NUMBER).then(function () { return true; }, function () { return legacy(); });
+      }
+    } catch (err) { /* fall through */ }
+    return Promise.resolve(legacy());
   }
-  document.querySelectorAll('[data-copy]').forEach(function (b) {
-    var label = b.textContent;
-    b.addEventListener('click', function () { copyText(b.dataset.copy, b, label); });
+  var guideCopy = document.getElementById('guideCopy');
+  function showCopyResult(ok) {
+    guideCopy.innerHTML = ok
+      ? '✓ নম্বর <b>01682-888114</b> কপি হয়েছে'
+      : 'নম্বরটি লিখে নিন: <b>01682-888114</b>';
+    guideCopy.classList.toggle('payguide__ok--manual', !ok);
+  }
+
+  document.querySelectorAll('[data-wallet]').forEach(function (w) {
+    w.addEventListener('click', function (e) {
+      e.preventDefault();
+      var name = w.dataset.wallet;
+      copyNumber().then(showCopyResult);
+      methodInput.value = name;
+      guideApp.textContent = name;
+      syncPrice();
+      document.querySelectorAll('[data-wallet]').forEach(function (x) { x.classList.toggle('is-picked', x === w); });
+      guide.hidden = false;
+      if (isAndroid) {
+        // Button opens the wallet app on Android only when the buyer taps it (after reading the steps)
+        openApp.href = 'intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;package=' + w.dataset.app + ';end';
+        openApp.textContent = name + ' অ্যাপ খুলুন';
+        openApp.hidden = false;
+      }
+      guide.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'nearest' });
+    });
   });
 
+  var payForm = document.getElementById('payForm');
   var payResult = document.getElementById('payResult');
   var payPreview = document.getElementById('payPreview');
   payForm.addEventListener('submit', function (e) {
@@ -138,12 +180,12 @@
     var item = bookSel.options[bookSel.selectedIndex].text;
     var msg = 'আসসালামু আলাইকুম, আমি পেমেন্ট করেছি।\n' +
       'কিনেছি: ' + item + '\n' +
-      'মাধ্যম: ' + d.get('method') + ' (Send Money to 01682888114)\n' +
-      'টাকা: ' + d.get('amount') + '\n' +
-      'যে নম্বর থেকে: ' + d.get('from') + '\n' +
+      'মাধ্যম: ' + d.get('method') + ' (Send Money to ' + PAY_NUMBER + ')\n' +
+      'টাকা: ৳' + price() + '\n' +
       'TrxID: ' + String(d.get('trx')).trim().toUpperCase() + '\n' +
       'নাম: ' + d.get('name');
-    document.getElementById('payWa').href = 'https://wa.me/' + WHATSAPP_NUMBER + '?text=' + encodeURIComponent(msg);
+    var url = 'https://wa.me/' + WHATSAPP_NUMBER + '?text=' + encodeURIComponent(msg);
+    document.getElementById('payWa').href = url;
     payPreview.value = msg;
     payResult.hidden = false;
     payResult.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'nearest' });
@@ -157,3 +199,4 @@
     } catch (err) { payPreview.focus(); payPreview.select(); }
   });
 })();
+

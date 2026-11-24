@@ -180,65 +180,70 @@
     <!-- ===== Payment (bKash / Nagad Send Money) ===== -->
     <article class="pay" id="pay">
       <div class="pay__head">
-        <p class="shop__kicker">পেমেন্ট</p>
-        <h3>বিকাশ বা নগদে Send Money করে ই-বুক কিনুন</h3>
-        <p class="shop__tag">নিচের নম্বরে বইয়ের দাম Send Money করুন, তারপর TrxID দিয়ে WhatsApp-এ কনফার্ম করুন। কনফার্মের পর ই-বুক আপনার WhatsApp-এ পাঠিয়ে দেওয়া হবে।</p>
+        <p class="shop__kicker">পেমেন্ট · বিকাশ / নগদ</p>
+        <h3>৩ ধাপে ই-বুক কিনুন</h3>
+        <p class="shop__tag">বই বাছুন, এক চাপে টাকা পাঠান, তারপর শুধু TrxID দিন। যাচাইয়ের পর ই-বুক আপনার WhatsApp-এ চলে যাবে।</p>
       </div>
 
-      <div class="wallets">
-        <div class="wallet wallet--bkash">
-          <div class="wallet__brand"><span class="wallet__logo" aria-hidden="true">b</span><div><b>বিকাশ</b><small>bKash · Personal · Send Money</small></div></div>
-          <p class="wallet__num" id="num-bkash">01682-888114</p>
-          <button class="wallet__copy" type="button" data-copy="01682888114">নম্বর কপি করুন</button>
-        </div>
-        <div class="wallet wallet--nagad">
-          <div class="wallet__brand"><span class="wallet__logo" aria-hidden="true">N</span><div><b>নগদ</b><small>Nagad · Personal · Send Money</small></div></div>
-          <p class="wallet__num" id="num-nagad">01682-888114</p>
-          <button class="wallet__copy" type="button" data-copy="01682888114">নম্বর কপি করুন</button>
-        </div>
-      </div>
-
-      <ol class="steps">
-        <li><b>Send Money করুন</b><span>বিকাশ বা নগদ অ্যাপ থেকে উপরের নম্বরে বইয়ের দাম পাঠান (Payment নয়, <strong>Send Money</strong>)।</span></li>
-        <li><b>TrxID লিখে রাখুন</b><span>পেমেন্টের পর যে Transaction ID (TrxID) আসে, সেটি সংরক্ষণ করুন।</span></li>
-        <li><b>কনফার্ম করুন</b><span>নিচের ফর্ম পূরণ করে WhatsApp-এ পাঠান। যাচাইয়ের পর ই-বুক পেয়ে যাবেন।</span></li>
-      </ol>
-
-      <form class="form pay__form" id="payForm">
-        <div class="form__row">
-          <label for="p-book">কী কিনবেন?
-            <select id="p-book" name="book" required>
-              <option value="nutbolt" data-price="100">স্পোকেন ইংলিশের নাট বল্টু (ই-বুক) — ৳১০০</option>
-              <option value="gosthi" data-price="200">স্পোকেন ইংলিশের গোষ্ঠী উদ্ধার (ই-বুক) — ৳২০০</option>
-              <option value="vocab" data-price="300">VOCABSOLUTION (ই-বুক) — ৳৩০০</option>
-              <option value="password" data-price="300">Password to English (ই-বুক) — ৳৩০০</option>
-              <option value="app" data-price="300">Vocabsolution অ্যান্ড্রয়েড অ্যাপ — ৳৩০০</option>
-              <option value="bundle" data-price="500">৩টি ই-বুকের প্যাকেজ — ৳৫০০ (৳৬০০-এর বদলে)</option>
-            </select>
-          </label>
-          <label for="p-method">যেভাবে পাঠিয়েছেন
-            <select id="p-method" name="method" required><option>বিকাশ</option><option>নগদ</option></select>
-          </label>
-        </div>
-        <div class="form__row">
-          <label for="p-name">আপনার নাম<input id="p-name" name="name" required placeholder="পূর্ণ নাম"></label>
-          <label for="p-from">যে নম্বর থেকে পাঠিয়েছেন<input id="p-from" name="from" type="tel" inputmode="numeric" required placeholder="01XXXXXXXXX" pattern="0?1[3-9][0-9]{8}" title="১১ সংখ্যার মোবাইল নম্বর, যেমন 01712345678"></label>
-        </div>
-        <div class="form__row">
-          <label for="p-amount">টাকার পরিমাণ<input id="p-amount" name="amount" inputmode="numeric" required placeholder="যেমন 100" value="100"></label>
-          <label for="p-trx">TrxID<input id="p-trx" name="trx" required placeholder="যেমন 9K7A2B3C4D" autocapitalize="characters" spellcheck="false"></label>
-        </div>
+      <section class="paystep">
+        <h4 class="paystep__title"><span>১</span>বই বাছুন</h4>
+        <label for="p-book" class="sr-only">কী কিনবেন?</label>
+        <select id="p-book" name="book" class="paystep__select">
+          <option value="nutbolt" data-price="100">স্পোকেন ইংলিশের নাট বল্টু (ই-বুক) — ৳১০০</option>
+          <option value="gosthi" data-price="200">স্পোকেন ইংলিশের গোষ্ঠী উদ্ধার (ই-বুক) — ৳২০০</option>
+          <option value="vocab" data-price="300">VOCABSOLUTION (ই-বুক) — ৳৩০০</option>
+          <option value="password" data-price="300">Password to English (ই-বুক) — ৳৩০০</option>
+          <option value="app" data-price="300">Vocabsolution অ্যান্ড্রয়েড অ্যাপ — ৳৩০০</option>
+          <option value="bundle" data-price="500">৩টি ই-বুকের প্যাকেজ — ৳৫০০ (৳৬০০-এর বদলে)</option>
+        </select>
         <p class="pay__due" id="payDue">পাঠাতে হবে: <b>৳১০০</b></p>
-        <button class="btn btn--yellow btn--block" type="submit">কনফার্মেশন তৈরি করুন</button>
-        <div class="form__result" id="payResult" hidden>
-          <p><b>আপনার কনফার্মেশন বার্তা তৈরি।</b> WhatsApp-এ পাঠান:</p>
-          <a class="btn btn--blue btn--block" id="payWa" href="https://wa.me/8801682888114" target="_blank" rel="noopener">WhatsApp-এ পাঠান</a>
-          <p class="form__note">WhatsApp না খুললে বার্তাটি কপি করে <b>01682-888114</b> নম্বরে WhatsApp করুন বা আমাদের Facebook পেজে পাঠান।</p>
-          <textarea id="payPreview" rows="8" readonly aria-label="কনফার্মেশন বার্তা"></textarea>
-          <button class="btn btn--outline btn--block" type="button" id="payCopy">বার্তা কপি করুন</button>
+      </section>
+
+      <section class="paystep">
+        <h4 class="paystep__title"><span>২</span>টাকা পাঠান</h4>
+        <div class="wallets">
+          <a class="wallet wallet--bkash" href="#pay-guide" data-wallet="বিকাশ" data-app="com.bKash.customerapp">
+            <span class="wallet__brand"><span class="wallet__logo" aria-hidden="true">b</span><span><b>বিকাশে টাকা পাঠান</b><small>Personal নম্বর · Send Money</small></span></span>
+            <span class="wallet__num">01682-888114</span>
+            <span class="wallet__go">টাকা পাঠান →</span>
+          </a>
+          <a class="wallet wallet--nagad" href="#pay-guide" data-wallet="নগদ" data-app="com.konasl.nagad">
+            <span class="wallet__brand"><span class="wallet__logo" aria-hidden="true">N</span><span><b>নগদে টাকা পাঠান</b><small>Personal নম্বর · Send Money</small></span></span>
+            <span class="wallet__num">01682-888114</span>
+            <span class="wallet__go">টাকা পাঠান →</span>
+          </a>
         </div>
-      </form>
-      <p class="pay__warn">⚠️ শুধু উপরের নম্বরেই টাকা পাঠান। আমরা কখনো ফোন করে PIN বা OTP চাই না।</p>
+        <div class="payguide" id="pay-guide" hidden aria-live="polite">
+          <p class="payguide__ok" id="guideCopy">নম্বর: <b>01682-888114</b></p>
+          <ol class="payguide__list">
+            <li><b id="guideApp">বিকাশ</b> অ্যাপ খুলুন → <b>Send Money</b> চাপুন (Payment নয়)</li>
+            <li>নম্বরের ঘরে <b>01682-888114</b> বসান (কপি হয়ে থাকলে চেপে ধরে <b>Paste</b> করুন)</li>
+            <li>টাকার পরিমাণ লিখুন: <b id="guideAmount">৳১০০</b> → PIN দিয়ে পাঠান</li>
+            <li>যে <b>TrxID</b> আসবে সেটি কপি করে এখানে ফিরে আসুন</li>
+          </ol>
+          <a class="btn btn--blue btn--block" id="openApp" href="#pay-confirm" hidden>বিকাশ অ্যাপ খুলুন</a>
+        </div>
+      </section>
+
+      <section class="paystep" id="pay-confirm">
+        <h4 class="paystep__title"><span>৩</span>TrxID দিয়ে কনফার্ম করুন</h4>
+        <form class="form pay__form" id="payForm">
+          <div class="form__row">
+            <label for="p-trx">TrxID<input id="p-trx" name="trx" required placeholder="যেমন 9K7A2B3C4D" autocapitalize="characters" autocomplete="off" spellcheck="false"></label>
+            <label for="p-name">আপনার নাম<input id="p-name" name="name" required placeholder="পূর্ণ নাম" autocomplete="name"></label>
+          </div>
+          <input type="hidden" id="p-method" name="method" value="বিকাশ">
+          <button class="btn btn--yellow btn--block" type="submit">কনফার্মেশন বার্তা তৈরি করুন</button>
+          <div class="form__result" id="payResult" hidden>
+            <p><b>বার্তা তৈরি।</b> এবার WhatsApp-এ পাঠান:</p>
+            <a class="btn btn--blue btn--block" id="payWa" href="https://wa.me/8801682888114" target="_blank" rel="noopener">WhatsApp-এ পাঠান</a>
+            <p class="form__note">WhatsApp না খুললে নিচের বার্তাটি কপি করে <b>01682-888114</b> নম্বরে WhatsApp করুন বা আমাদের Facebook পেজে পাঠান।</p>
+            <textarea id="payPreview" rows="7" readonly aria-label="কনফার্মেশন বার্তা"></textarea>
+            <button class="btn btn--outline btn--block" type="button" id="payCopy">বার্তা কপি করুন</button>
+          </div>
+        </form>
+      </section>
+      <p class="pay__warn">⚠️ শুধু 01682-888114 নম্বরেই টাকা পাঠান। আমরা কখনো ফোন করে PIN বা OTP চাই না।</p>
     </article>
 
     <article class="app">
