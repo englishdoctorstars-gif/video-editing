@@ -439,3 +439,9 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
   .steps{grid-template-columns:1fr}
 }
 @media (max-width:560px){.wallets{grid-template-columns:1fr}.bundle__covers img{width:90px}}
+/* four books: 4 → 2 → 1 columns */
+.shop{grid-template-columns:repeat(4,1fr);gap:20px}
+.shop__body{padding:20px}
+.shop__item h3{font-size:1.25rem}
+@media (max-width:1100px){.shop{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.shop{grid-template-columns:1fr}}
