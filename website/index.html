@@ -201,13 +201,31 @@
 
       <section class="paystep">
         <h4 class="paystep__title"><span>২</span>টাকা পাঠান</h4>
+        <div class="qrpay">
+          <figure class="qrpay__code">
+            <img src="assets/bkash-qr.png" alt="বিকাশ Bangla QR — 01682888114 (MD SHAHJALAL)" width="540" height="680">
+          </figure>
+          <div class="qrpay__body">
+            <p class="qrpay__tag">সবচেয়ে সহজ · Bangla QR</p>
+            <h5>QR স্ক্যান করে Send Money করুন</h5>
+            <p class="qrpay__sub">বিকাশ অ্যাপ বা Bangla QR সমর্থিত যেকোনো ব্যাংক অ্যাপ দিয়ে স্ক্যান করা যাবে।</p>
+            <ol class="payguide__list">
+              <li>বিকাশ বা ব্যাংক অ্যাপে <b>Scan QR</b> চাপুন</li>
+              <li>পাশের QR কোডটি স্ক্যান করুন — নাম দেখাবে <b>MD SHAHJALAL</b>, নম্বর <b>01682888114</b></li>
+              <li>টাকার পরিমাণ লিখুন: <b class="qrAmount">৳১০০</b> → PIN দিয়ে পাঠান</li>
+              <li>যে <b>TrxID</b> আসবে সেটি নিচের ধাপ ৩-এ দিন</li>
+            </ol>
+            <p class="qrpay__note">📱 ফোনেই এই পেজ দেখছেন? একই ফোনের ক্যামেরা দিয়ে স্ক্রিনের QR স্ক্যান করা যায় না। QR ছবিতে চেপে ধরে সেভ করে অ্যাপের Scan QR-এ গ্যালারি থেকে বেছে নিন (অ্যাপে এই অপশন থাকলে), অথবা নিচে নম্বরে পাঠান।</p>
+          </div>
+        </div>
+        <p class="pay__or"><span>অথবা নম্বরে Send Money করুন</span></p>
         <div class="wallets">
-          <a class="wallet wallet--bkash" href="#pay-guide" data-wallet="বিকাশ" data-app="com.bKash.customerapp">
+          <a class="wallet wallet--bkash" href="#pay-guide" data-wallet="বিকাশ" data-method="বিকাশ (নম্বরে)" data-app="com.bKash.customerapp">
             <span class="wallet__brand"><span class="wallet__logo" aria-hidden="true">b</span><span><b>বিকাশে টাকা পাঠান</b><small>Personal নম্বর · Send Money</small></span></span>
             <span class="wallet__num">01682-888114</span>
             <span class="wallet__go">টাকা পাঠান →</span>
           </a>
-          <a class="wallet wallet--nagad" href="#pay-guide" data-wallet="নগদ" data-app="com.konasl.nagad">
+          <a class="wallet wallet--nagad" href="#pay-guide" data-wallet="নগদ" data-method="নগদ (নম্বরে)" data-app="com.konasl.nagad">
             <span class="wallet__brand"><span class="wallet__logo" aria-hidden="true">N</span><span><b>নগদে টাকা পাঠান</b><small>Personal নম্বর · Send Money</small></span></span>
             <span class="wallet__num">01682-888114</span>
             <span class="wallet__go">টাকা পাঠান →</span>
@@ -232,7 +250,13 @@
             <label for="p-trx">TrxID<input id="p-trx" name="trx" required placeholder="যেমন 9K7A2B3C4D" autocapitalize="characters" autocomplete="off" spellcheck="false"></label>
             <label for="p-name">আপনার নাম<input id="p-name" name="name" required placeholder="পূর্ণ নাম" autocomplete="name"></label>
           </div>
-          <input type="hidden" id="p-method" name="method" value="বিকাশ">
+          <label for="p-method">কীভাবে পাঠিয়েছেন?
+            <select id="p-method" name="method" required>
+              <option value="বিকাশ (নম্বরে)">বিকাশ — নম্বরে Send Money</option>
+              <option value="নগদ (নম্বরে)">নগদ — নম্বরে Send Money</option>
+              <option value="Bangla QR (বিকাশ/ব্যাংক অ্যাপ)">QR স্ক্যান করে (বিকাশ বা ব্যাংক অ্যাপ)</option>
+            </select>
+          </label>
           <button class="btn btn--yellow btn--block" type="submit">কনফার্মেশন বার্তা তৈরি করুন</button>
           <div class="form__result" id="payResult" hidden>
             <p><b>বার্তা তৈরি।</b> এবার WhatsApp-এ পাঠান:</p>

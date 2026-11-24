@@ -118,6 +118,7 @@
   function syncPrice() {
     due.innerHTML = 'পাঠাতে হবে: <b>৳' + bn(price()) + '</b>';
     guideAmount.textContent = '৳' + bn(price());
+    document.querySelectorAll('.qrAmount').forEach(function (el) { el.textContent = '৳' + bn(price()); });
   }
   bookSel.addEventListener('change', syncPrice);
   document.querySelectorAll('[data-book]').forEach(function (a) {
@@ -156,7 +157,7 @@
       e.preventDefault();
       var name = w.dataset.wallet;
       copyNumber().then(showCopyResult);
-      methodInput.value = name;
+      methodInput.value = w.dataset.method;
       guideApp.textContent = name;
       syncPrice();
       document.querySelectorAll('[data-wallet]').forEach(function (x) { x.classList.toggle('is-picked', x === w); });
