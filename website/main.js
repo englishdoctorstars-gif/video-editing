@@ -17,8 +17,6 @@
     var url = LINKS[a.dataset.link];
     if (url) a.href = url; else a.hidden = true;
   });
-  // "Get the App" goes to Google Play once LINKS.play is set (until then: WhatsApp order)
-  if (LINKS.play) document.querySelectorAll('[data-play]').forEach(function (a) { a.href = LINKS.play; });
 
   document.getElementById('yr').textContent = new Date().getFullYear();
 
@@ -103,5 +101,59 @@
     try {
       if (navigator.clipboard) navigator.clipboard.writeText(preview.value).then(done, fallback); else fallback();
     } catch (err) { fallback(); }
+  });
+  // ===== Shop: bKash / Nagad payment =====
+  var payForm = document.getElementById('payForm');
+  var bookSel = document.getElementById('p-book');
+  var amount = document.getElementById('p-amount');
+  var due = document.getElementById('payDue');
+  var bnDigits = '০১২৩৪৫৬৭৮৯';
+  function bn(n) { return String(n).replace(/\d/g, function (d) { return bnDigits[d]; }); }
+  function syncPrice() {
+    var price = bookSel.options[bookSel.selectedIndex].dataset.price;
+    amount.value = price;
+    due.innerHTML = 'পাঠাতে হবে: <b>৳' + bn(price) + '</b>';
+  }
+  bookSel.addEventListener('change', syncPrice);
+  document.querySelectorAll('[data-book]').forEach(function (a) {
+    a.addEventListener('click', function () { bookSel.value = a.dataset.book; syncPrice(); });
+  });
+
+  function copyText(text, btn, label) {
+    function done() { btn.textContent = 'কপি হয়েছে ✓'; setTimeout(function () { btn.textContent = label; }, 1500); }
+    try {
+      if (navigator.clipboard) navigator.clipboard.writeText(text).then(done, function () {});
+    } catch (err) { /* number stays visible to copy by hand */ }
+  }
+  document.querySelectorAll('[data-copy]').forEach(function (b) {
+    var label = b.textContent;
+    b.addEventListener('click', function () { copyText(b.dataset.copy, b, label); });
+  });
+
+  var payResult = document.getElementById('payResult');
+  var payPreview = document.getElementById('payPreview');
+  payForm.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var d = new FormData(payForm);
+    var item = bookSel.options[bookSel.selectedIndex].text;
+    var msg = 'আসসালামু আলাইকুম, আমি পেমেন্ট করেছি।\n' +
+      'কিনেছি: ' + item + '\n' +
+      'মাধ্যম: ' + d.get('method') + ' (Send Money to 01682888114)\n' +
+      'টাকা: ' + d.get('amount') + '\n' +
+      'যে নম্বর থেকে: ' + d.get('from') + '\n' +
+      'TrxID: ' + String(d.get('trx')).trim().toUpperCase() + '\n' +
+      'নাম: ' + d.get('name');
+    document.getElementById('payWa').href = 'https://wa.me/' + WHATSAPP_NUMBER + '?text=' + encodeURIComponent(msg);
+    payPreview.value = msg;
+    payResult.hidden = false;
+    payResult.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'nearest' });
+  });
+  document.getElementById('payCopy').addEventListener('click', function (ev) {
+    var btn = ev.currentTarget;
+    try {
+      navigator.clipboard.writeText(payPreview.value).then(function () {
+        btn.textContent = 'কপি হয়েছে ✓'; setTimeout(function () { btn.textContent = 'বার্তা কপি করুন'; }, 1500);
+      }, function () { payPreview.focus(); payPreview.select(); });
+    } catch (err) { payPreview.focus(); payPreview.select(); }
   });
 })();
